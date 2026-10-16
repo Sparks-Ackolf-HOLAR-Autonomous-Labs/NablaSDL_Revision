@@ -1,5 +1,7 @@
 # Graded revision lets autonomous campaigns update symbolic laws of SiGeC semiconductors from mixed-fidelity evidence
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413459.svg)](https://doi.org/10.5281/zenodo.23413459)
+
 Code, data and figure scripts for the paper "Graded revision lets autonomous campaigns update symbolic laws of SiGeC semiconductors from mixed-fidelity evidence" (Journal of Materials Chemistry A (RSC)). The manuscript itself is not part of this folder.
 
 Licences: code (Python, shell and SLURM scripts) under the MIT License (`LICENSE`); data, result files, figures and text under CC BY 4.0 (`LICENSE-CC-BY-4.0.txt`). Archived third-party datasets keep their own terms and are cited in the paper: the Starrydata slice is CC BY 4.0 (Katsura et al., Sci. Technol. Adv. Mater.: Methods 5, 2506976 (2025), doi:10.1080/27660400.2025.2506976; cite it and the source paper of each curve used), and the Citrine release keeps its published terms.
