@@ -10,6 +10,11 @@
    "paper/figure_code/regen_figs/fig_bond_angles.py",
    "paper/figure_code/regen_figs/paper_fig_style.py"
   ],
+  "paper/figure_code/regen_figs/fig_coverage.py": [
+   "paper/figure_code/regen_figs/fig_coverage.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "pilot/kg/extracted_points.json"
+  ],
   "paper/figure_code/regen_figs/fig_detector_v2.py": [
    "paper/figure_code/regen_figs/fig_detector_v2.py",
    "paper/figure_code/regen_figs/paper_fig_style.py",
@@ -67,7 +72,8 @@
    "paper/figure_code/regen_figs/paper_fig_style.py",
    "pilot/kg/kg_hypergraph.json"
   ],
-  "paper/figure_code/regen_figs/fig_implant_trimstyle.py": [
+  "paper/figure_code/regen_figs/fig_implant.py": [
+   "nano_sigec/implant/rustbca_ranges.json",
    "nano_sigec/implant/srim_raw/C_Si0.8Ge0.2_40keV_RANGE_3D.txt",
    "nano_sigec/implant/srim_raw/C_Si0.8Ge0.2_40keV_VACANCY.txt",
    "nano_sigec/implant/srim_raw/He_Si0.8Ge0.2_40keV_RANGE_3D.txt",
@@ -75,7 +81,7 @@
    "nano_sigec/implant/srim_raw/Kr_Si_500keV_RANGE_3D.txt",
    "nano_sigec/implant/srim_raw/Kr_Si_500keV_VACANCY.txt",
    "nano_sigec/implant/trim_style/make_trim_style.py",
-   "paper/figure_code/regen_figs/fig_implant_trimstyle.py",
+   "paper/figure_code/regen_figs/fig_implant.py",
    "paper/figure_code/regen_figs/paper_fig_style.py"
   ],
   "paper/figure_code/regen_figs/fig_kappa_parties.py": [
@@ -84,14 +90,41 @@
    "pilot/kg/extracted_points.json"
   ],
   "paper/figure_code/regen_figs/fig_sigec.py": [
+   "bond_angles/bad_results.json",
+   "nano/PREREGISTERED_SHA256",
+   "nano/analyze_nano.py",
+   "nano/modes/x0.1.npz",
+   "nano/modes/x0.15.npz",
+   "nano/modes/x0.15_tsweep.json",
+   "nano/modes/x0.1_tsweep.json",
+   "nano/modes/x0.2.npz",
+   "nano/modes/x0.2_tsweep.json",
+   "nano/modes/x0.3.npz",
+   "nano/modes/x0.3_tsweep.json",
+   "nano/modes/x0.5.npz",
+   "nano/modes/x0.5_tsweep.json",
+   "nano/modes/x0.7.npz",
+   "nano/modes/x0.7_tsweep.json",
+   "nano/modes/x0.85.npz",
+   "nano/modes/x0.85_tsweep.json",
+   "nano/modes/x0.npz",
+   "nano/modes/x0_tsweep.json",
+   "nano/modes/x1.npz",
+   "nano/modes/x1_tsweep.json",
+   "nano/nano_design.json",
+   "nano_sigec/PREREGISTERED_SHA256",
+   "nano_sigec/analyze_sigec.py",
    "nano_sigec/m1c/m1c_summary.json",
+   "nano_sigec/radius_contrast/fit_radius_contrast.py",
    "nano_sigec/results/sigec_results_m1c.json",
-   "nano_sigec/small_sic/r50/measured_curves.json",
+   "nano_sigec/sigec_design.json",
+   "nano_sigec/small_sic/md_results.json",
+   "nano_sigec/small_sic/r50/r50_results.json",
    "paper/figure_code/regen_figs/fig_sigec.py",
-   "paper/figure_code/regen_figs/paper_fig_style.py"
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "paper/figure_code/regen_figs/sigec_contrast.py"
   ],
   "paper/figure_code/regen_figs/fig_sigec_layers.py": [
-   "nano_sigec/results/sigec_results_m1c.json",
    "paper/figure_code/regen_figs/fig_sigec_layers.py",
    "paper/figure_code/regen_figs/paper_fig_style.py"
   ],
@@ -105,6 +138,40 @@
    "nano_sigec/structures/cif/bulk_Si_relaxed.cif",
    "paper/figure_code/regen_figs/fig_sigec_local_strain.py",
    "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec_microstructure.py": [
+   "bond_angles/bad_results.json",
+   "nano/PREREGISTERED_SHA256",
+   "nano/analyze_nano.py",
+   "nano/modes/x0.1.npz",
+   "nano/modes/x0.15.npz",
+   "nano/modes/x0.15_tsweep.json",
+   "nano/modes/x0.1_tsweep.json",
+   "nano/modes/x0.2.npz",
+   "nano/modes/x0.2_tsweep.json",
+   "nano/modes/x0.3.npz",
+   "nano/modes/x0.3_tsweep.json",
+   "nano/modes/x0.5.npz",
+   "nano/modes/x0.5_tsweep.json",
+   "nano/modes/x0.7.npz",
+   "nano/modes/x0.7_tsweep.json",
+   "nano/modes/x0.85.npz",
+   "nano/modes/x0.85_tsweep.json",
+   "nano/modes/x0.npz",
+   "nano/modes/x0_tsweep.json",
+   "nano/modes/x1.npz",
+   "nano/modes/x1_tsweep.json",
+   "nano/nano_design.json",
+   "nano_sigec/PREREGISTERED_SHA256",
+   "nano_sigec/analyze_sigec.py",
+   "nano_sigec/m1c/m1c_summary.json",
+   "nano_sigec/radius_contrast/fit_radius_contrast.py",
+   "nano_sigec/sigec_design.json",
+   "nano_sigec/small_sic/md_results.json",
+   "nano_sigec/small_sic/r50/r50_results.json",
+   "paper/figure_code/regen_figs/fig_sigec_microstructure.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "paper/figure_code/regen_figs/sigec_contrast.py"
   ],
   "paper/figure_code/regen_figs/fig_sigec_provenance.py": [
    "paper/figure_code/regen_figs/fig_sigec_provenance.py",
@@ -151,8 +218,6 @@
    "nano_sigec/m1c/out/bulk_Ge.json",
    "nano_sigec/m1c/out/bulk_Si.json",
    "nano_sigec/structures/cif/0.2_1_nC4_relaxed.cif",
-   "nano_sigec/structures/cif/bulk_SiC_relaxed.cif",
-   "nano_sigec/structures/design_state_timeline.json",
    "nano_sigec/structures/md_box/md_box_lattice.json",
    "nano_sigec/structures/md_box/p20.data.gz",
    "paper/figure_code/regen_figs/fig_sigec_structures.py",

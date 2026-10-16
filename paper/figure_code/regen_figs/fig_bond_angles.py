@@ -18,8 +18,9 @@ TET = R["tetrahedral_deg"]
 b = np.array(R["bins_deg"])
 mid = 0.5 * (b[1:] + b[:-1])
 md = R["md_probes"]
-# Okabe-Ito colours for structural states
-C = {"crystal": "#0072B2", "crystal_hot": "#56B4E9", "melt": "#009E73", "amorph": "#D55E00"}
+# colours for structural states (Paul Tol muted set), kept apart from the
+# evidence-source colours used for sources in the other figures
+C = {"crystal": "#332288", "crystal_hot": "#88CCEE", "melt": "#117733", "amorph": "#CC6677"}
 
 fig, ax = plt.subplots(2, 2, figsize=(S.FULL, 4.6))
 
@@ -49,19 +50,19 @@ tag(a, "a")
 
 # (b)
 a = ax[0, 1]
-groups = [("X300", "300 K"), ("X700", "700 K"), ("M1450", "1450 K"),
-          ("M1500", "1500 K"), ("A300", "300 K"), ("A700", "700 K")]
+# categorical axis: one column per structural state and temperature
+groups = [("X300", "crystal\n300 K"), ("X700", "crystal\n700 K"), ("M1450", "near-\nmelting\n1450 K"),
+          ("M1500", "near-\nmelting\n1500 K"), ("A300", "amor-\nphous\n300 K"), ("A700", "amor-\nphous\n700 K")]
 rng = np.random.default_rng(0)
 for k, (p, lab) in enumerate(groups):
     v = [f["std_deg"] for s in (0, 100) for f in md[f"{p}_s{s}"]["frames"]]
     c = C["crystal"] if p[0] == "X" else (C["melt"] if p[0] == "M" else C["amorph"])
     a.scatter(k + 0.1 * rng.standard_normal(len(v)), v, s=7, color=c, lw=0, alpha=0.8)
+    print(p, "snapshots:", len(v), "spread range", round(min(v), 2), round(max(v), 2))
 a.set_xticks(range(len(groups)))
-a.set_xticklabels([g[1] for g in groups])
-a.set_xlabel("snapshot temperature")
-for lab, c in (("crystal", C["crystal"]), ("near-melting", C["melt"]), ("amorphous", C["amorph"])):
-    a.scatter([], [], s=12, color=c, lw=0, label=lab)
-a.legend(loc="upper left", handletextpad=0.2)
+a.set_xticklabels([g[1] for g in groups], fontsize=7)
+a.grid(axis="x", visible=False)
+a.set_xlabel("structural state and temperature of the snapshot")
 a.set_ylabel("bond-angle spread, s.d. (°)")
 a.set_ylim(0, 19)
 a.axhspan(7.5, 15.5, color=S.LIGHT, zorder=0)

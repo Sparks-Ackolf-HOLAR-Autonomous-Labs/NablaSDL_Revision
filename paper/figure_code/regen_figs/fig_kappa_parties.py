@@ -59,26 +59,27 @@ ax1.set_ylim(0.2, 2e4)
 from matplotlib.lines import Line2D  # noqa: E402
 
 MEASURED = ("literature", "starrydata", "database")
+# one encoding in (b): microstructure, shown by marker and by a colour set
+# (Paul Tol muted) that is distinct from the evidence-source colours of (a)
 SHAPE = {"bulk": "o", "nanostructured": "P", "nanowire": "X", "film": "^",
-         "amorphous": "s", "superlattice": "D", "other": "."}
+         "amorphous": "s", "superlattice": "D", "other": "v"}
+SYS_COL = {"bulk": "#332288", "nanostructured": "#CC6677", "nanowire": "#117733",
+           "film": "#999933", "amorphous": "#AA4499", "superlattice": "#661100",
+           "other": "#999999"}
 by_sys = defaultdict(list)
 for p in rows:
-    src = source_of(p)
-    if src in MEASURED:
-        by_sys[(p.get("system") or "other", src)].append((p["x_ge"], p["kappa_W_mK"]))
+    if source_of(p) in MEASURED:
+        by_sys[p.get("system") or "other"].append((p["x_ge"], p["kappa_W_mK"]))
 handles = []
 for name in ("bulk", "nanostructured", "nanowire", "film", "amorphous", "superlattice", "other"):
-    n = 0
-    for src in MEASURED:
-        if not by_sys[(name, src)]:
-            continue
-        xs, ks = zip(*by_sys[(name, src)])
-        n += len(xs)
-        ax2.semilogy(xs, ks, ls="none", marker=SHAPE[name], ms=4.2 if name != "other" else 5,
-                     mew=0.4, mec="white", color=S.SOURCE_COLOURS[src], alpha=0.9)
-    if n:
-        handles.append(Line2D([], [], ls="none", marker=SHAPE[name], ms=4.2, color=S.INK,
-                              mec="white", mew=0.4, label=f"{name} ({n})"))
+    if not by_sys[name]:
+        continue
+    xs, ks = zip(*by_sys[name])
+    ax2.semilogy(xs, ks, ls="none", marker=SHAPE[name], ms=4.2, mew=0.4, mec="white",
+                 color=SYS_COL[name], alpha=0.9)
+    handles.append(Line2D([], [], ls="none", marker=SHAPE[name], ms=4.2, color=SYS_COL[name],
+                          mec="white", mew=0.4, label=f"{name} ({len(xs)})"))
+print("rows in 250-350 K or no T:", len(rows), "of", len(pts))
 ax2.set_xlabel(r"Ge fraction $x$ in Si$_{1-x}$Ge$_x$")
 ax2.set_ylabel(r"$\kappa$ (W m$^{-1}$ K$^{-1}$)")
 ax2.set_title("(b) Measured values by microstructure", loc="left")

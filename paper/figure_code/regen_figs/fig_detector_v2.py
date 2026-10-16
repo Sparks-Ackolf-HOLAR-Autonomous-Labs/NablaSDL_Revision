@@ -31,7 +31,7 @@ def wilson(p, n=N, z=1.96):
     return np.array([p - (c - h), (c + h) - p])
 
 
-fig = plt.figure(figsize=(S.FULL, 4.5))
+fig = plt.figure(figsize=(S.FULL, 4.8))
 gs = fig.add_gridspec(2, 2, height_ratios=[1, 1])
 ax = [fig.add_subplot(gs[0, 0]), fig.add_subplot(gs[0, 1]), fig.add_subplot(gs[1, :])]
 cm = plt.get_cmap("viridis")
@@ -63,18 +63,20 @@ cb.set_label("temperature (K)", fontsize=7)
 cb.ax.tick_params(labelsize=7)
 
 ent = ["P03", "P04", "P05", "M01", "M02", "P01", "P02", "P06", "V01"]
-lab = ["composition\nswap", "species\nswap", "$T$ label\noffset", "premelting\nrows",
-       "amorphous\nrows", "biased\nbatch", "unit\nslip", "duplicate\nbatch", "local valid\nanomaly"]
+# fault-catalogue entries named as the materials fault each one plants
+lab = ["Ge fraction\nlabels\nswapped", "Si, Ge types\nswapped\n($x\\to1-x$)", "$T$ label\noffset",
+       "near-\nmelting\nrows", "amorphous\nrows", "batch with\nbiased $\\kappa$", "$\\kappa$ unit\nslip",
+       "batch\nentered\ntwice", "true extra\nscattering\nin one regime"]
 i = np.arange(len(ent))
 d1 = np.array([v1[k]["detected_rate_adj"] for k in ent])
 d2 = np.array([v2[k]["detected_adj"] for k in ent])
 ekw = dict(ecolor=S.INK, elinewidth=0.6, capsize=1.5)
 ax[2].bar(i - 0.2, d1, 0.4, color="#BBBBBB", yerr=wilson(d1), error_kw=ekw, label="first version, detected")
-ax[2].bar(i + 0.2, d2, 0.4, color="#0072B2", yerr=wilson(d2), error_kw=ekw, label="second version, detected")
+ax[2].bar(i + 0.2, d2, 0.4, color="#332288", yerr=wilson(d2), error_kw=ekw, label="second version, detected")
 h1 = v1["V01"]["A_adj"].get("harmful", 0) / N
 h2 = v2["V01"]["harmful_adj"]
 ax[2].errorbar([8 - 0.2, 8 + 0.2], [h1, h2], yerr=np.c_[wilson(h1), wilson(h2)], fmt="x",
-               color="#D55E00", ms=6, mew=1.2, elinewidth=0.6, capsize=1.5,
+               color="#CC6677", ms=6, mew=1.2, elinewidth=0.6, capsize=1.5,
                label="harmful action (valid anomaly)", clip_on=False, zorder=5)
 ax[2].set_xticks(i)
 ax[2].set_xticklabels(lab)

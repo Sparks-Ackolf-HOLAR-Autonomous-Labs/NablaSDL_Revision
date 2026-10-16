@@ -110,7 +110,8 @@ for i in range(len(relax)):
 for i, lab in ((iSi, "b"), (iGe, "c"), (iC, "d")):
     p = unwrap(pos[i], ctr) - ctr
     ax.add_patch(Rectangle((p[0] - 1.85, p[1] - 1.85), 3.7, 3.7, fill=False, ec="#C0504D", lw=0.9, zorder=3))
-    ax.text(p[0] + 1.95, p[1] + 1.95, f"({lab})", color="#C0504D", fontsize=6.5, ha="left", va="bottom",
+    ax.text(p[0] + 1.95, p[1] + 1.95, f"({lab})", color="#A03030", fontsize=8.5, fontweight="bold",
+            ha="left", va="bottom",
             zorder=4, bbox=dict(fc="white", ec="none", pad=0.4, alpha=0.85))
 ax.set_xlim(-half_w, half_w); ax.set_ylim(-half_w, half_w); ax.set_aspect("equal")
 ax.set_xticks([]); ax.set_yticks([]); ax.grid(False)
@@ -149,7 +150,7 @@ for k, (i, lab, title) in enumerate(((iSi, "b", "Si site"), (iGe, "c", "Ge site"
     zoom[lab] = {"site": int(i), "element": str(sym[i]),
                  "neighbours": [str(sym[j]) for j in nbrs],
                  "mean_bond_A": mean_d, "strain_pct": st}
-    ax.text(0, -2.05, f"bond {mean_d:.3f} Å\n({st:+.1f}% vs ideal)\narrows " + ("true length" if ex == 1 else f"×{ex:g}"), ha="center", va="top", fontsize=6.5)
+    ax.text(0, -2.05, f"bond {mean_d:.3f} Å\n({st:+.1f}% vs ideal)\narrows " + ("true length" if ex == 1 else f"×{ex:g}"), ha="center", va="top", fontsize=7)
     ax.set_xlim(-1.9, 1.9); ax.set_ylim(-2.75, 1.9); ax.set_aspect("equal"); ax.set_axis_off()
     ax.set_title(title, fontsize=8)
     ax.text(-0.02, 1.1, f"({lab})", transform=ax.transAxes, fontweight="bold", fontsize=9)
@@ -176,13 +177,13 @@ for k, o in enumerate(order):
     ax.scatter(v, k + 0.12 * rng.standard_normal(len(v)), s=4, lw=0,
                c=[CMAP(NORM(100 * (x / d_nn - 1))) for x in v])
     ax.plot([v.mean()] * 2, [k - 0.3, k + 0.3], color="k", lw=1)
-    ax.text(2.58, k, f"{v.mean():.3f} Å (n = {len(v)})", va="center", fontsize=6.5)
+    ax.text(2.58, k, f"{v.mean():.3f} Å (n = {len(v)})", va="center", fontsize=7)
 ax.axvline(d_nn, color="0.4", lw=0.8, ls=":")
 for nm, lab in (("Si", "bulk Si"), ("Ge", "bulk Ge"), ("SiC", "3C-SiC")):
     ax.axvline(bulk[nm], color="#4C72B0", lw=0.7, ls="--")
-    ax.text(bulk[nm] + (0.012 if nm != "Si" else -0.012), len(order) - 0.45, lab, rotation=90, fontsize=6.5,
+    ax.text(bulk[nm] + (0.012 if nm != "Si" else -0.012), len(order) - 0.45, lab, rotation=90, fontsize=7,
             color="#4C72B0", ha="right" if nm == "Si" else "left", va="bottom")
-ax.text(d_nn, -0.62, "ideal host", fontsize=6.5, color="0.4", ha="center", va="bottom")
+ax.text(d_nn, -0.62, "ideal host", fontsize=7, color="0.4", ha="center", va="bottom")
 ax.set_yticks(range(len(order))); ax.set_yticklabels(order)
 ax.set_ylim(-0.6, len(order) - 0.4); ax.invert_yaxis()
 ax.set_xlim(1.85, 2.95); ax.set_xlabel("nearest-neighbour bond length (Å)")
@@ -223,7 +224,7 @@ ins = ax.inset_axes([0.47, 0.32, 0.48, 0.34])
 for el, c_ in (("Ge", "#7B4F9E"), ("Si", "#9DB4C8")):
     ins.plot(shells * a, prof[el]["shell_strain_pct"], "o-", ms=2.5, lw=0.8, color=c_)
 ins.axhline(0, color="0.5", lw=0.5); ins.set_ylim(-0.6, 1.8)
-ins.tick_params(labelsize=6.5); ins.set_xticks([]); ins.set_title("Ge, Si (enlarged)", fontsize=6.5, pad=1.5)
+ins.tick_params(labelsize=7); ins.set_xticks([]); ins.set_title("Ge, Si (enlarged)", fontsize=7, pad=1.5)
 ax.text(-0.17, 1.04, "(f)", transform=ax.transAxes, fontweight="bold", fontsize=9)
 
 S.save(fig, "fig_sigec_local_strain")

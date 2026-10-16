@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Fig. SiGeC structures, at print size (full width). Same data and panels as
-nano_sigec/structures/make_structure_figure.py; reads the CIF files in
-nano_sigec/structures/cif/, the MD box nano_sigec/structures/md_box/p20.data.gz,
-nano_sigec/m1c/out/*.json, nano_sigec/m1c/m1c_summary.json and
-nano_sigec/structures/design_state_timeline.json."""
+"""Fig. SiGeC structures, at print size (full width). Same data as
+nano_sigec/structures/make_structure_figure.py, four of its six panels;
+reads the CIF files in nano_sigec/structures/cif/, the MD box
+nano_sigec/structures/md_box/p20.data.gz, nano_sigec/m1c/out/*.json and
+nano_sigec/m1c/m1c_summary.json."""
 import json
 
 import numpy as np
@@ -31,8 +31,11 @@ def tag(ax, k, x=-0.25, y=1.02):
     ax.text(x, y, f"({k})", transform=ax.transAxes, fontweight="bold", fontsize=9, va="bottom")
 
 
-fig = plt.figure(figsize=(S.FULL, 4.9))
-gs = fig.add_gridspec(2, 3, height_ratios=[1, 1])
+# Four panels: the bulk 3C-SiC render and the screening-pick timeline of the
+# earlier six-panel version were removed (the pick timeline is ESI Table S
+# "tab:pick", typed from nano_sigec/structures/design_state_timeline.json).
+fig = plt.figure(figsize=(S.FULL, 5.6))
+gs = fig.add_gridspec(2, 2, height_ratios=[1.1, 1])
 
 # (a)
 ax = fig.add_subplot(gs[0, 0])
@@ -41,19 +44,14 @@ plot_atoms(at, ax, rotation="10x,-15y,0z", colors=colors(at),
            radii=[0.55 if s == "C" else 0.38 for s in at.get_chemical_symbols()])
 ax.set_axis_off()
 ax.set_title("Si$_{0.8}$Ge$_{0.2}$ + 4 C on\nlattice sites (MACE-MP)", fontsize=8)
-tag(ax, "a", -0.05, 1.0)
+for s, lab in (("Si", "Si"), ("Ge", "Ge"), ("C", "C")):
+    ax.scatter([], [], s=18, c=COL[s], label=lab)
+ax.legend(loc="upper left", bbox_to_anchor=(1.0, 1.0), title="atoms", title_fontsize=7,
+          handletextpad=0.1)
+tag(ax, "a", -0.02, 1.08)
 
-# (b)
+# (b) slice of the MD box (LAMMPS data file holds the same cell as md_box/p20_relaxed.cif)
 ax = fig.add_subplot(gs[0, 1])
-at = read(ST / "cif" / "bulk_SiC_relaxed.cif").repeat((2, 2, 2))
-plot_atoms(at, ax, rotation="10x,-15y,0z", colors=colors(at),
-           radii=[0.5 if s == "C" else 0.6 for s in at.get_chemical_symbols()])
-ax.set_axis_off()
-ax.set_title("3C-SiC, where carbon\ngoes (MACE-MP)", fontsize=8)
-tag(ax, "b", -0.05, 1.0)
-
-# (c) slice of the MD box (LAMMPS data file holds the same cell as md_box/p20_relaxed.cif)
-ax = fig.add_subplot(gs[0, 2])
 box = read(ST / "md_box" / "p20.data.gz", format="lammps-data", atom_style="atomic",
            Z_of_type={1: 14, 2: 32, 3: 6})
 p = box.get_positions()
@@ -70,11 +68,9 @@ ax.set_xlabel("$x$ (nm)")
 ax.set_ylabel("$z$ (nm)")
 ax.grid(False)
 ax.set_title("Si$_{0.7}$Ge$_{0.3}$ box, SiC particle\n(Tersoff, 0.3 nm slice)", fontsize=8)
-tag(ax, "c", -0.3, 1.0)
-ax.legend(markerscale=4, frameon=True, framealpha=0.95, edgecolor="none", loc="upper left",
-          bbox_to_anchor=(1.0, 1.0), handletextpad=0.1, borderpad=0.2, title="atoms", title_fontsize=7)
+tag(ax, "b", -0.3, 1.0)
 
-# (d) lattice parameter vs x
+# (c) lattice parameter vs x
 ax = fig.add_subplot(gs[1, 0])
 xs = np.linspace(0, 1, 2)
 ax.plot(xs, 5.431 + 0.227 * xs, color=EXP, lw=1.2, label="experiment (Vegard)")
@@ -97,12 +93,12 @@ ax.set_xlabel("Ge fraction $x$")
 ax.set_ylabel("lattice parameter $a$ (Å)")
 ax.set_ylim(5.40, 5.90)
 ax.legend(loc="upper left")
-tag(ax, "d")
+tag(ax, "c")
 
-# (e) a vs carbon fraction
+# (d) a vs carbon fraction (host Ge fraction on a purple scale, apart from the source colours)
 ax = fig.add_subplot(gs[1, 1])
 summ = json.load(open(M1C / "m1c_summary.json"))["per_x"]
-for xk, c_ in zip(("0", "0.2", "0.5"), ("#56B4E9", "#0072B2", "#7B4F9E")):
+for xk, c_ in zip(("0", "0.2", "0.5"), ("#C2A5CF", "#9970AB", "#40004B")):
     pts = {}
     for f in (M1C / "out").glob(f"{xk}_*_nC*.json"):
         j = json.load(open(f))
@@ -117,37 +113,10 @@ for xk, c_ in zip(("0", "0.2", "0.5"), ("#56B4E9", "#0072B2", "#7B4F9E")):
     yy = np.linspace(0, Y.max(), 2)
     ax.plot(100 * yy, summ[xk]["delta_C"] * yy * 100, color=c_, lw=1)
 yy = np.linspace(0, 4 / 216, 2)
-ax.plot(100 * yy, -0.394 * yy * 100, "k--", lw=1, label="Vegard fallback")
+ax.plot(100 * yy, -0.394 * yy * 100, "k--", lw=1, label="modified Vegard (fallback)")
 ax.set_xlabel("C on lattice sites (at%)")
 ax.set_ylabel(r"$\Delta a/a$ (%)")
-ax.legend(loc="upper right")
-tag(ax, "e")
-
-# (f) screening pick along the ledger
-ax = fig.add_subplot(gs[1, 2])
-T = json.load(open(ST / "design_state_timeline.json"))["states"]
-seq = [s["seq"] for s in T]
-n = range(len(T))
-xlo = [s["x_pick"][0] for s in T]
-xhi = [s["x_pick"][1] for s in T]
-PUR = "#7B4F9E"
-ax.fill_between(n, xlo, xhi, step="mid", color=PUR, alpha=0.25, lw=0)
-ax.step(n, xlo, where="mid", color=PUR, lw=1.2, label="Ge fraction $x$")
-ax.step(n, xhi, where="mid", color=PUR, lw=1.2)
-ax.set_ylim(0, 0.6)
-ax.set_ylabel("picked Ge fraction $x$", color=PUR)
-ax2 = ax.twinx()
-ax2.spines["right"].set_visible(True)
-ax2.grid(False)
-ax2.step(n, [s["R_nm"][0] for s in T], where="mid", color="black", lw=1.0, ls="--")
-ax2.step(n, [s["R_nm"][1] for s in T], where="mid", color="black", lw=1.0, ls="--")
-ax2.set_ylim(0, 6)
-ax2.set_ylabel("picked SiC radius (nm), dashed")
-for i, s in enumerate(T):
-    ax.text(i, 0.02, s["ge_saving"], ha="center", fontsize=6.5, rotation=90, va="bottom")
-ax.set_xticks(list(n))
-ax.set_xticklabels(seq, rotation=90)
-ax.set_xlabel("record entry")
-tag(ax, "f")
+ax.legend(loc="lower left")
+tag(ax, "d")
 
 S.save(fig, "fig_sigec_structures")

@@ -42,16 +42,18 @@ Each figure is drawn by one script at its print size and written to `paper/figur
 |---|---|
 | `fig_architecture` | `python3 paper/figure_code/regen_figs/fig_architecture.py` |
 | `fig_bond_angles` | `python3 paper/figure_code/regen_figs/fig_bond_angles.py` |
+| `fig_coverage` | `python3 paper/figure_code/regen_figs/fig_coverage.py` |
 | `fig_detector_v2` | `python3 paper/figure_code/regen_figs/fig_detector_v2.py` |
 | `fig_final_law` | `python3 paper/figure_code/regen_figs/fig_final_law.py` |
 | `fig_finite_size` | `python3 paper/figure_code/regen_figs/fig_finite_size.py` |
 | `fig_hgsr_replay` | `python3 paper/figure_code/regen_figs/fig_hgsr_replay.py` |
 | `fig_hypergraph` | `python3 paper/figure_code/regen_figs/fig_hypergraph.py` |
-| `fig_implant_trimstyle` | `python3 paper/figure_code/regen_figs/fig_implant_trimstyle.py` |
+| `fig_implant` | `python3 paper/figure_code/regen_figs/fig_implant.py` |
 | `fig_kappa_parties` | `python3 paper/figure_code/regen_figs/fig_kappa_parties.py` |
 | `fig_sigec` | `python3 paper/figure_code/regen_figs/fig_sigec.py` |
 | `fig_sigec_layers` | `python3 paper/figure_code/regen_figs/fig_sigec_layers.py` |
 | `fig_sigec_local_strain` | `python3 paper/figure_code/regen_figs/fig_sigec_local_strain.py` |
+| `fig_sigec_microstructure` | `python3 paper/figure_code/regen_figs/fig_sigec_microstructure.py` |
 | `fig_sigec_provenance` | `python3 paper/figure_code/regen_figs/fig_sigec_provenance.py` |
 | `fig_sigec_structures` | `python3 paper/figure_code/regen_figs/fig_sigec_structures.py` |
 
