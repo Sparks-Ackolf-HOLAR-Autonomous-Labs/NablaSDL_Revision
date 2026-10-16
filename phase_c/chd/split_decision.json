@@ -1,0 +1,152 @@
+{
+ "rule": "adopt a partition iff C1 (indicator is a CHD ancestor of ln kappa under the calibrated setting) AND C2 (every fittable scope's own law beats the pooled law's CV MedAPE on the same rows by >= 10.0 pts for both hgsr and minisr-pooled; scopes with < 12 rows are split off but refused a law)",
+ "calibrated_setting": "lin|maxinc",
+ "per_partition": {
+  "P_sample": {
+   "C1_pass": true,
+   "C2_pass": true,
+   "adopted": true,
+   "mean_cv_gain_pts": 36.01790884423204
+  },
+  "P_method": {
+   "C1_pass": false,
+   "C2_pass": false,
+   "adopted": false,
+   "mean_cv_gain_pts": null
+  }
+ },
+ "decision": "split",
+ "primary_partition": "P_sample",
+ "secondary_candidates": [],
+ "scopes": {
+  "literature-amorphous": {
+   "group": "amorphous",
+   "n_rows_all": 7,
+   "n_rows_fit_table": 0,
+   "law": "none (below MIN_POINTS or no x,T rows): scope-limited, no claim",
+   "row_ids": [
+    "cbfc97d6f57393d720a9ed7d6e04a4c93134dd129f8ccf5065438c8aeecb09f9",
+    "6bfb562fe2290023d2b2726b90a0f73b7fae6e76668e84ed2c55e280d3bac7aa",
+    "e563e2f7ce3ebf03d86e853f29695dd68aa67b37b820cc7e6a9b70d952cdb587",
+    "c5a7e56396bfc957c9f1ef7b4b711541bc33bc0d1f761f47ffb9cb0781d2a1f8",
+    "8ea6b16ad5f99cf575c3875ad66e24645ebb076bafcedbe9233555942c3892a0",
+    "6d6fb9edf67d0185b110cfbb92b7c2506f5aadce00066356271429959aaaf265",
+    "2557ce7d1df3373b7136527a5d21775c5c9ce91aaeefc389865516b1793b1c20"
+   ]
+  },
+  "literature-bulk": {
+   "group": "bulk",
+   "n_rows_all": 35,
+   "n_rows_fit_table": 15,
+   "law": "fitted",
+   "row_ids": [
+    "ac2c811e5c8c0f9fc0c193dbab8fb86c39fd2ffe70989abbbdd67497b48e190a",
+    "73fd072246575663245566603b0b89c08a3d0b615f2b1cddf8a3d8e25b15c7cf",
+    "7d154bc20dc60ab5295ef86be7033dcc71ec0684e7b56c608aed31feadb9a4a1",
+    "44233cedb8610651ad05b930cd66881a47cf3908bfdf9c58267ef1945067bcb3",
+    "5a759db8c88b3cc4637b6927bf30870e3a5258a1427d724e4bbacbf6fd25c8a5",
+    "099722f272e4511604684dbc3ae8f5fe5ffc8e832c076ab351a6fdd1f2bf296c",
+    "2374eef9182d44074e44cbaaf6cc95585a10021baee660eba254646b91bcd8c6",
+    "c64471cc81d1562aa372a04fd6bea6928dc1044a72e5ff7b2c6718c0ac31d94e",
+    "bae1934d6c1575cffc569007cae10f68ba22dcb5ee05f00bccbd2f0cdeef0620",
+    "755f8393ea071d1028d16d47b965fd6a05c9837de4e5f4e82a9c5df846d386b4",
+    "6e1177603b7c3b1227b8494edb97d3f4e21743fc286c035f034304c3fd975b65",
+    "8d1b185503168e8fe40b2780ccad2eed185a2f9baeb6cb9433fe613750ea6041",
+    "306a798c013afd401faa17c2f44bd9105e989c94c1976a33ed6d8de2e0f2b6b4",
+    "80bfe9271151d8d4f8befd30c8ce8b3254672a06dda52f67758eaf95e84611e1",
+    "4206466f741957d283faa44fbc04408fe4576d8a0e0e3d7c07456293f13947f5",
+    "d5607cddcc9f7a00caf191647b5e97b0888cedab06095af6dbae5335856ecd4b",
+    "0928814db0e766bdf1e9d59b27af891939fe0830ac9819798dd6ff19a5ea4c56",
+    "8d473ac1af34ddcd02ac205f5451e33f17eab0647257d77c56fda5ef8f444718",
+    "f026eb7cc67d02083728301c5c34e502fd9ccaf99f7448f3f924c35fbc57270c",
+    "31894358108d469f9f802058c43bb462b102531b001a64c4173ab5f945779585",
+    "b8a63cea7d25355aee84df641968169c6581fb20781d8e321dc35727086a0354",
+    "c92ee6514a07ea927dd493a07c09549d9189821368ab7511005a4ca4db5387a7",
+    "701f6cc4734a02635cbdf0b689e139243a9412e000bc6969c56f78491d765de3",
+    "55d5eab7545d876cab6c51ab02ca0b5c787c55cd4e8d2ddeac1504e8a7ab4007",
+    "32c2092f4c39675e6026beb99e500867f806df95d62b70f4486add1cd9119dbb",
+    "c284dcf558f4e5483efbce3d237529839362e123f0d2cdab7296de14887e7dd6",
+    "c5d4667a2c4369eaa881ff7fdc94bd1ba25cbfa6d806062f4843c29dd3097bce",
+    "dbb06d9ce4fe34b61db4a4ee4dedfdb9129382039f53caf65abd38499f577c7a",
+    "50ba28326e043dc31ad9405245ad926e6eaa4ac8ab0360bb65441f530bf04379",
+    "3524a8ecb1cf840e9a79832353962107a7f067400b18445b359f630d1eb7197c",
+    "4b73fc84aed6a86e87defbec09dd0752c7171ae206a7d46f3c75fae5710ed9b5",
+    "dc496f0467d556f575b20755157d61a3983b45f17c90900b03b5a2b7b68a4505",
+    "85846456f6d73e82423f5c31040535c61f5bd9f81ad33398aff923371403eeac",
+    "7c2ff0680c503537876e7812a74ec24ffaced0959337bae296a77ffc9d2b1f4f",
+    "1a2069f8634d13555f2626dcc9d9453fbc6d25228009372cfdd4cbb2d70223e0"
+   ]
+  },
+  "literature-reduced-dim": {
+   "group": "reduced-dim",
+   "n_rows_all": 19,
+   "n_rows_fit_table": 2,
+   "law": "none (below MIN_POINTS or no x,T rows): scope-limited, no claim",
+   "row_ids": [
+    "6ac928727da168a8cf029501729e74f740d7c36fb9b151b5e2e54d37b0058cfc",
+    "4ff43eb54939e9d727ad263b8a465fdbbe0badfea8906876f9ed7fd357eec71b",
+    "6abeb76b074c3e6ed540d72f2daf0d434e591c712e0fd8c81ddedd406f7ba7cb",
+    "1157a3a8e6c1d4ae671ab11daa9275c5c126ee91dc145d88a8bf0d289ed38d58",
+    "6b73330577550d300042a98aeb8623062795546fd68202d2a974f68d3d48d6ae",
+    "7220058b06b593863fbda3eee761b334d246368481cd8a498ee2d3c3c6399f48",
+    "00375ffca810b8ae1207440257efd96f909246129a6c01a49d03fd93689b0649",
+    "4ba8a2953c6b920ecd214cb367865d6919b7b8da39186d60af566ec9a3bd4d31",
+    "d1fe4f9dcc287d0e5dda253a190b7e907873ae3a385d19a26930dbde0cf84a42",
+    "ace35dff48766ef6cdbaa8d0825ab1d00c248a3df393a3ebaa827f92fffc7f3d",
+    "2f5ee3b39e4bbb62fb33628ed27efcc95b1a69b619029e7e8e671bc34cc0c57b",
+    "ccb27896d381116ee17a6a29d3ad9ec95d40489ee643eb4fcd54294823ab7119",
+    "704461b960c4223d61fcc3a0e9e258f607501fd2efa6988d4b1974ee737d5695",
+    "7f75387722f9873d0c1b4d37fca499e73abfab9e34a45c1f0610fbd236f9f470",
+    "1dd63761f467e88d4a16266f567da14ffe58a2585f14613fca187053552a6248",
+    "a19e4fec76ef09a4bfb1781405cd9a56b5b08ee585eabf641cc879d6eaff113c",
+    "597b48fe6566411c10994f8c3a7c395d8172b43f6cd2b01f8f913567e022e6a0",
+    "43b8fa4a60094a036fb5fc33029ad9dc1697a342fb1d224ddeabdfbfe52c1c3c",
+    "685e5562b9758e0eed38f1c14e5f3e5fdb6a82bf4d7f71eb11bf8e350aa1451f"
+   ]
+  },
+  "literature-unclassified": {
+   "group": "unclassified",
+   "n_rows_all": 6,
+   "n_rows_fit_table": 0,
+   "law": "none (below MIN_POINTS or no x,T rows): scope-limited, no claim",
+   "row_ids": [
+    "6ebb4a92fab991f530b38c8ec96fb069b12f827ee456ea2348aff9dd9eceacb2",
+    "f6737c1b92532eb8535f2b2e712f5f0a6fa6d569afe9c61e11473aaa19acc352",
+    "de4f13dcbe3bf0b060a807cb87e8579ea7f95531356167c8b112fd926199805c",
+    "ab8a9c055a8a06e572005a199a16c3a26c4888db2517bbbb9058be6cdc76087f",
+    "c6546f387bb629ba1abf5c2fd753bb75bd1c09a9555d43a87c2cb7836a9fc81f",
+    "a7c88390c2817829719b8b033d4b948270c76ce93e9322390e9c2e3c8e2e4359"
+   ]
+  }
+ },
+ "cv_summary": {
+  "pooled_all_fit_rows": {
+   "hgsr": {
+    "medape_pct": 100.0,
+    "rmse_kappa": 123.54131738894665,
+    "n_invalid_pred": 8,
+    "n": 17
+   },
+   "minisr-pooled": {
+    "medape_pct": 100.0,
+    "rmse_kappa": 122.32484458608084,
+    "n_invalid_pred": 8,
+    "n": 17
+   }
+  },
+  "per_fittable_scope": {
+   "bulk": {
+    "hgsr": {
+     "own": 67.044920794583,
+     "pooled_same_rows": 100.0,
+     "law": "kappa = 1/r, r = 0.05132*1"
+    },
+    "minisr-pooled": {
+     "own": 60.919261516952915,
+     "pooled_same_rows": 100.0,
+     "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2"
+    }
+   }
+  }
+ }
+}

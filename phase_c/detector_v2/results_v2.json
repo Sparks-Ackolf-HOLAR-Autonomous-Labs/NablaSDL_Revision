@@ -1,0 +1,251 @@
+{
+ "predictions": {
+  "Pr1": {
+   "pass": true,
+   "split_points": [
+    "N2",
+    "N3"
+   ],
+   "scoped_points": [
+    "C00",
+    "C01",
+    "C30",
+    "C36",
+    "C37",
+    "C38",
+    "N0",
+    "N1"
+   ],
+   "removal_or_correct_on_runs": []
+  },
+  "Pr2": {
+   "pass": true,
+   "detected_adj": 1.0,
+   "hit_adj": 1.0
+  },
+  "Pr3": {
+   "pass": true,
+   "detected_adj": 1.0
+  },
+  "Pr4": {
+   "pass": true,
+   "P03": 1.0,
+   "P04": 0.94,
+   "P05": 0.86
+  },
+  "Pr5": {
+   "pass": true,
+   "hit": 1.0,
+   "collateral_adj": 0.0
+  },
+  "Pr6": {
+   "pass": false,
+   "harmful_adj": 0.0
+  },
+  "Pr7": {
+   "pass": true,
+   "P01": 0.82,
+   "P02": 1.0,
+   "P06": 0.92
+  }
+ },
+ "adopt": true,
+ "table": {
+  "NULL": {
+   "detected_adj": 0.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  },
+  "P01": {
+   "detected_adj": 0.82,
+   "hit_adj": 0.82,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.98,
+   "hit_raw": 0.16,
+   "harmful_raw": 0.0
+  },
+  "P02": {
+   "detected_adj": 1.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 0.18,
+   "harmful_raw": 0.0
+  },
+  "P03": {
+   "detected_adj": 1.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 0.62,
+   "harmful_raw": 0.0
+  },
+  "P04": {
+   "detected_adj": 0.94,
+   "hit_adj": 0.64,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.98,
+   "hit_raw": 0.16,
+   "harmful_raw": 0.0
+  },
+  "P05": {
+   "detected_adj": 0.86,
+   "hit_adj": 0.74,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.98,
+   "hit_raw": 0.14,
+   "harmful_raw": 0.0
+  },
+  "P06": {
+   "detected_adj": 0.92,
+   "hit_adj": 0.1,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.92,
+   "hit_raw": 0.1,
+   "harmful_raw": 0.0
+  },
+  "P07": {
+   "detected_adj": 0.8,
+   "hit_adj": 0.8,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.96,
+   "hit_raw": 0.2,
+   "harmful_raw": 0.0
+  },
+  "P08": {
+   "detected_adj": 1.0,
+   "hit_adj": 0.26,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 0.12,
+   "harmful_raw": 0.0
+  },
+  "M01": {
+   "detected_adj": 1.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  },
+  "M02": {
+   "detected_adj": 1.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.32,
+   "detected_raw": 1.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  },
+  "M03": {
+   "detected_adj": 0.44,
+   "hit_adj": 0.42,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 0.94,
+   "hit_raw": 0.92,
+   "harmful_raw": 0.0
+  },
+  "V01": {
+   "detected_adj": 0.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  },
+  "V02": {
+   "detected_adj": 0.0,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  },
+  "V03": {
+   "detected_adj": 0.04,
+   "hit_adj": 1.0,
+   "harmful_adj": 0.0,
+   "collateral_adj": 0.0,
+   "detected_raw": 1.0,
+   "hit_raw": 1.0,
+   "harmful_raw": 0.0
+  }
+ },
+ "clean_campaign_ops": [
+  {
+   "op": "split",
+   "layer": "structure",
+   "target_runs": [
+    "N2_z24",
+    "N2_z48",
+    "N2_z96",
+    "N3_z24",
+    "N3_z48",
+    "N3_z96"
+   ],
+   "reason": "bond-angle spread >= 10.0 deg: not the tetrahedral crystal the law describes (other phase, separate scope)"
+  },
+  {
+   "op": "scope-limit",
+   "layer": "domain",
+   "target_runs": [
+    "C36_z24",
+    "C36_z48",
+    "C36_z96",
+    "C37_z24",
+    "C37_z48",
+    "C37_z96",
+    "C38_z24",
+    "C38_z48",
+    "C38_z96"
+   ],
+   "reason": "x > 0.9: outside the declared law domain (ledger seq 29)"
+  },
+  {
+   "op": "scope-limit",
+   "layer": "physics",
+   "target_runs": [
+    "C30_z24",
+    "C30_z48",
+    "C30_z96",
+    "N0_z24",
+    "N0_z48",
+    "N0_z96",
+    "N1_z24",
+    "N1_z48",
+    "N1_z96"
+   ],
+   "reason": "T >= 0.85 T_solidus: premelting band of the real alloy, crystalline Tersoff MD outside its validity"
+  },
+  {
+   "op": "scope-limit",
+   "layer": "statistical",
+   "target_regime": "x0T0",
+   "target_runs": [
+    "C00_z24",
+    "C00_z48",
+    "C00_z96",
+    "C01_z24",
+    "C01_z48",
+    "C01_z96"
+   ],
+   "reason": "regime-coherent deviation z=5.9 across 2 batches: world richer than the law; keep data, narrow the claim"
+  }
+ ]
+}

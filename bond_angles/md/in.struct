@@ -1,0 +1,42 @@
+# Structure-only rebuild of the Phase C production probes and matching
+# crystal rows (phase_c/production): same cell, potential, seed and
+# preparation as in.mp_amorph (phase "amorph") or in.mp_kappa2 (phase
+# "crystal") up to the end of equilibration, then 10 ps NVT sampling with a
+# dump every 1 ps. No heat flux, no kappa. Not a registered run.
+variable x     index 0.5
+variable T     index 300
+variable seed  index 2003
+variable phase index crystal
+variable out   index s
+units metal
+boundary p p p
+variable a0 equal 5.431+(5.658-5.431)*v_x
+lattice diamond ${a0}
+region box block 0 4 0 4 0 24
+create_box 2 box
+create_atoms 1 box
+set type 1 type/fraction 2 ${x} ${seed}
+mass 1 28.0855
+mass 2 72.63
+pair_style tersoff
+pair_coeff * * SiCGe_GeC.tersoff Si(D) Ge
+timestep 0.001
+thermo 10000
+if "${phase} == amorph" then &
+  "velocity all create 7000 ${seed} dist gaussian" &
+  "fix melt all npt temp 3500 3500 0.1 iso 0.0 0.0 1.0" &
+  "run 50000" "unfix melt" &
+  "fix quench all npt temp 3500 ${T} 0.1 iso 0.0 0.0 1.0" &
+  "run 100000" "unfix quench" &
+  "fix npt all npt temp ${T} ${T} 0.1 iso 0.0 0.0 1.0" &
+  "run 50000" "unfix npt" &
+else &
+  "velocity all create $(2*v_T) ${seed} dist gaussian" &
+  "fix npt all npt temp ${T} ${T} 0.1 aniso 0.0 0.0 1.0" &
+  "run 50000" "unfix npt"
+print "MPT_PE_ATOM $(pe/atoms:%.5f)"
+fix nvt all nvt temp ${T} ${T} 0.1
+dump d all custom 1000 ${out}.dump id type x y z
+dump_modify d sort id
+run 10000
+print "MPT_PE_SAMPLE $(pe/atoms:%.5f)"

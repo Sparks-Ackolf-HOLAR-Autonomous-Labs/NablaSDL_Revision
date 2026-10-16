@@ -1,0 +1,102 @@
+[
+  {
+    "x": 0.15,
+    "T": 300.0,
+    "method": "Muller-Plathe rNEMD",
+    "natoms": 3072,
+    "box_A": [
+      21.91,
+      21.91,
+      131.27
+    ],
+    "kappa_W_mK": 1.141,
+    "slopes_K_per_A": [
+      3.02678,
+      -2.85385
+    ],
+    "deltaT_across_half_box_K": 193.0,
+    "swapped_eV": 1005.4,
+    "equil_warm_prod_steps": [
+      50000,
+      100000,
+      500000
+    ],
+    "threads": 4,
+    "wall_min": 8.4
+  },
+  {
+    "x": 0.5,
+    "T": 1100.0,
+    "method": "Muller-Plathe rNEMD",
+    "natoms": 3072,
+    "box_A": [
+      22.41,
+      22.39,
+      134.08
+    ],
+    "kappa_W_mK": 0.81,
+    "slopes_K_per_A": [
+      12.63509,
+      -13.10757
+    ],
+    "deltaT_across_half_box_K": 862.9,
+    "swapped_eV": 3265.0,
+    "equil_warm_prod_steps": [
+      50000,
+      100000,
+      500000
+    ],
+    "threads": 4,
+    "wall_min": 10.3
+  },
+  {
+    "x": 0.5,
+    "T": 300.0,
+    "method": "Muller-Plathe rNEMD",
+    "natoms": 3072,
+    "box_A": [
+      22.23,
+      22.22,
+      133.24
+    ],
+    "kappa_W_mK": 0.744,
+    "slopes_K_per_A": [
+      3.5932,
+      -3.77062
+    ],
+    "deltaT_across_half_box_K": 245.3,
+    "swapped_eV": 844.8,
+    "equil_warm_prod_steps": [
+      50000,
+      100000,
+      500000
+    ],
+    "threads": 4,
+    "wall_min": 7.1
+  },
+  {
+    "x": 0.5,
+    "T": 300.0,
+    "method": "Muller-Plathe rNEMD",
+    "natoms": 6144,
+    "box_A": [
+      22.21,
+      22.22,
+      266.38
+    ],
+    "kappa_W_mK": 0.929,
+    "slopes_K_per_A": [
+      2.52338,
+      -2.5754
+    ],
+    "deltaT_across_half_box_K": 339.6,
+    "swapped_eV": 729.5,
+    "equil_warm_prod_steps": [
+      50000,
+      100000,
+      500000
+    ],
+    "threads": 4,
+    "wall_min": 15.0
+  }
+]

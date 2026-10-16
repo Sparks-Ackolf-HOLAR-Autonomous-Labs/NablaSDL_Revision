@@ -1,0 +1,53 @@
+# Muller-Plathe reverse-NEMD kappa point for Si1-xGex, SiCGe.tersoff.
+# Follow-up version of in.mp_kappa (Phase B follow-ups, 2026-09-26): same
+# protocol, but the cross-section (ncxy, was fixed at 4) and the swap
+# interval (swapn, was fixed at 50) are now command-line variables so the
+# campaign can probe cross-section convergence and steep-gradient bias.
+# Defaults reproduce in.mp_kappa exactly. Variables:
+#   -var x <x_ge> -var T <K> -var ncz <cells> -var seed <int>
+#   -var ncxy <cells> -var swapn <steps between swaps>
+#   -var pot <path to SiCGe.tersoff> -var out <output prefix>
+# Protocol: NPT equil 50 ps, MP warmup 100 ps (discarded), production
+# 500 ps, 20 z-bins. Analysis in analyze_mp.py.
+
+variable x     index 0.5
+variable T     index 300
+variable ncz   index 24
+variable seed  index 20260925
+variable ncxy  index 4
+variable swapn index 50
+variable pot   index SiCGe.tersoff
+variable out   index mp_out
+
+units metal
+boundary p p p
+variable a0 equal 5.431+(5.658-5.431)*v_x
+lattice diamond ${a0}
+region box block 0 ${ncxy} 0 ${ncxy} 0 ${ncz}
+create_box 2 box
+create_atoms 1 box
+if "${x} > 0" then "set type 1 type/fraction 2 ${x} ${seed}"
+mass 1 28.0855
+mass 2 72.63
+pair_style tersoff
+pair_coeff * * ${pot} Si(D) Ge
+
+timestep 0.001
+thermo 10000
+velocity all create $(2*v_T) ${seed} dist gaussian
+fix npt all npt temp ${T} ${T} 0.1 aniso 0.0 0.0 1.0
+run 50000
+unfix npt
+
+fix nve all nve
+fix flux all thermal/conductivity ${swapn} z 20
+run 100000
+print "MPT_EWARM $(f_flux:%.6f)"
+
+compute bins all chunk/atom bin/1d z lower 0.05 units reduced
+fix prof all ave/chunk 10 100 1000 bins temp ave running overwrite file ${out}.profile
+run 500000
+print "MPT_EPROD $(f_flux:%.6f)"
+print "MPT_BOX $(lx:%.4f) $(ly:%.4f) $(lz:%.4f)"
+print "MPT_NATOMS $(atoms)"
+print "MPT_META x ${x} T ${T} ncz ${ncz} seed ${seed} prod_steps 500000 ncxy ${ncxy} swap ${swapn}"

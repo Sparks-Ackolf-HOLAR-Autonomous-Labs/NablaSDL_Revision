@@ -1,0 +1,455 @@
+{
+  "data": [
+    {
+      "score": 0.8529267244342552,
+      "paper": {
+        "corpusId": "279577292",
+        "title": "Epitaxial SiGeSn Alloys for CMOS-Compatible Thermoelectric Devices",
+        "authors": [
+          "P. Graziosi",
+          "D. Marian",
+          "Andrea Tomadin",
+          "S. Roddaro",
+          "O. Concepci\u00f3n",
+          "Jhonny Tiscare\u00f1o-Ram\u00edrez",
+          "Prateek Kaul",
+          "A. Corley-Wiciak",
+          "D. Buca",
+          "G. Capellini",
+          "M. Virgilio"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2608.03638, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The functional form of the above relation for \u03ba l (x) corresponds to a U-shaped curve when x \u2208 [0, 1]. For SiGe alloys, following ref 39, we set in eq 1 \u03ba Si = 148 W/m\u2022K, \u03ba Ge = 60 W/m\u2022K, and A SiGe = 2.8 W/m\u2022 K, which corresponds to the green curve shown in Figure 2b. For the GeSn case, after fixing \u03ba Sn = 63 W/m\u2022K, we have fitted the data reported in ref 26, obtaining A GeSn = 0.467 W/m\u2022K (blue curve in Figure 2b). It is apparent from Figure 2b that when alloying Ge, Sn is much more effective than Si in suppressing the lattice conductivity. Indeed, eq 1 indicates that already at 10% of Sn content, \u03ba GeSn drops at 5 W/m\u2022K, i.e., a factor of 4 lower than the \u03ba SiGe conductivity at the same Si content. \n\nNext, we describe the thermal conductivity of the ternary Si x Ge 1\u2212x\u2212y Sn y alloy relying on a phenomenological generalization of the above relation, defined for x + y \u2264 1: \n\nSiGeSn Si Sn Ge SiGe GeSn SiGeSn \n\n(2) Eq 2 reproduces eq 1, for binary alloys SiGe and GeSn, i.e. when y = 0 and x = 0, respectively. In the above equation, we have introduced a term proportional to the product of the Si (x) and Sn (y) concentration, controlled by A SiGeSn , which plays the role of a new fitting parameter. Our best estimate for A SiGeSn gives 0.016 W/m\u2022K. This value has been obtained simultaneously fitting with eq 2, the 3-\u03c9 measurements shown in Figure 2b for x + y = 0.15 and the \u03ba l theoretical estimations provided in ref 28 for x = y with x \u2208 [0.1, 0.5], which has been obtained by molecular dynamics (MD) simulations.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.8100584391928324,
+      "paper": {
+        "corpusId": "232358380",
+        "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art",
+        "authors": [
+          "You-Dong Li",
+          "Guilei Wang",
+          "Mehdi Akbari-Saatlu",
+          "M. Procek",
+          "H. Radamson"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3389/fmats.2021.611078?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/fmats.2021.611078, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Compared to C, Si, and Ge, Sn has a larger atomic mass and bigger atom diameter. The size difference has a large impact on TE performance. A variety of studies have demonstrated their alloy effects significantly decrease thermal conductivity. \n\nTheoretically, a group investigated the Sn alloying effect to SiGe on the thermal conductivity (\u03ba) of SiGeSn alloys using NEMD simulations with optimized Stillinger-Weber parameters (Lee and Hwang, 2017). The afore-mentioned broad plateau in SiGe alloy also appeared in the ternary alloys. With a realizable content range in 0 \u2264 x \u2264 0.2, the \u03ba of Si 0.2\u2212x Ge 0.8 Sn x alloy was much lower than the SiGe and GeSn alloys. The predicted minimum of \u03ba occurred at x = 0.1 with a \u223c40% reduction compared to those of Si 0.2 Ge 0.8 and Ge 0.8 Sn 0.2 . This reduction is produced by the increased mass disorder scattering of phonons similar to SiGe. Another theoretical study with phonon Boltzmann transport formalisms have simulated the phonon thermal conductivity of SiSn, GeSn, and SiGe-Sn alloys and their corresponding thin films (Khatami and Aksamija, 2016). They showed that the minimum thermal conductivity of Si 1\u2212x Sn x alloys was 3 W m \u22121 K \u22121 with x = 0.5 and 5.86 W m \u22121 K \u22121 for the Ge 1\u2212y Sn y with y = 0.61, which can be the lowest of the three alloys, twice as low as SiGe.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.8014132997851827,
+      "paper": {
+        "corpusId": "232358380",
+        "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art",
+        "authors": [
+          "You-Dong Li",
+          "Guilei Wang",
+          "Mehdi Akbari-Saatlu",
+          "M. Procek",
+          "H. Radamson"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3389/fmats.2021.611078?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/fmats.2021.611078, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Several studies have investigated the effect of Ge fraction (x) on the thermal conductivity (\u03ba) in Si 1\u2212x Ge x NWs both theoretically and experimentally (Wang and Mingo, 2010;Li et al., 2012;Yi and Yu, 2015). In an MD simulation, with x = 0.05, the \u03ba of SiGe NW was decreased to half of that of the intrinsic Si NW, and the minimum thermal conductivity was shown at x = 0.5, which is reduced to only 18% (Chen et al., 2009). With a similar tendency found in bulk SiGe alloy, it has been shown that a dramatic reduction of thermal conductivity happens when the Ge concentration increases in a small scale less than x = 0.005 (Wang and Mingo, 2010). The further increasing of Ge content will decrease the thermal conductivity to approach the lower limit which is achieved at x \u2248 0.4. In fact, with x = 0.2, the thermal conductivity has approached the minimum and then a broad plateau exists in the range of 0.2 <x<0.8 (Figure 3B). Such a plateau is caused by the phonon alloy scattering due to the large atomic mass difference between Si and Ge (Khatami and Aksamija, 2016). Then, the excessive Ge content makes the thermal conductivity dramatically reversing increase, and the \u03ba min of NWs is much smaller than the bulk one. \n\nA study on the surface doping effect shows different types of alloying of SiGe, and Ge are used in a small fraction as a dopant on the surface of Si NWs with a facile fabrication (Pan et al., 2015). Compared to pristine Si NW, the Ge-coated Si vertical NW arrays show a 23% reduction in thermal conductivity at 300 K, and such a decrease can be enhanced to 44% by annealing. Analyzed by X-ray photoelectron spectroscopy (XPS), the interaction between Ge surface doping and Si NWs is enhanced by the binding energy shifting of Si-2p and Ge-3d after annealing treatment. Moreover, simulated results by MD method shows the SiGe composition has to be graded in order to effectively optimize the thermal conductivity.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7966994050715184,
+      "paper": {
+        "corpusId": "232358380",
+        "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art",
+        "authors": [
+          "You-Dong Li",
+          "Guilei Wang",
+          "Mehdi Akbari-Saatlu",
+          "M. Procek",
+          "H. Radamson"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3389/fmats.2021.611078?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/fmats.2021.611078, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Starting in the 1970s, SiGe alloys have been applied in RTGs for the power systems in NASA space missions (with ZT \u223c0.5 for P-type and \u223c0.9 for N-type at 1,073 K; Rowe, 1995). Later improvements were realized in nanostructured bulk SiGe with ZT \u223c1.3 at 1,173 K for N-type (Wang et al., 2008a) and ZT \u223c0.95 at 1,073 K for P-type (Joshi et al., 2008). A recent study has fabricated Si 80 Ge 20 B 0.5 bulk alloy with the maximum ZT of 0.71 at 1,073 K using melt spinning (MS) combined with spark plasma sintering (SPS) (Wongprakarn et al., 2018). \n\nLike Si NWs, SiGe alloy NWs exhibited excellent enhancement as a result of the phonon boundary scattering. Individual P-type SiGe alloy NW was reported with thermal conductivity \u223c1.1 W m \u22121 K \u22121 and ZT \u223c0.18 at 300 K experimentally (Martinez et al., 2011). In a typical TE modeling of SiGe NWs, the optimized ZT is 1.3 at 800 K for the Si 0.73 Ge 0.27 NW with 26 nm diameter where the ionized impurity concentration should be about 1.0 \u00d7 10 20 cm \u22123 (Yi and Yu, 2015). In principle, the ZT of SiGe at different temperatures can be further enhanced by the diameter reduction and doping concentration optimization. The reduction in SiGe alloy NWs came from the phonon alloy scattering which scatters short wavelength phonons with high frequency, while low frequency phonons are scattered by the phonon boundary scattering (Li et al., 2003a). \n\nSeveral studies have investigated the effect of Ge fraction (x) on the thermal conductivity (\u03ba) in Si 1\u2212x Ge x NWs both theoretically and experimentally (Wang and Mingo, 2010;Li et al., 2012;Yi and Yu, 2015).",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7851475721753861,
+      "paper": {
+        "corpusId": "226975563",
+        "title": "Mode localization and suppressed heat transport in amorphous alloys",
+        "authors": [
+          "Nicholas W. Lundgren",
+          "G. Barbalinardo",
+          "D. Donadio"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2011.08318, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Calculations on a 4096 atom model (Figure 4) show that \u03ba(x) exhibits a U-shape pattern, qualitatively similar, but much shallower than that found for the crystal analogue. [26] In agreement with previous calculations, [36] the maximum thermal conductivity reduction produced by alloying a-Si with Ge is about a factor 2. This is relatively small compared to the case of c-SiGe mentioned for which \u03ba drops by more than 20 times. [26,27] According to our simulations, starting from a reference \u03ba = 2.2 W m \u22121 K \u22121 for a-Si, the substitution of 5% Ge results in a 0.6 W m \u22121 K \u22121 drop of \u03ba. A further 0.55 W m \u22121 K \u22121 reduction of \u03ba is obtained raising the Ge concentration to 15%, but increasing ger-manium content beyond 20% does not produce significant changes in the thermal conductivity. Similar to the cases of crystalline and nanostructured silicon, [27,28,33,58] this trend indicates that the effect of alloying on lattice thermal transport is prominent at low Ge concentrations and tends to saturate for x > 0.1. However, in a-SiGe we cannot attribute the thermal conductivity change to phonon scattering from mass disorder, as the heat transport mechanism in glasses is different from crystalline materials. \n\nHereafter we exploit the detailed information obtained from lattice dynamics analysis and the QHGK formalism to resolve the contribution of each vibrational mode to the total thermal conductivity of a-Si 1\u2212x Ge x as a function of x. Figure 4 shows the cumulative thermal conductivity of a-Si 1\u2212x Ge x as a function of the concentration x, split into lower, middle and higher frequency contributions. The three frequency ranges are defined in terms of the number of modes as the density of vibrational states changes as a function of the Ge content, with the lowfrequency range consisting of 8% of the modes, the middle range of 8-50% of the modes and the high-frequency range the remnant top 50%. In a-Si the modes with frequencies less than 10 THz contribute up to 95% of the total \u03ba, despite representing only 50% of the population.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7781448474059378,
+      "paper": {
+        "corpusId": "265476663",
+        "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature",
+        "authors": [
+          "S. Ayinde",
+          "M. Myronov"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1002/admi.202300711?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admi.202300711, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Thermal conductivity of the unsuspended Ge 1\u2212x Sn x /Ge/Si microwire at 5% Sn content, 20.1 W m \u22121 K \u22121 , is comparable to the 18 W m \u22121 K \u22121 obtained experimentally by Spirito et al from Ge 1\u2212x Sn x /Ge/Si heterostructures. [7] The obtained thermal conductivity of 9.1 W m \u22121 K \u22121 (as can be seen in Figure 4) for the suspended Ge 1\u2212x Sn x /Ge microwire at 5% Sn content, is in agreement with the 9.7 W m \u22121 K \u22121 calculated theoretically elsewhere for Ge 0.95 Sn. 0.05 [6]   The incorporation of Sn into Ge lattice significantly lowers thermal conductivity of Ge 1\u2212x Sn x alloy by increasing the in-plane lattice constant of the relaxed alloy and additional crystal disordering of the binary alloy. In our experiment, we vary the k l component of the thermal conductivity only, because all epilayers are intentionally undoped. ][40] As expected, the thermal conductivity in Ge 1\u2212x Sn x drops with increasing Sn content from 5 to 9%, as shown in Figure 4. Similar behavior was reported by Spirito et al [7] However, a considerable difference between the thermal conductivity of the same relaxed Ge 1\u2212x Sn x epilayers measured in our experiment and that reported by Spirito et al [7] is observed, and may be explained by the absence of heat loss in our suspended Ge 1\u2212x Sn x epilayers. Also, our measured thermal conductivity in Ge 1\u2212x Sn x alloy with 5% Sn content is \u22481.5 times lower than what was recently reported theoretically by Khatami and Aksamija [6] The thermal conductivities of 2 and 1.31 W m \u22121 K \u22121 were reported elsewhere for a polycrystalline Ge 0.93 Sn 0.07 (at 7% Sn content) and most efficient TE material (Bi 0.7 Sb 0.3 Te) that are lower than our 2.5 W m \u22121 K \u22121 obtained at 9% Sn content.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7699961806258265,
+      "paper": {
+        "corpusId": "235556090",
+        "title": "Molecular Dynamics Simulations of the Thermal Conductivity of Silicon-Germanium and Silicon-Germanium-Tin Alloys",
+        "authors": [
+          "Zan Wang",
+          "X.-Y. Cai",
+          "W.-K. Zhao",
+          "H. Wang",
+          "Y. Ruan"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1155/2021/6675159?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1155/2021/6675159, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "So, to verify the correctness of our model, we studied the thermal conductivities of SiGe alloys by changing the proportion of doped Ge atoms at 300 K in Figure 1. It can be seen that the thermal conductivities of SiGe show parabolic trends with the increasing proportion of Ge atoms. When x locates at 0.1~0.4, the thermal conductivity decreases with the increase of x. This is because the atomic mass and lattice constant of Si and Ge atoms are quite different, which exacerbates the defect scattering of short-wave phonons by lattice point defects. However, when x increases from 0.5 to 1.0, the thermal conductivities increase too, which suggests that the enhancement of thermal conduction of Ge atoms surpasses the hindrance of lattice point defect. In Figure 1, the solid squares are the results of the EMD simulation similar to the experimental results [30] marked as solid circles. \n\nThe thermal conductivities of SiGe with different temperatures were calculated in Figure 2. The results show the thermal conductivities of Si 0:8 Ge 0:2 decrease significantly with the increase of temperatures and reach a flat level at about 1000 K. The reason for the decrease of thermal conductivities is that the number of phonons with high frequency increases at high temperatures giving rise to the increase of phononphonon inelastic scattering processes. \n\nSubsequently, we evaluated the thermal conductivities of Si 0:8 Ge 0:2 Sn y Si 0:8 Ge 0:2 Sn y by varying the proportion of Sn atoms at 300 K, as illustrated in Figure 3. The thermal conductivities of the random doping model decrease first, then increase with the increase of the proportion of Sn atoms, and reach the lowest value when y equals 0.10. This principle is the same as that shown in Figure 1. Because of the doping of Sn atoms, the lattice is distorted by a large number of point defects, which intensifies the scattering rate of short-wave phonons and lowers the thermal conductivity. But when the proportion of Sn atoms reaches a certain degree, its  enhancement of heat transfer becomes predominantly, leading to a gradual increase of the thermal conductivities.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7600968396055301,
+      "paper": {
+        "corpusId": "236493352",
+        "title": "Synergetic enhancement of power factor and suppression of lattice thermal conductivity via electronic structure modification and nanostructuring on Ni and B co-doped p-type Si-Ge alloy",
+        "authors": [
+          "M. Omprakash",
+          "Saurabh Singh",
+          "K. Hirata",
+          "K. Kuga",
+          "S. Harish",
+          "M. Shimomura",
+          "M. Adachi",
+          "Y. Yamamoto",
+          "M. Matsunami",
+          "T. Takeuchi"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2107.13778, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Moreover, the carrier concentration dependence of '\u043ae' was also clearly observed for all the samples over the entire temperature range from 300 to 1000 K. \n\nThe lattice thermal conductivity '\u043al' was also roughly estimated by eliminating \u043ae from the measured '\u043a' as \u043al = \u043a\u043ae and results were plotted as a function of temperature in Fig. 9 (c). It reveals that the low lattice thermal conductivity '\u043al' was nearly constant for about 1 Wm -1 K -1 for x = 0.02 and x = 0.03. This mainly comes from the scattering of a wide range of phonons by the variable scattering centers such as nano to micro grain boundaries, defects in the lattices, and tiny precipitation. Whereas, for x = 0.02 and x = 0.04, the estimated '\u043al' was increased up to 1.2 Wm -1 K -1 at high temperature. We consider that this increase was not attributed to that of '\u043al' but of '\u043ael' in association with the bipolar effect, because the bipolar effect is generally enhanced in high temperatures and not involved in the Widemann-Franz law. Since the bandgap in Si-Ge alloys tends to decrease with Ge concentration, the evolution of the bipolar effect would be brought about by the tiny decrease of Si composition. Wm -1 K -1 at 1000 K. It would be worth noting that the obtained ZT of sample x = 0.03 was higher than that of previously reported Si-Ge+SiMo [41], Si-Ge+TiB2 [42], and Si-Ge+CrSi2 [43]. It was lower than that of Si-Ge +YSi2 [28] because of higher electrical resistivity of 4.49 m\u03a9cm as compared to Si-Ge+YSi2 resistivity of about 2.1 m \u03a9cm at 1000 K.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7585182511177454,
+      "paper": {
+        "corpusId": "236459758",
+        "title": "Engineering the Thermal Conductivity of Doped SiGe by Mass Variance: A First-Principles Proof of Concept",
+        "authors": [
+          "K. Hahn",
+          "C. Melis",
+          "F. Bernardini",
+          "L. Colombo"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3389/fmech.2021.712989?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3389/fmech.2021.712989, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "A slightly smaller increase of \u03ba by 1.8% is found when the doping mass is set to the average mass of the Si 0.5 Ge 0.5 alloy (50.354 a. u.). \n\nThis result is very interesting and of great technological importance since it provides evidence that in ternary systems, a maximum thermal conductivity can be engineered by reducing the mass variance. Reduction in the mass variance can possibly be obtained as well from a controlled distribution of isotopes. \n\nFor the sake of completeness, in Figure 4, we show the thermal conductivity as a function of dopant mass for several doping concentrations up to 10 22 cm \u22123 . At high doping concentration, the maximum of \u03ba at m min is clearly visible, and at N doping 10 22 cm \u22123 , it leads to an increase in the thermal conductivity of 40%. \n\nThe scattering spectrum in doped and undoped SiGe has been analyzed calculating the linewidth, that is, the inverse scattering time (Eq. 2), at different wave vectors along high symmetric directions. It is presented in Figure 5 as a function of the phonon dispersion. Upon doping with a fictitious material of mass m min 60.217 a. u., the linewidth of acoustic phonons is in particular reduced in the vicinity of X, whereas a reduction at all wave vectors is observed for optical phonons. Dominant carriers of thermal energy in SiGe-based materials are acoustic phonons, which, however, are affected by scattering with optical phonons. A reduction of the linewidth of optical phonons therefore results in reduced scattering events between acoustic and optical modes, explaining the enhanced thermal conductivity in SiGe when doped with materials having an atomic mass close to m min . \n\nFigure 6 shows the thermal conductivity in undoped SiGe and SiGe doped with B and with a fictitious species of mass m min as a function of temperature. In the temperature range calculated here, the lattice thermal conductivity decreases with increasing temperature as a result of increased Umklapp scattering. B-doping with a concentration of 10 21 cm \u22123 results in a decrease of \u03ba by 10% at a temperature of 100 K.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7507798097493462,
+      "paper": {
+        "corpusId": "100542242",
+        "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites",
+        "authors": [
+          "Jaeyun Moon",
+          "A. Minnich"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1610.00810, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Direct comparison to experimental results is difficult as thermal conductivity of a-Si varies significantly by the fabrication process, hydrogenation, heat treatment, and defects, but experimental thermal conductivity typically ranges from 1 to 6 W/m-K at room temperature. 15,17,18,34 13 and Lv and Henry (red crosses) 16 utilizing 4096 atoms, SW potential, and GK formalism at temperatures from 300 K to 1000 K. No temperature dependence is observed. \n\nWe now examine the thermal conductivity of na-SiGe versus Ge content, shown in Figure 3. \n\nPure amorphous Si and Ge have thermal conductivities of 1.55 \u00b1 0.20 W/m-K and 0.99 \u00b1 0.21 W/m-K, respectively. Interestingly, we observe thermal conductivities substantially smaller than either of these values for na-SiGe composites with Ge content ranging from 35% to 82%, with the minimum thermal conductivity of 0.50 \u00b1 0.17 W/m-K achieved with 55% of Ge content. This value is less than a third of the original a-Si thermal conductivity and half that of a-Ge. The percentage decrease of thermal conductivity in na-SiGe is nearly twice that in a-Si/a-Ge superlattices by an NEMD study by Giri et al. utilizing SW potential despite similar geometry. 28  understand the mechanism behind the reduction in thermal conductivity, we first examine the vibrational density of states (vDOS) of pure a-Si and a-Ge shown in Figure 4 \n\nwhere N atom is the number of atoms, T is the temperature, m n is the nth atom mass, V n (t) is the nth atom velocity at time t. 35 The vDOS of a-Si and a-Ge is similar to that of c-Si and c-Ge with distinct peaks at certain frequencies. 28 Due to absence of strong anharmonicity, only weak vibrational interaction of Si and Ge atoms is expected for frequencies greater than the frequency cutoff of a-Ge of 10 THz. In other words, we expect the vibrational modes with frequencies exceeding 10 THz to be confined to a-Si.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7487051168235956,
+      "paper": {
+        "corpusId": "13112276",
+        "title": "Thermoelectric transport in strained Si and Si/Ge heterostructures",
+        "authors": [
+          "N. F. Hinsche",
+          "I. Mertig",
+          "P. Zahn"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "BRONZE",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1205.6313, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "For this purpose, the electronic part of the thermal conductivity \u03ba el\u22a5 was calculated applying equation ( 6), while the lattice part \u03ba ph \u22a5 was taken from experiment. Here, \u03ba ph \u22a5 = 36 W m \u22121 K \u22121 [13] was used for bulk Si at 900 K, while \u03ba ph \u22a5 = 1.9 W m \u22121 K \u22121 was used for the Si/Ge-SL [55], with the latter being rather optimistic, since it is smaller than the expected nano-alloy limit of 2.5 W m \u22121 K \u22121 [69], but achievable in Si/Ge-SL [53,55,70]. However, from figure 9(b) one can deduce that for thermoelectric reliable charge carrier concentrations above 4 \u00d7 10 20 cm \u22123 the electronic contribution to the total thermal conductivity dominates over its lattice part. At 900 K for N \u2248 1.5 \u00d7 10 20 cm \u22123 the electronic part amounts to 0.73 W m \u22121 K \u22121 , clearly smaller than the lattice part. This contribution increases significantly at higher temperatures and charge carrier concentrations omitting higher absolute values of the FOM. However, ZT \u22a5 above unity can be reached for operating temperatures higher than 750 K and electron-doping N \u2248 1.5-3 \u00d7 10 20 cm \u22123 . \n\nAt room temperature a ZT \u22a5 \u2248 0.2 is achieved in a broad doping range of N \u2248 5-25 \u00d7 10 19 cm \u22123 . Although this value is an order of magnitude higher than the bulk Si value of ZT \u2248 0.01 [13,15,18], it is still less than the postulated values of ZT \u22a5 = 0.96 and ZT \u22a5 = 1.25 by Koga et al [15] for strain-symmetrized and strain-non-symmetrized Si/Ge-SL, respectively.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7375867433319768,
+      "paper": {
+        "corpusId": "118592133",
+        "title": "Diameter dependence of SiGe nanowire thermal conductivity",
+        "authors": [
+          "Zhao Wang",
+          "Natalio Mingo"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1104.1570, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "It is found that increasing the Ge concentration leads to a very fast decrease of thermal conductivity when x < 0.005. Keeping increasing x, the curves of \u03ba then tend to saturate at a minimum value \u03ba min around x = 0.4. Crossing throught this minimum points, the thermal conductivities increase progressively with the increasing Ge concentration. This concentration dependence of NWs is very similar to the experimentally-observed one of bulk alloys. 13 We note that \u03ba at x = 0.2 is already close to \u03ba min . Moreover, it can beseen that \u03ba min of bulk material is at least 7 times larger than those of of NWs. \n\nIn conclusion, we have presented the theoretical dependence of SiGe alloy nanowire thermal conductivity as a function of diameter, temperature, and Ge fraction. We establish the appearance of a slow diameter dependence regime beyond a certain onset diameter, which depends on the alloy concentration. The results explain the weak diameter dependence reported in a recent experiment, and are in reasonably good quantitative agreement with those experimental results. Results for higher Ge concentrations beyond the experimentally reported range have also been provided, and may allow for further testing of the theory by future experiments.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.727083570425379,
+      "paper": {
+        "corpusId": "3634796",
+        "title": "Increased phonon scattering by nanograins and point defects in nanostructured silicon with a low concentration of germanium.",
+        "authors": [
+          "Gaohua Zhu",
+          "Yu-Cheng Lan",
+          "Xinwei Wang",
+          "G. Joshi",
+          "Dezhi Wang",
+          "Jihui Yang",
+          "D. Vashaee",
+          "H. Guilbert",
+          "A. Pillitteri",
+          "Gang Chen",
+          "Zhi-Feng Ren",
+          "Hohyun Lee",
+          "M. Dresselhaus"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1103/physrevlett.102.196803?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1103/physrevlett.102.196803, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Figure 4(b) shows the accumulative thermal conductivity normalized to the thermal conductivity of bulk Si as the phonon wavelength is increased. The thermal conductivity of pure Si is reduced almost by an order of magnitude using nanograins, since a 20 nm grain can reduce the mean free path of phonons at almost all wavelengths. By adding a 5 at: % Ge, alloy scattering can reduce the thermal conductivity more significantly than using nanograins in Si. As shown in Fig. 4(a), the mean free path by alloy scattering is even smaller than the grain size (20 nm) for phonon wavelengths less than 1 nm, and the contribution of short wavelength phonons is large. Nanosized grains in Si 95 Ge 5 can further reduce the thermal conductivity by limiting the mean free path of phonons with wavelengths larger than 1 nm. As FIG. 4 (color online). Modeling results for the thermal conductivity at room temperature: (a) mean free path vs phonon wavelength and (b) accumulative thermal conductivity ratio vs phonon wavelength for different Ge ratios and grain sizes. shown in Fig. 4(b), the thermal conductivity of nanograined Si 95 Ge 5 is reduced by a factor of 2 from bulk Si 95 Ge 5 . Thus, by using the nanostructures and also adding only a small amount of Ge, the thermal conductivity can be reduced to as low a value as for a SiGe alloy with a much higher Ge ratio. Figure 3(e) shows that the calculated thermal conductivity of nanostructured Si 95 Ge 5 matches well with the experimental results [Fig. 3(d)]. The electron contribution to the thermal conductivity is calculated from the electrical conductivity measurement results using the Wiedemann-Franz Law. The Lorenz number is calculated from the bulk model. Our modeling results show that the Lorenz number in bulk SiGe alloy varies from 1.3 to 2.2 from 25 C to 1000 C, and that variation within any specific temperature is 0.2 for the range of the doping concentration in our samples. The calculated phonon thermal conductivity dropped below 4 W=m \u00c1 K at room temperature and reached $3 W=m \u00c1 K at 900 C [Fig.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7262018310621033,
+      "paper": {
+        "corpusId": "199118030",
+        "title": "Effect of electron-phonon interaction on lattice thermal conductivity of SiGe alloys",
+        "authors": [
+          "Qian Xu",
+          "Jia-Wei Zhou",
+          "Te-Huan Liu",
+          "Gang Chen"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.5108836?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.5108836, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Effect of electron-phonon interaction on lattice thermal conductivity of SiGe alloys",
+        "snippetKind": "title"
+      }
+    },
+    {
+      "score": 0.7125345010234377,
+      "paper": {
+        "corpusId": "265476663",
+        "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature",
+        "authors": [
+          "S. Ayinde",
+          "M. Myronov"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1002/admi.202300711?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admi.202300711, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Thermal conductivity was extracted from Raman spectra, obtained from non-suspended Ge 1\u2212x Sn x /Ge/Si heterostructures, as well as suspended Ge 1\u2212x Sn x /Ge heterostructure, and suspended Ge 1\u2212x Sn x microwires. [37] Thermal conductivity for each sample, at 5 and 9% Sn content, was calculated using measurements of the sample's surface temperature, \u0394T = \u0394/, obtained from temperature dependency of Ge-Ge mode shift, seen in Figure 2b. Local temperature was measured at the surface of the sample by applying the heating laser power density to cause peak shift, ignoring any wide peak shifts associated with overheating. Figure 4 summarizes thermal conductivity at room temperature, as a function of Sn content in the Ge 1\u2212x Sn x alloy, obtained in this work and those available from literature. Values of  x Sn x epilayer compared to reference data of Ge [1] , the most efficient TE material, Bi 0.7 Sb 0.3 Te (brown), [2] recent report on Ge 0.95 Sn 0.05 theoretical data (orange), [6] , and relaxed bulk (green) [7] Ge 1\u2212x Sn x /Ge/Si. The inset shows the schematic of our suspended single-layer Ge 1\u2212x Sn x microstructure (red), and the unsuspended Ge 1\u2212x Sn x /Ge/Si (red/blue/ash) from the reference report. [7] .1\u00b12.8 and 18.2\u00b12.6 W m \u22121 K \u22121 attributed to the unsuspended micro-fabricated Ge 1\u2212x Sn x /Ge/Si heterostructures microwires at 5 and 9% Sn content, respectively. When the underlayer Si material was removed, by selective etching, the thermal conductivity was reduced by more than half. Values for Ge 1\u2212x Sn x /Ge microwires with 5% and 9% Sn are measured to be 9.07 and 6.9 W m \u22121 K \u22121 , respectively.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7093214399916405,
+      "paper": {
+        "corpusId": "118592133",
+        "title": "Diameter dependence of SiGe nanowire thermal conductivity",
+        "authors": [
+          "Zhao Wang",
+          "Natalio Mingo"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1104.1570, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We theoretically compute the thermal conductivity of SiGe alloy nanowires as a function of nanowire diameter, alloy concentration, and temperature, obtaining a satisfactory quantitative agreement with experimental results. Our results account for the weaker diameter dependence of the thermal conductivity recently observed in Si1\u2212xGex nanowires (x < 0.1), as compared to pure Si nanowires. We also present calculations in the full range of alloy concentrations, 0 \u2264 x \u2264 1, which may serve as a basis for comparison with future experiments on high alloy concentration nanowires. \n\n][3] Although interest was initially motivated by hopes of taking advantage of electron confinement in the structures, it soon became clear that another advantage of nanowires was their potentially strongly reduced thermal conductivity. Advanced techniques enabled the measurement of thermal conductivity of single nanowires. 4 Large reductions in Si nanowire lattice thermal conductivity were experimentally reported in 2003, further stimulating research activities in this area. 5 Some astonishingly low thermal conductivities have also been recently claimed on Si nanowires. 6 ny of the initial investigations on thermal conductivity reduction by nanostructuring had concentrated on ordered crystalline structures. However in recent years, the advantages of nanostructured alloys have been underlined for various systems, such as embedded nanodots, 7,8 or nanoporous materials. 9 These works show that the interplay between alloy scattering and scattering by the nanostructured features can lead to interesting qualitative differences between the behavior of the thermal conductivity \u03ba of alloy and non-alloy structures. In particular, a slower dependence of \u03ba on nano-featured size is expected when using alloys. Similar effects may thus take place in SiGe nanowires, due to the interplay between alloy and boundary scattering. Although the thermal conductivity of SiGe nanowires was measured in Ref.10, no important reduction was reported there, presumably due to the low total Ge concentration. It is only very recently that the thermal conductivity of homogeneous SiGe nanowires with 0 < x < 0.1 have been reported, obtaining remarkable reductions in \u03ba below the bulk alloy value. 11  addition to the small reported \u03ba values, the experimental study stressed their much weaker diameter dependence as compared with pure Si nanowires.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.7050384532924472,
+      "paper": {
+        "corpusId": "138876192",
+        "title": "Thermoelectric Properties of Silicon Germanium Alloy Nanocomposite Fabricated by Mechanical Alloying and Spark Plasma Sintering",
+        "authors": [
+          "Zhen-Ye Zhu",
+          "Shi-Lei Guo"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/KEM.703.70?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/KEM.703.70, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Ge 30 is the lowest in all SiGe alloys. So with the increase of Si 70 Ge 30 B 5 doping content, the thermal conductivity of nanocomposite p-type alloy also decreases gradually. The thermal conductivity is mainly made of two parts; one is the carrier thermal conductivity, and the other is the lattice thermal conductivity. As we know, the semiconductor materials need larger electrical conductivity. So the carriers' thermal conductivity is very difficult to cut back. However, the proportion of the carrier thermal conductivity to the thermal conductivity is very small. So it has been the main method by reducing the lattice thermal conductivity. The SiGe alloys prepared by mechanical alloying method have component inhomogeneity and the band edge fluctuate in random, which make scattering on the shortwave phonon. In addition, the increased grain boundaries of the numerous nanograins that effectively scatter long wavelength phonons. For these reasons, the thermal conductivity reduces significantly. Figure 6(d) shows the ZT values as a function of temperature for the modulation-doped Si 1\u2212x Ge x nanocomposite sample. For the p-type Si 95 Ge 5 doped with 25vol% nano-Si 70 Ge 30 B 5 particles thermoelectric material, the ZT value shows a maximum of 0.47 at 710K which is about 30% improvement over that of the p-type RTG SiGe alloy currently used in space missions [5]. The enhancement of ZT is due to a large reduction of thermal conductivity caused by the increased grain boundaries of the numerous nanograins that effectively scatter long wavelength phonons.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6994318525429333,
+      "paper": {
+        "corpusId": "119183121",
+        "title": "Nondiffusive lattice thermal transport in Si-Ge alloy nanowires",
+        "authors": [
+          "Meenakshi Upadhyaya",
+          "Z. Ak\u0161amija"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1610.08477, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Si-Ge alloys and their nanostructures have attracted attention for thermoelectric (TE) application due to their ability to achieve high figure of merit (ZT) at temperatures much above room temperature, as well as the possibility of integrating such nanostructures in other Si-based technologies, such as microelectronics. Semiconductor alloys often make good thermoelectrics because they closely resemble the phonon crystal electron glass (PGEC) concept: 1 they retain an ordered crystal structure but introduce disorder through mass variation. Mass disorder dramatically reduces lattice thermal transport while affecting electrons to a much lesser degree. The success of Si-Ge alloys for TE applications stemmed primarily from the dramatic order-of-magnitude reduction of the lattice thermal conductivity in bulk alloys due to strong mass-difference scattering of phonons with the constituent components of the alloy. Subsequently, similar increase in the thermoelectric figure of merit was observed in thin silicon wires; 2 the improvement was credited primarily to the dramatic reduction of lattice thermal conductivity arising from the strong scattering of phonons with roughness at the boundaries of the wires. 3 heoretical calculations predicted that, if the reduction of thermal conductivity due to alloy scattering could be combined with the effect of boundary scattering, then Si-Ge-based nanowires (SiGe NWs) could lead to even more dramatic improvements of ZT. 4 Subsequent MD simulations showed that, while the maximum reduction of thermal conductivity in bulk Si-Ge alloys exceeds one order of magnitude, the reduction in alloy NWs is only a factor of 5. 5 Several measurements of thermal conductivity in thin SiGe NWs with rough boundaries were performed [6][7][8] and confirmed the weak diam-eter dependence of thermal conductivity in Si-Ge NWs, indicating that thermal transport was dominated by alloy (mass-difference) scattering, even at low Ge concentrations. Hsiao et al. studied length dependence in SiGe NWs and found a linear trend, attributed to ballistic transport, with a clear transition to diffusive regime at lengths exceeding 8.3 \u00b5m. 9",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6985574506480736,
+      "paper": {
+        "corpusId": "6965539",
+        "title": "Ultra-low thermal conductivities in large-area Si-Ge nanomeshes for thermoelectric applications",
+        "authors": [
+          "J. P\u00e9rez-Taborda",
+          "Miguel Mu\u00f1oz Rojo",
+          "J. Maiz",
+          "N. Neophytou",
+          "M. Mart\u00edn-Gonz\u00e1lez"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5030677, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Depending on the germanium content in silicon, values ranging from ~20 to ~9 W K \u22121 m \u22121 can be achieved Pu is e : 21 eptem er 2016 OPEN for bulk samples. The lowest value at room temperature thermal conductivity is achieved for an alloy with 20% germanium concentration in silicon (~9 W K \u22121 m \u22121 ), as expected, which however, is still large for thermoelectric applications. In order to reduce the thermal conductivity on these structures even more, advanced materials engineering is desired, which could limit the transport of phonons more effectively. Some examples consist of nanostructuring bulk samples with still high level of crystallinity, which largely increases phonon-boundary scattering 36 , or the fabrication of multilayered films whose interfaces increase phonon scattering 37 , among others. Recent works in nanostructured Si 0.8 Ge 0.2 films grown through Metal Induced Crystallization (MIC) 38 , have been able to achieve thermal conductivity values down to ~1.2 W K \u22121 m \u22121 at room temperature. The reduction in thermal conductivity associated with the scattering alloying is ~9Wm \u22121 K \u22121 for Si 0.8 Ge 0.2 [39][40][41] . Figure 1a shows a summary of the thermal conductivity of bulk (grey area) and nanostructures (square area) of silicon germanium as reported in the literature versus germanium content. This figure, based on previous theoretical and experimental studies on the Si-Ge alloys, shows that thermal conductivity of the alloy decreases drastically when the Ge concentration increases up to 20%, while it is approximately constant when the Ge concentration varies from 20% to 80%, exhibiting a U-shape dependence on Ge concentration 42,43 . This justifies the use of 20% Ge in most works that target thermal conductivity reduction. Figure 1b presents the state of the art values of the power factor achieved for Si 0.8 Ge 0.2 structures [44][45][46][47][48][49][50][51][52] .",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6911898158965947,
+      "paper": {
+        "corpusId": "119207758",
+        "title": "Alloy-Like Behavior of the Thermal Conductivity of Nonsymmetric Superlattices",
+        "authors": [
+          "E. Chavez-Angel",
+          "P. Komar",
+          "Gerhard Jakob"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1607.08017, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "As first example, we examined the thermal conductivity and the TBR of (Si) d1 :(Ge) d2 NSSLs. The experiments were performed in several SLs with a fixed layer-thickness (d 1 or d 2 ) and varying the thickness of the other layer (d 2 or d 1 , respectively). The total number of periods, N, was kept constant N = 21. Full description of the experiments and the used methodology can be found in the work of Chen et al. [18] and references therein. \n\nFigure 1a shows k SL of (Si) d1 :(Ge) 0.41nm (orange squares) and (Si) 6nm :(Ge) d2 (green dots) as function of the digital alloy composition, x = d 1 /(d 1 +d 2 ). The k SL was calculated from the best fit of the Eq. (10) and using fixed values of k 1 = 150 [W (K m) -1 ] and k 2 = 60 [W (K m) -1 ], corresponding to the roomtemperature thermal conductivity values of Si and Ge bulk systems, respectively [19]. The best fit was estimated for C = 3.7 [W -1 K m], with a 95% confidence bounds ranging 3.0 < C < 4.4 [W -1 K m] as it is shown with light-blue shadow in the same figure. The limit of bulk Si (1 -x) Ge x alloy is also plotted (black dashed-line) for comparison. It is worth noting the excellent agreement between the experimental data (green and orange dots) and Norbury-model (blue solid-line). In a similar manner, the experimental value of TBR was estimated using Eq. ( 3) and it was fitted using Eq. ( 7). The Cparameter and the corresponding confidence bounds were taken from the best fit of k SL . The linear dependence of TBR with the reduced thickness of the layers, (1/d 1 +1/d 2 ) -1 , is shown in Figure 1b. \n\n, which correspond to the room-temperature bulk values of Si and Ge, respectively [19].",
+        "snippetKind": "body"
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

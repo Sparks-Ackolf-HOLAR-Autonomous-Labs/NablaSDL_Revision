@@ -1,0 +1,3 @@
+2026-10-03T05:24:11Z job=16005862 restart=0 host=notch215
+  cuda_init_fail (nvidia-smi) host=notch215
+2026-10-03T07:43:10Z job=16011078 restart=0 host=notch368

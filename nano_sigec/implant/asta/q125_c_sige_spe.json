@@ -1,0 +1,1050 @@
+{
+  "data": [
+    {
+      "score": 0.6478444909708032,
+      "paper": {
+        "corpusId": "123740261",
+        "title": "The formation and characteristics of Si1-xCx alloys in Si crystals by means of implantation of cions with different doses",
+        "authors": [
+          "Y.-S. Wang",
+          "J.-M. Li",
+          "Jin Yf",
+          "Y.-T. Wang",
+          "Lin Ly"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.7498/APS.49.2210?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.7498/APS.49.2210, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Carbon ions with concentration of (0.6-1.5)% were implanted into silicon crystals at room temperature and Si1-xCx alloys were grown by solid phase epitaxy with high temperature annealing. The formation and characteristics of Si1-xCx alloys under different implanted carbon doses were studied. If the implanted carbon atom concentration was less than 0.6%, carbon atoms would tend to combine with the defects produced during implantation and it was difficult for Si1-xCx alloys to form during annealing at 850-950 degreesC. With the increase of implanted C concentration, almost all implanted carbon atoms would occupy substitution positions to form Si1-xCx alloys, but only part of implanted carbon atoms would occupy the substitution position to form Si1-xCx alloys as the implanted dose increased to 1.5 %. Most Si1-xCx alloy phases would vanish as the annealing temperature was increased higher.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 898
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6377447715888142,
+      "paper": {
+        "corpusId": "139178007",
+        "title": "The Effect of Temperature to the Formation of Optically Active Point-defect Complex, the Carbon G-centre in Pre-amorphised and Non-amorphised Silicon",
+        "authors": [
+          "D. Berhanuddin",
+          "M. Louren\u00e7o",
+          "R. Gwilliam",
+          "K. Homewood"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1757-899X/384/1/012062?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1757-899X/384/1/012062, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The experiment was performed using N-type silicon wafers (100) with resistivity of ~ 10 \u03a9cm -1 and manufacturer-specified residual carbon content of 2.5\u00d710 16 cm-3. One of the samples were preamorphised with 2\u00d710 15 cm -2 of germanium at energy 180 keV. Samples were then implanted with different doses of carbon, first at 30 keV and followed by implantation at 10 keV. The double implantations were done to construct a reasonably flat carbon profile thus ensuring better uniformity of carbon concentration along the depth of samples. After the C implantation, samples were annealed at 1000 \u00baC for 20 seconds in N2 ambient. This is to allow the solid phase epitaxial regrowth (SPER) of the silicon lattice, repair the lattice damage and to activate while introducing carbons into the substitutional sites. Proton irradiation of the annealed samples was subsequently carried out at different doses. Details of the samples are given in Table 1. \n\nTable 1. Sample details. The first carbon implant was at 30 keV and the second implant at 10 keV. All samples were annealed at 1000 \u00baC for 20 s after the C implants. The average carbon volume concentrations were calculated using SUSPRE [20]. Proton irradiation was performed at 2 MeV after the C post-implant anneal. No further sample processing was done after the proton irradiation.",
+        "snippetKind": "body",
+        "section": "Sample preparation and analysis",
+        "snippetOffset": {
+          "start": 3622,
+          "end": 4951
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1181,
+              "end": 1185,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 164
+            },
+            {
+              "start": 165,
+              "end": 253
+            },
+            {
+              "start": 254,
+              "end": 369
+            },
+            {
+              "start": 370,
+              "end": 534
+            },
+            {
+              "start": 535,
+              "end": 623
+            },
+            {
+              "start": 624,
+              "end": 805
+            },
+            {
+              "start": 806,
+              "end": 897
+            },
+            {
+              "start": 898,
+              "end": 942
+            },
+            {
+              "start": 945,
+              "end": 953
+            },
+            {
+              "start": 954,
+              "end": 969
+            },
+            {
+              "start": 970,
+              "end": 1042
+            },
+            {
+              "start": 1043,
+              "end": 1110
+            },
+            {
+              "start": 1111,
+              "end": 1186
+            },
+            {
+              "start": 1187,
+              "end": 1261
+            },
+            {
+              "start": 1262,
+              "end": 1329
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.633086737200535,
+      "paper": {
+        "corpusId": "14615601",
+        "title": "Amorphization and Solid-Phase Epitaxial Growth of C-Cluster Ion-Implanted Si",
+        "authors": [
+          "N. Rudawski",
+          "L. Whidden",
+          "V. Craciun",
+          "Karen Sparck Jones"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1007/S11664-009-0862-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S11664-009-0862-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Amorphization and solid-phase epitaxial growth were studied in C-cluster ion-implanted Si. C7H7 ions were implanted at a C-equivalent energy of 10\u00a0keV to C doses of 0.1\u00a0\u00d7\u00a01015\u00a0cm\u22122 to 8.0\u00a0\u00d7\u00a01015\u00a0cm\u22122 into (001) Si wafers. Transmission electron microscopy revealed a C amorphizing dose of ~5.0\u00a0\u00d7\u00a0 1014\u00a0cm\u22122. Annealing of amorphized specimens to effect solid-phase epitaxial growth resulted in defect-free growth for C doses of 0.5\u00a0\u00d7\u00a01015\u00a0cm\u22122 to 1.0\u00a0\u00d7\u00a01015\u00a0cm\u22122. At higher doses, growth was defective and eventually polycrystalline due to induced in-plane tensile stress from substitutional C incorporation.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 606
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5925099447480383,
+      "paper": {
+        "corpusId": "98510839",
+        "title": "Identification of photoluminescence P line in indium doped silicon as InSi-Sii defect",
+        "authors": [
+          "K. Lauer",
+          "Christian M\u00f6ller",
+          "D. Schulze",
+          "Carsten Ahrens"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.4905066?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.4905066, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Samples were fabricated from float zone silicon wafers (denoted by A to G) with a radius r = 100 mm, a thickness t = 750 \u00b5m and a boron base doping [B s ] = (3\u00b11) \u00d7 10 13 cm \u22123 . The latter value was determined using low-temperature PL spectroscopy. 21 The concentration of interstitial oxygen, 22 substitutional carbon 23 and interstitial nitrogen pairs 24 in the silicon wafers was measured by low-temperature FTIR spectroscopy to \n\nThe wafers were implanted with indium and carbon. An overview of the used parameters for the implantations is given in Tab. I. The parameters of the carbon implantation were chosen in order to investigate the interaction of indium and carbon as well as the interaction of indium and silicon interstitials. The high energy carbon implant yields the projected range of the carbon peak at the same position as the peak of the indium concentration. Hence, the interaction of carbon and indium can be investigated in that case. The low energy carbon implant on the other hand yields a projected range of the carbon peak at half of the range of the indium peak. As a consequence silicon interstitials are put onto the indium peak. \n\nThe mechanism behind this approach is visualized in Fig. 1. The implantations for wafers F and G (see Tab. I) are simulated using \uf774\uf772\uf769\uf76d. 25 Fig. 1 shows the simulated indium concentration profile as well as the silicon recoil atom concentration profile generated by the different carbon implantations. Amorphization of silicon due to implantation occurs if the silicon recoil concentration exceeds a threshold of [Si recoil ] = 1.15 \u00d7 10 22 cm \u22123 (solid line in Fig. 1). 26 The amorphous/crystalline (a/c) interfaces for each carbon implantation are marked by dashed lines in Fig. 1. In the region of the amorphous layer above the a/c interface a low defect density can be achieved after solid phase epitaxial re-growth. 27 Beneath the a/c interface the implanted atoms generate an excess of silicon interstitial atoms (+1 model). 28",
+        "snippetKind": "body",
+        "section": "II. EXPERIMENTAL",
+        "snippetOffset": {
+          "start": 2857,
+          "end": 4851
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 250,
+              "end": 252,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 295,
+              "end": 297,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 320,
+              "end": 322,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 355,
+              "end": 357,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1298,
+              "end": 1300,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1632,
+              "end": 1634,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1882,
+              "end": 1884,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 178
+            },
+            {
+              "start": 179,
+              "end": 252
+            },
+            {
+              "start": 253,
+              "end": 432
+            },
+            {
+              "start": 435,
+              "end": 484
+            },
+            {
+              "start": 485,
+              "end": 558
+            },
+            {
+              "start": 559,
+              "end": 561
+            },
+            {
+              "start": 562,
+              "end": 740
+            },
+            {
+              "start": 741,
+              "end": 879
+            },
+            {
+              "start": 880,
+              "end": 957
+            },
+            {
+              "start": 958,
+              "end": 1090
+            },
+            {
+              "start": 1091,
+              "end": 1159
+            },
+            {
+              "start": 1162,
+              "end": 1221
+            },
+            {
+              "start": 1222,
+              "end": 1300
+            },
+            {
+              "start": 1301,
+              "end": 1462
+            },
+            {
+              "start": 1463,
+              "end": 1634
+            },
+            {
+              "start": 1635,
+              "end": 1744
+            },
+            {
+              "start": 1745,
+              "end": 1884
+            },
+            {
+              "start": 1885,
+              "end": 1994
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5780989285442049,
+      "paper": {
+        "corpusId": "3159948",
+        "title": "Electroluminescence of nanopatterned silicon with carbon implantation and solid phase epitaxial regrowth.",
+        "authors": [
+          "Efraim Rotem",
+          "J. Shainline",
+          "Jimmy Xu"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1364/OE.15.014099?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1364/OE.15.014099, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In [18] electronics grade silicon on insulator (SOI) with [Cs]~2.5x10 16 cm -3 was used. In order to increase the G-center originated luminescence of this system it is necessary to increase the amount of substitutional carbon [30]. \n\nCarbon doping of silicon using conventional ion implantation is not feasible due to its low solid solubility-on the order of 10 17 cm -3 . Instead, a combination of a two-step implantation and solid phase epitaxial regrowth is employed. This method takes advantage of the increased carbon solubility at the interface between crystalline and amorphous silicon [32]. The top layer of the silicon crystal is 'pre-amorphized' by silicon ion implantation prior to the carbon ion implantation. The crystal is then annealed in nitrogen or argon atmosphere to induce solidphase epitaxial regrowth and thereby re-crystalization. Si 1-x C x alloy with [Cs] of up to 7x10 20 cm -3 was achieved using this technique [33]. \n\nIn this work, boron doped p-type silicon with a resisitivity of 0.2-0.4\u2126cm and [Cs]~2x10 16 cm -3 was used as a substrate for carbon enrichment. The silicon was first amorphized by implantation of 200keV Si + ions at a dose of 2x10 15 cm -2 , followed by implantation of 65keV C+ ions at a dose of 1x10 14 cm -2 . The sample was then annealed at 675 \u00b0C for 10s to induce re-crystallization. The implanted carbon formed a 250nm think layer with a mean concentration of 10 19 cm -3 . \n\nSubstitutional carbon in silicon is usually detected by its IR absorption at 607 cm -1 [33]. Due the ultra-small thickness of the Si-C layer, the expected absorbance was less than 0.1% making the detection of this absorbance line below the sensitivity limit of available FTIR instrumentation.",
+        "snippetKind": "body",
+        "section": "Fabrication of carbon rich silicon (Si-C) using solid phase epitaxial regrowth",
+        "snippetOffset": {
+          "start": 3943,
+          "end": 5665
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 3,
+              "end": 7,
+              "matchedPaperCorpusId": "8980916"
+            },
+            {
+              "start": 226,
+              "end": 230,
+              "matchedPaperCorpusId": "95454556"
+            },
+            {
+              "start": 593,
+              "end": 597,
+              "matchedPaperCorpusId": "121659763"
+            },
+            {
+              "start": 938,
+              "end": 942,
+              "matchedPaperCorpusId": "123229482"
+            },
+            {
+              "start": 1517,
+              "end": 1521,
+              "matchedPaperCorpusId": "123229482"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 72
+            },
+            {
+              "start": 73,
+              "end": 88
+            },
+            {
+              "start": 89,
+              "end": 231
+            },
+            {
+              "start": 234,
+              "end": 372
+            },
+            {
+              "start": 373,
+              "end": 470
+            },
+            {
+              "start": 471,
+              "end": 598
+            },
+            {
+              "start": 599,
+              "end": 721
+            },
+            {
+              "start": 722,
+              "end": 853
+            },
+            {
+              "start": 854,
+              "end": 943
+            },
+            {
+              "start": 946,
+              "end": 1020
+            },
+            {
+              "start": 1021,
+              "end": 1090
+            },
+            {
+              "start": 1091,
+              "end": 1259
+            },
+            {
+              "start": 1260,
+              "end": 1336
+            },
+            {
+              "start": 1337,
+              "end": 1427
+            },
+            {
+              "start": 1430,
+              "end": 1522
+            },
+            {
+              "start": 1523,
+              "end": 1722
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5425950882924939,
+      "paper": {
+        "corpusId": "123818271",
+        "title": "The effects of pre-irradiation on the formation of Si1-xCx alloys",
+        "authors": [
+          "Y.-S. Wang",
+          "J.-M. Li",
+          "Y.-B. Wang",
+          "Y.-T. Wang",
+          "G.-S. Sun",
+          "Lin Ly"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.7498/aps.50.1329?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.7498/aps.50.1329, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Carbon ions were implanted into crystal Si to a concentration of (0.6-1.5)at% at room temperature. Some samples were pre-irradiated with S-29(i)+ ions, while others were not pre-irradiated. Then the two kinds of samples were implanted with C-12(+) ions simultaneously, and Si1-xCx alloys were grown by solid phase epitaxy with high-temperature annealing. The effects of preirradiation on the formation of Si1-xCx alloys were studied. If the dose of implanted C ion was less than that for amorphizing Si crystals, the implanted C atoms would like to combine with defects produced during implantation, and then it was difficult for Si1-xCx alloys to form after annealine, at 950 degreesC. Pre-irradiation was advantageous for Si1-xCx alloy formation. With the increase of C ion dose, the damage produced by C ions increased. Pre-irradiation was unfavorable for Si1-xCx, alloy formation. If the implanted C concentration was higher than that for solid phase epitaxy solution, only part of the implanted C atoms form Si1-xCx alloys and the effects of pre-irradiation could be neglected. As the annealing temperature was increased to 1050 degreesC, Si1-xCx alloys in both pre-irradiated and unpreirradiated samples of low C concentration remained, whereas most part of Si1-xCx alloys in samples with high C concentration vanished.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1325
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5345751817448349,
+      "paper": {
+        "corpusId": "14615601",
+        "title": "Amorphization and Solid-Phase Epitaxial Growth of C-Cluster Ion-Implanted Si",
+        "authors": [
+          "N. Rudawski",
+          "L. Whidden",
+          "V. Craciun",
+          "Karen Sparck Jones"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1007/S11664-009-0862-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S11664-009-0862-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The evolution of amorphization and SPEG of C-cluster-ion implanted Si were studied. Results suggest that the effective cluster-ion dose for amorphization is much less than the corresponding single-ion dose. Analysis of C incorporation during SPEG of amorphized samples suggested defect-free growth for a maximum substitutional C content of 2.0 9 10 20 < C max < 4.0 9 10 20 cm \u00c03 , with defective SPEG and polycrystalline growth at higher concentrations. The use of C-cluster-ion implantation is also advantageous over single-C-ion implantation since no pre-amorphization step is necessary for C incorporation in the former case.",
+        "snippetKind": "body",
+        "section": "CONCLUSIONS",
+        "snippetOffset": {
+          "start": 8995,
+          "end": 9624
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 83
+            },
+            {
+              "start": 84,
+              "end": 206
+            },
+            {
+              "start": 207,
+              "end": 454
+            },
+            {
+              "start": 455,
+              "end": 629
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5306234819011684,
+      "paper": {
+        "corpusId": "53576990",
+        "title": "The Formation of Silicon Carbide in the SiCx Layers (x = 0.03\u20131.4) Formed by Multiple Implantation of C Ions in Si",
+        "authors": [
+          "K. Nussupov",
+          "N. Beisenkhanov"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.5772/22256?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/22256, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "annealing. It is of considerable interest to study the effect of the concentration component, nanoclusters, the phase composition of SiC films and their heat or plasma treatment on the crystallization processes and clustering, the size of nanocrystals and, consequently, the physical properties of the films. \n\nA number of studies have shown that the implantation of ions with multiple different energies is the most suitable for obtaining a uniform layer of carbon and silicon atoms to form SiC (Liangdeng et al., 2008, Calcagno et al ., 1996, Srikanth et al., 1988, Rothemund&Fritzsche, 1974, Reeson et al., 1990, Lindner et al., 1996;Martin et al., 1990). By carefully selecting the values of implantation energy and corresponding doses of carbon ions, a rectangular carbon concentration profile can be achieved for the buried \u03b2-SiC layer using this approach. Implantation of carbon ions at temperatures of silicon substrate well above room temperature by in-situ annealing helps to form SiC crystalline layers immediately during implantation or after annealing at lower temperatures (Durupt et al., 1980;Frangis et al., 1997;Edelman et al., 1976;Simon et al., 1996;Preckwinkel et al., 1996). High temperature of the substrate can be achieved also by using beams with high current density of carbon ions (Reeson et al., 1990;Alexandrov et al., 1986). Treatment of carbon implanted silicon layers by power ion (Liangdeng et al., 2008;Bayazitov et al., 2003), electron (Theodossiu et al., 1999) or laser (Bayazitov et al., 2003a(Bayazitov et al., , 2003b) ) beams like thermal annealing also leads to the formation of a polycrystalline \u03b2-SiC layer. \n\nIn this paper, the composition and structure of homogeneous SiC1.4, SiC 0.95 , SiC 0.7 , SiC 0.4 , SiC 0.12 and SiC 0.03 layers, received by multiple high-dose implantation of carbon ions with energies of 40, 20, 10, 5 and 3 keV are investigated.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 6995,
+          "end": 8893
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 496,
+              "end": 519,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 519,
+              "end": 543,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 543,
+              "end": 566,
+              "matchedPaperCorpusId": "135924901"
+            },
+            {
+              "start": 566,
+              "end": 593,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 593,
+              "end": 614,
+              "matchedPaperCorpusId": "97642734"
+            },
+            {
+              "start": 614,
+              "end": 637,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 637,
+              "end": 657,
+              "matchedPaperCorpusId": "119399776"
+            },
+            {
+              "start": 1087,
+              "end": 1108,
+              "matchedPaperCorpusId": "136600306"
+            },
+            {
+              "start": 1108,
+              "end": 1129,
+              "matchedPaperCorpusId": "96180698"
+            },
+            {
+              "start": 1129,
+              "end": 1150,
+              "matchedPaperCorpusId": "93373740"
+            },
+            {
+              "start": 1150,
+              "end": 1169,
+              "matchedPaperCorpusId": "97599878"
+            },
+            {
+              "start": 1169,
+              "end": 1194,
+              "matchedPaperCorpusId": "95870841"
+            },
+            {
+              "start": 1307,
+              "end": 1328,
+              "matchedPaperCorpusId": "97642734"
+            },
+            {
+              "start": 1328,
+              "end": 1352,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1412,
+              "end": 1436,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1436,
+              "end": 1459,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1470,
+              "end": 1495,
+              "matchedPaperCorpusId": "122642791"
+            },
+            {
+              "start": 1505,
+              "end": 1529,
+              "matchedPaperCorpusId": "121814267"
+            },
+            {
+              "start": 1529,
+              "end": 1558,
+              "matchedPaperCorpusId": "95206996"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 10
+            },
+            {
+              "start": 11,
+              "end": 308
+            },
+            {
+              "start": 311,
+              "end": 658
+            },
+            {
+              "start": 659,
+              "end": 862
+            },
+            {
+              "start": 863,
+              "end": 1195
+            },
+            {
+              "start": 1196,
+              "end": 1353
+            },
+            {
+              "start": 1354,
+              "end": 1649
+            },
+            {
+              "start": 1652,
+              "end": 1719
+            },
+            {
+              "start": 1720,
+              "end": 1898
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5251064890534757,
+      "paper": {
+        "corpusId": "126235986",
+        "title": "Effect of dose and size on defect engineering in carbon cluster implanted silicon wafers",
+        "authors": [
+          "Ryosuke Okuyama",
+          "Ayumi Masada",
+          "S. Shigematsu",
+          "T. Kadono",
+          "R. Hirose",
+          "Yoshihiro Koga",
+          "Hidehiko Okuda",
+          "K. Kurita"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.7567/JJAP.57.011301?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.7567/JJAP.57.011301, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The amorphous region could not be observed even when the dose was 3.0 \u00d7 10 15 carbon atoms=cm 2 . However, an implanted region above the projection range at a depth of approximately 80 nm can be observed as the region with a different contrast in Figs. 3(b) and 3(c). This region is the monomer-implanted damage region. As shown in Figs. 1 and  3, the depth of the carbon-cluster damage region was also less than that of the carbon monomers. Consequently, from the difference between the depth of the damage layer of 80 nm for C 3 H 5 and that of 60 nm for the carbon monomers, the depth of the C 3 H 5 -implanted damage region differed by approximately 20 nm. In addition, the formation depth of the amorphous region was less than the projection range of the C 3 H 5 -implanted carbon. These results indicate that a carbon cluster has a dechanneling effect and that the carbon-cluster damage to the silicon wafer is greater than that of carbon monomers. Furthermore, in previous studies, amorphization occurred from the silicon wafer surface. 30) owever, in this study, the C 3 H 5 -cluster ions formed an amorphous region inside the silicon wafer. Amorphization occurred from the C 3 H 5 -cluster-implanted region. This result suggests that epitaxial growth is possible after C 3 H 5 -cluster implantation. \n\nFigure 4 shows XTEM images of the C 3 H 5 -cluster-implanted samples after epitaxial growth with doses of (a) 1.0 \u00d7 10 15 , (b) 2.0 \u00d7 10 15 , and (c) 3.0 \u00d7 10 15 carbon atoms=cm 2 , and Fig. 4(d) shows an XTEM image of the C 2 H 5 -clusterimplanted sample after epitaxial growth with 2.0 \u00d7 10 15 carbon atoms=cm 2 .",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 6795,
+          "end": 8421
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1044,
+              "end": 1047,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 97
+            },
+            {
+              "start": 98,
+              "end": 252
+            },
+            {
+              "start": 253,
+              "end": 267
+            },
+            {
+              "start": 268,
+              "end": 319
+            },
+            {
+              "start": 320,
+              "end": 441
+            },
+            {
+              "start": 442,
+              "end": 660
+            },
+            {
+              "start": 661,
+              "end": 786
+            },
+            {
+              "start": 787,
+              "end": 954
+            },
+            {
+              "start": 955,
+              "end": 1047
+            },
+            {
+              "start": 1048,
+              "end": 1149
+            },
+            {
+              "start": 1150,
+              "end": 1216
+            },
+            {
+              "start": 1217,
+              "end": 1308
+            },
+            {
+              "start": 1311,
+              "end": 1626
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.522104590615854,
+      "paper": {
+        "corpusId": "95577641",
+        "title": "Solid\u2010phase epitaxial growth of Ge\u2010Si alloys made by ion implantation",
+        "authors": [
+          "F. Corni",
+          "S. Frabboni",
+          "G. Ottaviani",
+          "G. Queirolo",
+          "D. Bisero",
+          "C. Bresolin",
+          "R. Fabbri",
+          "M. Servidori"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.351035?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.351035, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Solid\u2010phase epitaxial growth was studied in germanium\u2010implanted \u3008100\u3009 silicon wafers as a function of germanium fluence, annealing temperature, and time. MeV He Rutherford backscattering in channeling conditions, cross\u2010sectional transmission electron microscopy, double\u2010crystal x\u2010ray diffraction, and secondary\u2010ion mass spectroscopy techniques were used to characterize the samples. At low fluences, up to 1\u00d71015 cm\u22122 at 130 keV, the crystallization kinetics is similar to that measured on self\u2010amorphized silicon. In the high\u2010dose samples, prepared by multiple implants with a total dose of 3.12\u00d71016 cm\u22122, the growth rate at fixed temperatures decreases. A comparison with literature data, obtained by similar experiments performed on amorphized uniform GexSi100\u2212x films prepared by molecular\u2010beam epitaxy or chemical\u2010vapor deposition, reveals that the concentration gradient, unavoidable in implanted samples mainly at the end of the ion range region, is strictly connected with the observed decrease.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1004
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5144109351593292,
+      "paper": {
+        "corpusId": "126235986",
+        "title": "Effect of dose and size on defect engineering in carbon cluster implanted silicon wafers",
+        "authors": [
+          "Ryosuke Okuyama",
+          "Ayumi Masada",
+          "S. Shigematsu",
+          "T. Kadono",
+          "R. Hirose",
+          "Yoshihiro Koga",
+          "Hidehiko Okuda",
+          "K. Kurita"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.7567/JJAP.57.011301?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.7567/JJAP.57.011301, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "3.1 Defect formation behavior in the region implanted with carbon-cluster ions after implantation and epitaxial growth Figure 1 shows XTEM images of the C 3 H 5 -cluster-implanted samples with doses of (a) 1.0 \u00d7 10 15 , (b) 2.0 \u00d7 10 15 , and (c) 3.0 \u00d7 10 15 carbon atoms=cm 2 . The region with a different contrast at a depth of approximately 60 nm is the damage region, as shown in Fig. 1(a). As the dose increased, the damage region changed to an amorphous structure, as shown in Figs. 1(b) and 1(c). The amorphous region was confirmed by SAED. The amorphous region was not formed from the silicon surface and it was observed in the silicon being formed inside. Rudawski et al. demonstrated that the formation of an amorphous region by C 7 H 7 clusters is caused by the silicon surface. 30) It was revealed that the formation process of amorphous regions varied in accordance with the difference in carbon-cluster size. Figure 2 shows the SIMS profiles of the C 3 H 5 -cluster-implanted (solid line) and monomer-carbon-implanted (dashed line) samples for a dose of 2.0 \u00d7 10 15 carbon atoms=cm 2 . The projection range of the C 3 H 5 -implanted carbon was approximately 80 nm. For the following discussion, the projection range refers to the peak depth of the carbon profile obtained by SIMS analysis. Despite the same implanted energy of a carbon atom, the projection range of the monomer carbon was approximately  100 nm, as shown in Fig. 2. As a result, the projection range of the C 3 H 5 -implanted carbon was shallower than that of the monomer carbon. Figure 3 shows XTEM images of the carbon-monomer-implanted samples with doses of (a) 1.0 \u00d7 10 15 , (b) 2.0 \u00d7 10 15 , and (c) 3.0 \u00d7 10 15 carbon atoms= cm 2 . The amorphous region could not be observed even when the dose was 3.0 \u00d7 10 15 carbon atoms=cm 2 .",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 5078,
+          "end": 6892
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 233,
+              "end": 235,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 789,
+              "end": 792,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1095,
+              "end": 1096,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1671,
+              "end": 1673,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1713,
+              "end": 1714,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 277
+            },
+            {
+              "start": 278,
+              "end": 393
+            },
+            {
+              "start": 394,
+              "end": 487
+            },
+            {
+              "start": 488,
+              "end": 502
+            },
+            {
+              "start": 503,
+              "end": 546
+            },
+            {
+              "start": 547,
+              "end": 663
+            },
+            {
+              "start": 664,
+              "end": 792
+            },
+            {
+              "start": 793,
+              "end": 921
+            },
+            {
+              "start": 922,
+              "end": 1098
+            },
+            {
+              "start": 1099,
+              "end": 1177
+            },
+            {
+              "start": 1178,
+              "end": 1302
+            },
+            {
+              "start": 1303,
+              "end": 1558
+            },
+            {
+              "start": 1559,
+              "end": 1716
+            },
+            {
+              "start": 1717,
+              "end": 1814
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.4963948147340577,
+      "paper": {
+        "corpusId": "234394546",
+        "title": "Structural and Photoluminescence Analysis on the Implantation of Carbon and Proton for the Creation of Damage-Assisted Emission in Silicon",
+        "authors": [
+          "Nurul Ellena Abdul Razak",
+          "Morgan Madhuku",
+          "I. Ahmad",
+          "B. Majlis",
+          "Fu-Dee Chang",
+          "D. Berhanuddin"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.17576/jsm-2020-4912-06?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.17576/jsm-2020-4912-06, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "SRIM simulation can be used to understand the properties and interactions of ions with matter (Schmidt 2017). This simulation was utilized to study the spatial resolution, ion straggling, and ion channelling during and after the implantation. Silicon was selected as the target layer while carbon was defined as implanted ion with angle of deposition set at 7\u00b0 in accordance to previous report to minimize the effect of ion channelling (Buckley 2020;Thabethe 2014). \n\nCarbon ion was chosen to be deposited into silicon wafer specifically to introduce the optically active pointdefect, such as the G-centre which is formed when silicon interstitial interacted with carbon substitutional-carbon interstitial (CsCi) complex (Berhanuddin et al. 2019). It is also necessary to increase the amount of substitutional carbon to increase the number of point-defect complex in the silicon samples (Rotem et al. 2007). At each simulation, the carbon ions are implanted twice on the silicon target to achieve a uniform carbon distribution along the depth of silicon. \n\nThe width of the target was set at 300 nm, maximum depth at around 250 nm and the total number of ion was set at 1000. \n\nThe first set of simulation, set A, was implanted with 30 keV of carbon ions. The second simulation, set B was implanted with 30 keV of carbon ions and followed by 10 keV for second implant to follow the implantation parameters from previous study (Berhanuddin et al. 2012). The final set of simulation, set C was first implanted with 50 keV of carbon ion and followed by 20 keV for second implant. For set B and C, the carbon ions were implanted twice on the silicon target to achieve a uniform carbon distribution along the depth of silicon. The ion distribution and vacancies were then recorded and investigated. All sets were further irradiated with proton with high energy of 2 MeV. Details of the SRIM simulation of carbon implantation energy were given in Table 1. \n\nThe simulation for all three sets was repeated by using SUSPRE software to compare the accuracy of each simulation tool. However, in SUSPRE interface, the doses of carbon ions need to be specified. Therefore, the dose for set A is defined at 4 \u00d7 10 13 cm -2 .",
+        "snippetKind": "body",
+        "section": "DAMAGE ANALYSIS BY SRIM",
+        "snippetOffset": {
+          "start": 4798,
+          "end": 7009
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 94,
+              "end": 108,
+              "matchedPaperCorpusId": "100448408"
+            },
+            {
+              "start": 436,
+              "end": 450,
+              "matchedPaperCorpusId": "207870990"
+            },
+            {
+              "start": 450,
+              "end": 464,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 721,
+              "end": 746,
+              "matchedPaperCorpusId": "199652887"
+            },
+            {
+              "start": 887,
+              "end": 906,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1426,
+              "end": 1451,
+              "matchedPaperCorpusId": "30974074"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 109
+            },
+            {
+              "start": 110,
+              "end": 242
+            },
+            {
+              "start": 243,
+              "end": 465
+            },
+            {
+              "start": 468,
+              "end": 747
+            },
+            {
+              "start": 748,
+              "end": 907
+            },
+            {
+              "start": 908,
+              "end": 1054
+            },
+            {
+              "start": 1057,
+              "end": 1175
+            },
+            {
+              "start": 1178,
+              "end": 1255
+            },
+            {
+              "start": 1256,
+              "end": 1452
+            },
+            {
+              "start": 1453,
+              "end": 1576
+            },
+            {
+              "start": 1577,
+              "end": 1721
+            },
+            {
+              "start": 1722,
+              "end": 1793
+            },
+            {
+              "start": 1794,
+              "end": 1865
+            },
+            {
+              "start": 1866,
+              "end": 1949
+            },
+            {
+              "start": 1952,
+              "end": 2072
+            },
+            {
+              "start": 2073,
+              "end": 2149
+            },
+            {
+              "start": 2150,
+              "end": 2211
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

@@ -1,0 +1,349 @@
+{
+ "what": "P_sample split sensitivity to the literature extractor",
+ "calibrated_setting": "lin|maxinc",
+ "rule_C2": "every fittable scope (>= 12 rows) own-law CV MedAPE <= pooled-law CV MedAPE on same rows - 10.0 pts, both engines",
+ "variants": {
+  "A_first_extractor": {
+   "n_literature_rows": 67,
+   "n_fit_table": 17,
+   "n_x_table": 42,
+   "fit_table_by_group": {
+    "reduced-dim": 2,
+    "bulk": 15
+   },
+   "x_table_by_group": {
+    "bulk": 33,
+    "reduced-dim": 3,
+    "amorphous": 5,
+    "unclassified": 1
+   },
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph",
+    "rdim"
+   ],
+   "C1_pass": true,
+   "chd_seconds": 2.4,
+   "pooled_cv_all_fit_rows": {
+    "hgsr": 100.0,
+    "minisr-pooled": 100.0
+   },
+   "scopes": {
+    "bulk": {
+     "n_rows": 15,
+     "hgsr": {
+      "cv_own_medape": 67.044920794583,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 32.95507920541699,
+      "law": "kappa = 1/r, r = 0.05132*1"
+     },
+     "minisr-pooled": {
+      "cv_own_medape": 60.919261516952915,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 39.080738483047085,
+      "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2"
+     }
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "law": "REFUSED: 2 < MIN_POINTS=12"
+    }
+   },
+   "fittable_scopes": [
+    "bulk"
+   ],
+   "C2_pass": true,
+   "mean_cv_gain_pts": 36.01790884423204,
+   "adopted": true,
+   "fit_table_kg_rows": [
+    6,
+    26,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "seconds": 2.4
+  },
+  "B_second_extractor_sample_group": {
+   "n_literature_rows": 67,
+   "n_fit_table": 17,
+   "n_x_table": 42,
+   "fit_table_by_group": {
+    "reduced-dim": 2,
+    "bulk": 15
+   },
+   "x_table_by_group": {
+    "bulk": 30,
+    "reduced-dim": 6,
+    "amorphous": 6
+   },
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph",
+    "rdim"
+   ],
+   "C1_pass": true,
+   "chd_seconds": 0.9,
+   "pooled_cv_all_fit_rows": {
+    "hgsr": 100.0,
+    "minisr-pooled": 100.0
+   },
+   "scopes": {
+    "bulk": {
+     "n_rows": 15,
+     "hgsr": {
+      "cv_own_medape": 67.044920794583,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 32.95507920541699,
+      "law": "kappa = 1/r, r = 0.05132*1"
+     },
+     "minisr-pooled": {
+      "cv_own_medape": 60.919261516952915,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 39.080738483047085,
+      "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2"
+     }
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "law": "REFUSED: 2 < MIN_POINTS=12"
+    }
+   },
+   "fittable_scopes": [
+    "bulk"
+   ],
+   "C2_pass": true,
+   "mean_cv_gain_pts": 36.01790884423204,
+   "adopted": true,
+   "fit_table_kg_rows": [
+    6,
+    26,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "seconds": 1.0
+  },
+  "B_m_second_extractor_sample_and_method": {
+   "n_literature_rows": 67,
+   "n_fit_table": 17,
+   "n_x_table": 42,
+   "fit_table_by_group": {
+    "reduced-dim": 2,
+    "bulk": 15
+   },
+   "x_table_by_group": {
+    "bulk": 30,
+    "reduced-dim": 6,
+    "amorphous": 6
+   },
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph",
+    "rdim"
+   ],
+   "C1_pass": true,
+   "chd_seconds": 1.0,
+   "pooled_cv_all_fit_rows": {
+    "hgsr": 100.0,
+    "minisr-pooled": 100.0
+   },
+   "scopes": {
+    "bulk": {
+     "n_rows": 15,
+     "hgsr": {
+      "cv_own_medape": 67.044920794583,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 32.95507920541699,
+      "law": "kappa = 1/r, r = 0.05132*1"
+     },
+     "minisr-pooled": {
+      "cv_own_medape": 60.919261516952915,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 39.080738483047085,
+      "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2"
+     }
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "law": "REFUSED: 2 < MIN_POINTS=12"
+    }
+   },
+   "fittable_scopes": [
+    "bulk"
+   ],
+   "C2_pass": true,
+   "mean_cv_gain_pts": 36.01790884423204,
+   "adopted": true,
+   "fit_table_kg_rows": [
+    6,
+    26,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "seconds": 1.0
+  },
+  "C_both_agree_on_group_only": {
+   "n_literature_rows": 55,
+   "n_fit_table": 17,
+   "n_x_table": 36,
+   "fit_table_by_group": {
+    "reduced-dim": 2,
+    "bulk": 15
+   },
+   "x_table_by_group": {
+    "bulk": 29,
+    "reduced-dim": 2,
+    "amorphous": 5
+   },
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph"
+   ],
+   "C1_pass": true,
+   "chd_seconds": 1.2,
+   "pooled_cv_all_fit_rows": {
+    "hgsr": 100.0,
+    "minisr-pooled": 100.0
+   },
+   "scopes": {
+    "bulk": {
+     "n_rows": 15,
+     "hgsr": {
+      "cv_own_medape": 67.044920794583,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 32.95507920541699,
+      "law": "kappa = 1/r, r = 0.05132*1"
+     },
+     "minisr-pooled": {
+      "cv_own_medape": 60.919261516952915,
+      "cv_pooled_same_rows_medape": 100.0,
+      "cv_gain_pts": 39.080738483047085,
+      "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2"
+     }
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "law": "REFUSED: 2 < MIN_POINTS=12"
+    }
+   },
+   "fittable_scopes": [
+    "bulk"
+   ],
+   "C2_pass": true,
+   "mean_cv_gain_pts": 36.01790884423204,
+   "adopted": true,
+   "fit_table_kg_rows": [
+    6,
+    26,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "seconds": 1.2
+  },
+  "D_second_labels_verbatim_values_only": {
+   "n_literature_rows": 39,
+   "n_fit_table": 12,
+   "n_x_table": 24,
+   "fit_table_by_group": {
+    "reduced-dim": 2,
+    "bulk": 10
+   },
+   "x_table_by_group": {
+    "bulk": 18,
+    "reduced-dim": 2,
+    "amorphous": 4
+   },
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph",
+    "rdim"
+   ],
+   "C1_pass": true,
+   "chd_seconds": 1.1,
+   "pooled_cv_all_fit_rows": {
+    "hgsr": 100.0,
+    "minisr-pooled": 100.0
+   },
+   "scopes": {
+    "bulk": {
+     "n_rows": 10,
+     "law": "REFUSED: 10 < MIN_POINTS=12"
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "law": "REFUSED: 2 < MIN_POINTS=12"
+    }
+   },
+   "fittable_scopes": [],
+   "C2_pass": false,
+   "mean_cv_gain_pts": null,
+   "adopted": false,
+   "fit_table_kg_rows": [
+    6,
+    26,
+    35,
+    36,
+    37,
+    38,
+    52,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "seconds": 1.2
+  }
+ }
+}

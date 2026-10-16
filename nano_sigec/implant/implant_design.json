@@ -1,0 +1,62 @@
+{
+ "campaign": "sigec-implant-routes-2026-10-12",
+ "paper": "P1 (practical implications and limitations of the cavity and SiC levers); P2 ledger record",
+ "operator_go": "issue 55, 2026-10-12 ('let's try that'): the three SRIM options proposed in the 14:16 UTC reply",
+ "extends": "light-dopant campaign (ledger 74-76: cavities a lever, 1 vol% R 5 nm saves 40% Ge); SiGeC campaign (ledger 46, 61); SRIM/RustBCA install cross-check (second_system/implant_srim)",
+ "question": "Can the two microstructures the campaign recommends (nanocavities and few-nm SiC) be made by ion implantation in Si0.8Ge0.2, at what energy and dose, and does the implant route keep the predicted kappa_L reduction once the cavity size set by annealing and service temperature is used instead of the design value? Separately: can SRIM vacancy counts plus point-defect scattering predict the kappa_L of an as-implanted layer?",
+ "codes": {
+  "SRIM-2013": "sparksone C:/SRIM-2013, batch TRIM, quick Kinchin-Pease damage, displacement energy 15 eV, lattice binding 2 eV, same surface binding energies as the install cross-check; outputs RANGE.txt (100 depth bins), VACANCY.txt, RANGE_3D.txt",
+  "RustBCA": "DGX ~/tools/RustBCA git a356280, same targets; used only for the range cross-check gate G0"
+ },
+ "recipes": {
+  "A_he_anchor_Si": [["He", 40, 0.0], ["He", 50, 0.0], ["He", 100, 0.0]],
+  "A_he_SiGe": [["He", 20, 0.2], ["He", 40, 0.2], ["He", 80, 0.2], ["He", 160, 0.2]],
+  "B_c_SiGe": [["C", 10, 0.2], ["C", 20, 0.2], ["C", 40, 0.2], ["C", 80, 0.2], ["C", 160, 0.2]],
+  "C_kr_anchor_Si": [["Kr", 500, 0.0]],
+  "ions": "5000 per recipe (Kr 2000); normal incidence; target width about 2.5 x the expected range",
+  "rustbca_crosscheck": [["He", 40, 0.0], ["He", 40, 0.2], ["C", 40, 0.2], ["Kr", 500, 0.0]]
+ },
+ "literature_anchors": {
+  "he_bubble_critical_conc_cm3": [3e20, "Formation and growth of nanocavities and cavities induced by He+ implantation in silicon (Asta corpus 97675856), q120/q121"],
+  "he_threshold_dose_100keV_cm2": [[1e16, 2.5e16], "The Process and Mechanism of Preparing Nanoporous Silicon: Helium Ion Implantation (corpus 258070726), q120"],
+  "he_50keV_Si_Rp_nm_SRIM08": [450, "corpus 97675856 (their own SRIM08 value), q130"],
+  "he_40keV_5e16_900C": ["mean void radius 20 nm, cavities 100-350 nm deep", "Incorporation of helium-implant-induced cavities near the active regions of MOS devices (corpus 97928387), q120"],
+  "he_voids_after_700C_diameter_nm": [[10, 30], "Nanovoid formation and dynamics in He+-implanted nanocrystalline silicon (corpus 95906038), q121; He leaves at >= 700 C, empty voids grow"],
+  "surviving_fraction_upper": [0.06, "MeV H in Si: measured defect concentration 6e15 vs SRIM > 1e17 cm-3 (corpus 249214059), q127"],
+  "c_spe_substitutional_cap_cm3": [[2e20, 4e20], "Amorphization and solid-phase epitaxial growth of C-cluster ion-implanted Si (corpus 14615601), q125"],
+  "kr_500keV_Si": ["pristine 120 W/mK; at 1e14 cm-2 the defected crystalline region is <= 10 W/mK (upper limit from EMA), amorphous pockets present; amorphisation dose 6e13; 700 C 30 min restores kappa", "Pfeifer et al., J. Appl. Phys. 2022, doi 10.1063/5.0094876 (corpus 251702176), q122/q128/q133"]
+ },
+ "analysis": {
+  "A_dose_rule": "dose_min(E) = 3e20 cm^-3 * sqrt(2 pi) * dRp(E): the dose at which the He peak reaches the critical bubble concentration (Gaussian peak)",
+  "A_vacancy_budget": "for the 40 keV 5e16 cm-2 anchor in Si: f_needed = phi * n_Si * L / (dose * vac_per_ion), phi = 0.01, L = 250 nm (the measured 100-350 nm cavity band)",
+  "A_recipe_SiGe": "for each Si0.8Ge0.2 energy: layer = Rp +/- dRp; dose giving the same peak He concentration as the 40 keV 5e16 Si anchor (peak = dose / (sqrt(2 pi) dRp))",
+  "A_kappa": "light_dopants model (void inclusions lam2 = 1 and 4, Maxwell-Eucken porosity) at x = 0.2, d_eff = 0.3 um, 1 vol%, R = 5 (design), 10 and 20 nm (post-anneal anchors), 300 and 1100 K; Ge saving at equal kappa_L versus carbon-free x = 0.2",
+  "B_box": "non-negative least squares over the five C energies for a flat C profile over 30-300 nm at 1 and 3 at% (n_SiGe = 4.88e22 cm^-3); report doses, rms deviation over the window, and the peak Kinchin-Pease displacements per atom at the summed dose",
+  "C_chain": "Kr 500 keV in Si: c_v(z) = f * dose * v(z) / n_Si with v(z) the SRIM vacancy profile; kappa(z) from the committed almaBTE x = 0 modes at 300 K plus point scattering Gamma_V = 9 c_v (missing mass plus missing linkages), boundary 1 mm; f_req = retained fraction at which min_z kappa(z) = 10 W/mK at 1e14 cm-2"
+ },
+ "gates": {
+  "G0_codes": "SRIM and RustBCA mean ranges agree within 15% on every cross-check recipe",
+  "G1_anchor_range": "SRIM Rp(He 50 keV, Si) within 10% of 450 nm"
+ },
+ "predictions": {
+  "PI1": "dose_min(He 100 keV, Si) lies within a factor of 2 of the measured 1-2.5e16 cm-2 threshold window (0.5e16 to 5e16)",
+  "PI2": "f_needed for 1 vol% cavities at the 40 keV 5e16 anchor is <= 0.06 (inside the surviving-fraction bound)",
+  "PI3": "at R = 20 nm and 1 vol%, cavities still lower kappa_L by >= 5% at x = 0.2, both T (still a lever)",
+  "PI4": "at R = 20 nm and 1 vol%, the Ge saving at 300 K is below the 25% registered for R = 5 nm (coarsening costs part of the saving)",
+  "PI5": "a five-energy C recipe reaches rms deviation <= 15% over 30-300 nm",
+  "PI6": "the 1 at% C recipe gives peak damage >= 1 displacement per atom (Kinchin-Pease), so the layer amorphises and regrowth by solid-phase epitaxy is part of the route",
+  "PI7": "f_req for the Kr anchor exceeds 0.06: point vacancies at plausible survival cannot explain the measured <= 10 W/mK, consistent with the authors' attribution to amorphous pockets"
+ },
+ "decision_rule": {
+  "cavity_claim": "Ge saving at R = 20 nm, 1 vol%, 300 K: >= 25% strengthen the cavity claim (ledger 76); 10-25% scope-limit it to 'cavity radius <= 10 nm, i.e. anneal and service below the void-coarsening range'; < 10% downweight it",
+  "sic_route": "if PI5 holds, the C recipe is recorded as a practical route (claim C_impl_route); if not, the route is recorded with its measured flatness only",
+  "chain": "if f_req <= 0.06 the damage-to-kappa chain is usable for as-implanted layers with f as the named weak input; otherwise it is scope-limited: no as-implanted kappa claim rests on SRIM vacancy counts, and implant routes are judged only on their annealed microstructure",
+  "gates": "if G0 or G1 fails, the profiles are reported as unvalidated and no decision is applied"
+ },
+ "out_of_scope_stated_in_advance": [
+  "channelling, dynamic annealing and composition change during implantation (TRIM limits); C and He doses here are below the sputter-limited regime",
+  "cavity number density and size distribution: taken from the anchors, not computed",
+  "SiC particle size after the C anneal: not computed; the P1 size claims stay as they are",
+  "implanted layers are 0.1-1 um deep, so these routes make a surface layer or film, not a sintered leg"
+ ]
+}

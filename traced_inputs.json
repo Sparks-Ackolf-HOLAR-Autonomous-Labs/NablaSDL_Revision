@@ -1,0 +1,162 @@
+{
+ "note": "files opened read-only by each figure script or checker, traced with strace on a scratch copy of the working project (paths shown under their public names)",
+ "reads": {
+  "paper/figure_code/regen_figs/fig_architecture.py": [
+   "paper/figure_code/regen_figs/fig_architecture.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_bond_angles.py": [
+   "bond_angles/bad_results.json",
+   "paper/figure_code/regen_figs/fig_bond_angles.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_detector_v2.py": [
+   "paper/figure_code/regen_figs/fig_detector_v2.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "phase_c/detector_v2/descriptors.json",
+   "phase_c/detector_v2/results_v2.json",
+   "phase_c/production/fault_study_results_frozen.json",
+   "phase_c/production/production_design.json"
+  ],
+  "paper/figure_code/regen_figs/fig_final_law.py": [
+   "paper/figure_code/regen_figs/fig_final_law.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "phase_c/final_law/final_law.json"
+  ],
+  "paper/figure_code/regen_figs/fig_finite_size.py": [
+   "chpc/results/x0.0_T300_z144_s101.json",
+   "chpc/results/x0.0_T300_z48_s101.json",
+   "chpc/results/x0.0_T300_z96_s101.json",
+   "chpc/results/x0.15_T300_z24_s101.json",
+   "chpc/results/x0.15_T300_z48_s101.json",
+   "chpc/results/x0.15_T300_z96_s101.json",
+   "chpc/results/x0.5_T1100_z24_s101.json",
+   "chpc/results/x0.5_T1100_z48_s101.json",
+   "chpc/results/x0.5_T1100_z96_s101.json",
+   "chpc/results/x0.5_T300_z144_s101.json",
+   "chpc/results/x0.5_T300_z144_s202_a4_w50.json",
+   "chpc/results/x0.5_T300_z24_s101.json",
+   "chpc/results/x0.5_T300_z24_s101_a6_w50.json",
+   "chpc/results/x0.5_T300_z24_s101_a8_w50.json",
+   "chpc/results/x0.5_T300_z24_s202.json",
+   "chpc/results/x0.5_T300_z24_s303.json",
+   "chpc/results/x0.5_T300_z24_s404.json",
+   "chpc/results/x0.5_T300_z48_s101.json",
+   "chpc/results/x0.5_T300_z48_s101_a4_w100.json",
+   "chpc/results/x0.5_T300_z48_s101_a4_w200.json",
+   "chpc/results/x0.5_T300_z48_s101_a6_w50.json",
+   "chpc/results/x0.5_T300_z48_s202_a4_w50.json",
+   "chpc/results/x0.5_T300_z48_s303_a4_w50.json",
+   "chpc/results/x0.5_T300_z96_s101.json",
+   "chpc/results/x0.5_T300_z96_s202_a4_w50.json",
+   "chpc/results/x0.5_T300_z96_s303_a4_w50.json",
+   "chpc/results/x1.0_T300_z144_s101.json",
+   "chpc/results/x1.0_T300_z48_s101.json",
+   "chpc/results/x1.0_T300_z96_s101.json",
+   "paper/figure_code/regen_figs/fig_finite_size.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_hgsr_replay.py": [
+   "paper/figure_code/regen_figs/fig_hgsr_replay.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "phase_c/hgsr_replay/replay.json",
+   "phase_c/sr_compare/hgsr.py"
+  ],
+  "paper/figure_code/regen_figs/fig_hypergraph.py": [
+   "paper/figure_code/regen_figs/fig_hypergraph.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "pilot/kg/kg_hypergraph.json"
+  ],
+  "paper/figure_code/regen_figs/fig_implant_trimstyle.py": [
+   "nano_sigec/implant/srim_raw/C_Si0.8Ge0.2_40keV_RANGE_3D.txt",
+   "nano_sigec/implant/srim_raw/C_Si0.8Ge0.2_40keV_VACANCY.txt",
+   "nano_sigec/implant/srim_raw/He_Si0.8Ge0.2_40keV_RANGE_3D.txt",
+   "nano_sigec/implant/srim_raw/He_Si0.8Ge0.2_40keV_VACANCY.txt",
+   "nano_sigec/implant/srim_raw/Kr_Si_500keV_RANGE_3D.txt",
+   "nano_sigec/implant/srim_raw/Kr_Si_500keV_VACANCY.txt",
+   "nano_sigec/implant/trim_style/make_trim_style.py",
+   "paper/figure_code/regen_figs/fig_implant_trimstyle.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_kappa_parties.py": [
+   "paper/figure_code/regen_figs/fig_kappa_parties.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py",
+   "pilot/kg/extracted_points.json"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec.py": [
+   "nano_sigec/m1c/m1c_summary.json",
+   "nano_sigec/results/sigec_results_m1c.json",
+   "nano_sigec/small_sic/r50/measured_curves.json",
+   "paper/figure_code/regen_figs/fig_sigec.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec_layers.py": [
+   "nano_sigec/results/sigec_results_m1c.json",
+   "paper/figure_code/regen_figs/fig_sigec_layers.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec_local_strain.py": [
+   "nano_sigec/structures/cif/0.2_1_nC0_built.cif",
+   "nano_sigec/structures/cif/0.2_1_nC0_relaxed.cif",
+   "nano_sigec/structures/cif/0.2_1_nC4_built.cif",
+   "nano_sigec/structures/cif/0.2_1_nC4_relaxed.cif",
+   "nano_sigec/structures/cif/bulk_Ge_relaxed.cif",
+   "nano_sigec/structures/cif/bulk_SiC_relaxed.cif",
+   "nano_sigec/structures/cif/bulk_Si_relaxed.cif",
+   "paper/figure_code/regen_figs/fig_sigec_local_strain.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec_provenance.py": [
+   "paper/figure_code/regen_figs/fig_sigec_provenance.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ],
+  "paper/figure_code/regen_figs/fig_sigec_structures.py": [
+   "nano_sigec/m1c/m1c_summary.json",
+   "nano_sigec/m1c/out/0.2_1_nC0.json",
+   "nano_sigec/m1c/out/0.2_1_nC1.json",
+   "nano_sigec/m1c/out/0.2_1_nC2.json",
+   "nano_sigec/m1c/out/0.2_1_nC4.json",
+   "nano_sigec/m1c/out/0.2_2_nC0.json",
+   "nano_sigec/m1c/out/0.2_2_nC1.json",
+   "nano_sigec/m1c/out/0.2_2_nC2.json",
+   "nano_sigec/m1c/out/0.2_2_nC4.json",
+   "nano_sigec/m1c/out/0.2_3_nC0.json",
+   "nano_sigec/m1c/out/0.2_3_nC1.json",
+   "nano_sigec/m1c/out/0.2_3_nC2.json",
+   "nano_sigec/m1c/out/0.2_3_nC4.json",
+   "nano_sigec/m1c/out/0.5_1_nC0.json",
+   "nano_sigec/m1c/out/0.5_1_nC1.json",
+   "nano_sigec/m1c/out/0.5_1_nC2.json",
+   "nano_sigec/m1c/out/0.5_1_nC4.json",
+   "nano_sigec/m1c/out/0.5_2_nC0.json",
+   "nano_sigec/m1c/out/0.5_2_nC1.json",
+   "nano_sigec/m1c/out/0.5_2_nC2.json",
+   "nano_sigec/m1c/out/0.5_2_nC4.json",
+   "nano_sigec/m1c/out/0.5_3_nC0.json",
+   "nano_sigec/m1c/out/0.5_3_nC1.json",
+   "nano_sigec/m1c/out/0.5_3_nC2.json",
+   "nano_sigec/m1c/out/0.5_3_nC4.json",
+   "nano_sigec/m1c/out/0_1_nC0.json",
+   "nano_sigec/m1c/out/0_1_nC1.json",
+   "nano_sigec/m1c/out/0_1_nC2.json",
+   "nano_sigec/m1c/out/0_1_nC4.json",
+   "nano_sigec/m1c/out/0_2_nC0.json",
+   "nano_sigec/m1c/out/0_2_nC1.json",
+   "nano_sigec/m1c/out/0_2_nC2.json",
+   "nano_sigec/m1c/out/0_2_nC4.json",
+   "nano_sigec/m1c/out/0_3_nC0.json",
+   "nano_sigec/m1c/out/0_3_nC1.json",
+   "nano_sigec/m1c/out/0_3_nC2.json",
+   "nano_sigec/m1c/out/0_3_nC4.json",
+   "nano_sigec/m1c/out/bulk_Ge.json",
+   "nano_sigec/m1c/out/bulk_Si.json",
+   "nano_sigec/structures/cif/0.2_1_nC4_relaxed.cif",
+   "nano_sigec/structures/cif/bulk_SiC_relaxed.cif",
+   "nano_sigec/structures/design_state_timeline.json",
+   "nano_sigec/structures/md_box/md_box_lattice.json",
+   "nano_sigec/structures/md_box/p20.data.gz",
+   "paper/figure_code/regen_figs/fig_sigec_structures.py",
+   "paper/figure_code/regen_figs/paper_fig_style.py"
+  ]
+ }
+}

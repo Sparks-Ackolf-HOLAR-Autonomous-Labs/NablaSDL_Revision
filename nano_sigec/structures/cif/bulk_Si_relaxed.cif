@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Si8
+_chemical_formula_sum              "Si8"
+_cell_length_a       5.455437086839813
+_cell_length_b       5.455437086839813
+_cell_length_c       5.455437086839813
+_cell_angle_alpha    90.0
+_cell_angle_beta     90.0
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  3.531407526272569e-16  3.3150414406575563e-16  3.702636773525589e-16  1.0000
+  Si  Si2       1.0  0.25000000000000017  0.2500000000000002  0.25000000000000017  1.0000
+  Si  Si3       1.0  3.9395432781659644e-16  0.5000000000000003  0.5000000000000004  1.0000
+  Si  Si4       1.0  0.2500000000000001  0.7500000000000001  0.7500000000000003  1.0000
+  Si  Si5       1.0  0.5000000000000004  3.8939549327111385e-16  0.5000000000000004  1.0000
+  Si  Si6       1.0  0.7500000000000001  0.2500000000000002  0.7500000000000003  1.0000
+  Si  Si7       1.0  0.5000000000000004  0.5000000000000004  3.0908664073109974e-16  1.0000
+  Si  Si8       1.0  0.7500000000000003  0.7500000000000001  0.25000000000000017  1.0000

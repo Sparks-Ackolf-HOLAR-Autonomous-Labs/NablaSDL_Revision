@@ -1,0 +1,46 @@
+{
+ "campaign": "gpumd-gk300-level-2026-10-07",
+ "ledger_decision_seq": 115,
+ "ledger_analysis_seq": 114,
+ "rule": "pre-registered branch (b), ledger 107: factor m at 300 K, 1.281 at 700-1100 K, linear in T between 300 and 700 K",
+ "m_300K": 1.8428,
+ "cv_rho300": 0.1378,
+ "level_700_1100K": 1.281,
+ "form": "kappa(x,T) = f(T) / (0.2092492 + 1.9190900 x - 2.2443438 x^2 + 8.352241e-5 T); f(T) = m + (1.281 - m)(T - 300)/400 for 300<=T<=700, 1.281 for T>=700",
+ "scope_label": "level from equilibrium GK at 300 K and HNEMD at 700-1100 K, shape from rNEMD",
+ "rho300": {
+  "0.15": 1.5522962195786905,
+  "0.2": 1.5194320237047079,
+  "0.3": 1.7696368246567802,
+  "0.5": 2.124202867382295,
+  "0.7": 2.0398565720557698,
+  "0.85": 1.9159084312865249
+ },
+ "gk_points_300K_box12": {
+  "x0.15_T300_12c": {
+   "kappa": 3.291,
+   "se": 0.145
+  },
+  "x0.2_T300_12c": {
+   "kappa": 2.876,
+   "se": 0.085
+  },
+  "x0.3_T300_12c": {
+   "kappa": 2.91,
+   "se": 0.096
+  },
+  "x0.5_T300_12c": {
+   "kappa": 3.357,
+   "se": 0.202
+  },
+  "x0.7_T300_12c": {
+   "kappa": 4.268,
+   "se": 0.055
+  },
+  "x0.85_T300_12c": {
+   "kappa": 7.852,
+   "se": 0.197
+  }
+ },
+ "supersedes": "corrected_law.json (constant 1.281, 300 K level carried) for T < 700 K; that file is kept as history"
+}

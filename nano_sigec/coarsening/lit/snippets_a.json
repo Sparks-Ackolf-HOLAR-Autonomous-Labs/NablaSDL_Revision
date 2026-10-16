@@ -1,0 +1,2264 @@
+{
+ "diffusion coefficient of substitutional carbon in silicon activation energy 3.0 eV": {
+  "data": [
+   {
+    "score": 0.5832881052705972,
+    "paper": {
+     "corpusId": "229300019",
+     "title": "Effect of the Content and Ordering of the sp2 Free Carbon Phase on the Charge Carrier Transport in Polymer-Derived Silicon Oxycarbides",
+     "authors": [
+      "F. Rosenburg",
+      "B. Balke",
+      "N. Nicoloso",
+      "R. Riedel",
+      "E. Ionescu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7765033, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The decreasing activation energies with increasing the synthesis temperature indicate a continuous reduction of the band gap in the SiOC/C system and may be related to the evolution of the carbon phase with the temperature. Interestingly, the activation energy of the C-11 ceramic sample annealed at 1600 \u2022 C, i.e., 0.04 eV, was comparable to that of glassy carbon (0.03 eV [69]). \n\nFigure 8 shows the activation energy E a as a function of the segregated carbon in the SiOC/C samples prepared at 1600 \u2022 C. Three different electrical transport regimes can be distinguished, with activation energies decreasing from ca. 1 eV in regime I to ca. 0.3 eV in regime II and further to ca. 0.03 eV in regime III. \n\nIn regime I (Figure 8), conduction is considered to occur within the amorphous silica network, as the amount of sp 2 carbon is very low (\u03c6 C < 1 vol.%) [70,71]. According to Hapert, high concentration of silicon dangling bonds is present within amorphous silica SiO x , showing a VRH transport within localized states [70,71]. A VRH conduction mechanism is also likely for low-carbon SiOC/C materials. \n\nIn regime II (\u03c6 C = 2-6 vol.%, Figure 8), the sp 2 -hybridized carbon precipitations were still separated by the SiOC matrix but the resulting potential barrier for the transport was lowered (E a \u2248 0.3 eV) as compared to that of regime I. The low activation energy arose from additional carbon defects states within the band gap presumably overlapping with the silicon dangling bonds states. A very similar activation energy (E a = 0.3 eV) has been found in carbon-based materials by Dasgupta et al., who investigated hopping transport between graphitic islands separated by a lower conducting sp 3 carbon layer [72].",
+     "snippetKind": "body",
+     "section": "Results and Discussion",
+     "snippetOffset": {
+      "start": 30761,
+      "end": 32489
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 374,
+        "end": 378,
+        "matchedPaperCorpusId": "4298005"
+       },
+       {
+        "start": 859,
+        "end": 863,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 863,
+        "end": 866,
+        "matchedPaperCorpusId": "101856905"
+       },
+       {
+        "start": 1025,
+        "end": 1029,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1029,
+        "end": 1032,
+        "matchedPaperCorpusId": "101856905"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 223
+       },
+       {
+        "start": 224,
+        "end": 380
+       },
+       {
+        "start": 383,
+        "end": 704
+       },
+       {
+        "start": 707,
+        "end": 858
+       },
+       {
+        "start": 859,
+        "end": 867
+       },
+       {
+        "start": 868,
+        "end": 1033
+       },
+       {
+        "start": 1034,
+        "end": 1108
+       },
+       {
+        "start": 1111,
+        "end": 1349
+       },
+       {
+        "start": 1350,
+        "end": 1502
+       },
+       {
+        "start": 1503,
+        "end": 1728
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5637326340274694,
+    "paper": {
+     "corpusId": "125268739",
+     "title": "Radiation\u2010induced interstitial carbon atom in silicon: Effect of charge state on annealing characteristics",
+     "authors": [
+      "Stanislau B. Lastovskii",
+      "V. Gusakov",
+      "Vladimir P. Markevich",
+      "Anthony R. Peaker",
+      "Hanna S. Yakushevich",
+      "Fedor P. Korshunov",
+      "Leonid I. Murin"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1002/pssa.201700262?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/pssa.201700262, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The calculated values of a pre-exponential factor and the diffusion barriers are in good agreement with the experimental obtained results. \n\n4 Conclusions Experimental and theoretical evidence of a noticeable dependence of the migration ability of the interstitial carbon atom on its charge state are presented in our work. It is found that in a positive charge state the C i diffusion in crystalline silicon is characterized by the activation energy DE a ! 0.88 eV, while in a neutral charge state the DE a value is lowered to 0.73-0.74 eV.",
+     "snippetKind": "body",
+     "section": "Modeling results",
+     "snippetOffset": {
+      "start": 17411,
+      "end": 17952
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 138
+       },
+       {
+        "start": 141,
+        "end": 323
+       },
+       {
+        "start": 324,
+        "end": 457
+       },
+       {
+        "start": 458,
+        "end": 537
+       },
+       {
+        "start": 538,
+        "end": 541
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5618692681095194,
+    "paper": {
+     "corpusId": "97996347",
+     "title": "First Principles Suggestions of Targeted Diffusion Experiments on SiO2",
+     "authors": [
+      "G. Roma",
+      "Y. Limoge"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/DDF.237-240.127?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/DDF.237-240.127, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": ", the activation energy for silicon diffusion is E act (I Si ) = E f (I Si ) + E f (SiO 2 ) + E m (I Si ) = 13.8 \u2212 9.2 + 1.2 = 5.8 eV.\n\nIn the case of a closed system (no silicon nor oxygen exchange), silicon diffusion is expected to be controlled by Schottky anti-triplets, formed by two oxygen (possibly charged) interstitials and one silicon interstitial. We can estimate the activation energy as E act (Schottky) = (E f (I Si ) + 2 \u00d7 E f (I O ))/3 + E m (I Si ) = (13.8 + 3.6)/3 + 1.2 = 7 eV, which is consistent with some experimental results [12].",
+     "snippetKind": "body",
+     "section": "Oxygen partial pressure",
+     "snippetOffset": {
+      "start": 6080,
+      "end": 6633
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 548,
+        "end": 552,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5591807254793315,
+    "paper": {
+     "corpusId": "119364326",
+     "title": "Ab initio study of the migration of intrinsic defects in 3C-SiC",
+     "authors": [
+      "M. Bockstedte",
+      "Alexander Mattausch",
+      "O. Pankratov"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/cond-mat/0309704, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "To the best of our knowledge, these are the first experiments that quantitatively analyzed the self diffusion constant. A radiotracer diffusion technique was used to obtain the diffusion profiles. \n\nFor the carbon self diffusion our results show a similar importance of the vacancy-mediated and interstitialbased self diffusion in Si-rich material. There is no clear dominance of either mechanism. In C-rich material, on the other hand, the split-interstitial mediated self diffusion dominates for all doping conditions. Since in compensated and n-type material the split-interstitial and the vacancy are neutral, the Fermi-level effect is absent. Only in p-type material a variation of the activation energy about 1 eV is present. \n\nThe silicon self diffusion in p-type and compensated material is mainly dominated by the silicon interstitials. In p-type material the migration is mediated by the tetrahedral carbon-coordinated interstitial Si TC , both, under Si-rich and C-rich conditions. Here the metastability of the silicon vacancy suppresses its participation in the self diffusion. In Si-rich compensated material the silicon spit-interstitial Si sp 110 is relevant. Only in n-type, Si-rich material a dominant contribution of the silicon vacancy V Si should be observed. The larger abundance of silicon vacancies under C-rich conditions leads to its dominance already in compensated material. The variation of the activation energy of the silicon self diffusion is more pronounced than for the carbon self diffusion. A Fermi-level effect is predicted under p-type and n-type conditions. The variations amount to 2 eV, both, in Crich and Si-rich material. \n\nExperimentally the silicon and carbon self diffusion was investigated in nominally undoped poly-crystalline 3C-SiC. 7,8 For the carbon self diffusion an activation energy of 8.72 eV was obtained. The observed silicon self diffusion was described 8 by an activation energy of 9.45 eV. From the description of the experiments it is not obvious whether they were carried out in C-rich or Si-rich conditions. Therefore we compare the experimental results with our values for C-rich and Si-rich conditions for an intrinsic Fermi-level.",
+     "snippetKind": "body",
+     "section": "A. Self diffusion",
+     "snippetOffset": {
+      "start": 63939,
+      "end": 66136
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 1783,
+        "end": 1785,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1785,
+        "end": 1786,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 119
+       },
+       {
+        "start": 120,
+        "end": 196
+       },
+       {
+        "start": 199,
+        "end": 348
+       },
+       {
+        "start": 349,
+        "end": 397
+       },
+       {
+        "start": 398,
+        "end": 520
+       },
+       {
+        "start": 521,
+        "end": 647
+       },
+       {
+        "start": 648,
+        "end": 731
+       },
+       {
+        "start": 734,
+        "end": 845
+       },
+       {
+        "start": 846,
+        "end": 992
+       },
+       {
+        "start": 993,
+        "end": 1090
+       },
+       {
+        "start": 1091,
+        "end": 1175
+       },
+       {
+        "start": 1176,
+        "end": 1280
+       },
+       {
+        "start": 1281,
+        "end": 1402
+       },
+       {
+        "start": 1403,
+        "end": 1526
+       },
+       {
+        "start": 1527,
+        "end": 1596
+       },
+       {
+        "start": 1597,
+        "end": 1664
+       },
+       {
+        "start": 1667,
+        "end": 1786
+       },
+       {
+        "start": 1787,
+        "end": 1862
+       },
+       {
+        "start": 1863,
+        "end": 1950
+       },
+       {
+        "start": 1951,
+        "end": 2071
+       },
+       {
+        "start": 2072,
+        "end": 2197
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5322267014704719,
+    "paper": {
+     "corpusId": "229300019",
+     "title": "Effect of the Content and Ordering of the sp2 Free Carbon Phase on the Charge Carrier Transport in Polymer-Derived Silicon Oxycarbides",
+     "authors": [
+      "F. Rosenburg",
+      "B. Balke",
+      "N. Nicoloso",
+      "R. Riedel",
+      "E. Ionescu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7765033, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "A very similar activation energy (E a = 0.3 eV) has been found in carbon-based materials by Dasgupta et al., who investigated hopping transport between graphitic islands separated by a lower conducting sp 3 carbon layer [72]. \n\nIn regime III (Figure 8), the carbon concentration was above the percolation threshold for samples prepared at 1600 \u2022 C. Thus, the electrical transport was considered to be dominated by the continuous, three-dimensional carbon sp 2 network, yielding activation energies in the range of E a from 0.035 to 0.02 eV, which is in excellent agreement with the conduction energies found in glassy carbon [73]. The transition from semiconducting to semi-metallic conduction is accompanied by the reduction of the gap between carbon \u03c0 and \u03c0* band states. Carbon essentially controlled the density of states, whereas the SiOC states were of minor importance within regime III (Figure 8). Hence, the same transport mechanism (i.e., as in regime III, Figure 8) was assumed to prevail for all samples above the percolation threshold. In regime I (Figure 8), conduction is considered to occur within the amorphous silica network, as the amount of sp 2 carbon is very low (\u0444C < 1 vol.%) [70,71]. According to Hapert, high concentration of silicon dangling bonds is present within amorphous silica SiOx, showing a VRH transport within localized states [70,71]. A VRH conduction mechanism is also likely for low-carbon SiOC/C materials. \n\nIn regime II (\u0444C = 2-6 vol.%, Figure 8), the sp 2 -hybridized carbon precipitations were still separated by the SiOC matrix but the resulting potential barrier for the transport was lowered (Ea \u2248 0.3 eV) as compared to that of regime I. The low activation energy arose from additional carbon defects states within the band gap presumably overlapping with the silicon dangling bonds states. A very similar activation energy (Ea = 0.3 eV) has been found in carbon-based materials by Dasgupta et al., who investigated hopping transport between graphitic islands separated by a lower conducting sp 3 carbon layer [72].",
+     "snippetKind": "body",
+     "section": "Results and Discussion",
+     "snippetOffset": {
+      "start": 32264,
+      "end": 34328
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 220,
+        "end": 224,
+        "matchedPaperCorpusId": "95261694"
+       },
+       {
+        "start": 625,
+        "end": 629,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1200,
+        "end": 1204,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1204,
+        "end": 1207,
+        "matchedPaperCorpusId": "101856905"
+       },
+       {
+        "start": 1364,
+        "end": 1368,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1368,
+        "end": 1371,
+        "matchedPaperCorpusId": "101856905"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 225
+       },
+       {
+        "start": 228,
+        "end": 630
+       },
+       {
+        "start": 631,
+        "end": 773
+       },
+       {
+        "start": 774,
+        "end": 905
+       },
+       {
+        "start": 906,
+        "end": 1048
+       },
+       {
+        "start": 1049,
+        "end": 1199
+       },
+       {
+        "start": 1200,
+        "end": 1208
+       },
+       {
+        "start": 1209,
+        "end": 1372
+       },
+       {
+        "start": 1373,
+        "end": 1447
+       },
+       {
+        "start": 1450,
+        "end": 1686
+       },
+       {
+        "start": 1687,
+        "end": 1839
+       },
+       {
+        "start": 1840,
+        "end": 2064
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5121604650800764,
+    "paper": {
+     "corpusId": "288672314",
+     "title": "Molecular Dynamics Study of Defect Evolution Mechanisms in 3C-SiC for Quantum Technologies",
+     "authors": [
+      "Irslan Ullah Ashraf",
+      "G. Calogero",
+      "I. Deretzis",
+      "G. Presti",
+      "D. Ricciarelli",
+      "E. Paladino",
+      "A. La Magna"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": null,
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2605.27060, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Comparison of diffusion coefficients () for carbon vacancies and interstitials over their respective optimal temperature ranges. The temperature ranges are chosen based on different diffusion barriers for example, the range of 1600 -2200 K is selected for carbon interstitials (  ) due to the lower diffusion barrier and enhanced diffusion rates. \n\nrange of analysis is presented inTable 2. Our observations indicate that these defects diffuse as independent single species, with respective diffusion coefficients. \n\nTwo key elements should be considered while performing a linear fit into data: \n\n\u2022 fitting should be performed into the linear region of MSD plot; \n\n\u2022 statistics should cover sufficient number of diffusion events. \n\nA correction was imposed as described in section 1.3. The calculated result is presented in the figure 7. D value calculated with MSD plot is 4.01 \u22127  2 \u2215. This analysis was expended over a temperature range of 1600 to 2300 K to obtain comprehensive statistics. The corresponding diffusion coefficients are presented in Table 2. The temperature dependence of the diffusion coefficient for carbon vacancies is presented in the Arrhenius plot shown in Fig. 8. A clear linear relationship between ln() and 1\u2215 is observed, indicating that vacancy migration follows thermally activated diffusion behavior over the investigated temperature range. The linear fit yields an activation energy of approximately 2.23 eV. This value is consistent with the migration barrier obtained from the minimum energy pathway calculations using the NEB method, confirming that vacancy diffusion is governed by activated hopping between neighboring lattice sites. The relatively high activation barrier reflects the strong bonding environment in the SiC lattice, which restricts vacancy mobility and leads to comparatively slow diffusion dynamics. \n\nSimilar calculations of Mean Square Displacement (MSD) were performed for   , and the diffusion coefficient was analyzed using the Einstein formula 1.3. Figure 9 shows the Arrhenius behavior of carbon interstitial diffusion in 3C-SiC. The diffusion coefficients exhibit a linear dependence of ln() on 1\u2215 , indicating that interstitial migration is also governed by a thermally activated hopping mechanism. The extracted activation energy from the linear fit is approximately 0.93 eV, which is significantly lower than that obtained for carbon vacancy diffusion. This difference highlights the much higher mobility of interstitial defects in the SiC lattice.",
+     "snippetKind": "body",
+     "section": "Table 2",
+     "snippetOffset": {
+      "start": 21582,
+      "end": 24098
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 128
+       },
+       {
+        "start": 129,
+        "end": 346
+       },
+       {
+        "start": 349,
+        "end": 514
+       },
+       {
+        "start": 517,
+        "end": 595
+       },
+       {
+        "start": 598,
+        "end": 663
+       },
+       {
+        "start": 666,
+        "end": 730
+       },
+       {
+        "start": 733,
+        "end": 786
+       },
+       {
+        "start": 787,
+        "end": 888
+       },
+       {
+        "start": 889,
+        "end": 994
+       },
+       {
+        "start": 995,
+        "end": 1061
+       },
+       {
+        "start": 1062,
+        "end": 1190
+       },
+       {
+        "start": 1191,
+        "end": 1373
+       },
+       {
+        "start": 1374,
+        "end": 1442
+       },
+       {
+        "start": 1443,
+        "end": 1672
+       },
+       {
+        "start": 1673,
+        "end": 1856
+       },
+       {
+        "start": 1859,
+        "end": 2011
+       },
+       {
+        "start": 2012,
+        "end": 2093
+       },
+       {
+        "start": 2094,
+        "end": 2264
+       },
+       {
+        "start": 2265,
+        "end": 2420
+       },
+       {
+        "start": 2421,
+        "end": 2516
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5084317396104547,
+    "paper": {
+     "corpusId": "94071581",
+     "title": "Volume and dislocation diffusion of iron, chromium and cobalt in CVD \u00df-SiC",
+     "authors": [
+      "K. Takano",
+      "H. Nitta",
+      "H. Seto",
+      "C. G. Lee",
+      "K. Yamada",
+      "Y. Yamazaki",
+      "H. Sato",
+      "S. Takeda",
+      "E. Toya",
+      "E. Iijima"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1016/S1468-6996(01)00015-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S1468-6996(01)00015-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Both the types of b-SiC were made with different conditions of the CVD technique. Specimen size is the same as that used in the present experiments, but the grain size of both the types is about 10 mm in contrast to 300 mm of the green and transparent b-SiC. The penetration pro\u00aeles for diffusion of cobalt at 1273 and 1373 K are shown in Fig. 5. From the linear slope near the surface the diffusion coef\u00aecients are calculated and plotted in Fig. 6   The activation energies for cobalt calculated temporarily from the diffusion coef\u00aecients at high temperatures, 1773 and 1873 K, and from those at low temperatures, 1223 and 1173 K, are 169 and 567 kJ mol 21 , respectively. The activation energy for the high temperature region is near the values for iron and chromium. Then the diffusion of cobalt in the higher temperature region occurs predominantly by an interstitial mechanism, however, in the lower temperature region the mechanism changes gradually to a different one. It is probably a substitutional mechanism, because the activation energy is about three times larger than that in the higher temperature region and it is about one half of the value for the self-diffusion. The diffusion behavior of 3d transition elements in silicon gives us some suggestions on the anomalous diffusion of cobalt as described below. \n\nA considerable progress in the understanding of the properties of the 3d transition elements in silicon has been achieved [3,22,23]. In general, the 3d transition impurities can occupy both substitutional and interstitial sites in silicon. However, they are divided into two categories according to the lattice site occupied by the 3d transition atoms. The 3d transition atoms from titanium to iron predominantly or solely occupy interstitial sites. The diffusivities from titanium to iron apparently depend on the electronic structure of atoms; the larger the atomic number, the larger the diffusion coef\u00aecient [3,23]. These atoms diffuse by an interstitial mechanism. On the other hand, cobalt and nickel atoms predominantly occupy interstitial sites, but only the minor species occupy substitutional sites [23]. Furthermore, only nickel has been reported to diffuse via the dissociative mechanism [24]. Cobalt is probably in the category of nickel [25].",
+     "snippetKind": "body",
+     "section": "Results and discussions",
+     "snippetOffset": {
+      "start": 13793,
+      "end": 16076
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 1449,
+        "end": 1452,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1452,
+        "end": 1455,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1455,
+        "end": 1458,
+        "matchedPaperCorpusId": "97817077"
+       },
+       {
+        "start": 1939,
+        "end": 1942,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1942,
+        "end": 1945,
+        "matchedPaperCorpusId": "97817077"
+       },
+       {
+        "start": 2136,
+        "end": 2140,
+        "matchedPaperCorpusId": "97817077"
+       },
+       {
+        "start": 2227,
+        "end": 2231,
+        "matchedPaperCorpusId": "121764645"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 81
+       },
+       {
+        "start": 82,
+        "end": 258
+       },
+       {
+        "start": 259,
+        "end": 673
+       },
+       {
+        "start": 674,
+        "end": 769
+       },
+       {
+        "start": 770,
+        "end": 975
+       },
+       {
+        "start": 976,
+        "end": 1181
+       },
+       {
+        "start": 1182,
+        "end": 1324
+       },
+       {
+        "start": 1327,
+        "end": 1459
+       },
+       {
+        "start": 1460,
+        "end": 1566
+       },
+       {
+        "start": 1567,
+        "end": 1679
+       },
+       {
+        "start": 1680,
+        "end": 1776
+       },
+       {
+        "start": 1777,
+        "end": 1946
+       },
+       {
+        "start": 1947,
+        "end": 1996
+       },
+       {
+        "start": 1997,
+        "end": 2141
+       },
+       {
+        "start": 2142,
+        "end": 2232
+       },
+       {
+        "start": 2233,
+        "end": 2283
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.49922628147127857,
+    "paper": {
+     "corpusId": "96064302",
+     "title": "Oxygen and Silicon Self-Diffusion in Quartz and Silica: The Contribution of First Principles Calculations",
+     "authors": [
+      "G. Roma",
+      "Y. Limoge",
+      "L. Martin-Samos"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/DDF.258-260.542?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/DDF.258-260.542, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "manner from more or less the equilibrium with oxygen and the equilibrium with silicon [6,7,8,9,33], depending on the thickness of the silica layer. The activations energies then are in the range of 4.5-5.5 eV, with an error of the order of 0.8 eV, given the large scatter of the data. An important point is that in the thickest layers [9], where the tracer diffuses far from the silicon substrate, the diffusivity agrees well with Brebec's result and the activation energy also, taking due account of the lower precision on thin film measurements. The thinner the oxide the higher the diffusivity and the lower the activation energy when going from 5.2 eV [9] to 4.7 eV [7]. The trend for absolute values (but not for activation energies) seems to be contradicted by some of the results presented in [33]; here the same diffusivity was measured for three uncapped samples of varying thickness at T=1250 C.\n\nA sample capped with a silicon nitride film, isolating it from the oxygen atmosphere, shows enhanced diffusivity [8], close to the values observed in the uncapped thinnest films [7]. It is not clear if this effect has to be attributed to the the thickness of the sample or to the capping, especially in comparison to results by [33], where the thickness effect seems to be present also for capped samples.\n\nThese results can be partly understood in the following scheme. In closed conditions the figure of the table 1 show that the silicon self-diffusion mechanism should be the migration of silicon interstitials from anti-Schottky triplets, with an activation energy amounting to 7 eV, whatever the position of the Fermi level, in quite good agreement with Jaoul's figure. The contribution of vacancies can be excluded from the very high migration energy [26].\n\nIn very thin films the activation energy decreases and the diffusivity increases greatly, the chemical potential conditions becoming closer to equilibrium with the silicon substrate, the thinner the film. This lowers the interstitial formation energy down to 4.5 eV, which corresponds to 5.7 eV for the activation energy for",
+     "snippetKind": "body",
+     "section": "Self-Diffusion",
+     "snippetOffset": {
+      "start": 21583,
+      "end": 23678
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 86,
+        "end": 89,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 89,
+        "end": 91,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 91,
+        "end": 93,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 93,
+        "end": 95,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 95,
+        "end": 98,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 335,
+        "end": 338,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 670,
+        "end": 673,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 800,
+        "end": 804,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1020,
+        "end": 1023,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1085,
+        "end": 1088,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1235,
+        "end": 1239,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1764,
+        "end": 1768,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": null
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "solubility of substitutional carbon in silicon Bean Newman exp(-2.3 eV/kT)": {
+  "data": [
+   {
+    "score": 0.4339530156710069,
+    "paper": {
+     "corpusId": "135690556",
+     "title": "Solubility of Carbon in Liquid Silicon Equilibrated with Silicon Carbide",
+     "authors": [
+      "K. Yanaba",
+      "M. Akasaka",
+      "M. Takeuchi",
+      "Masatoshi Watanabe",
+      "T. Narushima",
+      "Y. Iguchi"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.2320/MATERTRANS1989.38.990?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2320/MATERTRANS1989.38.990, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Solubility of Carbon in Liquid Silicon Equilibrated with Silicon Carbide",
+     "snippetKind": "title",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 72
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.3689559558575619,
+    "paper": {
+     "corpusId": "135756641",
+     "title": "The Interactions of Carbon and Nitrogen in Liquid Silicon",
+     "authors": [
+      "H. Dalaker",
+      "M. Tangstad"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1515/htmp-2013-0043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/htmp-2013-0043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Abstract: The interactions between carbon and nitrogen in liquid silicon have been studied experimentally. High purity silicon was melted in silicon nitride crucibles under an Ar atmosphere with a graphite slab inserted in the crucible prior to melting as a carbon source. The system was thus simultaneously equilibrated with Si 3 N 4 and SiC. Samples were extracted in the temperature range 1695-1798 K and analyzed using Leco. \n\nIt was observed that the simultaneous saturation of nitrogen and carbon caused a significant increase in the solubilities of both elements. The interaction parameters were derived as The solubility of carbon in liquid silicon as a function of temperature and nitrogen content was found to follow: \n\n(11731 197) ( , ) (7.37 0.11) exp 177555 10000 95.01 1 ln(10) \n\nAnd the solubility of nitrogen in liquid silicon found to follow: 24376 ( , ) 7957.9 exp 207123 12000 110.83 1.2 ln(10)",
+     "snippetKind": "body",
+     "section": "The Interactions of Carbon and Nitrogen in Liquid Silicon",
+     "snippetOffset": {
+      "start": 60,
+      "end": 973
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 106
+       },
+       {
+        "start": 107,
+        "end": 272
+       },
+       {
+        "start": 273,
+        "end": 343
+       },
+       {
+        "start": 344,
+        "end": 428
+       },
+       {
+        "start": 431,
+        "end": 570
+       },
+       {
+        "start": 571,
+        "end": 727
+       },
+       {
+        "start": 730,
+        "end": 791
+       },
+       {
+        "start": 794,
+        "end": 913
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.3615149717880478,
+    "paper": {
+     "corpusId": "135690556",
+     "title": "Solubility of Carbon in Liquid Silicon Equilibrated with Silicon Carbide",
+     "authors": [
+      "K. Yanaba",
+      "M. Akasaka",
+      "M. Takeuchi",
+      "Masatoshi Watanabe",
+      "T. Narushima",
+      "Y. Iguchi"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.2320/MATERTRANS1989.38.990?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2320/MATERTRANS1989.38.990, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The solubility of carbon in liquid silicon equilibrated with silicon carbide was determined in the temperature range from 1723 to 1873 K. Silicon was melted in a silicon carbide crucible with an Ar-CO mixture gas flowing. Carbon in silicon was analyzed by the combustion-IR absorption method. The temperature dependence of the carbon solubility in liquid silicon can be represented by the following equation: log (C c /mass%) = 3.63 - 9660/T(\u00b10.02) (T : 1723-1873 K) The carbon solubility at the melting point of silicon was calculated to be 79 ppm (9.1 x 10 18 atoms cm -3 ). The level of oxygen impurities in the melt was much lower than that of liquid silicon equilibrated with solid silica. The standard Gibbs free energy change for carbon dissolution in liquid silicon can be represented as: C(s) =C(l mass%, in liquid silicon) \u0394G\u00b0 =7.20 x 10 4 - 11.4T log T+6.20T (J).",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 874
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.34516985843535253,
+    "paper": {
+     "corpusId": "135756641",
+     "title": "The Interactions of Carbon and Nitrogen in Liquid Silicon",
+     "authors": [
+      "H. Dalaker",
+      "M. Tangstad"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1515/htmp-2013-0043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/htmp-2013-0043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Eqs. 3-6 are displayed in Figures 2 and 3 together with the experimental points from the current work. \n\nIt can be seen that the predicted nitrogen solubility is higher at all temperatures for the carbon-saturated case; i.e. Eq. 4 does not correspond well with Eq. 6, meaning that the presence of carbon influences the nitrogen solubility. \n\nThe case for carbon-solubility is not so straightforward, as the two solubility curves can be seen to intersect at approximately 1775 K. This is caused by two data points at 1833 K in the pure Si-C-system predicting a very high solubility [5]. This data Fig. 2: The best fit equations for the solubility of nitrogen in liquid silicon. The dashed curve indicates the solubility limit in the pure Si-N-system [6], while the solid curve and the experimenntal points indicate the solubility in the carbon-saturated Si-C-N-system.",
+     "snippetKind": "body",
+     "section": "Results and discussion",
+     "snippetOffset": {
+      "start": 9275,
+      "end": 10142
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 581,
+        "end": 584,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 749,
+        "end": 752,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 102
+       },
+       {
+        "start": 105,
+        "end": 224
+       },
+       {
+        "start": 225,
+        "end": 339
+       },
+       {
+        "start": 342,
+        "end": 478
+       },
+       {
+        "start": 479,
+        "end": 585
+       },
+       {
+        "start": 586,
+        "end": 676
+       },
+       {
+        "start": 677,
+        "end": 867
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.342708766754929,
+    "paper": {
+     "corpusId": "135737286",
+     "title": "Influence of Substitutional Atoms on the Solubility Limit of Carbon in B.c.c. Iron",
+     "authors": [
+      "H. Saitoh",
+      "K. Ushioda",
+      "N. Yoshinaga"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/MSF.706-709.2348?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/MSF.706-709.2348, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Influence of Substitutional Atoms on the Solubility Limit of Carbon in B.c.c. Iron",
+     "snippetKind": "title",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 82
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.34104864665193035,
+    "paper": {
+     "corpusId": "135756641",
+     "title": "The Interactions of Carbon and Nitrogen in Liquid Silicon",
+     "authors": [
+      "H. Dalaker",
+      "M. Tangstad"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1515/htmp-2013-0043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/htmp-2013-0043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The interactions between carbon and nitrogen in liquid silicon have been studied experimentally. It was observed that the simultaneous saturation of these elements caused a significant increase in the solubilities of both elements. The interaction parameters were derived as The solubility of carbon in liquid silicon as a function of temperature and nitrogen content was found to follow: \n\n(11731 197) ( , ) (7.37 0.11) exp 177555 10000 95.01 1 ln(10) \n\nand the solubility of nitrogen in liquid silicon found to follow: \n\n( , ) 7957.9 exp 24376/ 207123 12000 110.83 1.2 ln(10) \n\nLinear approximations to the solubility levels during simultaneous saturation were derived as",
+     "snippetKind": "body",
+     "section": "Conclusions",
+     "snippetOffset": {
+      "start": 15373,
+      "end": 16046
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 96
+       },
+       {
+        "start": 97,
+        "end": 231
+       },
+       {
+        "start": 232,
+        "end": 388
+       },
+       {
+        "start": 391,
+        "end": 452
+       },
+       {
+        "start": 455,
+        "end": 520
+       },
+       {
+        "start": 523,
+        "end": 577
+       },
+       {
+        "start": 580,
+        "end": 673
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.3348865809867055,
+    "paper": {
+     "corpusId": "135756641",
+     "title": "The Interactions of Carbon and Nitrogen in Liquid Silicon",
+     "authors": [
+      "H. Dalaker",
+      "M. Tangstad"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1515/htmp-2013-0043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/htmp-2013-0043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The best fit equations for the solubility of carbon in liquid silicon. The dashed curve indicates the solubility limit in the pure Si-C-system [5], while the solid curve and experimental points indicates the solubility in the nitrogen-saturated Si-C-N-system. point lies well outside the temperature range of the experiments performed during nitrogen-saturation, and the inclusion of this data point in the comparison of the two data sets is thus debatable. For this reason, a new exponential expression was fitted to the data obtained from the pure Si-C system in the temperature range between 1687 K-1793 K. The resulting equation was: \n\n( ) (7.37 0.11) exp( 11731 197/ ) \n\nThis equation is plotted in Figure 4 together with the original data points from the pure Si-C-system and the curve describing Eq. 5. From this figure it is seen that the solubility curve for the pure Si-C-system lies well below the curve for the nitrogen-saturated system, which is analogous to the case for nitrogen solubility under carbon saturation. \n\nEven when including values only below 1793 K, the scatter in the experimental data points detracts from the clear impression that the carbon solubility increases in the presence of nitrogen. This is mainly caused by the inhomogeneous distribution of carbon in the samples. However, as the interaction coefficients are tied together by the relation \n\nthe clear picture for the case of nitrogen solubility confirms the trend observed for carbon solubility. It is therefore evident that the solubilities of both carbon and nitrogen increase during simultaneous saturation, meaning that the interaction coefficients C N e and N C e are both negative. \n\nSince the Si(l), SiC(s) and Si 3 N 4 (s) phases are all virtually pure, the equilibrium constants of Eqs. 1 and 2 can be approximated as: \n\n(1/4) log( ) log( ) log( ) \n\nwhere f C and f N are the activity coefficients of carbon and nitrogen with Henrian standard sates. In terms of interaction parameters: \n\nwhere higher order terms have been ignored, and it is assumed that no other impurities are present to influence f C and f N .",
+     "snippetKind": "body",
+     "section": "Fig. 3:",
+     "snippetOffset": {
+      "start": 10154,
+      "end": 12267
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 143,
+        "end": 146,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 70
+       },
+       {
+        "start": 71,
+        "end": 259
+       },
+       {
+        "start": 260,
+        "end": 457
+       },
+       {
+        "start": 458,
+        "end": 609
+       },
+       {
+        "start": 610,
+        "end": 637
+       },
+       {
+        "start": 640,
+        "end": 673
+       },
+       {
+        "start": 676,
+        "end": 1029
+       },
+       {
+        "start": 1032,
+        "end": 1222
+       },
+       {
+        "start": 1223,
+        "end": 1304
+       },
+       {
+        "start": 1305,
+        "end": 1379
+       },
+       {
+        "start": 1382,
+        "end": 1486
+       },
+       {
+        "start": 1487,
+        "end": 1678
+       },
+       {
+        "start": 1681,
+        "end": 1818
+       },
+       {
+        "start": 1821,
+        "end": 1847
+       },
+       {
+        "start": 1850,
+        "end": 1949
+       },
+       {
+        "start": 1950,
+        "end": 1985
+       },
+       {
+        "start": 1988,
+        "end": 2113
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.33228562479993806,
+    "paper": {
+     "corpusId": "281752678",
+     "title": "Solubility Modeling of Sabah Green Robusta Coffee (Coffea canephora) Bean Oil Extracted Using Supercritical Carbon Dioxide",
+     "authors": [
+      "Sarah Aisyah Khurun Hizar",
+      "H. Mamat",
+      "W. Pindi",
+      "N. Julmohammad",
+      "Siti Faridah Mohd Amin",
+      "M. A. Awang",
+      "J. Roslan",
+      "M. A. Ahmad Zaini",
+      "N. Putra",
+      "A. Jaziri",
+      "N. Ishak",
+      "A. H. Abdul Aziz"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3390/sci7040139?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/sci7040139, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "This study investigates the solubility correlation of oil extracted from Sabah green Robusta coffee (Coffea canephora) beans through supercritical carbon dioxide (SC-CO2) extraction. Sabah, recognized as the largest coffee-producing region in Malaysia, serves as a significant source of Robusta beans for this research. The solubility of coffee bean oil was evaluated under varying pressures (10\u201330 MPa) and temperatures (40\u201380 \u00b0C). The maximum solubility, 2.681 mg/g CO2, was recorded at 30 MPa and 40 \u00b0C, whereas the lowest solubility, approximately 0.440 mg/g CO2, occurred at 20 MPa and 80 \u00b0C. A clear inverse relationship between solubility and temperature was observed, with solubility decreasing as temperature increased to 80 \u00b0C. Conversely, elevated pressure, particularly at 30 MPa, enhanced solubility due to the increased density and solvent power of SC-CO2. Experimental data exhibited strong agreement with Chrastil\u2019s equation, yielding a relatively low percentage error of 3.37%, compared with 14.57% for the del Valle-Aguilera model. These findings demonstrate the reliability of Chrastil\u2019s model in predicting the solubility of Sabah green coffee bean oil in SC-CO2. Overall, the research highlights the potential of SC-CO2 extraction as a sustainable, solvent-free approach for obtaining high-quality coffee oil extracts, with promising applications in the food industry and possible extension to the recovery of other bioactive compounds in food processing.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 1476
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "interfacial energy between SiC precipitates and silicon matrix J/m2": {
+  "data": [
+   {
+    "score": 0.5513968915635381,
+    "paper": {
+     "corpusId": "15812882",
+     "title": "Infrared birefringence imaging of residual stress and bulk defects in multicrystalline silicon",
+     "authors": [
+      "V. Ganapati",
+      "S. Schoenfelder",
+      "S. Castellanos",
+      "S. Oener",
+      "R. Koepge",
+      "Aaron Sampson",
+      "M. Marcus",
+      "B. Lai",
+      "Humphrey Morhenn",
+      "G. Hahn",
+      "Joerg Bagdahn",
+      "T. Buonassisi"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1109/PVSC.2010.5614228?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/PVSC.2010.5614228, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "][71] Using infrared transmission microscopy with a 5\u03eb objective, we detected several \u2424-SiC particles in a 1 mm thick vertical slice extracted from the upper region of an mc-Si ingot. Infrared microscope and IBI measurements of a \u2424-SiC/ \u2424-Si 3 N 4 microdefect cluster are shown in Fig. 4. A false-color diagram \u0353Fig. 4\u0351b\u0352\u0354 is provided to distinguish \u2424-SiC and \u2424-Si 3 N 4 microdefects, based on the authors' ex- perience of a previous investigation. 70 BI measurements \u0353Fig. 4\u0351c\u0352\u0354 indicate a radially decaying stress surrounding each \u2424-SiC particle. The stress direction \u0353Fig. 4\u0351d\u0352\u0354 indicates that the first principal stress component 1 is oriented normal to the \u2424-SiC/ Si interface. In comparison, very little stress is evident in the immediate vicinity of \u2424-Si 3 N 4 rods. \n\nThese observations can be explained by considering the origins and material properties of the embedded particles. Because of the complex structure 69 of \u2424-SiC microdefects, their presence in \"rashes,\" 70 and kinetic limitations for carbon point defect transport in solid silicon, 73 it is believed that these particles form in the melt and are incorporated into the solid ingot at instabilities in the advancing solidification front. 69,73,74 As the ingot cools from 1414 \u00b0C to room temperature, the mismatch between the coefficients of thermal expansion \u0351CTE\u0352 of the \u2424-SiC, \u2424-Si 3 N 4 , and silicon matrix results in stress surrounding these microdefects. \n\nThe relationship between interfacial stress and observed birefringence can be understood as follows: for a spherical \u2424-SiC inclusion in an infinite Si matrix, the stress magnitude at the Si interface is independent of particle size, depending only on the CTE mismatch and elastic moduli. The radial extent of the stress field is observed to be on the order of the particle size. Since the birefringence measured by IBI at an inclusion is a projection of a three-dimensional \u03513D\u0352 stress field, as illustrated in Fig. 5\u0351a\u0352, the birefringence is expected to vary linearly with particle size, when the sample thickness is much larger than the particle diameter.",
+     "snippetKind": "body",
+     "section": "A. SiC and Si 3 N 4 Microdefects",
+     "snippetOffset": {
+      "start": 15881,
+      "end": 17973
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 1,
+        "end": 5,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 449,
+        "end": 451,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 977,
+        "end": 979,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1056,
+        "end": 1058,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1210,
+        "end": 1213,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1213,
+        "end": 1216,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1216,
+        "end": 1218,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 183
+       },
+       {
+        "start": 184,
+        "end": 316
+       },
+       {
+        "start": 317,
+        "end": 451
+       },
+       {
+        "start": 452,
+        "end": 473
+       },
+       {
+        "start": 474,
+        "end": 548
+       },
+       {
+        "start": 549,
+        "end": 575
+       },
+       {
+        "start": 576,
+        "end": 682
+       },
+       {
+        "start": 683,
+        "end": 773
+       },
+       {
+        "start": 776,
+        "end": 889
+       },
+       {
+        "start": 890,
+        "end": 1218
+       },
+       {
+        "start": 1219,
+        "end": 1432
+       },
+       {
+        "start": 1435,
+        "end": 1722
+       },
+       {
+        "start": 1723,
+        "end": 1813
+       },
+       {
+        "start": 1814,
+        "end": 2092
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.54319211881933,
+    "paper": {
+     "corpusId": "139590456",
+     "title": "Mechanisms of epitaxial growth of SiC films by the method of atom substitution on the surfaces (100) and (111) of Si single crystals and on surfaces of Si films grown on single crystals Al2O3",
+     "authors": [
+      "S. Kukushkin",
+      "A. Osipov"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1757-899X/387/1/012044?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1757-899X/387/1/012044, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The energy W (cos((x,y, z)) can take both positive and negative values depending on the direction of the face; approximately it equals zero for the direction W ([111]) \u2248 0 eV at the arrangement of elastic dipoles along the direction [111] and is maximal at the arrangement of dipoles along the direction complex in silicon, the rate of chemical reaction of SiC formation is determined, on average, N d \u2248 1,6 \u2022 10 28 m \u22123 ; Y SiC = \u03bc Si K SiC \u03b5 2 2(K SiC + \u03bc Si ) \u2044 ; \u03bc Si = 0,52 \u22c5 10 11 N/m 2 is a shift module of Si; K SiC =2,5\u22c510 11 N/m 2 is the compression module of SiC; \u03b5 is the strain in the surface layer of the substrate that occurs due to the difference in distance between the atoms in Si and SiC along the planes (111), \u03b5 \u2248 0,2; since K SiC \u226b \u03bc Si , then Y SiC \u2248 \u03bc Si \u03b5 2 2 \u2044 ;, a is the interatomic distance in silicon matrix; \u0413 1 describes the change of the total surface energy of the upper and lower faces of the disc-shaped SiC embryo and the pore in the conversion of Si in SiC [8]; \u0413 2 is the total surface energy of the side faces of the embryo and of etching pit, bordering the shrinkage pore; \u0413 3 is the total surface energy of the lateral surfaces of the embryo of SiC and of the pore in the Si; \u0393 1 '' is the total surface energy of the embryo of SiC and of the pore on the vicinal crystal face; \u0393 2 ' is the total surface energy of the embryo and of the etching pit, formed on vicinal faces; specific estimates of values \u0413 1 , \u0413 2 , \u0393 1 \" and \u0393 2 ' can be found in [3]; D cr and D cr,V are pre-exponential kinetic coefficients calculated in [3]. From the formulas (1) and ( 2) it follows that the nucleation of SiC can occur only if \u03b6>\u039b(cos(\u03c6 (x, y, z)) or, what is the same, the pressure of CO must satisfy the condition ( 4)",
+     "snippetKind": "body",
+     "section": "Structural and morphological features of formation of SiC films on singular surfaces Si (111) and Si (100)",
+     "snippetOffset": {
+      "start": 4436,
+      "end": 6186
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 233,
+        "end": 238,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1489,
+        "end": 1492,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1565,
+        "end": 1568,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 1569
+       },
+       {
+        "start": 1570,
+        "end": 1750
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.539381345041724,
+    "paper": {
+     "corpusId": "258669396",
+     "title": "Shear behavior of SiCf/SiC interface under the thermo-chemo-mechanical influence and machine-learning-based interfacial microstructure design",
+     "authors": [
+      "Shao-Hua Chen",
+      "Nuo Xu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNCND",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1361-651X/acd4d5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1361-651X/acd4d5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "For the coated interface models, we will only show the simulation results of SiC f /PyC/SiC interface. (The results of SiC f /h-BN/SiC interface can be found in the supplementary materials.) Figure 6 shows the MD results of \u03f5 \u2212 \u03c4 curves for the SiC f /PyC/SiC interface. Compared to the bare SiC f /SiC interface, the interfacial properties are appreciably altered by the insertion of the PyC interphase. The first difference is that, when \u03b1 = 0.0, the first linear phase corresponding to the elastic shear deformation is hardly detectable due to the extremely small resistance to interlayer sliding within the layer-structured PyC interphase. Another difference is that, when \u03b1 is large, some \u03f5 \u2212 \u03c4 curves do not exhibit the second linear phase corresponding to the interfacial sliding. Since all the MD simulations of the interfacial shear process terminate at the same deformation criterion, the interfacial debonding thresholds of the cases that only demonstrate the first linear stage have exceeded this termination criterion. Naturally, the debonding thresholds of these cases are larger than those whose both linear stages can be observed within the termination criterion. Comparing the simulation results of the SiC f /SiC interface and the SiC f /PyC/SiC interface, the introduction of the PyC interphase can significantly elevate the threshold of interfacial debonding. \u2022 A, the equilibrium length of sp 3 hybridized C-C bond. As we can see, an appreciable number of C-C bonds are formed among the layers of the PyC interphase, as well as between the PyC interphase and the fiber or the matrix. In figure 7(c) the number of Si-C bonds formed between fiber and matrix is counted to be 131, while in figure 7(d) the average number of C-C bonds formed between the PyC and the fiber or the matrix is approximately 1200. Although the bonding energy of Si-C is slightly higher than that of C-C, such a big difference in bond density renders the SiC f /PyC/SiC interface much stronger than the SiC f /SiC interface.",
+     "snippetKind": "body",
+     "section": "The shear behavior of SiC f /PyC/SiC interface",
+     "snippetOffset": {
+      "start": 22987,
+      "end": 25005
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 102
+       },
+       {
+        "start": 103,
+        "end": 190
+       },
+       {
+        "start": 191,
+        "end": 270
+       },
+       {
+        "start": 271,
+        "end": 404
+       },
+       {
+        "start": 405,
+        "end": 643
+       },
+       {
+        "start": 644,
+        "end": 787
+       },
+       {
+        "start": 788,
+        "end": 1031
+       },
+       {
+        "start": 1032,
+        "end": 1179
+       },
+       {
+        "start": 1180,
+        "end": 1379
+       },
+       {
+        "start": 1380,
+        "end": 1436
+       },
+       {
+        "start": 1437,
+        "end": 1604
+       },
+       {
+        "start": 1605,
+        "end": 1825
+       },
+       {
+        "start": 1826,
+        "end": 2018
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5311672332630509,
+    "paper": {
+     "corpusId": "216183124",
+     "title": "HRTEM study of interfacial structure in SiCp/A390 composites",
+     "authors": [
+      "Zhen Wang",
+      "Ai-Qin Wang",
+      "Hui-Hui Han",
+      "J. Xie"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2053-1591/ab871d?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2053-1591/ab871d, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In this research, HRTEM image of interface between silicon phase and Al matrix in the composite is shown in figure 4 Si phase is cubic structure of polycrystalline diamond-like, which has close-packed {220} plane and the close-packed \u2329100\u232a direction, as well as the lattice constant of a\uf0a0=\uf0a0b\uf0a0=\uf0a0c\uf0a0=\uf0a0 0.543 nm. Al is face-centered cubic structure, which possesses close-packed {111} plane and the close-packed \u2329011\u232a direction, as well as the lattice constant of a\uf0a0=\uf0a0b\uf0a0=\uf0a0c\uf0a0=\uf0a00.405 nm. In the process of silicon particles precipitation from the composite, it is possible for Si particles within the matrix to adjust itself with the lowest energy, and then forming a certain crystallographic orientation relationship between Al matrix and Si particles [17]. As can be seen from figures 6(b)-(c), it can be clearly observed that the lattice plane (400) of Si particles is parallel to the the lattice plane (111) of the Al matrix, which further demonstrates the crystallographic orientation relationship between Si phase and Al matrix under this experimental conditions. As can be seen from  figure 6(d), the interplanar spacing of the matrix Al on lattice plane (111) is 0.234 nm, while the twice interplanar spacing of the Si phase on lattice plane (400) is 0.275 nm. Thus, the interplanar spacing of the matrix Al on lattice plane (111) is close to the twice interplanar spacing of the Si phase on lattice plane (400). According to the formula of mismatch degree, the lattice mismatch degree between them is 0.149, which also indicates the semicoherent interface between silicon particles and Al matrix. Such interfacial structure which is beneficial for plastic and corrosion of the composite inhibits the formation and extension of microcracks in the composites. To some extent, it overcomes some inherent disadvantages of the SiCp/A390 composite [18]. (3) The interplanar spacing of the matrix Al on lattice plane (111) is close to the twice interplanar spacing of the Si phase on lattice plane (400).",
+     "snippetKind": "body",
+     "section": "Interfacial microstructure between Si and Al matrix",
+     "snippetOffset": {
+      "start": 8594,
+      "end": 10594
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 747,
+        "end": 751,
+        "matchedPaperCorpusId": "135655785"
+       },
+       {
+        "start": 1845,
+        "end": 1849,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 308
+       },
+       {
+        "start": 309,
+        "end": 477
+       },
+       {
+        "start": 478,
+        "end": 481
+       },
+       {
+        "start": 482,
+        "end": 752
+       },
+       {
+        "start": 753,
+        "end": 1063
+       },
+       {
+        "start": 1064,
+        "end": 1262
+       },
+       {
+        "start": 1263,
+        "end": 1414
+       },
+       {
+        "start": 1415,
+        "end": 1599
+       },
+       {
+        "start": 1600,
+        "end": 1760
+       },
+       {
+        "start": 1761,
+        "end": 1850
+       },
+       {
+        "start": 1851,
+        "end": 2000
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5290888968976174,
+    "paper": {
+     "corpusId": "258669396",
+     "title": "Shear behavior of SiCf/SiC interface under the thermo-chemo-mechanical influence and machine-learning-based interfacial microstructure design",
+     "authors": [
+      "Shao-Hua Chen",
+      "Nuo Xu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNCND",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1361-651X/acd4d5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1361-651X/acd4d5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Figure 4 shows the dependence of G, \u00b5, \u03f5 d and \u03c4 d on T and \u03b1. As we can see, the maximum of G is observed when \u03b1 is small while T is high; the maximum of \u00b5 occurs when \u03b1 is large while T is low; the maximum of \u03f5 d is also identified at large \u03b1 and small T; the \u03c4 d , interestingly, shows two local maxima, one occurs at large \u03b1 and small T while the other occurs at small \u03b1 and large T. The fundamental mechanisms of the dependences of G, \u00b5, \u03f5 d and \u03c4 d on \u03b1 and T can be attributed to the coupled effect of the interfacial chemical bonding and mechanical interlocking. \n\nThe maximization of G at small \u03b1 and large T is mainly due to the abundant interfacial chemical bonding under this condition. Since the equilibrium distance between neighboring Si and C atoms is \n\n4 a with a = 4.36 \n\nA which is the size of the unit cell of 3C-SiC, the chemical bond will form between Si and C atoms when they are closer than 1.9 \n\n\u2022 A. The prerequisites for the formation of chemical bonds are the well-coordinated atomic configuration and the sufficiently high energy to overcome the bond formation barrier. By comparing figures 5(a)-(d), we can see that the non-roughened interface (\u03b1 = 0.0) provides the ideal atomic coordination and the high temperature (T = 1800 K) enables sufficiently vigorous atomic activity to overcome the energy barrier of chemical bond formation. Therefore, the densest interfacial chemical bonds can be achieved when \u03b1 = 0.0 and T = 1800 K, which results in the maximum G. The maximization of \u00b5 or \u03f5 d on \u03b1 and T is straightforward. Since larger interfacial roughness results in a greater challenge for relative sliding, so \u00b5 or \u03f5 d monotonically increases with \u03b1. As to the dependence on T, figures 5(e) and (f) compares the SiC matrix's surface morphologies when \u03b1 = 0.5, T = 300 K, and \u03b1 = 0.5, T = 1800 K, respectively. Clearly, given the same level of interfacial roughness, the surface morphology at the higher temperature is much smoother than that at the lower temperature.",
+     "snippetKind": "body",
+     "section": "The shear behavior of bare SiC f /SiC interface",
+     "snippetOffset": {
+      "start": 20118,
+      "end": 22119
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 62
+       },
+       {
+        "start": 63,
+        "end": 570
+       },
+       {
+        "start": 573,
+        "end": 698
+       },
+       {
+        "start": 699,
+        "end": 767
+       },
+       {
+        "start": 770,
+        "end": 787
+       },
+       {
+        "start": 790,
+        "end": 918
+       },
+       {
+        "start": 921,
+        "end": 1098
+       },
+       {
+        "start": 1099,
+        "end": 1365
+       },
+       {
+        "start": 1366,
+        "end": 1492
+       },
+       {
+        "start": 1493,
+        "end": 1552
+       },
+       {
+        "start": 1553,
+        "end": 1684
+       },
+       {
+        "start": 1685,
+        "end": 1843
+       },
+       {
+        "start": 1844,
+        "end": 2001
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5280776351049118,
+    "paper": {
+     "corpusId": "212685592",
+     "title": "Factors influencing creep resistance in discontinuously reinforced magnesium metal matrix composites",
+     "authors": [
+      "V. Skleni\u010dka",
+      "K. Kucha\u0159ov\u00e1",
+      "M. Kvapilova",
+      "M. Svoboda"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4149/km_2015_4_221?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4149/km_2015_4_221, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The enhanced precipitation of Nd-rich phases at the SiC/matrix interface in the QE22 + 15 vol.%SiC composite after T6 heat treatment and during creep can affect detrimentally the creep behaviour in two possible ways. First, matrix depletion due to interfacial precipitation in the composite can produce precipitate inhomogeneity and deficiency in the matrix precipitate structure, leading to the composite weakening. Second, Moll et al. [20] and Skleni\u010dka et al. [10]  have proposed that the poor creep resistance of the QE22 + 15 vol.%SiC composite may be explained by taking into account interfacial sliding as an additional creep mechanism acting in the composite. As a consequence of interfacial sliding, many cavities can occur at interfaces, giving rise to the formation of microscopic cracks and the debonding of matrix/SiC interfaces. It is generally accepted that intergranular creep cavities are nucleated at the particles due to high local stress concentration caused by grain boundary sliding (Skleni\u010dka [21]). In a similar way, the necessary stress conditions can be developed on interfacial particles due to the interaction of interfacial sliding and interfacial precipitates. In conclusion, an intensive debonding of matrix/SiC interfaces may explain the inferior creep resistance of the QE22 + 15 vol.%SiC composite.",
+     "snippetKind": "body",
+     "section": "Particle-reinforced composites fabricated by powder metallurgy",
+     "snippetOffset": {
+      "start": 14790,
+      "end": 16122
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 437,
+        "end": 441,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 463,
+        "end": 467,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1016,
+        "end": 1020,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 216
+       },
+       {
+        "start": 217,
+        "end": 416
+       },
+       {
+        "start": 417,
+        "end": 667
+       },
+       {
+        "start": 668,
+        "end": 842
+       },
+       {
+        "start": 843,
+        "end": 1022
+       },
+       {
+        "start": 1023,
+        "end": 1190
+       },
+       {
+        "start": 1191,
+        "end": 1332
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5275190267296221,
+    "paper": {
+     "corpusId": "231840105",
+     "title": "Effects of Transition Element Additions on the Interfacial Interaction and Electronic Structure of Al(111)/6H-SiC(0001) Interface: A First-Principles Study",
+     "authors": [
+      "Chang-Qing Wang",
+      "Weiguang Chen",
+      "J. Xie"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7866534, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The atomic and electronic structures of Al(111)/6H-SiC(0001) interface have been given in detail in our previous studies [22,23]. In order to compare with the results of the following doping interfaces, we further studied the interfacial charge transfer. Figure 2 shows the charge density difference of the Al(111)/6H-SiC(0001) interfaces. The charge density difference is defined as \n\nwhere \u03c1 Al(111)/SiC(0001) , \u03c1 Al(111) and \u03c1 SiC(0001) are the charge density of the Al(111)/SiC(0001) interface system, the isolated Al(111) and SiC(0001) slabs, respectively. According to this definition, a positive value represents charge enrichment and a negative value represents charge dissipation. It can be seen from the Figure 2a,b that the atomic charges at the interface were rearranged regardless of Si-or C-terminated interface. Charge transfer occurred between Al matrix and SiC. Some charges from Al matrix and SiC accumulated at the interface. At the C-terminated interface, a covalent bond was formed between C and Al atoms. In the same way, covalent bonds were formed between Si and Al atoms at the Si-terminated interface. Moreover, the length of C-Al bond was about 1.99 \u00c5, which was much smaller than that of Si-Al bond about 2.53 \u00c5. The shorter the bond length is, the greater the binding energy was, and there should be more charge transfer. The adhesion energy of C-terminated interface was about 3.90 J/m 2 , which was indeed larger than that of Si-terminated interface, 2.93 J/m 2 . The interfacial adhesion energy was defined as the energy required to form the interface per unit area. It is expressed by the formula: \n\nwhere E Al(111) , E SiC(0001) and E Al(111)/SiC(0001) represent the energy of the Al(111) slab, the SiC(0001) slab and the Al(111)/6H-SiC(0001) interface, respectively. A is the area of the interface. Detailed analysis of atomic charges may help to understand bonding properties such as bond strength.",
+     "snippetKind": "body",
+     "section": "Pristine Interfaces",
+     "snippetOffset": {
+      "start": 6624,
+      "end": 8557
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 121,
+        "end": 125,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 125,
+        "end": 128,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 129
+       },
+       {
+        "start": 130,
+        "end": 254
+       },
+       {
+        "start": 255,
+        "end": 339
+       },
+       {
+        "start": 340,
+        "end": 383
+       },
+       {
+        "start": 386,
+        "end": 561
+       },
+       {
+        "start": 562,
+        "end": 689
+       },
+       {
+        "start": 690,
+        "end": 826
+       },
+       {
+        "start": 827,
+        "end": 878
+       },
+       {
+        "start": 879,
+        "end": 944
+       },
+       {
+        "start": 945,
+        "end": 1026
+       },
+       {
+        "start": 1027,
+        "end": 1126
+       },
+       {
+        "start": 1127,
+        "end": 1239
+       },
+       {
+        "start": 1240,
+        "end": 1349
+       },
+       {
+        "start": 1350,
+        "end": 1493
+       },
+       {
+        "start": 1494,
+        "end": 1597
+       },
+       {
+        "start": 1598,
+        "end": 1629
+       },
+       {
+        "start": 1632,
+        "end": 1800
+       },
+       {
+        "start": 1801,
+        "end": 1832
+       },
+       {
+        "start": 1833,
+        "end": 1933
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5255817656223332,
+    "paper": {
+     "corpusId": "259271501",
+     "title": "Nano-Phase and SiC\u2013Si Spherical Microstructure in SiC/Al-50Si Composites Solidified under High Pressure",
+     "authors": [
+      "Rongbo Zhang",
+      "Chun Zou",
+      "Zun-Jie Wei",
+      "Hong-Wei Wang",
+      "Chuang Liu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10304691, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Figure 9 shows the microstructure of the aged SiC/Al-50Si composite prepared at 3 GPa. Through aging treatment, a large number of dispersed nanoscale Si phases are precipitated in the \u03b1-Al supersaturated solid solution, as shown in Figure 9a. As shown in the dashed box in Figure 9d, the boundary of the Si precipitated phase is approximately circular, and it can be presumed that the nucleation shape of the Si precipitated phase is approximately spherical. As shown in Figure 9e, the diffraction spot obtained by the fast Fourier transform consists of the Al matrix, the Si phase, and the double diffraction. The orientation of diamond-cubic-structured Si phases (blue dashed lines) is identical to that of the face-centered cubic-structured Al matrix (yellow solid lines). A semi-coherent interface is formed between the \u03b1-Al matrix and the nanoscale Si precipitates. \n\nsmall, and the fracture surface energy is small, resulting in low bending strength and elongation of the alloy. The SiC-Si spherical microstructure in SiC/Al-50Si composites changes the primary Si from an overall brittle fracture to a multi-regional brittle fracture, which increases the crack propagation resistance and length, resulting in an increase in the fracture surface energy and thus an increase in the strength and elongation of the composite, as shown by the dashed lines A and B in Figure 8b. The bonding state between SiC particles and primary Si is fine, which can change the direction of crack propagation. Figure 9 shows the microstructure of the aged SiC/Al-50Si composite prepared at 3 GPa. Through aging treatment, a large number of dispersed nanoscale Si phases are precipitated in the \u03b1-Al supersaturated solid solution, as shown in Figure 9a. As shown in the dashed box in Figure 9d, the boundary of the Si precipitated phase is approximately circular, and it can be presumed that the nucleation shape of the Si precipitated phase is approximately spherical. As shown in Figure 9e, the diffraction spot obtained by the fast Fourier transform consists of the Al matrix, the Si phase, and the double diffraction.",
+     "snippetKind": "body",
+     "section": "Mechanical Properties",
+     "snippetOffset": {
+      "start": 25577,
+      "end": 27683
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 86
+       },
+       {
+        "start": 87,
+        "end": 242
+       },
+       {
+        "start": 243,
+        "end": 458
+       },
+       {
+        "start": 459,
+        "end": 610
+       },
+       {
+        "start": 611,
+        "end": 775
+       },
+       {
+        "start": 776,
+        "end": 870
+       },
+       {
+        "start": 873,
+        "end": 984
+       },
+       {
+        "start": 985,
+        "end": 1378
+       },
+       {
+        "start": 1379,
+        "end": 1495
+       },
+       {
+        "start": 1496,
+        "end": 1582
+       },
+       {
+        "start": 1583,
+        "end": 1738
+       },
+       {
+        "start": 1739,
+        "end": 1954
+       },
+       {
+        "start": 1955,
+        "end": 2106
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "carbon diffusion in Si1-xGex germanium content retarded": {
+  "data": [
+   {
+    "score": 0.6106917568382414,
+    "paper": {
+     "corpusId": "96742609",
+     "title": "Impact of Carbon on the Diffusion of Donor Atoms in Germanium",
+     "authors": [
+      "H. Bracht",
+      "S. Brotzmann",
+      "A. Chroneos"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/DDF.289-292.689?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/DDF.289-292.689, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Impact of Carbon on the Diffusion of Donor Atoms in Germanium",
+     "snippetKind": "title",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 61
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5780303941558208,
+    "paper": {
+     "corpusId": "271719816",
+     "title": "Ultra-thin strain-relieving Si$_{1-x}$Ge$_x$ layers enabling III-V epitaxy on Si",
+     "authors": [
+      "Trevor R. Smith",
+      "Spencer McDermott",
+      "Vatsalkumar Patel",
+      "Ross Anthony",
+      "M. Hedge",
+      "A. Knights",
+      "R. B. Lewis"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": null,
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2408.03253, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The correspondence of concentration oscillations in the Si1-xGex film with the network of interface dislocations is indicative of a defect-mediated diffusion process occurring during the Si1-xGex SPE process. A schematic of this defect-mediated diffusion is shown in Figure 3f. During the SPE process, Si diffuses up toward the oxide, replacing Ge at the oxide interface. In turn, Ge diffuses downward as the Si1-xGex layer propagates into the Si substrate. The supply of Si to the oxide is maintained throughout the oxidation by the Si substrate, which diffuses upward through the Si1-xGex layer to the oxide interface. As the oxide thickness increases during annealing, the Si1-xGex layer moves downward. The Si-Ge exchange from diffusion at the oxidelayer interface and layer-substrate interface allows for the Si1-xGex to persist as it diffuses deeper. The results presented in Figures 2 and 3 indicate that in the vicinity of the dislocations, there is a relative tensile strain in the layer and a reduction in the local Ge concentration. During the oxidation of the implanted substrate, Si atoms diffuse up from the substrate through the Ge-rich layer to be oxidized. The lack of oxygen below the Si1-xGex layer indicate that it is Si that diffuses up through the layer, and O does not cross the layer. The coincidence bottom of the Si1-xGex arches with the dislocations indicates that diffusion happens most rapidly in the vicinity of the dislocations, as the Ge interface is deeper into the substrate in these locations. This effect results in the arch shape of the Si1-xGex layer. This novel high temperature process facilitates the relaxation of misfit strain with extremely high efficacy. Making the direct growth of III-V lasers on Si a reality will take new scientific innovations. We have demonstrated a new approach for the growth of GaAs and related III-V technologies on the Si platform via a sub-10-nm-thick strain-relaxed Si1-xGex buffer layer, fabricated by an unusual oxidative solid-phase epitaxy process.",
+     "snippetKind": "body",
+     "section": "b) cross-sectional HAADF-STEM image of sample A. c-d) Sample A EDS maps of Ge, and As and Si, respectively. e) Cross-sectional HAADF-STEM image of sample B. f-g) Sample B EDS maps of Ge, and Si and As, respectively. In the EDS maps, Ge, As and Si are shown as yellow, blue and magenta, respectively. Scale bars correspond to 20 nm.",
+     "snippetOffset": {
+      "start": 9640,
+      "end": 11667
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 208
+       },
+       {
+        "start": 209,
+        "end": 277
+       },
+       {
+        "start": 278,
+        "end": 371
+       },
+       {
+        "start": 372,
+        "end": 457
+       },
+       {
+        "start": 458,
+        "end": 620
+       },
+       {
+        "start": 621,
+        "end": 706
+       },
+       {
+        "start": 707,
+        "end": 856
+       },
+       {
+        "start": 857,
+        "end": 1043
+       },
+       {
+        "start": 1044,
+        "end": 1173
+       },
+       {
+        "start": 1174,
+        "end": 1308
+       },
+       {
+        "start": 1309,
+        "end": 1528
+       },
+       {
+        "start": 1529,
+        "end": 1589
+       },
+       {
+        "start": 1590,
+        "end": 1699
+       },
+       {
+        "start": 1700,
+        "end": 1794
+       },
+       {
+        "start": 1795,
+        "end": 2027
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5557341302724224,
+    "paper": {
+     "corpusId": "137106354",
+     "title": "Local Vibrations of Substitutional Carbon in SiGe Alloys",
+     "authors": [
+      "L. Khirunenko",
+      "Yu.v Pomozov",
+      "M. Sosnin",
+      "V. Torres",
+      "J. Coutinho",
+      "R. Jones",
+      "N. Abrosimov",
+      "H. Riemann",
+      "P. Briddon"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/MSF.514-516.364?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/MSF.514-516.364, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The influence of Ge content on the local vibrational mode of substitutional carbon in Si-rich Si1-xGex single crystals has been investigated by infrared Fourier-transform spectroscopy and ab initio modeling methods. Czochralski-grown Si1-xGex samples doped with boron and carbon have been studied. The Ge fractional content was varied from x=0.004 to x=0.044. To reveal the CS-related absorption band in the Si1-xGex the difference spectra between carbon-lean and carbon-reach Si1-xGex samples with the same Ge content were studied. We have found that the CS-related absorption band in the Si1-xGex alloys red-shifts and broadens with increasing Ge content. It has been found that at x\uf03e0.015 the CS absorption band consists of two overlapping lines corresponding to different combinations of Si and Ge atoms neighboring the CS atom. The calculations show that substitutional carbon atoms avoid Ge ligand atoms, and should be found in Si-rich regions. These results also reveal that the softening of the CS mode frequency arises from the SiGe volumic expansion.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 1060
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5498224218330277,
+    "paper": {
+     "corpusId": "135800595",
+     "title": "Substitutional Carbon in Ge and Si1-xGex.",
+     "authors": [
+      "L. Hoffmann",
+      "J. C. Bach",
+      "J. Hansen",
+      "A. Larsen",
+      "B. Nielsen",
+      "P. Leary",
+      "R. Jones",
+      "S. \u00d6berg"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/WWW.SCIENTIFIC.NET/MSF.258-263.97?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/WWW.SCIENTIFIC.NET/MSF.258-263.97, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In the present work, carbon is implanted into monocrystalline Ge and into relaxed epitaxial MBE-grown Si1-xGex. The samples are studied with infrared absorption spectroscopy along with ion-channeli ...",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 201
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5474673907020376,
+    "paper": {
+     "corpusId": "4621931",
+     "title": "Composition and temperature dependence of self-diffusion in Si1\u2212xGex alloys",
+     "authors": [
+      "V. Saltas",
+      "A. Chroneos",
+      "F. Vallianatos"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5430970, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Composition and temperature dependence of self-diffusion in Si1\u2212xGex alloys",
+     "snippetKind": "title",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 75
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5434458645275395,
+    "paper": {
+     "corpusId": "135800595",
+     "title": "Substitutional Carbon in Ge and Si1-xGex.",
+     "authors": [
+      "L. Hoffmann",
+      "J. C. Bach",
+      "J. Hansen",
+      "A. Larsen",
+      "B. Nielsen",
+      "P. Leary",
+      "R. Jones",
+      "S. \u00d6berg"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/WWW.SCIENTIFIC.NET/MSF.258-263.97?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/WWW.SCIENTIFIC.NET/MSF.258-263.97, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Substitutional Carbon in Ge and Si1-xGex.",
+     "snippetKind": "title",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 41
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5336150006606196,
+    "paper": {
+     "corpusId": "94853756",
+     "title": "Non-contact monitoring of Ge and B diffusion in B-doped epitaxial Si1-xGex bi-layers on silicon substrates during rapid thermal annealing by multiwavelength Raman spectroscopy",
+     "authors": [
+      "Min-Hao Hong",
+      "Chun-Wei Chang",
+      "D. Perng",
+      "Kuan-Ching Lee",
+      "Shiu-Ko-Jang Jian",
+      "Wei-Fan Lee",
+      "Y. Chuang",
+      "Yu-Ta Fan",
+      "W. Yoo"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.4748294?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.4748294, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "B-doped, thin Si1-xGex bi-layers with different Ge content and B concentrations were epitaxially grown on Si(100) device wafers. Diffusion behavior of Ge and B atoms during rapid thermal annealing were monitored by multiwavelength micro-Raman spectroscopy. Raman spectra indicating possible Ge and B redistribution by thermal diffusion was observed from B-doped, thin Si1-xGex bi-layers on Si(100) wafers after rapid thermal annealing at 950\u00b0C or higher. Significant Ge and B diffusion in Si1-xGex bi-layers and Si substrates was verified by secondary ion mass spectroscopy. Pile up of B atoms at the surface and at the boundary between Si1-xGex bi-layers was observed in the early stages of thermal diffusion.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 710
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5306450548264865,
+    "paper": {
+     "corpusId": "93930986",
+     "title": "Effect of composition on vacancy mediated diffusion in random binary alloys: First principles study of the Si1\u2212xGex system",
+     "authors": [
+      "P. Ramanarayanan",
+      "K. Cho",
+      "Bruce M. Clemens"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/cond-mat/0211072, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "We present the results of a systematic study using the density functional theory (within the local density approximation) of the effect of composition on the self-diffusion of silicon and germanium in silicon\u2013germanium alloys diffusing by a vacancy mechanism. The composition dependence of the vacancy formation energy was calculated. A database of ab initio migration energy barriers for vacancy migration in different local environments was systematically developed by considering the effect of the first nearest neighbor sites explicitly and the effect of the other sites by a mean field approximation. A kinetic Monte Carlo simulation based on the migration energy barrier database was performed to determine the dependence (on the composition) of the activation energy for the diffusion of Si and Ge in Si1\u2212xGex. A detailed study of the variation of the correlation factor with composition and temperature in Si1\u2212xGex was performed using the results of the kinetic Monte Carlo simulation. These analyses constitute ...",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 1023
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "note": "SiGeC screening pick (0.3 um effective grains, 1100 K and 300 K) after each ledger decision that touched it; values copied from the ledger payloads named in 'source'. Ge saving = Ge needed at equal kappa_L versus carbon-free Si0.8Ge0.2, 1 at% C as SiC.",
+ "states": [
+  {
+   "seq": 49,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    2.5,
+    2.5
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "35-50%",
+   "source": "seq 49 analysis (Vegard misfit, unvalidated MACE)"
+  },
+  {
+   "seq": 55,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    2.5,
+    2.5
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "35-50%",
+   "source": "seq 55 strengthen (converged MACE misfit)"
+  },
+  {
+   "seq": 61,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    5.0,
+    5.0
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "27-33%",
+   "source": "seq 61 downweight (embedded-SiC MD at x=0.2)"
+  },
+  {
+   "seq": 70,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    5.0,
+    5.0
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "27-33%",
+   "source": "seq 70 strengthen (Si-depleted zone check)"
+  },
+  {
+   "seq": 76,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    5.0,
+    5.0
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "27-33%",
+   "source": "seq 76 strengthen (H, D, He, B, P)"
+  },
+  {
+   "seq": 77,
+   "x_pick": [
+    0.3,
+    0.5
+   ],
+   "R_nm": [
+    2.5,
+    5.0
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "27-33%",
+   "source": "seq 77 scope-limit x = 0.3-0.5 (contrast held at x=0.2 value); registered model put the pick at x = 0.5, R = 2.5 nm, so both ends are carried"
+  },
+  {
+   "seq": 80,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    5.0,
+    5.0
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "27-33%",
+   "source": "seq 80 correct (embedded-SiC MD at x=0.3, rho=0.784)"
+  },
+  {
+   "seq": 105,
+   "x_pick": [
+    0.3,
+    0.3
+   ],
+   "R_nm": [
+    2.5,
+    2.5
+   ],
+   "C_at_pct": 3,
+   "ge_saving": "14-16%",
+   "source": "seq 105 correct (SiC contrast at fixed volume fraction keeps falling with radius, about R^-4); 300 K pick; at 1100 K x = 0.5 is 1.2% lower (near tie)"
+  }
+ ]
+}

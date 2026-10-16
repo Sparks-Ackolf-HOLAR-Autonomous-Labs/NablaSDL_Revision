@@ -1,0 +1,1337 @@
+{
+ "what": "first (Qwen) vs second (Claude, blind) extractor agreement, literature party",
+ "n_literature_rows": 67,
+ "all_67_rows": {
+  "sample_class_7way": {
+   "n": 67,
+   "raw_agreement": 0.7313432835820896,
+   "expected_agreement": 0.28647805747382493,
+   "cohen_kappa": 0.6234779893849516,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured",
+     "superlattice",
+     "amorphous",
+     "other"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured",
+     "superlattice",
+     "amorphous",
+     "other"
+    ],
+    "matrix": [
+     [
+      29,
+      0,
+      0,
+      4,
+      0,
+      0,
+      2
+     ],
+     [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      6,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      2,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  "sample_group_4way": {
+   "n": 67,
+   "raw_agreement": 0.8208955223880597,
+   "expected_agreement": 0.3640008910670528,
+   "cohen_kappa": 0.7183887915936953,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "reduced-dim",
+     "amorphous",
+     "unclassified"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "reduced-dim",
+     "amorphous",
+     "unclassified"
+    ],
+    "matrix": [
+     [
+      29,
+      4,
+      0,
+      2
+     ],
+     [
+      0,
+      18,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      7,
+      0
+     ],
+     [
+      2,
+      3,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  "method_5way": {
+   "n": 67,
+   "raw_agreement": 0.835820895522388,
+   "expected_agreement": 0.30652706616172865,
+   "cohen_kappa": 0.7632508833922261,
+   "confusion": {
+    "rows_first_extractor": [
+     "experiment",
+     "MD",
+     "BTE/DFT",
+     "model-fit",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "experiment",
+     "MD",
+     "BTE/DFT",
+     "model-fit",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      25,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      18,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      5,
+      0,
+      0,
+      6,
+      1
+     ],
+     [
+      1,
+      0,
+      0,
+      0,
+      4
+     ]
+    ]
+   }
+  },
+  "method_group_3way": {
+   "n": 67,
+   "raw_agreement": 0.9253731343283582,
+   "expected_agreement": 0.4577856983738026,
+   "cohen_kappa": 0.8623664749383732,
+   "confusion": {
+    "rows_first_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      36,
+      3,
+      1
+     ],
+     [
+      0,
+      22,
+      0
+     ],
+     [
+      1,
+      0,
+      4
+     ]
+    ]
+   }
+  }
+ },
+ "x_table_rows": {
+  "n": 42,
+  "sample_class_7way": {
+   "n": 42,
+   "raw_agreement": 0.8333333333333334,
+   "expected_agreement": 0.5833333333333334,
+   "cohen_kappa": 0.6000000000000001,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured",
+     "amorphous",
+     "other"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured",
+     "amorphous",
+     "other"
+    ],
+    "matrix": [
+     [
+      29,
+      0,
+      0,
+      4,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "sample_group_4way": {
+   "n": 42,
+   "raw_agreement": 0.8571428571428571,
+   "expected_agreement": 0.5884353741496599,
+   "cohen_kappa": 0.652892561983471,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "reduced-dim",
+     "amorphous",
+     "unclassified"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "reduced-dim",
+     "amorphous",
+     "unclassified"
+    ],
+    "matrix": [
+     [
+      29,
+      4,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      5,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "method_5way": {
+   "n": 42,
+   "raw_agreement": 0.9285714285714286,
+   "expected_agreement": 0.29024943310657597,
+   "cohen_kappa": 0.8993610223642173,
+   "confusion": {
+    "rows_first_extractor": [
+     "experiment",
+     "MD",
+     "BTE/DFT",
+     "model-fit",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "experiment",
+     "MD",
+     "BTE/DFT",
+     "model-fit",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      11,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      16,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      3
+     ]
+    ]
+   }
+  },
+  "method_group_3way": {
+   "n": 42,
+   "raw_agreement": 0.9285714285714286,
+   "expected_agreement": 0.43480725623582767,
+   "cohen_kappa": 0.8736208625877633,
+   "confusion": {
+    "rows_first_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      17,
+      3,
+      0
+     ],
+     [
+      0,
+      19,
+      0
+     ],
+     [
+      0,
+      0,
+      3
+     ]
+    ]
+   }
+  }
+ },
+ "fit_table_rows": {
+  "n": 17,
+  "rows": [
+   6,
+   26,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60
+  ],
+  "sample_class_7way": {
+   "n": 17,
+   "raw_agreement": 0.9411764705882353,
+   "expected_agreement": 0.7820069204152249,
+   "cohen_kappa": 0.7301587301587301,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "film",
+     "nanowire",
+     "nanostructured"
+    ],
+    "matrix": [
+     [
+      15,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "sample_group_4way": {
+   "n": 17,
+   "raw_agreement": 1.0,
+   "expected_agreement": 0.7923875432525952,
+   "cohen_kappa": 1.0,
+   "confusion": {
+    "rows_first_extractor": [
+     "bulk",
+     "reduced-dim"
+    ],
+    "cols_second_extractor": [
+     "bulk",
+     "reduced-dim"
+    ],
+    "matrix": [
+     [
+      15,
+      0
+     ],
+     [
+      0,
+      2
+     ]
+    ]
+   }
+  },
+  "method_5way": {
+   "n": 17,
+   "raw_agreement": 1.0,
+   "expected_agreement": 0.29411764705882354,
+   "cohen_kappa": 1.0,
+   "confusion": {
+    "rows_first_extractor": [
+     "experiment",
+     "MD",
+     "model-fit",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "experiment",
+     "MD",
+     "model-fit",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      6,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      6,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      3
+     ]
+    ]
+   }
+  },
+  "method_group_3way": {
+   "n": 17,
+   "raw_agreement": 1.0,
+   "expected_agreement": 0.3771626297577855,
+   "cohen_kappa": 1.0,
+   "confusion": {
+    "rows_first_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "cols_second_extractor": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ],
+    "matrix": [
+     [
+      8,
+      0,
+      0
+     ],
+     [
+      0,
+      6,
+      0
+     ],
+     [
+      0,
+      0,
+      3
+     ]
+    ]
+   }
+  }
+ },
+ "n_rows_disagree_class_or_method": 25,
+ "n_rows_disagree_sample_class": 18,
+ "n_rows_disagree_sample_group": 12,
+ "n_rows_disagree_method": 11,
+ "disagreements": [
+  {
+   "row": 10,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 20.1,
+   "in_fit_table": false,
+   "first_system": "nanowire",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "Thermal conductivity of the unsuspended Ge 1−x Sn x /Ge/Si microwire at 5% Sn content, 20.1 W m −1 K −1",
+   "note": "GeSn epilayer microwire; could also be read as wire geometry"
+  },
+  {
+   "row": 11,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 18,
+   "in_fit_table": false,
+   "first_system": "nanostructured",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "18 W m −1 K −1 obtained experimentally by Spirito et al from Ge 1−x Sn x /Ge/Si heterostructures",
+   "note": "GeSn"
+  },
+  {
+   "row": 12,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 9.1,
+   "in_fit_table": false,
+   "first_system": "nanowire",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "9.1 W m −1 K −1 (as can be seen in Figure 4) for the suspended Ge 1−x Sn x /Ge microwire",
+   "note": "GeSn"
+  },
+  {
+   "row": 13,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": 0.95,
+   "T_K": null,
+   "kappa": 9.7,
+   "in_fit_table": false,
+   "first_system": "other",
+   "second_sample_class": "bulk",
+   "group_differs": true,
+   "first_group": "unclassified",
+   "second_group": "bulk",
+   "first_method": "BTE/DFT",
+   "second_method": "BTE/DFT",
+   "method_group_differs": false,
+   "second_confidence": "low",
+   "evidence_quote": "the 9.7 W m −1 K −1 calculated theoretically elsewhere for Ge 0.95 Sn. 0.05",
+   "note": "theory type not named in this snippet; GeSn, x_ge=0.95 is Ge fraction of GeSn"
+  },
+  {
+   "row": 14,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 2,
+   "in_fit_table": false,
+   "first_system": "other",
+   "second_sample_class": "bulk",
+   "group_differs": true,
+   "first_group": "unclassified",
+   "second_group": "bulk",
+   "first_method": "unclear",
+   "second_method": "experiment",
+   "method_group_differs": true,
+   "second_confidence": "low",
+   "evidence_quote": "The thermal conductivities of 2 and 1.31 W m −1 K −1 were reported elsewhere for a polycrystalline Ge 0.93 Sn 0.07",
+   "note": "GeSn polycrystal; grain size not stated"
+  },
+  {
+   "row": 16,
+   "snippet_hash": "c70592c48382cc8a",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 2.5,
+   "in_fit_table": false,
+   "first_system": "other",
+   "second_sample_class": "film",
+   "group_differs": true,
+   "first_group": "unclassified",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "that are lower than our 2.5 W m −1 K −1 obtained at 9% Sn content",
+   "note": "GeSn"
+  },
+  {
+   "row": 17,
+   "snippet_hash": "6c9023c20204f4a3",
+   "x_ge": 0.02,
+   "T_K": null,
+   "kappa": 1.0,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "nanostructured",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "the low lattice thermal conductivity 'кl' was nearly constant for about 1 Wm -1 K -1 for x = 0.02 and x = 0.03",
+   "note": "x is Ni/B co-dopant level, not Ge fraction; nano-to-micro grain boundaries"
+  },
+  {
+   "row": 18,
+   "snippet_hash": "6c9023c20204f4a3",
+   "x_ge": 0.03,
+   "T_K": null,
+   "kappa": 1.0,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "nanostructured",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "the low lattice thermal conductivity 'кl' was nearly constant for about 1 Wm -1 K -1 for x = 0.02 and x = 0.03",
+   "note": "x is dopant level, not Ge fraction"
+  },
+  {
+   "row": 19,
+   "snippet_hash": "6c9023c20204f4a3",
+   "x_ge": 0.02,
+   "T_K": null,
+   "kappa": 1.2,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "nanostructured",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "for x = 0.02 and x = 0.04, the estimated 'кl' was increased up to 1.2 Wm -1 K -1 at high temperature",
+   "note": "x is dopant level, not Ge fraction"
+  },
+  {
+   "row": 20,
+   "snippet_hash": "6c9023c20204f4a3",
+   "x_ge": 0.04,
+   "T_K": null,
+   "kappa": 1.2,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "nanostructured",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "for x = 0.02 and x = 0.04, the estimated 'кl' was increased up to 1.2 Wm -1 K -1 at high temperature",
+   "note": "x is dopant level, not Ge fraction"
+  },
+  {
+   "row": 23,
+   "snippet_hash": "d8e1cd3387f0dff0",
+   "x_ge": 0,
+   "T_K": null,
+   "kappa": 1.55,
+   "in_fit_table": false,
+   "first_system": "amorphous",
+   "second_sample_class": "amorphous",
+   "group_differs": false,
+   "first_group": "amorphous",
+   "second_group": "amorphous",
+   "first_method": "experiment",
+   "second_method": "MD",
+   "method_group_differs": true,
+   "second_confidence": "high",
+   "evidence_quote": "Pure amorphous Si and Ge have thermal conductivities of 1.55 ± 0.20 W/m-K and 0.99 ± 0.21 W/m-K",
+   "note": "GK MD with SW potential"
+  },
+  {
+   "row": 24,
+   "snippet_hash": "d8e1cd3387f0dff0",
+   "x_ge": 1,
+   "T_K": null,
+   "kappa": 0.99,
+   "in_fit_table": false,
+   "first_system": "amorphous",
+   "second_sample_class": "amorphous",
+   "group_differs": false,
+   "first_group": "amorphous",
+   "second_group": "amorphous",
+   "first_method": "experiment",
+   "second_method": "MD",
+   "method_group_differs": true,
+   "second_confidence": "high",
+   "evidence_quote": "Pure amorphous Si and Ge have thermal conductivities of 1.55 ± 0.20 W/m-K and 0.99 ± 0.21 W/m-K",
+   "note": "a-Ge"
+  },
+  {
+   "row": 25,
+   "snippet_hash": "d8e1cd3387f0dff0",
+   "x_ge": 0.55,
+   "T_K": null,
+   "kappa": 0.5,
+   "in_fit_table": false,
+   "first_system": "nanostructured",
+   "second_sample_class": "amorphous",
+   "group_differs": true,
+   "first_group": "reduced-dim",
+   "second_group": "amorphous",
+   "first_method": "experiment",
+   "second_method": "MD",
+   "method_group_differs": true,
+   "second_confidence": "high",
+   "evidence_quote": "the minimum thermal conductivity of 0.50 ± 0.17 W/m-K achieved with 55% of Ge content",
+   "note": "na-SiGe"
+  },
+  {
+   "row": 28,
+   "snippet_hash": "3256563ae01e0101",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 2.5,
+   "in_fit_table": false,
+   "first_system": "nanostructured",
+   "second_sample_class": "nanostructured",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "model-fit",
+   "second_method": "unclear",
+   "method_group_differs": true,
+   "second_confidence": "low",
+   "evidence_quote": "the expected nano-alloy limit of 2.5 W m −1 K −1 [69]",
+   "note": "a cited limiting value, origin not stated"
+  },
+  {
+   "row": 29,
+   "snippet_hash": "73ff77053bcdc502",
+   "x_ge": null,
+   "T_K": 300,
+   "kappa": 20.8,
+   "in_fit_table": false,
+   "first_system": "other",
+   "second_sample_class": "film",
+   "group_differs": true,
+   "first_group": "unclassified",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": ".1±2.8 and 18.2±2.6 W m −1 K −1 attributed to the unsuspended micro-fabricated Ge 1−x Sn x /Ge/Si heterostructures microwires",
+   "note": "20.8 not in snippet (snippet has truncated '.1±2.8' and 18.2)"
+  },
+  {
+   "row": 30,
+   "snippet_hash": "73ff77053bcdc502",
+   "x_ge": null,
+   "T_K": 300,
+   "kappa": 15.6,
+   "in_fit_table": false,
+   "first_system": "other",
+   "second_sample_class": "film",
+   "group_differs": true,
+   "first_group": "unclassified",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": ".1±2.8 and 18.2±2.6 W m −1 K −1 attributed to the unsuspended micro-fabricated Ge 1−x Sn x /Ge/Si heterostructures microwires",
+   "note": "15.6 not in snippet"
+  },
+  {
+   "row": 31,
+   "snippet_hash": "73ff77053bcdc502",
+   "x_ge": null,
+   "T_K": 300,
+   "kappa": 9.07,
+   "in_fit_table": false,
+   "first_system": "nanowire",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "Values for Ge 1−x Sn x /Ge microwires with 5% and 9% Sn are measured to be 9.07 and 6.9 W m −1 K −1",
+   "note": "GeSn"
+  },
+  {
+   "row": 32,
+   "snippet_hash": "73ff77053bcdc502",
+   "x_ge": null,
+   "T_K": 300,
+   "kappa": 6.9,
+   "in_fit_table": false,
+   "first_system": "nanowire",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "Values for Ge 1−x Sn x /Ge microwires with 5% and 9% Sn are measured to be 9.07 and 6.9 W m −1 K −1",
+   "note": "GeSn"
+  },
+  {
+   "row": 36,
+   "snippet_hash": "7b3a551fe5327e2c",
+   "x_ge": 0.2,
+   "T_K": 300,
+   "kappa": 1.2,
+   "in_fit_table": true,
+   "first_system": "nanostructured",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "experiment",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "nanostructured Si 0.8 Ge 0.2 films grown through Metal Induced Crystallization (MIC) 38 , have been able to achieve thermal conductivity values down to ~1.2",
+   "note": "nanostructured film; film and nanostructured both defensible"
+  },
+  {
+   "row": 45,
+   "snippet_hash": "c6157a4602b18d4e",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 0.05,
+   "in_fit_table": false,
+   "first_system": "film",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "model-fit",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "the solid line corresponds to an effective in-plane thermal conductivity of κ eff = 0.05 W/m K",
+   "note": "Raman plus simulation inversion; nanostructured also defensible; diameter is of surviving nanocrystals"
+  },
+  {
+   "row": 46,
+   "snippet_hash": "c6157a4602b18d4e",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 0.1,
+   "in_fit_table": false,
+   "first_system": "film",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "model-fit",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "In the present case, this yields κ normalized = 0.1 W/m K",
+   "note": "porosity-normalized value"
+  },
+  {
+   "row": 47,
+   "snippet_hash": "c6157a4602b18d4e",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 0.3,
+   "in_fit_table": false,
+   "first_system": "film",
+   "second_sample_class": "film",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "model-fit",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "we obtain a maximum thermal conductivity of κ max normalized = 0.3 W/m K",
+   "note": "uncertainty upper bound"
+  },
+  {
+   "row": 50,
+   "snippet_hash": "d4ac14ad74561821",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 33.2,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "other",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "unclassified",
+   "first_method": "model-fit",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "the phenomenological thermal conductivities κSi-XII and κSi-III were calculated to be 33.2 and 37.4 W•m −1 •K −1",
+   "note": "metastable Si polymorph, Raman thermometry"
+  },
+  {
+   "row": 51,
+   "snippet_hash": "d4ac14ad74561821",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 37.4,
+   "in_fit_table": false,
+   "first_system": "bulk",
+   "second_sample_class": "other",
+   "group_differs": true,
+   "first_group": "bulk",
+   "second_group": "unclassified",
+   "first_method": "model-fit",
+   "second_method": "experiment",
+   "method_group_differs": false,
+   "second_confidence": "high",
+   "evidence_quote": "the phenomenological thermal conductivities κSi-XII and κSi-III were calculated to be 33.2 and 37.4 W•m −1 •K −1",
+   "note": "metastable Si polymorph"
+  },
+  {
+   "row": 63,
+   "snippet_hash": "9780b5b735feee25",
+   "x_ge": null,
+   "T_K": null,
+   "kappa": 0.33,
+   "in_fit_table": false,
+   "first_system": "nanowire",
+   "second_sample_class": "nanowire",
+   "group_differs": false,
+   "first_group": "reduced-dim",
+   "second_group": "reduced-dim",
+   "first_method": "MD",
+   "second_method": "BTE/DFT",
+   "method_group_differs": false,
+   "second_confidence": "medium",
+   "evidence_quote": "a steady decrease of thermal conductivity with decreasing size down to 1 nm and 0.33 W/mK",
+   "note": "computed from phonon dispersions (lattice-dynamics/BTE type)"
+  }
+ ],
+ "value_not_in_snippet": {
+  "n": 9,
+  "n_derived": 7,
+  "n_absent": 2,
+  "rows": [
+   {
+    "row": 8,
+    "kappa": 1.6,
+    "x_ge": 0.05,
+    "T_K": null,
+    "value_note": "derived",
+    "note": "1.6 = 2.2 - 0.6",
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 9,
+    "kappa": 1.05,
+    "x_ge": 0.15,
+    "T_K": null,
+    "value_note": "derived",
+    "note": "1.05 = 2.2 - 0.6 - 0.55",
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 29,
+    "kappa": 20.8,
+    "x_ge": null,
+    "T_K": 300,
+    "value_note": "absent",
+    "note": "20.8 not in snippet (snippet has truncated '.1±2.8' and 18.2)",
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 30,
+    "kappa": 15.6,
+    "x_ge": null,
+    "T_K": 300,
+    "value_note": "absent",
+    "note": "15.6 not in snippet",
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 40,
+    "kappa": 1.22,
+    "x_ge": 0.5,
+    "T_K": null,
+    "value_note": "derived",
+    "note": "1.22 = 1.06 + 0.16; the central value 1.06 was not extracted",
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 41,
+    "kappa": 0.9,
+    "x_ge": 0.5,
+    "T_K": null,
+    "value_note": "derived",
+    "note": "0.9 = 1.06 - 0.16",
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 53,
+    "kappa": 91.8,
+    "x_ge": 0,
+    "T_K": 700,
+    "value_note": "derived",
+    "note": "91.8 = 51 x 1.8",
+    "in_fit_table": true,
+    "in_x_table": true
+   },
+   {
+    "row": 54,
+    "kappa": 25.5,
+    "x_ge": 0,
+    "T_K": 700,
+    "value_note": "derived",
+    "note": "25.5 = 51 / 2",
+    "in_fit_table": true,
+    "in_x_table": true
+   },
+   {
+    "row": 55,
+    "kappa": 10.2,
+    "x_ge": 0,
+    "T_K": 700,
+    "value_note": "derived",
+    "note": "10.2 = 51 / 5",
+    "in_fit_table": true,
+    "in_x_table": true
+   }
+  ]
+ },
+ "non_SiGe_family_rows": {
+  "n": 15,
+  "rows": [
+   {
+    "row": 2,
+    "material": "Sn",
+    "x_ge": 0,
+    "kappa": 63,
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 3,
+    "material": "GeSn",
+    "x_ge": 0,
+    "kappa": 5,
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 4,
+    "material": "SiSn",
+    "x_ge": 0.5,
+    "kappa": 3,
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 5,
+    "material": "GeSn",
+    "x_ge": 0.39,
+    "kappa": 5.86,
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 10,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 20.1,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 11,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 18,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 12,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 9.1,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 13,
+    "material": "GeSn",
+    "x_ge": 0.95,
+    "kappa": 9.7,
+    "in_fit_table": false,
+    "in_x_table": true
+   },
+   {
+    "row": 14,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 2,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 15,
+    "material": "BiSbTe",
+    "x_ge": null,
+    "kappa": 1.31,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 16,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 2.5,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 29,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 20.8,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 30,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 15.6,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 31,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 9.07,
+    "in_fit_table": false,
+    "in_x_table": false
+   },
+   {
+    "row": 32,
+    "material": "GeSn",
+    "x_ge": null,
+    "kappa": 6.9,
+    "in_fit_table": false,
+    "in_x_table": false
+   }
+  ]
+ },
+ "second_confidence_counts": {
+  "medium": 25,
+  "high": 38,
+  "low": 4
+ }
+}

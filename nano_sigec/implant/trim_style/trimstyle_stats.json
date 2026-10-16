@@ -1,0 +1,30 @@
+[
+ {
+  "recipe": "C_Si0.8Ge0.2_40keV",
+  "srim_Rp_nm": 113.9,
+  "srim_dRp_nm": 43.9,
+  "rustbca_Rp_nm": 126.0,
+  "rustbca_dRp_nm": 51.1
+ },
+ {
+  "recipe": "He_Si0.8Ge0.2_40keV",
+  "srim_Rp_nm": 314.8,
+  "srim_dRp_nm": 95.9,
+  "rustbca_Rp_nm": 352.3,
+  "rustbca_dRp_nm": 110.9
+ },
+ {
+  "recipe": "He_Si_40keV",
+  "srim_Rp_nm": 351.9,
+  "srim_dRp_nm": 96.0,
+  "rustbca_Rp_nm": 388.5,
+  "rustbca_dRp_nm": 105.2
+ },
+ {
+  "recipe": "Kr_Si_500keV",
+  "srim_Rp_nm": 299.1,
+  "srim_dRp_nm": 86.2,
+  "rustbca_Rp_nm": 286.5,
+  "rustbca_dRp_nm": 81.2
+ }
+]

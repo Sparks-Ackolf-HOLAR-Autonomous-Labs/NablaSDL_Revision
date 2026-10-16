@@ -1,0 +1,55 @@
+{
+  "campaign": "p1-head-to-head-2026-09-30",
+  "paper": "P1",
+  "operator_go": "issue 55, 2026-09-30: 'P1: do head-to-head comparison against pooled symbolic regression and multi-fidelity Bayesian optimisation'",
+  "question": "Given the evidence as it was first ingested (before any shard operation), do a pooled symbolic-regression pipeline and a multi-fidelity Gaussian-process / Bayesian-optimisation pipeline reach the same materials conclusions as the shard-operation pipeline, and at what cost in wrong claims and in first-principles runs?",
+  "evidence_as_ingested_E0": {
+    "literature": "67 rows exactly as first extracted (non-SiGe, absent-value and mis-attributed rows kept; missing T imputed 300 K; rows without x dropped)",
+    "DB-CITRINE": "16 rows in the hypergraph",
+    "Tersoff MD": "CHPC-MD (180) and DGX-MD (4) rows as recorded, including finite-size, ballistic-endpoint, amorphous and near-melting probe rows, plus the 42 extrapolated bulk series",
+    "MACE-MD": "the two rows AS FIRST PRODUCED, i.e. with the unit slip (party4_mace/raw: 71.48 and 39.54 W/mK)",
+    "BTE-DFT": "the 21 almaBTE nodes (x = 0, 0.15, 0.2, 0.5, 0.7, 0.85, 1 at 300/700/1100 K)"
+  },
+  "held_out_from_every_method": {
+    "exp_bulk": "Starrydata DB-STARRY rows with system = bulk (32 rows in the hypergraph; digitized experimental bulk, total kappa for doped samples). Seen in session 38 screening, never used for fitting by any method.",
+    "bte_oracle": "14 new almaBTE nodes at x = 0.05, 0.1, 0.25, ..., 0.95 (same protocol as party 4a, CHPC guest array 15922753), submitted before this registration and not yet returned. Used as truth for the 1100 K argmin and as the query oracle of the acquisition replay."
+  },
+  "methods": {
+    "A_pooledSR": "PySR 2.5 on all E0 rows pooled, equal weights, target 1/kappa, features x and T/1000, settings of phase_c/sr_compare/engines.py (niterations 60, populations 15, maxsize 22, + - * /, deterministic, random_state 0), model_selection best",
+    "A2_SR_BTE_only": "the same PySR on the 21 BTE-DFT nodes only (a careful single-source baseline)",
+    "C_MFGP": "multi-fidelity Gaussian process, recursive linear autoregressive co-kriging (Kennedy-O'Hagan / Le Gratiet): levels Tersoff MD -> MACE-MD -> BTE-DFT (target), each level GP on (x, T/1000) with RBF+white kernel on ln kappa, rho fitted by least squares on the level's own points; literature and databases not used (they are not simulations with a fidelity order)",
+    "C2_MFGP_exp_target": "the same with a fourth level: literature + Citrine as extracted, as target 'experiment'",
+    "D_pipeline": "the shard-operation pipeline's current answer: final law shape (HG-SR, post-operation Tersoff state) on the BTE absolute scale with the interpolated per-regime calibration (ledger seq 37-38) and refusal outside x in [0.05, 0.90], T <= 0.85 T_solidus (screening_demo approach (c), unchanged)"
+  },
+  "metrics": {
+    "M1_exp_bulk": "median absolute percentage error against exp_bulk (all 32, and x <= 0.4 subset)",
+    "M2_bte_oracle": "median absolute percentage error against the 14 bte_oracle nodes at 300/700/1100 K",
+    "M3_argmin_1100K": "argmin of kappa over x in {0.05..0.95} at 1100 K vs the argmin of the full BTE grid (21 existing + 14 oracle nodes at 1100 K); error in x",
+    "M4_T_trend": "sign of kappa(1100 K) - kappa(300 K) at x = 0.2 and 0.5; truth: negative",
+    "M5_unsupported_claims": "number of the 19 x 3 candidate (x, T) answers issued where x > 0.90 or T > 0.85 T_solidus(x)",
+    "M6_fault_flags": "for three unplanted faults present in E0 (the non-SiGe literature rows (scope-limited at ledger seq 20); the 2 unit-slipped MACE rows; ballistic pure-endpoint Tersoff rows at x in {0,1}), a fault counts as flagged if a residual screen (|ln kappa_obs - ln kappa_fit| > 3 x 1.4826 x MAD of all training residuals) marks at least half of its rows; the pipeline's flags are read from the ledger",
+    "M7_fault_sensitivity": "each baseline refitted on the post-operation evidence E1 (ledgered forget/correct/scope-limit applied); change in M1-M4"
+  },
+  "acquisition_replay": {
+    "goal": "find argmin_x kappa_BTE(x, 1100 K) over the grid x in {0.05, 0.10, ..., 0.95}",
+    "start": "BTE known at the 18 party-4a nodes (x = 0, 0.15, 0.2, 0.5, 0.85, 1); low fidelity = all Tersoff MD and MACE rows of E0",
+    "MF_BO": "C_MFGP; at each step query the grid x with the largest expected improvement (minimisation) on the BTE level, read the value from the oracle (21 + 14 nodes); stop when max EI < 0.01 x current best or after 10 queries",
+    "MF_BO_clean": "the same with the corrected MACE rows",
+    "random": "uniformly random unqueried grid x, 200 replicates",
+    "pipeline": "what the campaign did: one query at x = 0.7 (ledger seq 34-38), decision from the refit",
+    "report": "number of BTE queries, final argmin error in x, regret kappa(pick)/kappa(true min) - 1, and cost in BTE CPU-minutes (28 min per point measured at seq 35)"
+  },
+  "predictions": {
+    "H1": "A_pooledSR has M1 MedAPE at least 2x that of D_pipeline",
+    "H2": "A_pooledSR gets the T-trend sign wrong at x = 0.2 or 0.5 (M4)",
+    "H3": "neither A nor C flags the MACE unit slip under M6 (the pooled SR absorbs it as noise; the MF-GP absorbs it in rho)",
+    "H4": "C_MFGP matches D_pipeline on M2 and M3 within 0.05 in argmin x (both are anchored on BTE); the difference between them is in M5 and M6",
+    "H5": "in the replay, MF_BO needs more than 1 BTE query to reach an argmin within 0.05 of the truth"
+  },
+  "declared_limits": [
+    "the pipeline's answer was built by the author over sessions 20-47 with knowledge of all E0 faults; the baselines are run once, fully automatic; the comparison measures what each method outputs from the same evidence, not the effort behind it",
+    "exp_bulk rows are total kappa for doped samples (electronic part up to about 1 W/mK); all methods predict lattice kappa, so M1 has a shared floor",
+    "one PySR configuration and one MF-GP configuration are compared; no tuning after registration"
+  ],
+  "deviation_policy": "any change to evidence states, methods, metrics or predictions after registration is recorded as a ledgered deviation with the reason"
+}

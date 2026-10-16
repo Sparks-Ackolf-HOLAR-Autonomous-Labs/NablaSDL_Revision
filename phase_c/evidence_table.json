@@ -1,0 +1,932 @@
+[
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 148,
+    "fit_usable": false,
+    "source": "279577292",
+    "title": "Epitaxial SiGeSn Alloys for CMOS-Compatible Thermoelectric Devices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 1,
+    "T": null,
+    "kappa": 60,
+    "fit_usable": false,
+    "source": "279577292",
+    "title": "Epitaxial SiGeSn Alloys for CMOS-Compatible Thermoelectric Devices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 63,
+    "fit_usable": false,
+    "source": "279577292",
+    "title": "Epitaxial SiGeSn Alloys for CMOS-Compatible Thermoelectric Devices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 5,
+    "fit_usable": false,
+    "source": "279577292",
+    "title": "Epitaxial SiGeSn Alloys for CMOS-Compatible Thermoelectric Devices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.5,
+    "T": null,
+    "kappa": 3,
+    "fit_usable": false,
+    "source": "232358380",
+    "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.39,
+    "T": null,
+    "kappa": 5.86,
+    "fit_usable": false,
+    "source": "232358380",
+    "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.2,
+    "T": 300,
+    "kappa": 1.1,
+    "fit_usable": true,
+    "source": "232358380",
+    "title": "Si and SiGe Nanowire for Micro-Thermoelectric Generator: A Review of the Current State of the Art"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 2.2,
+    "fit_usable": false,
+    "source": "226975563",
+    "title": "Mode localization and suppressed heat transport in amorphous alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.05,
+    "T": null,
+    "kappa": 1.6,
+    "fit_usable": false,
+    "source": "226975563",
+    "title": "Mode localization and suppressed heat transport in amorphous alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.15,
+    "T": null,
+    "kappa": 1.05,
+    "fit_usable": false,
+    "source": "226975563",
+    "title": "Mode localization and suppressed heat transport in amorphous alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 20.1,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 18,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 9.1,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.95,
+    "T": null,
+    "kappa": 9.7,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 2,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 1.31,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 2.5,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.02,
+    "T": null,
+    "kappa": 1.0,
+    "fit_usable": false,
+    "source": "236493352",
+    "title": "Synergetic enhancement of power factor and suppression of lattice thermal conductivity via electronic structure modification and nanostructuring on Ni and B co-doped p-type Si-Ge alloy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.03,
+    "T": null,
+    "kappa": 1.0,
+    "fit_usable": false,
+    "source": "236493352",
+    "title": "Synergetic enhancement of power factor and suppression of lattice thermal conductivity via electronic structure modification and nanostructuring on Ni and B co-doped p-type Si-Ge alloy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.02,
+    "T": null,
+    "kappa": 1.2,
+    "fit_usable": false,
+    "source": "236493352",
+    "title": "Synergetic enhancement of power factor and suppression of lattice thermal conductivity via electronic structure modification and nanostructuring on Ni and B co-doped p-type Si-Ge alloy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.04,
+    "T": null,
+    "kappa": 1.2,
+    "fit_usable": false,
+    "source": "236493352",
+    "title": "Synergetic enhancement of power factor and suppression of lattice thermal conductivity via electronic structure modification and nanostructuring on Ni and B co-doped p-type Si-Ge alloy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 1,
+    "fit_usable": false,
+    "source": "100542242",
+    "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 6,
+    "fit_usable": false,
+    "source": "100542242",
+    "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 1.55,
+    "fit_usable": false,
+    "source": "100542242",
+    "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 1,
+    "T": null,
+    "kappa": 0.99,
+    "fit_usable": false,
+    "source": "100542242",
+    "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.55,
+    "T": null,
+    "kappa": 0.5,
+    "fit_usable": false,
+    "source": "100542242",
+    "title": "Sub-amorphous thermal conductivity in amorphous heterogeneous nanocomposites"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 900,
+    "kappa": 36,
+    "fit_usable": true,
+    "source": "13112276",
+    "title": "Thermoelectric transport in strained Si and Si/Ge heterostructures"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 1.9,
+    "fit_usable": false,
+    "source": "13112276",
+    "title": "Thermoelectric transport in strained Si and Si/Ge heterostructures"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 2.5,
+    "fit_usable": false,
+    "source": "13112276",
+    "title": "Thermoelectric transport in strained Si and Si/Ge heterostructures"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 20.8,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 15.6,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 9.07,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 6.9,
+    "fit_usable": false,
+    "source": "265476663",
+    "title": "Revealing Low Thermal Conductivity of Germanium Tin Semiconductor at Room Temperature"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 20,
+    "fit_usable": true,
+    "source": "6965539",
+    "title": "Ultra-low thermal conductivities in large-area Si-Ge nanomeshes for thermoelectric applications"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 1,
+    "T": 300,
+    "kappa": 9,
+    "fit_usable": true,
+    "source": "6965539",
+    "title": "Ultra-low thermal conductivities in large-area Si-Ge nanomeshes for thermoelectric applications"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.2,
+    "T": 300,
+    "kappa": 9,
+    "fit_usable": true,
+    "source": "6965539",
+    "title": "Ultra-low thermal conductivities in large-area Si-Ge nanomeshes for thermoelectric applications"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.2,
+    "T": 300,
+    "kappa": 1.2,
+    "fit_usable": true,
+    "source": "6965539",
+    "title": "Ultra-low thermal conductivities in large-area Si-Ge nanomeshes for thermoelectric applications"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 150,
+    "fit_usable": true,
+    "source": "119207758",
+    "title": "Alloy-Like Behavior of the Thermal Conductivity of Nonsymmetric Superlattices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 1,
+    "T": 300,
+    "kappa": 60,
+    "fit_usable": true,
+    "source": "119207758",
+    "title": "Alloy-Like Behavior of the Thermal Conductivity of Nonsymmetric Superlattices"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.5,
+    "T": null,
+    "kappa": 1.62,
+    "fit_usable": false,
+    "source": "220936482",
+    "title": "Electrical and thermal transport properties of medium-entropy Si Ge Sn alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.5,
+    "T": null,
+    "kappa": 1.22,
+    "fit_usable": false,
+    "source": "220936482",
+    "title": "Electrical and thermal transport properties of medium-entropy Si Ge Sn alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0.5,
+    "T": null,
+    "kappa": 0.9,
+    "fit_usable": false,
+    "source": "220936482",
+    "title": "Electrical and thermal transport properties of medium-entropy Si Ge Sn alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 56.1,
+    "fit_usable": false,
+    "source": "220936482",
+    "title": "Electrical and thermal transport properties of medium-entropy Si Ge Sn alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 125.5,
+    "fit_usable": false,
+    "source": "220936482",
+    "title": "Electrical and thermal transport properties of medium-entropy Si Ge Sn alloys"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 1.91,
+    "fit_usable": false,
+    "source": "252082420",
+    "title": "Influence of environment on thermoelectric properties of n-type silicon-germanium alloy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 0.05,
+    "fit_usable": false,
+    "source": "96397634",
+    "title": "Spatially resolved determination of thermal conductivity by Raman spectroscopy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 0.1,
+    "fit_usable": false,
+    "source": "96397634",
+    "title": "Spatially resolved determination of thermal conductivity by Raman spectroscopy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 0.3,
+    "fit_usable": false,
+    "source": "96397634",
+    "title": "Spatially resolved determination of thermal conductivity by Raman spectroscopy"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 1.1,
+    "fit_usable": false,
+    "source": "125822830",
+    "title": "Nanowires for heat conversion"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 1.2,
+    "fit_usable": false,
+    "source": "125822830",
+    "title": "Nanowires for heat conversion"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 33.2,
+    "fit_usable": false,
+    "source": "276767964",
+    "title": "Tunable thermal conductivity and mechanical properties of metastable silicon by phase engineering"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 37.4,
+    "fit_usable": false,
+    "source": "276767964",
+    "title": "Tunable thermal conductivity and mechanical properties of metastable silicon by phase engineering"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 700,
+    "kappa": 51,
+    "fit_usable": true,
+    "source": "202750187",
+    "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 700,
+    "kappa": 91.8,
+    "fit_usable": true,
+    "source": "202750187",
+    "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 700,
+    "kappa": 25.5,
+    "fit_usable": true,
+    "source": "202750187",
+    "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 700,
+    "kappa": 10.2,
+    "fit_usable": true,
+    "source": "202750187",
+    "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 130,
+    "fit_usable": true,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 160,
+    "fit_usable": true,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 393,
+    "fit_usable": true,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 174,
+    "fit_usable": true,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": 300,
+    "kappa": 229,
+    "fit_usable": true,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 1,
+    "fit_usable": false,
+    "source": "250279813",
+    "title": "Thermal transport in ultrathin Si nanowires: a first principles study"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": 300,
+    "kappa": 45,
+    "fit_usable": false,
+    "source": "250279813",
+    "title": "Thermal transport in ultrathin Si nanowires: a first principles study"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": null,
+    "T": null,
+    "kappa": 0.33,
+    "fit_usable": false,
+    "source": "250279813",
+    "title": "Thermal transport in ultrathin Si nanowires: a first principles study"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 229,
+    "fit_usable": false,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 144,
+    "fit_usable": false,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "literature",
+    "scope": "literature-bulk",
+    "x": 0,
+    "T": null,
+    "kappa": 280,
+    "fit_usable": false,
+    "source": "128358934",
+    "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach"
+  },
+  {
+    "party": "DGX-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.15,
+    "T": 300.0,
+    "kappa": 1.141,
+    "ncz": null,
+    "fit_usable": false,
+    "source": "kappa_x0.15_T300"
+  },
+  {
+    "party": "DGX-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 1100.0,
+    "kappa": 0.81,
+    "ncz": null,
+    "fit_usable": false,
+    "source": "kappa_x0.5_T1100"
+  },
+  {
+    "party": "DGX-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.744,
+    "ncz": null,
+    "fit_usable": false,
+    "source": "kappa_x0.5_T300"
+  },
+  {
+    "party": "DGX-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.929,
+    "ncz": null,
+    "fit_usable": false,
+    "source": "kappa_x0.5_T300_L48"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.0,
+    "T": 300.0,
+    "kappa": 34.694,
+    "ncz": 144,
+    "fit_usable": false,
+    "source": "x0.0_T300_z144_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.0,
+    "T": 300.0,
+    "kappa": 9.78,
+    "ncz": 48,
+    "fit_usable": false,
+    "source": "x0.0_T300_z48_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.0,
+    "T": 300.0,
+    "kappa": 23.302,
+    "ncz": 96,
+    "fit_usable": false,
+    "source": "x0.0_T300_z96_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.15,
+    "T": 300.0,
+    "kappa": 1.188,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.15_T300_z24_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.15,
+    "T": 300.0,
+    "kappa": 1.5,
+    "ncz": 48,
+    "fit_usable": false,
+    "source": "x0.15_T300_z48_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.15,
+    "T": 300.0,
+    "kappa": 1.67,
+    "ncz": 96,
+    "fit_usable": false,
+    "source": "x0.15_T300_z96_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 1100.0,
+    "kappa": 0.791,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.5_T1100_z24_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 1100.0,
+    "kappa": 0.977,
+    "ncz": 48,
+    "fit_usable": false,
+    "source": "x0.5_T1100_z48_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 1100.0,
+    "kappa": 1.284,
+    "ncz": 96,
+    "fit_usable": false,
+    "source": "x0.5_T1100_z96_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 1.626,
+    "ncz": 144,
+    "fit_usable": false,
+    "source": "x0.5_T300_z144_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.696,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.5_T300_z24_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.733,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.5_T300_z24_s202"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.693,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.5_T300_z24_s303"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.736,
+    "ncz": 24,
+    "fit_usable": false,
+    "source": "x0.5_T300_z24_s404"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 0.917,
+    "ncz": 48,
+    "fit_usable": false,
+    "source": "x0.5_T300_z48_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 1.21,
+    "ncz": 96,
+    "fit_usable": false,
+    "source": "x0.5_T300_z96_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 1.0,
+    "T": 300.0,
+    "kappa": 24.156,
+    "ncz": 144,
+    "fit_usable": false,
+    "source": "x1.0_T300_z144_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 1.0,
+    "T": 300.0,
+    "kappa": 8.745,
+    "ncz": 48,
+    "fit_usable": false,
+    "source": "x1.0_T300_z48_s101"
+  },
+  {
+    "party": "CHPC-MD",
+    "scope": "tersoff-md-finite-size",
+    "x": 1.0,
+    "T": 300.0,
+    "kappa": 17.125,
+    "ncz": 96,
+    "fit_usable": false,
+    "source": "x1.0_T300_z96_s101"
+  },
+  {
+    "party": "MD-extrapolated",
+    "scope": "tersoff-md-extrapolated",
+    "x": 0.15,
+    "T": 300.0,
+    "kappa": 1.956,
+    "n_lengths": 3,
+    "fit_usable": true,
+    "source": "1/L extrapolation over pooled DGX+CHPC series"
+  },
+  {
+    "party": "MD-extrapolated",
+    "scope": "tersoff-md-extrapolated",
+    "x": 0.5,
+    "T": 300.0,
+    "kappa": 1.779,
+    "n_lengths": 4,
+    "fit_usable": true,
+    "source": "1/L extrapolation over pooled DGX+CHPC series"
+  },
+  {
+    "party": "MD-extrapolated",
+    "scope": "tersoff-md-extrapolated",
+    "x": 0.5,
+    "T": 1100.0,
+    "kappa": 1.519,
+    "n_lengths": 3,
+    "fit_usable": true,
+    "source": "1/L extrapolation over pooled DGX+CHPC series"
+  }
+]

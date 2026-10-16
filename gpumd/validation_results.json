@@ -1,0 +1,46 @@
+{
+  "ge_fe1e-5": {
+    "status": "done",
+    "exit": 0,
+    "kappa_W_mK": 66.847,
+    "sem_W_mK": 25.043,
+    "n_samples": 4000,
+    "monotonic_warning": false,
+    "mean_T_K": 300.2
+  },
+  "si_fe1e-4_nonlinear_kept": {
+    "status": "done",
+    "exit": 0,
+    "kappa_W_mK": 1657.827,
+    "sem_W_mK": 441.455,
+    "n_samples": 1600,
+    "monotonic_warning": true
+  },
+  "si_fe1e-5": {
+    "status": "done",
+    "exit": 0,
+    "kappa_W_mK": 162.728,
+    "sem_W_mK": 39.555,
+    "n_samples": 4000,
+    "monotonic_warning": false,
+    "mean_T_K": 300.1
+  },
+  "si_fe5e-6": {
+    "status": "done",
+    "exit": 0,
+    "kappa_W_mK": 215.517,
+    "sem_W_mK": 86.95,
+    "n_samples": 4000,
+    "monotonic_warning": false,
+    "mean_T_K": 300.0
+  },
+  "sige_x05_fe2e-4": {
+    "status": "done",
+    "exit": 0,
+    "kappa_W_mK": 1.885,
+    "sem_W_mK": 0.189,
+    "n_samples": 1600,
+    "monotonic_warning": false,
+    "mean_T_K": 299.4
+  }
+}

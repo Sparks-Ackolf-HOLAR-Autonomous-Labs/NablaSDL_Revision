@@ -1,0 +1,266 @@
+{
+ "C00": {
+  "point_id": "C00",
+  "vol_atom": 20.318909,
+  "angle_sd": 2.9233,
+  "n_angles": 110592
+ },
+ "C01": {
+  "point_id": "C01",
+  "vol_atom": 20.436737,
+  "angle_sd": 3.4108,
+  "n_angles": 110592
+ },
+ "C02": {
+  "point_id": "C02",
+  "vol_atom": 20.466581,
+  "angle_sd": 3.848,
+  "n_angles": 110592
+ },
+ "C03": {
+  "point_id": "C03",
+  "vol_atom": 20.595571,
+  "angle_sd": 4.4341,
+  "n_angles": 110592
+ },
+ "C04": {
+  "point_id": "C04",
+  "vol_atom": 20.875672,
+  "angle_sd": 4.7215,
+  "n_angles": 110592
+ },
+ "C05": {
+  "point_id": "C05",
+  "vol_atom": 20.87108,
+  "angle_sd": 5.0893,
+  "n_angles": 110592
+ },
+ "C06": {
+  "point_id": "C06",
+  "vol_atom": 20.924564,
+  "angle_sd": 5.7641,
+  "n_angles": 110592
+ },
+ "C07": {
+  "point_id": "C07",
+  "vol_atom": 20.860446,
+  "angle_sd": 5.4185,
+  "n_angles": 110592
+ },
+ "C08": {
+  "point_id": "C08",
+  "vol_atom": 21.053271,
+  "angle_sd": 3.3431,
+  "n_angles": 110592
+ },
+ "C09": {
+  "point_id": "C09",
+  "vol_atom": 20.908652,
+  "angle_sd": 3.7425,
+  "n_angles": 110592
+ },
+ "C10": {
+  "point_id": "C10",
+  "vol_atom": 20.907016,
+  "angle_sd": 4.0959,
+  "n_angles": 110592
+ },
+ "C11": {
+  "point_id": "C11",
+  "vol_atom": 20.961008,
+  "angle_sd": 4.0708,
+  "n_angles": 110592
+ },
+ "C12": {
+  "point_id": "C12",
+  "vol_atom": 21.249281,
+  "angle_sd": 5.1621,
+  "n_angles": 110592
+ },
+ "C13": {
+  "point_id": "C13",
+  "vol_atom": 21.437474,
+  "angle_sd": 5.18,
+  "n_angles": 110592
+ },
+ "C14": {
+  "point_id": "C14",
+  "vol_atom": 21.204405,
+  "angle_sd": 5.708,
+  "n_angles": 110592
+ },
+ "C15": {
+  "point_id": "C15",
+  "vol_atom": 21.44263,
+  "angle_sd": 5.3826,
+  "n_angles": 110592
+ },
+ "C16": {
+  "point_id": "C16",
+  "vol_atom": 21.454614,
+  "angle_sd": 3.3309,
+  "n_angles": 110592
+ },
+ "C17": {
+  "point_id": "C17",
+  "vol_atom": 21.547364,
+  "angle_sd": 3.0259,
+  "n_angles": 110592
+ },
+ "C18": {
+  "point_id": "C18",
+  "vol_atom": 21.6654,
+  "angle_sd": 4.1978,
+  "n_angles": 110592
+ },
+ "C19": {
+  "point_id": "C19",
+  "vol_atom": 21.483366,
+  "angle_sd": 3.8946,
+  "n_angles": 110592
+ },
+ "C20": {
+  "point_id": "C20",
+  "vol_atom": 21.882775,
+  "angle_sd": 4.9877,
+  "n_angles": 110592
+ },
+ "C21": {
+  "point_id": "C21",
+  "vol_atom": 21.48552,
+  "angle_sd": 4.81,
+  "n_angles": 110592
+ },
+ "C22": {
+  "point_id": "C22",
+  "vol_atom": 21.591808,
+  "angle_sd": 5.6961,
+  "n_angles": 110592
+ },
+ "C23": {
+  "point_id": "C23",
+  "vol_atom": 22.025872,
+  "angle_sd": 5.4328,
+  "n_angles": 110592
+ },
+ "C24": {
+  "point_id": "C24",
+  "vol_atom": 22.141039,
+  "angle_sd": 3.016,
+  "n_angles": 110592
+ },
+ "C25": {
+  "point_id": "C25",
+  "vol_atom": 22.093823,
+  "angle_sd": 3.2012,
+  "n_angles": 110592
+ },
+ "C26": {
+  "point_id": "C26",
+  "vol_atom": 22.193884,
+  "angle_sd": 3.7081,
+  "n_angles": 110592
+ },
+ "C27": {
+  "point_id": "C27",
+  "vol_atom": 21.963441,
+  "angle_sd": 4.4012,
+  "n_angles": 110592
+ },
+ "C28": {
+  "point_id": "C28",
+  "vol_atom": 22.267961,
+  "angle_sd": 4.5174,
+  "n_angles": 110592
+ },
+ "C29": {
+  "point_id": "C29",
+  "vol_atom": 22.238124,
+  "angle_sd": 4.8178,
+  "n_angles": 110592
+ },
+ "C30": {
+  "point_id": "C30",
+  "vol_atom": 22.174018,
+  "angle_sd": 5.7335,
+  "n_angles": 110592
+ },
+ "C31": {
+  "point_id": "C31",
+  "vol_atom": 22.367401,
+  "angle_sd": 5.3896,
+  "n_angles": 110592
+ },
+ "C32": {
+  "point_id": "C32",
+  "vol_atom": 22.445803,
+  "angle_sd": 3.4078,
+  "n_angles": 110592
+ },
+ "C33": {
+  "point_id": "C33",
+  "vol_atom": 22.1997,
+  "angle_sd": 2.7776,
+  "n_angles": 110592
+ },
+ "C34": {
+  "point_id": "C34",
+  "vol_atom": 22.405649,
+  "angle_sd": 4.1063,
+  "n_angles": 110592
+ },
+ "C35": {
+  "point_id": "C35",
+  "vol_atom": 22.632333,
+  "angle_sd": 4.3149,
+  "n_angles": 110592
+ },
+ "C36": {
+  "point_id": "C36",
+  "vol_atom": 22.834024,
+  "angle_sd": 4.5238,
+  "n_angles": 110592
+ },
+ "C37": {
+  "point_id": "C37",
+  "vol_atom": 22.971992,
+  "angle_sd": 4.6147,
+  "n_angles": 110592
+ },
+ "C38": {
+  "point_id": "C38",
+  "vol_atom": 23.113406,
+  "angle_sd": 5.5293,
+  "n_angles": 110592
+ },
+ "C39": {
+  "point_id": "C39",
+  "vol_atom": 22.773234,
+  "angle_sd": 5.1766,
+  "n_angles": 110592
+ },
+ "N0": {
+  "point_id": "N0",
+  "vol_atom": 21.967612,
+  "angle_sd": 6.5149,
+  "n_angles": 110592
+ },
+ "N1": {
+  "point_id": "N1",
+  "vol_atom": 22.551836,
+  "angle_sd": 6.3372,
+  "n_angles": 110592
+ },
+ "N2": {
+  "point_id": "N2",
+  "vol_atom": 21.540423,
+  "angle_sd": 16.5948,
+  "n_angles": 124629
+ },
+ "N3": {
+  "point_id": "N3",
+  "vol_atom": 21.688789,
+  "angle_sd": 16.9869,
+  "n_angles": 124439
+ }
+}

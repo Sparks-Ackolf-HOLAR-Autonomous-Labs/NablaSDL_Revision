@@ -1,0 +1,139 @@
+LAMMPS (22 Jul 2025 - Update 4)
+  using 2 OpenMP thread(s) per MPI task
+# Structure-only rebuild of the Phase C production probes and matching
+# crystal rows (phase_c/production): same cell, potential, seed and
+# preparation as in.mp_amorph (phase "amorph") or in.mp_kappa2 (phase
+# "crystal") up to the end of equilibration, then 10 ps NVT sampling with a
+# dump every 1 ps. No heat flux, no kappa. Not a registered run.
+variable x     index 0.5
+variable T     index 300
+variable seed  index 2003
+variable phase index crystal
+variable out   index s
+units metal
+boundary p p p
+variable a0 equal 5.431+(5.658-5.431)*v_x
+lattice diamond ${a0}
+lattice diamond 5.5445
+Lattice spacing in x,y,z = 5.5445 5.5445 5.5445
+region box block 0 4 0 4 0 24
+create_box 2 box
+Created orthogonal box = (0 0 0) to (22.178 22.178 133.068)
+  1 by 1 by 1 MPI processor grid
+create_atoms 1 box
+Created 3072 atoms
+  using lattice units in orthogonal box = (0 0 0) to (22.178 22.178 133.068)
+  create_atoms CPU = 0.000 seconds
+set type 1 type/fraction 2 ${x} ${seed}
+set type 1 type/fraction 2 0.5 ${seed}
+set type 1 type/fraction 2 0.5 2003
+Setting atom values ...
+  1529 settings made for type/fraction
+mass 1 28.0855
+mass 2 72.63
+pair_style tersoff
+pair_coeff * * SiCGe_GeC.tersoff Si(D) Ge
+Reading tersoff potential file SiCGe_GeC.tersoff with DATE: 2009-03-18
+timestep 0.001
+thermo 10000
+if "${phase} == amorph" then   "velocity all create 7000 ${seed} dist gaussian"   "fix melt all npt temp 3500 3500 0.1 iso 0.0 0.0 1.0"   "run 50000" "unfix melt"   "fix quench all npt temp 3500 ${T} 0.1 iso 0.0 0.0 1.0"   "run 100000" "unfix quench"   "fix npt all npt temp ${T} ${T} 0.1 iso 0.0 0.0 1.0"   "run 50000" "unfix npt" else   "velocity all create $(2*v_T) ${seed} dist gaussian"   "fix npt all npt temp ${T} ${T} 0.1 aniso 0.0 0.0 1.0"   "run 50000" "unfix npt"
+velocity all create $(2*v_T) ${seed} dist gaussian
+velocity all create 600 ${seed} dist gaussian
+velocity all create 600 2003 dist gaussian
+fix npt all npt temp ${T} ${T} 0.1 aniso 0.0 0.0 1.0
+fix npt all npt temp 300 ${T} 0.1 aniso 0.0 0.0 1.0
+fix npt all npt temp 300 300 0.1 aniso 0.0 0.0 1.0
+run 50000
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 5.1
+  ghost atom cutoff = 5.1
+  binsize = 2.55, bins = 9 9 53
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair tersoff, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 4.148 | 4.148 | 4.148 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press          Volume    
+         0   600           -12984.316      0             -12746.142      2807.2444      65451.317    
+     10000   301.35482     -12885.902      0             -12766.277     -1646.7507      65907.912    
+     20000   304.82853     -12885.721      0             -12764.717      420.01857      65744.438    
+     30000   300.82735     -12885.672      0             -12766.256     -993.00253      65867.354    
+     40000   301.03327     -12887.353      0             -12767.855      804.60994      65713.801    
+     50000   299.77851     -12885.702      0             -12766.702     -327.22189      65812.355    
+Loop time of 115.478 on 2 procs for 50000 steps with 3072 atoms
+
+Performance: 37.410 ns/day, 0.642 hours/ns, 432.983 timesteps/s, 1.330 Matom-step/s
+103.6% CPU use with 1 MPI tasks x 2 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 104.24     | 104.24     | 104.24     |   0.0 | 90.27
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.4227     | 0.4227     | 0.4227     |   0.0 |  0.37
+Output  | 0.00011264 | 0.00011264 | 0.00011264 |   0.0 |  0.00
+Modify  | 10.581     | 10.581     | 10.581     |   0.0 |  9.16
+Other   |            | 0.2343     |            |       |  0.20
+
+Nlocal:           3072 ave        3072 max        3072 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:           3757 ave        3757 max        3757 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:        86016 ave       86016 max       86016 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 86016
+Ave neighs/atom = 28
+Neighbor list builds = 0
+Dangerous builds = 0
+unfix npt
+print "MPT_PE_ATOM $(pe/atoms:%.5f)"
+MPT_PE_ATOM -4.19456
+fix nvt all nvt temp ${T} ${T} 0.1
+fix nvt all nvt temp 300 ${T} 0.1
+fix nvt all nvt temp 300 300 0.1
+dump d all custom 1000 ${out}.dump id type x y z
+dump d all custom 1000 X300_s0.dump id type x y z
+dump_modify d sort id
+run 10000
+Per MPI rank memory allocation (min/avg/max) = 4.148 | 4.148 | 4.148 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+     50000   299.77851     -12885.702      0             -12766.702     -327.22189    
+     60000   297.8128      -12886.805      0             -12768.586     -497.84222    
+Loop time of 21.9988 on 2 procs for 10000 steps with 3072 atoms
+
+Performance: 39.275 ns/day, 0.611 hours/ns, 454.570 timesteps/s, 1.396 Matom-step/s
+100.0% CPU use with 1 MPI tasks x 2 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 21.659     | 21.659     | 21.659     |   0.0 | 98.46
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.067328   | 0.067328   | 0.067328   |   0.0 |  0.31
+Output  | 0.015097   | 0.015097   | 0.015097   |   0.0 |  0.07
+Modify  | 0.22984    | 0.22984    | 0.22984    |   0.0 |  1.04
+Other   |            | 0.02733    |            |       |  0.12
+
+Nlocal:           3072 ave        3072 max        3072 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:           3757 ave        3757 max        3757 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:        86016 ave       86016 max       86016 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 86016
+Ave neighs/atom = 28
+Neighbor list builds = 0
+Dangerous builds = 0
+print "MPT_PE_SAMPLE $(pe/atoms:%.5f)"
+MPT_PE_SAMPLE -4.19492
+Total wall time: 0:02:17

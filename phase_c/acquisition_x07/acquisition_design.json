@@ -1,0 +1,49 @@
+{
+ "action": "acq-x0.7-T1100-2026-09-29",
+ "decides": "which Tersoff->BTE-DFT calibration governs the Ge-rich side at 1100 K (symbolic transfer law argmin x=0.645 vs interpolated calibration argmin x=0.43)",
+ "decision_rule": {
+  "D1_winner": "the calibration with smaller |ln(k_obs/k_pred)| at 1100 K wins; if both are within 10% of k_obs, or their |ln| errors differ by < 0.03, the verdict is 'undecided at this resolution'",
+  "D2_refit": "append all in-domain x=0.7 nodes to the BTE node set, rerun transfer_law.py (same basis, same selection rule, no other change) and report the new 1100 K argmin x and 5% window",
+  "D3_screening_verdict": "if the refit 1100 K argmin lies within 0.05 of one calibration's pre-acquisition argmin (0.645 symbolic, 0.43 interpolated), that answer is confirmed; otherwise both are refuted and the new argmin is reported with the window",
+  "D4_ledger": "the outcome is ledgered as a shard operation: 'strengthen' on the winning calibration, 'downweight' on the loser (never forget; both remain archived)",
+  "primary_T_K": 1100,
+  "sanity_gate": "reject and rerun (logged deviation) only if k_obs(1100) lies outside the bracket of the neighbouring BTE nodes' physical range (x=0.5 and x=0.85 values at 700-1100 K, times 0.5 to 2)"
+ },
+ "prediction_gap_1100K_pct": 39.3,
+ "predictions": {
+  "1100": {
+   "in_validity_domain": true,
+   "kappa_BTE_pred_interpolated_calibration": 5.5284,
+   "kappa_BTE_pred_symbolic_transfer": 3.9679,
+   "kappa_tersoff_law": 1.8357
+  },
+  "300": {
+   "in_validity_domain": true,
+   "kappa_BTE_pred_interpolated_calibration": 6.9255,
+   "kappa_BTE_pred_symbolic_transfer": 7.5487,
+   "kappa_tersoff_law": 2.0923
+  },
+  "700": {
+   "in_validity_domain": true,
+   "kappa_BTE_pred_interpolated_calibration": 5.1385,
+   "kappa_BTE_pred_symbolic_transfer": 5.4612,
+   "kappa_tersoff_law": 1.9556
+  }
+ },
+ "runs": [
+  {
+   "T_K": [
+    300,
+    700,
+    1100
+   ],
+   "grid": 24,
+   "method": "VCA + mass disorder, full iterative BTE",
+   "partition": "notchpeak-guest / owner-guest (grn061 off-limits)",
+   "protocol": "party4_bte/run_bte_point.sh unchanged (same as the 18 party-4a points)",
+   "tool": "almabte/1.3.2",
+   "x_Ge": 0.7
+  }
+ ],
+ "why_this_point": "transfer_law/README.md: no BTE node above x=0.5 inside the domain at 1100 K; largest calibration disagreement per unit cost (about one guest CPU-hour)"
+}

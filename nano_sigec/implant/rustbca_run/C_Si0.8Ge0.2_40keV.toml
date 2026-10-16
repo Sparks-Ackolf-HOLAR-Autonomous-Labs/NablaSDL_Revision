@@ -1,0 +1,65 @@
+[options]
+name = "C_Si0.8Ge0.2_40keV_"
+track_trajectories = false
+track_recoils = false
+track_recoil_trajectories = false
+write_buffer_size = 8000
+weak_collision_order = 3
+suppress_deep_recoils = false
+high_energy_free_flight_paths = false
+electronic_stopping_mode = "LOW_ENERGY_NONLOCAL"
+mean_free_path_model = "LIQUID"
+interaction_potential = [["KR_C"]]
+scattering_integral = [["MENDENHALL_WELLER"]]
+root_finder = [[{"NEWTON"={max_iterations=100, tolerance=1E-6}}]]
+num_threads = 4
+num_chunks = 10
+track_displacements = false
+track_energy_losses = false
+energy_min = 0.0
+energy_max = 40000.0
+energy_num = 20
+angle_min = 0.0
+angle_max = 90.0
+angle_num = 20
+x_min = 0.0
+y_min = -0.5
+z_min = -0.5
+x_max = 0.5
+y_max = 0.5
+z_max = 0.5
+x_num = 50
+y_num = 2
+z_num = 2
+
+[particle_parameters]
+length_unit = "MICRON"
+energy_unit = "EV"
+mass_unit = "AMU"
+N = [20000]
+m = [12.011]
+Z = [6]
+E = [40000.0]
+Ec = [1.0]
+Es = [0.0]
+interaction_index = [0]
+pos = [[-1.0e-8, 0.0, 0.0]]
+dir = [[0.9999999999, 0.0000141421, 0.0]]
+
+[geometry_input]
+length_unit = "MICRON"
+densities = [[3.9034e+10, 9.7584e+09]]
+layer_thicknesses = [2.0]
+electronic_stopping_correction_factors = [1.0]
+
+[material_parameters]
+energy_unit = "EV"
+mass_unit = "AMU"
+Eb = [0.0, 0.0]
+Es = [4.72, 3.85]
+Ec = [1.0, 1.0]
+Z = [14, 32]
+m = [28.0855, 72.63]
+interaction_index = [0, 0]
+surface_binding_model = {"PLANAR"={calculation="TARGET"}}
+bulk_binding_model = "AVERAGE"

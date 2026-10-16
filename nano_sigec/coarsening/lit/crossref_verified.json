@@ -1,0 +1,132 @@
+{
+ "lifshitz1961": {
+  "key": "lifshitz1961",
+  "doi": "10.1016/0022-3697(61)90054-3",
+  "title": "The kinetics of precipitation from supersaturated solid solutions",
+  "author": "Lifshitz, I.M. and Slyozov, V.V.",
+  "journal": "Journal of Physics and Chemistry of Solids",
+  "year": 1961,
+  "volume": "19",
+  "pages": "35-50"
+ },
+ "wagner1961": {
+  "key": "wagner1961",
+  "doi": "10.1002/bbpc.19610650704",
+  "title": "Theorie der Alterung von Niederschl{\\\"a}gen durch Uml{\\\"o}sen (Ostwald-Reifung)",
+  "author": "Wagner, Carl",
+  "journal": "Zeitschrift f{\\\"u}r Elektrochemie, Berichte der Bunsengesellschaft f{\\\"u}r physikalische Chemie",
+  "year": 1961,
+  "volume": "65",
+  "pages": "581-591"
+ },
+ "newman1961": {
+  "key": "newman1961",
+  "doi": "10.1016/0022-3697(61)90032-4",
+  "title": "The diffusivity of carbon in silicon",
+  "author": "Newman, R.C. and Wakefield, J.",
+  "journal": "Journal of Physics and Chemistry of Solids",
+  "year": 1961,
+  "volume": "19",
+  "pages": "230-234"
+ },
+ "rollert1989": {
+  "key": "rollert1989",
+  "doi": "10.4028/www.scientific.net/msf.38-41.753",
+  "title": "Diffusion of Carbon-14 in Silicon",
+  "author": "Rollert, F. and Stolwijk, Nicolaas and Mehrer, Helmut",
+  "journal": "Materials Science Forum",
+  "year": 1989,
+  "volume": "38-41",
+  "pages": "753-758"
+ },
+ "bean1971": {
+  "key": "bean1971",
+  "doi": "10.1016/s0022-3697(71)80179-8",
+  "title": "The solubility of carbon in pulled silicon crystals",
+  "author": "Bean, A.R. and Newman, R.C.",
+  "journal": "Journal of Physics and Chemistry of Solids",
+  "year": 1971,
+  "volume": "32",
+  "pages": "1211-1219"
+ },
+ "werner1998": {
+  "key": "werner1998",
+  "doi": "10.1063/1.122483",
+  "title": "Carbon diffusion in silicon",
+  "author": "Werner, P. and G{\\\"o}sele, U. and Gossmann, H.-J. and Jacobson, D. C.",
+  "journal": "Applied Physics Letters",
+  "year": 1998,
+  "volume": "73",
+  "pages": "2465-2467"
+ },
+ "goesele2000": {
+  "key": "goesele2000",
+  "doi": "10.1557/proc-610-b7.11",
+  "title": "Diffusion Engineering by Carbon in Silicon",
+  "author": "Goesele, Ulrich and Laveant, Pierre and Scholz, Rene and Engler, Norbert and Werner, Peter",
+  "journal": "MRS Proceedings",
+  "year": 2000,
+  "volume": "610",
+  "pages": "B7.11"
+ },
+ "taylor1993": {
+  "key": "taylor1993",
+  "doi": "10.1063/1.109063",
+  "title": "Carbon precipitation in silicon: Why is it so difficult?",
+  "author": "Taylor, W. J. and Tan, T. Y. and G{\\\"o}sele, U.",
+  "journal": "Applied Physics Letters",
+  "year": 1993,
+  "volume": "62",
+  "pages": "3336-3338"
+ },
+ "pizzagalli2003": {
+  "key": "pizzagalli2003",
+  "doi": "10.1103/physrevb.68.195302",
+  "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+  "author": "Pizzagalli, Laurent and Cicero, Giancarlo and Catellani, Alessandra",
+  "journal": "Physical Review B",
+  "year": 2003,
+  "volume": "68",
+  "pages": "195302"
+ },
+ "kirchner1971": {
+  "key": "kirchner1971",
+  "doi": "10.1007/bf02813264",
+  "title": "Coarsening of grain-boundary precipitates",
+  "author": "Kirchner, H. O. K.",
+  "journal": "Metallurgical Transactions",
+  "year": 1971,
+  "volume": "2",
+  "pages": "2861-2864"
+ },
+ "ardell1972": {
+  "key": "ardell1972",
+  "doi": "10.1016/0001-6160(72)90114-9",
+  "title": "The effect of volume fraction on particle coarsening: theoretical considerations",
+  "author": "Ardell, A.J",
+  "journal": "Acta Metallurgica",
+  "year": 1972,
+  "volume": "20",
+  "pages": "61-71"
+ },
+ "kube2010": {
+  "key": "kube2010",
+  "doi": "10.1063/1.3380853",
+  "title": "Composition dependence of Si and Ge diffusion in relaxed Si$_{1-x}$Ge$_x$ alloys",
+  "author": "Kube, R. and Bracht, H. and Hansen, J. Lundsgaard and Larsen, A. Nylandsted and Haller, E. E. and Paul, S. and Lerch, W.",
+  "journal": "Journal of Applied Physics",
+  "year": 2010,
+  "volume": "107",
+  "pages": "073520"
+ },
+ "wagner2001kwn": {
+  "key": "wagner2001kwn",
+  "doi": "10.1002/352760264x.ch5",
+  "title": "Homogeneous Second-Phase Precipitation",
+  "author": "Wagner, Richard and Kampmann, Reinhard and Voorhees, Peter W.",
+  "journal": "Phase Transformations in Materials",
+  "year": 2001,
+  "volume": "",
+  "pages": "309-407"
+ }
+}

@@ -1,0 +1,11 @@
+potential   /uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt
+velocity    300 seed 58102
+time_step   1
+ensemble    npt_ber 300 300 100 0 100 1000
+run         100000
+ensemble    nvt_nhc 300 300 100
+run         50000
+ensemble    nvt_nhc 300 300 100
+compute_hnemd 1000 2.5e-05 0 0
+dump_thermo 10000
+run         5000000

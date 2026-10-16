@@ -1,0 +1,3 @@
+2026-10-04T11:00:57Z job=2111458 restart=0 host=grn061
+  job_script_syntax_fail (build-script escape bug, no gpumd run), resubmitted unchanged
+2026-10-04T11:22:39Z job=2111478 restart=0 host=grn061

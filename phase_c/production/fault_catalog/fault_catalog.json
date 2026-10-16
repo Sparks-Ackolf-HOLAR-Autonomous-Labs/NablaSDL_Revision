@@ -1,0 +1,170 @@
+{
+  "title": "Pre-registered fault catalog for the P2 Si(1-x)Ge(x) Tersoff RNEMD production campaign",
+  "author": "blind catalog subagent, 2026-09-28",
+  "written_blind": true,
+  "blindness_statement": "Written without opening, grepping, or otherwise reading any detector code, detector output, or fault-study result. Sources consulted: 00_terminology_shard_operations.md (operator definitions), phase_c/evidence_table.json (row format), phase_c/seed_batch_design.json (design grid), chpc/RESULTS.md (finite-size behaviour), plus general physics and HPC experience.",
+  "implementation": "inject_faults.py (same folder); inject(rows, entry_id, trial_seed, other_parties=None) -> (rows, truth)",
+  "operator_grammar": ["retain", "strengthen", "downweight", "correct", "scope-limit", "split", "replace", "quarantine", "forget"],
+  "production_schema": ["run_id", "batch_id", "party", "x", "T", "ncz", "seed", "kappa", "n_atoms"],
+  "schema_rule": "Injected rows keep exactly the production keys and value types; ground truth is returned only in the separate truth dict.",
+  "categories": {
+    "planted-error": "something wrong with the data; should be removed or fixed",
+    "method-off-data": "genuine simulation output that lies outside the validity of the method or of the law's intended material/phase",
+    "valid-anomaly": "real physics the simple law lacks; must NOT be forgotten, quarantined, or corrected away"
+  },
+  "constants": {
+    "background_sigma": 0.01,
+    "h_cut": 0.85,
+    "solidus_table_K": {"x": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], "T_sol": [1687, 1640, 1590, 1535, 1480, 1425, 1370, 1320, 1275, 1240, 1211]},
+    "solidus_note": "approximate real Si-Ge solidus (lens-shaped diagram), accuracy about +/-30 K"
+  },
+  "null_campaign": {
+    "id": "NULL",
+    "description": "No fault. Same background as every fault trial: kappa of every row multiplied by exp(N(0, background_sigma)) (replica-level scatter, comparable to the measured seed scatter of about 0.5-1 percent), then rows randomly permuted. Rows already in the real-material premelting band (T/T_sol(x) >= h_cut) are reported in truth.background_method_off_run_ids in every trial, NULL included, and should be scope-limited there too.",
+    "expected_operator": "retain",
+    "acceptable_operators": ["retain", "strengthen"],
+    "forbidden_operators": ["forget", "quarantine", "correct", "replace"],
+    "n_trials": 50,
+    "trial_seeds": "0..49"
+  },
+  "trial_protocol": {
+    "n_trials_per_entry": 50,
+    "trial_seed_rule": "trial_seed = 1000 * entry_number + k, k = 0..49 (entry_number: NULL=0, P01=1 ... V03=14)",
+    "rng": "numpy.random.default_rng(trial_seed); a single integer seed drives every random choice in the trial (background jitter, target batch/points, magnitude, row permutation)",
+    "severity": "each trial draws severity_u ~ U(0,1) first; the entry maps it monotonically onto its magnitude range (subtle at u near 0, gross at u near 1). Detection-rate curves are plotted against severity_u and against the physical magnitude recorded in truth.magnitude.",
+    "input": "the frozen production table of the CHPC-MD-C party (all batches); other_parties may be passed for context and are never modified",
+    "scoring_suggestion": "per trial: (a) localisation = overlap of flagged rows/batches with truth.affected_run_ids + truth.added_run_ids (precision, recall); (b) operator = detector's operator in truth.acceptable_operators (hit), in truth.forbidden_operators (harmful), otherwise neutral; for valid-anomaly entries the primary metric is the harmful rate (forgetting real physics); NULL trials give the false-alarm rate",
+    "determinism": "inject() is deterministic given (rows, entry_id, trial_seed); the self-test asserts this"
+  },
+  "entries": [
+    {
+      "id": "P01", "number": 1, "name": "biased batch", "category": "planted-error",
+      "story": "One committed submission ran with a systematic protocol difference (wrong timestep or thermostat coupling in the copied input deck, a different compiler build on the node, or a swap interval outside the linear-response window), so every run in that batch reads high or low by the same factor.",
+      "transformation": "Pick one batch uniformly; multiply kappa of all its rows by f = 1+d (up) or 1/(1+d) (down), direction 50/50.",
+      "magnitude": {"relative_bias_d": [0.03, 0.80], "map": "d = 0.03 + u*(0.80-0.03)"},
+      "expected_operator": "quarantine", "acceptable_operators": ["quarantine", "correct", "downweight", "forget"], "forbidden_operators": ["retain", "strengthen"],
+      "detectability_prior": "statistical: yes, for d above roughly 3x the replica scatter, because the batch is internally consistent but offset from neighbouring points in other batches; below about 5 percent it is near the noise floor",
+      "statistical_or_physics": "statistical"
+    },
+    {
+      "id": "P02", "number": 2, "name": "unit slip", "category": "planted-error",
+      "story": "A post-processing script converts the Muller-Plathe exchanged energy to kappa with a wrong factor: the classic missing 1/2 for a periodic box (heat flows both ways from the hot slab), the 1/2 applied twice, W/(cm K) vs W/(m K), nm^2 vs Angstrom^2 area, or mW/(m K).",
+      "transformation": "Pick one batch; multiply kappa of all its rows by a factor chosen from the ordered list [2, 0.5, 0.01, 100, 1000] by severity.",
+      "magnitude": {"factors_subtle_to_gross": [2.0, 0.5, 0.01, 100.0, 1000.0], "map": "index = floor(u*5)"},
+      "expected_operator": "correct", "acceptable_operators": ["correct", "quarantine", "forget"], "forbidden_operators": ["retain", "strengthen", "scope-limit"],
+      "detectability_prior": "statistical: trivially for 0.01/100/1000; the factor-2 cases look like a gross biased batch. Recovering the exact correction (a clean power of 10 or of 2) is a physics/bookkeeping insight rather than a statistical one",
+      "statistical_or_physics": "statistical to detect, physics to correct"
+    },
+    {
+      "id": "P03", "number": 3, "name": "composition label swap", "category": "planted-error",
+      "story": "Two lines of the points file are transposed (spreadsheet sort on one column only), so two points trade their Ge fraction labels while their kappa values stay with the true structures.",
+      "transformation": "Choose two points (all box sizes of each) in the same batch whose |dx| is close to a severity-drawn target; swap their x labels.",
+      "magnitude": {"target_abs_dx": [0.05, 0.60], "map": "target = 0.05 + u*0.55; pair picked among the 3 closest to target"},
+      "expected_operator": "correct", "acceptable_operators": ["correct", "quarantine", "forget"], "forbidden_operators": ["retain", "strengthen"],
+      "detectability_prior": "statistical: only for large dx and when kappa(x) is steep there; kappa(x) of the alloy is flat and roughly symmetric around x=0.5, so a swap across the minimum can be nearly invisible. Physics (mass-disorder scattering scales as x(1-x)) helps but does not fully resolve it",
+      "statistical_or_physics": "mostly physics for small dx"
+    },
+    {
+      "id": "P04", "number": 4, "name": "species type swap (x -> 1-x)", "category": "planted-error",
+      "story": "The LAMMPS data-file template of one batch maps atom type 1 to Ge instead of Si (or the mass lines are swapped), so the simulated alloy is really Si(x)Ge(1-x) while the label says x.",
+      "transformation": "Pick one batch; for n of its points (all sizes) replace x by 1-x. Low severity chooses the points nearest x=0.5 (small label change), high severity chooses the points farthest from 0.5 and more of them.",
+      "magnitude": {"n_points": "1 .. batch size", "map": "n = round(1 + u*(N-1)); u<=0.5 picks points closest to x=0.5, u>0.5 farthest"},
+      "expected_operator": "correct", "acceptable_operators": ["correct", "quarantine", "forget"], "forbidden_operators": ["retain", "strengthen"],
+      "detectability_prior": "physics required for most magnitudes: kappa of SiGe is only mildly asymmetric in x, so a statistical model sees at most a small residual; knowing that the Si-rich side conducts better (lighter host, stiffer bonds) is what exposes it",
+      "statistical_or_physics": "physics"
+    },
+    {
+      "id": "P05", "number": 5, "name": "temperature label offset", "category": "planted-error",
+      "story": "The T label of one batch is the thermostat set-point from a copied input deck (or the hot/cold slab temperature) rather than the mean sample temperature; in the gross case the labels were written in degrees Celsius.",
+      "transformation": "Pick one batch; add dT to T of all its rows. u<=0.9: |dT| = 20 + (u/0.9)*280 K, random sign; u>0.9: dT = -273.15 (Celsius slip).",
+      "magnitude": {"abs_dT_K": [20, 300], "celsius_slip": -273.15},
+      "expected_operator": "correct", "acceptable_operators": ["correct", "quarantine", "downweight"], "forbidden_operators": ["retain", "strengthen"],
+      "detectability_prior": "physics largely required: alloy kappa depends only weakly on T (alloy scattering is T independent, Umklapp adds a slowly growing term), so a 100 K offset changes kappa by a few percent at most. The Celsius slip is statistically obvious (labels fall below 300 K, out of the design domain)",
+      "statistical_or_physics": "physics for subtle, statistical for Celsius"
+    },
+    {
+      "id": "P06", "number": 6, "name": "duplicated batch (double counting)", "category": "planted-error",
+      "story": "A batch is ingested twice: resubmitted after an apparent failure with the same seeds and a new batch id (giving results equal up to hardware non-determinism), re-ingested with new ids but bit-identical kappa, or the ledger replays the same rows.",
+      "transformation": "Pick one batch and a fraction 0.5-1.0 of its rows; append copies. u<1/3: new batch id, new run_ids, same seeds, kappa jitter 1e-4..5e-3; 1/3..2/3: new ids, identical kappa; >2/3: identical rows including run_id.",
+      "magnitude": {"modes_subtle_to_gross": ["resubmitted-new-ids-hw-jitter", "resubmitted-new-ids-identical-kappa", "replayed-identical-rows"], "fraction_duplicated": [0.5, 1.0]},
+      "expected_operator": "forget", "acceptable_operators": ["forget", "downweight"], "forbidden_operators": ["strengthen"],
+      "note": "forget applies to the copies only (merging to one weight is the same thing); forgetting the originals too is a partial error",
+      "detectability_prior": "statistical: yes via identical seeds and near-identical kappa at identical (x,T,ncz); genuine replicas use different seeds and scatter at about 1 percent. Harm if undetected: inflated confidence and overweighted batch",
+      "statistical_or_physics": "statistical (bookkeeping)"
+    },
+    {
+      "id": "P07", "number": 7, "name": "unequilibrated long box", "category": "planted-error",
+      "story": "The walltime limit truncates the longest box of one batch: the thermal relaxation time grows as L^2, so the ncz=96 runs are averaged before the temperature profile reaches steady state and read low, bending the 1/kappa vs 1/L line.",
+      "transformation": "Pick one batch; multiply kappa of its largest-ncz rows by 1 - d*U(0.7,1.0).",
+      "magnitude": {"max_relative_deficit_d": [0.03, 0.40], "map": "d = 0.03 + u*0.37"},
+      "expected_operator": "forget", "acceptable_operators": ["forget", "quarantine", "downweight"], "forbidden_operators": ["retain", "strengthen"],
+      "detectability_prior": "partly statistical: the long box falls below the linear 1/L trend of its own point (non-monotone or concave-down size series); for small d it is hidden in the replica scatter. Knowing the L^2 relaxation argument tells where to look",
+      "statistical_or_physics": "both"
+    },
+    {
+      "id": "P08", "number": 8, "name": "party mislabel (MACE rows under CHPC-MD-C)", "category": "planted-error",
+      "story": "Output of the MACE machine-learned potential, run with the identical Muller-Plathe protocol, is copied into the Tersoff production folder and ingested under the CHPC-MD-C party label; MACE reads about 0.55x Tersoff with a mild composition dependence.",
+      "transformation": "Pick one batch and n of its points (all sizes); multiply kappa by r0*(1+0.15*(x-0.5))*exp(N(0,0.03)), r0 ~ U(0.50,0.60).",
+      "magnitude": {"n_points": "1 .. batch size", "map": "n = round(1 + u*(N-1))", "mace_over_tersoff": [0.50, 0.60]},
+      "expected_operator": "correct", "acceptable_operators": ["correct", "split", "quarantine", "replace"], "forbidden_operators": ["retain", "strengthen"],
+      "note": "correct = re-attribute to the MACE-MD party; the rows are valid MACE data, not garbage",
+      "detectability_prior": "statistical: yes as an outlier group (about -45 percent); identifying it as MACE rather than an arbitrary bias needs the cross-party ratio (physics/method knowledge)",
+      "statistical_or_physics": "statistical to detect, cross-party knowledge to attribute"
+    },
+    {
+      "id": "M01", "number": 9, "name": "near-solidus (premelting) regime", "category": "method-off-data",
+      "story": "The Tersoff alloy stays crystalline far above the real melting point (Tersoff Si melts well above 2000 K), but real Ge-rich SiGe is within 5-15 percent of its solidus at 1000-1200 K, where vacancies, surface/grain-boundary premelting and anharmonic softening make the real material differ. Crystalline Tersoff kappa there is internally consistent yet not transferable to the real alloy.",
+      "transformation": "Append one new batch of 3-8 points (all box sizes) at T = h*T_sol(x) <= 1200 K, h in [0.86, 0.975], Ge-rich x chosen so T fits the domain; kappa from a smooth least-squares fit of 1/kappa(x,T,1/ncz) to the table itself (crystalline Tersoff continuation) plus replica jitter. Pre-existing rows with T/T_sol >= 0.85 are listed as background method-off rows in every trial.",
+      "magnitude": {"n_points": [3, 8], "homologous_T": [0.86, 0.975], "map": "n = 3 + round(5u); upper h bound grows with u"},
+      "expected_operator": "scope-limit", "acceptable_operators": ["scope-limit", "split", "downweight"], "forbidden_operators": ["correct", "strengthen"],
+      "detectability_prior": "invisible to a purely statistical detector by construction: the rows follow the smooth crystalline trend. Requires physics (the real solidus) to scope-limit",
+      "statistical_or_physics": "physics"
+    },
+    {
+      "id": "M02", "number": 10, "name": "amorphous-phase contamination", "category": "method-off-data",
+      "story": "A melt-quench step left in the structure generator (or a too-fast anneal) produces amorphous SiGe for some points. Amorphous kappa is carried by diffusons with nanometre mean free paths, so it is independent of box length and weakly increasing with T, unlike the crystalline alloy.",
+      "transformation": "Pick one batch and n of its points; replace kappa of every size by kmid*level*exp(N(0,0.01)), where kmid is the point's middle-size crystalline value, level = (1 +/- 0.5u)*(1 + 0.08*(T-300)/900).",
+      "magnitude": {"n_points": "1 .. batch size", "abs_level_minus_1": [0.0, 0.5], "map": "n = round(1 + u*(N-1)); |level-1| = 0.5u"},
+      "expected_operator": "split", "acceptable_operators": ["split", "quarantine", "scope-limit"], "forbidden_operators": ["retain", "strengthen", "correct"],
+      "detectability_prior": "statistical: partly, through the missing size dependence (flat kappa vs L) and for large level offsets; at level near 1 only the flat size series betrays it, which a detector must be told to look for (physics of diffusons vs propagons)",
+      "statistical_or_physics": "both"
+    },
+    {
+      "id": "M03", "number": 11, "name": "dilute ballistic regime (1/L extrapolation invalid)", "category": "method-off-data",
+      "story": "Near the pure endpoints and at low T, phonon mean free paths exceed the longest box, so 1/kappa is not linear in 1/L and the three-size extrapolation (the method) is outside its validity even though each run is fine.",
+      "transformation": "For points with min(x,1-x) < x_c and T < T_c, multiply kappa by 1 + a*w*s^2, where w is a linear taper to zero at the regime edges and s = (ncz - ncz_min)/(ncz_max - ncz_min) (long box enhanced most, concave 1/kappa vs 1/L).",
+      "magnitude": {"x_c": [0.10, 0.25], "T_c_K": [500, 900], "a": [0.10, 1.00], "map": "all three grow linearly with u"},
+      "expected_operator": "scope-limit", "acceptable_operators": ["scope-limit", "split", "downweight"], "forbidden_operators": ["forget", "correct"],
+      "detectability_prior": "statistical: visible as size-series curvature in a corner of the domain for large a; the right action (limit the extrapolation method's scope rather than drop runs) needs the mean-free-path argument",
+      "statistical_or_physics": "both"
+    },
+    {
+      "id": "V01", "number": 12, "name": "regime-localized extra scattering", "category": "valid-anomaly",
+      "story": "At intermediate composition and moderate T, partially relaxed local bond-length mismatch (Si-Si, Si-Ge, Ge-Ge bonds of different length) creates strain-field scattering beyond pure mass disorder; the simple alloy law lacks this term.",
+      "transformation": "Add intrinsic thermal resistance to every row of every batch: 1/kappa += A*exp(-((x-x0)^2/2sx^2) - ((T-T0)^2/2sT^2)) / kappa_ref(point), kappa_ref = the point's largest-box kappa. This leaves the 1/L slope unchanged and is batch-independent.",
+      "magnitude": {"A_relative_resistance": [0.03, 0.35], "x0": [0.3, 0.7], "T0_K": [300, 800], "sx": [0.08, 0.15], "sT_K": [100, 250], "map": "A = 0.03 + 0.32u"},
+      "expected_operator": "retain", "acceptable_operators": ["retain", "strengthen", "split", "scope-limit"], "forbidden_operators": ["forget", "quarantine", "correct", "replace"],
+      "detectability_prior": "statistical: the deviation from the simple law is visible for A above about 0.1; distinguishing it from a fault requires noticing it is smooth, spans batches, and preserves the size scaling (a physics-consistency argument). Harm to measure: forgetting/quarantining real physics",
+      "statistical_or_physics": "statistical to see, physics to keep"
+    },
+    {
+      "id": "V02", "number": 13, "name": "high-T second scattering channel", "category": "valid-anomaly",
+      "story": "At high T, four-phonon (higher-order anharmonic) scattering grows roughly as T^2 and adds to three-phonon Umklapp; a law with only a linear-in-T intrinsic resistance underpredicts the high-T drop.",
+      "transformation": "Every row: 1/kappa += c*((T - T_on)_+ / (1200 - T_on))^2 / kappa_ref(point).",
+      "magnitude": {"c_relative_resistance_at_1200K": [0.05, 0.50], "T_on_K": [600, 900], "map": "c = 0.05 + 0.45u"},
+      "expected_operator": "retain", "acceptable_operators": ["retain", "strengthen", "split", "scope-limit"], "forbidden_operators": ["forget", "quarantine", "correct", "replace"],
+      "detectability_prior": "statistical: visible as a high-T residual once c is above about 0.1; it is confounded with M01 (near-solidus) and with P05 (T offset) in the Ge-rich hot corner, so separating them needs physics (all compositions affected, size scaling preserved)",
+      "statistical_or_physics": "statistical to see, physics to keep"
+    },
+    {
+      "id": "V03", "number": 14, "name": "composition asymmetry", "category": "valid-anomaly",
+      "story": "Mass-disorder scattering is not symmetric in x: Ge impurities in a light, stiff Si host and Si impurities in a heavy, soft Ge host scatter differently, and the host lattice conductivity differs, so kappa(x) is skewed (Ge-rich side lower) while a law in x(1-x) is symmetric.",
+      "transformation": "Every row: 1/kappa += a*(2x-1) / kappa_ref(point).",
+      "magnitude": {"a_relative_resistance": [0.03, 0.30], "map": "a = 0.03 + 0.27u"},
+      "expected_operator": "retain", "acceptable_operators": ["retain", "strengthen", "split"], "forbidden_operators": ["forget", "quarantine", "correct", "replace", "scope-limit"],
+      "detectability_prior": "statistical: a global skew is easy to fit away if the law has a free asymmetric term, otherwise it shows as structured residuals across all batches; the risk is a detector blaming the Ge-rich batches. Physics prior says it is real",
+      "statistical_or_physics": "statistical to see, physics to keep"
+    }
+  ],
+  "counts": {"planted-error": 8, "method-off-data": 3, "valid-anomaly": 3, "total": 14}
+}

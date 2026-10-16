@@ -1,0 +1,1024 @@
+{
+  "data": [
+    {
+      "score": 0.588617216838721,
+      "paper": {
+        "corpusId": "3019500",
+        "title": "Total Dose and Dose Rate Effects on Some Current Semiconducting Devices",
+        "authors": [
+          "N. Fourches"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.5772/34978?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/34978, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Most devices using semiconductors operate at room temperature with the notable exception of cryogenic detectors such as HPGe. The concentration of defects in materials such as silicon, germanium and silicon dioxide depends significantly on the annealing processes of elementary defects created during irradiation. Most of the defects investigated have been point defects as the models used until now were simpler than for many atom defects such as dislocations and vacancy clusters (voids). Moreover, ionizing radiation studies have focused on electrical measurements either of macroscopic physical quantities or on the investigation of thermal relaxation behaviors, leading to the estimation of activation energies. The picture of the irradiated material is such that only a fraction of the defects introduced by irradiation remains in a stable form at room temperature. This has been established in a variety of semiconducting materials both elemental and compound. Most stable defects both in germanium and silicon are divacancy or vacancy related. Some doubt still exists in germanium because of the lack of symmetry sensitive experimental results such as uniaxial stress DLTS (Deep Level Transient Spectroscopy) or ESR (Electron Spin Resonance). Interstitial related defects were detected in later studies (Song et al. 1989) in silicon and interstitials related defects in germanium (Carvalho et al., 2007) were not clearly identified.",
+        "snippetKind": "body",
+        "section": "Defect transformation and annealing: Device implication",
+        "snippetOffset": {
+          "start": 7447,
+          "end": 8887
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1311,
+              "end": 1328,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1388,
+              "end": 1411,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 125
+            },
+            {
+              "start": 126,
+              "end": 313
+            },
+            {
+              "start": 314,
+              "end": 490
+            },
+            {
+              "start": 491,
+              "end": 716
+            },
+            {
+              "start": 717,
+              "end": 871
+            },
+            {
+              "start": 872,
+              "end": 967
+            },
+            {
+              "start": 968,
+              "end": 1051
+            },
+            {
+              "start": 1052,
+              "end": 1250
+            },
+            {
+              "start": 1251,
+              "end": 1440
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5871785529535826,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The thermal properties of semiconductors following exposure to ion irradiation are of great interest for the cooling of electronic devices; however, gradients in composition and structure due to irradiation often make the measurement difficult. Furthermore, the nature of spatial variations in thermal resistances due to spatially varying ion irradiation damage is not well understood. In this work, we develop an advancement in the analysis of time-domain thermoreflectance to account for spatially varying thermal conductivity in a material resulting from a spatial distribution of defects. We then use this method to measure the near-surface ([Formula: see text]1\u2009[Formula: see text]m) thermal conductivity of silicon wafers irradiated with Kr+ ions, which has an approximate Gaussian distribution centered 260\u2009nm into the sample. Our numerical analysis presented here allows for the spatial gradient of thermal conductivity to be extracted via what is fundamentally a volumetric measurement technique. We validate our findings via transmission electron microscopy, which is able to confirm the spatial variation of the sub-surface silicon structure, and provide additional insight into the local structure resulting from the effects of ion bombardment. Thermal measurements found the ion stopping region to have a nearly 50[Formula: see text] reduction in thermal conductivity as compared to pristine silicon, while TEM showed the region was not fully amorphized. Our results suggest this drastic reduction in silicon thermal conductivity is primarily driven by structural defects in crystalline regions along with boundary scattering between amorphous and crystalline regions, with a negligible contribution being due to implanted krypton ions themselves.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1760
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5817119530914365,
+      "paper": {
+        "corpusId": "210833507",
+        "title": "Probing thermal transport across amorphous region embedded in a single crystalline silicon nanowire",
+        "authors": [
+          "Yun-Shan Zhao",
+          "Xiangjun Liu",
+          "A. Rath",
+          "Jing Wu",
+          "Bao-Wen Li",
+          "Wu-Xing Zhou",
+          "Guo-Feng Xie",
+          "Gang Zhang",
+          "J. Thong"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6972709, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Thus, RDF data suggests our samples exhibit relatively high degree as the RDF peak observed in our samples is broad in width and small in magnitude. We also show the difference in damage incurred in amorphous silicon between silicon ion implantation and helium ion irradiation by performing Monte Carlo simulation based on a binary collision approach (TRIM/SRIM) and the result is discussed in Supporting Information Fig. S3. For a typical heavy ion, each collision cascade is most likely to produce divacancies and more complicated defect structures, where a substantial cluster containing possible voids and impurities easily comes into being 33 . Thus, it is difficult to create well-controlled point defects and hence completely amorphous disorder in silicon by heavy ions; for a light ion, it creates point and point-like defects rather than large damage clusters, due to the relatively uniform spatial defect profile 27 . Thus dense amorphous silicon without detectable voids can be obtained by light ion irradiation, which possibly accounts for the difference in RDF of amorphous silicon obtained by silicon ion implantation and helium ion irradiation in Fig. 1(c). thermal conductivity measurement. The thermal conductance along the nanowires with amorphous segments was measured using an electron beam heating technique that we had previously developed, with details discussed elsewhere 27,[34][35][36] . The measured Silicon nanowires with diameter ~160 nm were purchased from Sigma-Aldrich 730866) with a [111] growth direction. As shown in the sketch in Fig. 2(a), a SEM electron beam is used to heat up the suspended nanowire on a Micro-Electro-Thermal System (METS) device and the temperature rise at two ends of nanowire is probed by the two platinum (Pt) loops (thermometers). \u2206T L and \u2206T R denote the temperature rise in the left and right Pt thermometers, respectively. At a thermal steady state, the cumulative thermal resistance R(x) at the position of x along the measured nanowire is extracted as  32 and chemical vapor deposition (CVD) 11 .",
+        "snippetKind": "body",
+        "section": "(I)-(IV). It was reported by",
+        "snippetOffset": {
+          "start": 6515,
+          "end": 8578
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 645,
+              "end": 647,
+              "matchedPaperCorpusId": "61963312"
+            },
+            {
+              "start": 923,
+              "end": 925,
+              "matchedPaperCorpusId": "20742011"
+            },
+            {
+              "start": 1396,
+              "end": 1399,
+              "matchedPaperCorpusId": "20742011"
+            },
+            {
+              "start": 1399,
+              "end": 1403,
+              "matchedPaperCorpusId": "103041448"
+            },
+            {
+              "start": 1403,
+              "end": 1407,
+              "matchedPaperCorpusId": "207721464"
+            },
+            {
+              "start": 1407,
+              "end": 1411,
+              "matchedPaperCorpusId": "103955989"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 148
+            },
+            {
+              "start": 149,
+              "end": 425
+            },
+            {
+              "start": 426,
+              "end": 649
+            },
+            {
+              "start": 650,
+              "end": 927
+            },
+            {
+              "start": 928,
+              "end": 1172
+            },
+            {
+              "start": 1173,
+              "end": 1206
+            },
+            {
+              "start": 1207,
+              "end": 1413
+            },
+            {
+              "start": 1414,
+              "end": 1539
+            },
+            {
+              "start": 1540,
+              "end": 1792
+            },
+            {
+              "start": 1793,
+              "end": 1887
+            },
+            {
+              "start": 1888,
+              "end": 2063
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5727154152336065,
+      "paper": {
+        "corpusId": "123182211",
+        "title": "Investigation of point and extended defects in electron irradiated silicon\u2014Dependence on the particle energy",
+        "authors": [
+          "R. Radu",
+          "I. Pintilie",
+          "L. Nistor",
+          "E. Fretwurst",
+          "G. Lindstroem",
+          "L. Makarenko"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.4918924?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.4918924, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Investigation of point and extended defects in electron irradiated silicon\u2014Dependence on the particle energy",
+        "snippetKind": "title",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 108
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5611749048070176,
+      "paper": {
+        "corpusId": "137952814",
+        "title": "Defect Engineering in Silicon Materials",
+        "authors": [
+          "W. Bergholz"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-4-431-55800-2_9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-4-431-55800-2_9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Point Defects (i.e. vacancies and selfinterstials are zero-dimensional defects) in silicon. In solids in general, such defects are unavoidable, their presence follows from the Second Law of Thermodynamics; for a given temperature and for each species of intrinsic point defects (vacancy, self-interstitial). In contrast, impurities for which there is an equilibrium solubility, can be avoided by suitable countermeasures. Likewise, one-dimensional defects (dislocations), two-dimensional defects (e.g. stacking faults) and three-dimensional defects (e.g. voids or precipitates of impurities) can be avoided by defect engineering; they are not inevitable by the laws of thermodynamics. To turn silicon into practical devices (e.g. integrated circuits, photovoltaic cells), defect engineering is part and parcel of the overall process and production technology. First, the fundamentals will be explained, e.g. the analogy between the chemistry of ions in water as a \u201csubstrate\u201d and the \u201cchemistry\u201d of point defects in silicon, the most perfect, purest solid material available. Secondly, the application of these fundamental defect engineering principles will be described for various technology areas. The focus will be on microelectronics, photovoltaics will also be mentioned. Topics in microelectronics will include the impact of oxidation, ion implantation, reactive ion etching and thermal processes for diffusion of dopant atoms. Gettering of metal contamination will also be considered. It will be elucidated that there is a close interaction of metal impurities and extended defects, and that an uncontrolled metal contamination is a source of unacceptable quality risks in the production of microelectronic devices and photovoltaic cells.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1746
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.5532812426756679,
+      "paper": {
+        "corpusId": "117897719",
+        "title": "Voids \u2019 layer structures in silicon irradiated with high doses of high-energy helium ions",
+        "authors": [
+          "M. I. Starchyk",
+          "L. Marchenko",
+          "M. Pinkovska",
+          "G. G. Shmatko",
+          "V. I. Varnina"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYND",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.15407/spqeo18.03.292?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.15407/spqeo18.03.292, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Theoretical and experimental data received in the field of radiation solid state physics indicate the possibility of self-organization in the ensemble of radiation defects, especially under ion implantation [1][2][3]. An important factor for the radiation modification of material properties is information on the distribution of ions and structural defects in the irradiated material, their size, thermal stability and so on. The results are of fundamental importance for better understanding the nature of interaction of radiation with solids at high concentration of defects. \n\nInterest in the behaviour of helium implanted in silicon is related with the fact of voids' formation at high fluences of irradiation [4,5]. Helium is poorly soluble in Si and during irradiation collects in the gas-filled vacancy complexes. When silicon is heated at temperatures above T \u2265 400 \u00b0C, these complexes grow and helium are released, leaving voids. Surface of voids remains clean, making them places of possible gettering of impurities from the surrounding matrix, as well as centres of strain relaxation in the silicon lattice. \n\nWe present the results of studying the structural and optical properties of monocrystalline silicon irradiated with helium ions possessing the energy close to 27.2 MeV at fluences \u22655\u202210 16 ion/\u0441m 2 by varying the beam current. The goal of the work is to obtain information about the nature and parameters of the defect structure and optical properties of irradiated silicon.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 15,
+          "end": 1511
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 207,
+              "end": 210,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 210,
+              "end": 213,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 213,
+              "end": 216,
+              "matchedPaperCorpusId": "278439308"
+            },
+            {
+              "start": 715,
+              "end": 718,
+              "matchedPaperCorpusId": "121866655"
+            },
+            {
+              "start": 718,
+              "end": 720,
+              "matchedPaperCorpusId": "55179787"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 217
+            },
+            {
+              "start": 218,
+              "end": 426
+            },
+            {
+              "start": 427,
+              "end": 578
+            },
+            {
+              "start": 581,
+              "end": 721
+            },
+            {
+              "start": 722,
+              "end": 821
+            },
+            {
+              "start": 822,
+              "end": 939
+            },
+            {
+              "start": 940,
+              "end": 1119
+            },
+            {
+              "start": 1122,
+              "end": 1348
+            },
+            {
+              "start": 1349,
+              "end": 1496
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.553240368942495,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "significant role in reducing the thermal conductivity of crystalline regions to 10 W m \u00c01 K \u00c01 or less. One may also consider the effects of bond strength, where the bonding between Si-Si and Si-Ge atom pairs is expected to be significantly stronger than the interactions between Si and Kr (a noble gas). Ratsifaritana and Klemens 70 considered the removal of atomic linkages due to vacancies as being equivalent to a point defect with a factor of 2 mass difference, following the expression from Eq. ( 9), and we take this as an extreme lower limit for the weakened bonding between silicon and krypton. Even considering this extreme limit, concentrations must be on the order of 1% in order to achieve a thermal conductivity reduction to 10 W m \u00c01 K \u00c01 . 61 We again see that significantly higher ion concentrations would be required for us to attribute our thermal conductivity reductions to these effects. \n\nWe next consider the influence of damage to the crystalline lattice structure as induced by displacements and/or cascades. SRIM predicts that up to 40% of atoms may be dislocated as a product of bombardment; however, this should be taken as an upper bound due to the possibility of recombination of selfinterstitials and vacancies during the bombardment process. Furthermore, a level of 30% structural damage can be taken as the threshold for amorphization of crystalline silicon. 7 Taking the effects of mass point defects as an approximate analogy, and without going into depth as to specific types of structural defects present, we note that a 30% concentration of point defects could lead to a thermal conductivity as low as 5 W m \u00c01 K \u00c01 for bulk. This effect is far more significant than either mass or bondstrength scattering effects alone, as the passage of each individual ion can introduce far more structural disorder than would result from the mere presence of the ion itself. We also refer to past studies that have made similar observations; post-annealed ionbombarded samples have seen a near-complete restoration of high thermal conductivity. 17",
+        "snippetKind": "body",
+        "section": "Journal of Applied Physics",
+        "snippetOffset": {
+          "start": 32807,
+          "end": 34879
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 756,
+              "end": 758,
+              "matchedPaperCorpusId": "16679370"
+            },
+            {
+              "start": 1392,
+              "end": 1393,
+              "matchedPaperCorpusId": "122182354"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 103
+            },
+            {
+              "start": 104,
+              "end": 304
+            },
+            {
+              "start": 305,
+              "end": 603
+            },
+            {
+              "start": 604,
+              "end": 758
+            },
+            {
+              "start": 759,
+              "end": 908
+            },
+            {
+              "start": 911,
+              "end": 1033
+            },
+            {
+              "start": 1034,
+              "end": 1273
+            },
+            {
+              "start": 1274,
+              "end": 1393
+            },
+            {
+              "start": 1394,
+              "end": 1663
+            },
+            {
+              "start": 1664,
+              "end": 1899
+            },
+            {
+              "start": 1900,
+              "end": 2072
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5527230121952342,
+      "paper": {
+        "corpusId": "246675002",
+        "title": "Recent Advances on Thermoelectric Silicon for Low-Temperature Applications",
+        "authors": [
+          "D. Narducci",
+          "Federico Giulio"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8840509, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "On the first route, alloying and defect engineering (including impurities and dopants) have been investigated. Germanium has been considered, extending to thin films the strategy successfully deployed in ingots and pellets despite the cost and the limited geoavailability of the element. Not surprisingly, the use of SiGe alloys was confirmed to be successful also in thin films, improving efficiency up to \u22487% [28]. On defect engineering, computational analyses [29] reported how at dopant concentrations of 5 \u00d7 10 20 cm \u22123 , thermal conductivity at 300 K falls from 137 W/mK (undoped Si) down to 18, 39, and 57 W/mK in As-, B-, and P-doped silicon. Dopants mostly reduce \u03ba due to mass disorder effect, with bond disorder contributing only for P doping. No significant effect is instead ascribed to lattice strain. \n\nThe wise use of structural defects was exploited by Bennett et al. in a series of papers dealing with single-crystalline Si (scSi) thin films. Si + ion implantation in a 100 nm thick scSi film (P-doped, 10 19 cm \u22123 ) injected a very large number of vacancies (density \u2248 8 \u00d7 10 19 cm \u22123 ), yet not fully amorphizing the film. A subsequent rapid thermal annealing reported that after 10 s at 600 \u2022 C, an optimal compromise between the reduction of \u03ba and recovery of \u03c3 could be reached. This result could be explained in view of the fact that an optimal vacancy density exists at which its effect on carrier mobility is comparable to that of ionized impurities, thus not impacting the electrical conductivity although hindering phonon diffusion. Then, a 20-fold reduction in thermal conductivity was found, while the electrical conductivity and Seebeck coefficient (and PF thereof) could be almost fully retained. Then, a ZT of 0.16 at 300 K was obtained, with the power factor being 3.5 mW/mK 2 , which is fully comparable to that of standard scSi [30]. \n\nDislocations were also used to tailor thermal conductivity and the power factor [31].",
+        "snippetKind": "body",
+        "section": "Decreasing Thermal Conductivity in Single-Crystalline Silicon",
+        "snippetOffset": {
+          "start": 10929,
+          "end": 12886
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 411,
+              "end": 415,
+              "matchedPaperCorpusId": "137154568"
+            },
+            {
+              "start": 463,
+              "end": 467,
+              "matchedPaperCorpusId": "15205642"
+            },
+            {
+              "start": 1864,
+              "end": 1868,
+              "matchedPaperCorpusId": "54776357"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 110
+            },
+            {
+              "start": 111,
+              "end": 287
+            },
+            {
+              "start": 288,
+              "end": 416
+            },
+            {
+              "start": 417,
+              "end": 650
+            },
+            {
+              "start": 651,
+              "end": 754
+            },
+            {
+              "start": 755,
+              "end": 815
+            },
+            {
+              "start": 818,
+              "end": 960
+            },
+            {
+              "start": 961,
+              "end": 1142
+            },
+            {
+              "start": 1143,
+              "end": 1301
+            },
+            {
+              "start": 1302,
+              "end": 1560
+            },
+            {
+              "start": 1561,
+              "end": 1728
+            },
+            {
+              "start": 1729,
+              "end": 1869
+            },
+            {
+              "start": 1872,
+              "end": 1957
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5505443518008193,
+      "paper": {
+        "corpusId": "118476305",
+        "title": "Time dependence of the behaviour of silicon detectors in intense radiation fields and the role of primary point defects",
+        "authors": [
+          "S. Lazanu",
+          "I. Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/physics/0611080, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The model of kinetics of defects used in the present work has been developed previous by the authors, see for example [1] and references cited therein. It describes, at the microscopic level, the formation and evolution of defects in silicon during and after irradiation and correlates these effects with the macroscopic parameters of the device. \n\nThe incident particle interacts with the semiconductor material. The peculiarities of the interaction mechanisms are explicitly considered for each type of particle and kinetic energy. When an incident particle is slowed down in silicon, it produces different types of damage. While ionisation is the basis of particle detection and is reversible, displacement effects produce defects in the latticewhich are of interest for this analysis. The processes by which the recoil nuclei resulting from these interactions lose their energy in the semiconductor lattice are modelled. The kinetic energy dependence of the concentration of primary defects on unit particle fluence (CPD) is calculated for each incident particle and energy, and it is used in the evaluation of the generation rate of defects during irradiation in accord with Lindhard theory. In the next step is modelled the formation and time evolution of complex defects, associations of primary defects or of primary defects and impurities. The primary point defects considered here are vacancies (as \"classic\" vacancies and fourfold coordinated vacancy defects: Si FFCD ) and silicon self interstitials. In what regards the Si FFCD defect, its existence was predicted by Goedecker and co-workers [2] and its characteristics were indirectly established by Lazanu and Lazanu [3]. We established that this defect is produced simultaneously with the \"classic\" vacancy, with a concentration of about 10% from all vacancies per act of interaction, is stable in time, it is uniformly introduced in the bulk during irradiation and has deep energy level(s) in the gap, at least one energy level between E c -(0.46 \u00f7 0.48) eV. The primary defects are introduced with a rate that is sum of contributions from thermal generation and generation by irradiation. \n\nIn the forthcoming analysis, only phosphorus, carbon and oxygen impurities are considered as preexistent in silicon. The kinetics of defects was modelled applying the theory of diffusion-limited reactions.",
+        "snippetKind": "body",
+        "section": "The model for silicon degradation",
+        "snippetOffset": {
+          "start": 1836,
+          "end": 4200
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 118,
+              "end": 121,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1605,
+              "end": 1608,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1682,
+              "end": 1685,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 151
+            },
+            {
+              "start": 152,
+              "end": 346
+            },
+            {
+              "start": 349,
+              "end": 413
+            },
+            {
+              "start": 414,
+              "end": 533
+            },
+            {
+              "start": 534,
+              "end": 625
+            },
+            {
+              "start": 626,
+              "end": 788
+            },
+            {
+              "start": 789,
+              "end": 924
+            },
+            {
+              "start": 925,
+              "end": 1196
+            },
+            {
+              "start": 1197,
+              "end": 1348
+            },
+            {
+              "start": 1349,
+              "end": 1512
+            },
+            {
+              "start": 1513,
+              "end": 1686
+            },
+            {
+              "start": 1687,
+              "end": 2025
+            },
+            {
+              "start": 2026,
+              "end": 2156
+            },
+            {
+              "start": 2159,
+              "end": 2275
+            },
+            {
+              "start": 2276,
+              "end": 2364
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5497931681362509,
+      "paper": {
+        "corpusId": "280602200",
+        "title": "Effects of He irradiation on the microstructure and thermal conductivity of SiC",
+        "authors": [
+          "Wan-Tong Sun",
+          "Shou-xi Gu",
+          "Baolong Ji",
+          "Qiang Qi",
+          "Hai-Shan Zhou",
+          "G. Luo"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1741-4326/adf75d?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1741-4326/adf75d, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The considerable reduction in thermal conductivity of helium-ion irradiated SiC can be attributed to the synergistic effects of structural damage and defect formation. The pristine 6H-SiC possesses a hexagonal close-packed (HCP) structure with long-range periodicity, which provides unobstructed pathways for phonon propagation, resulting in exceptionally high thermal conductivity \u223c190 W m \u22121 \u2022K \u22121 due to the extended phonon mean free paths. However, during helium ion irradiation, the displacement collisions disrupt the HCP stacking sequence, causing lattice distortions which suppress phonon transmission, significantly shorten the phonon mean free paths [60][61][62]. \n\nAdditionally, irradiation introduces high concentrations of point defects: vacancies, interstitials and implanted helium ions, which significantly increase the phonon scattering crosssection and reduce the phonon mean free paths, leading to the reduction of thermal conductivity [60,[62][63][64][65]. As for the helium bubbles, it is thought not only to enhance the scattering of phonons, but also to create interfacial thermal resistance at bubble-matrix boundaries, resulting in the decrease of thermal conductivity. Taking the irradiation fluence of 1 \u00d7 10 17 ions cm \u22122 as an example, the evaluation of the contribution of four regions to the degradation of thermal conductivity can be performed based on the thickness, lattice distortion severity, and amorphization degree of the four irradiation damaged regions identified in figure 10. The degradation of thermal conductivity is dominated by radiation-induced defects, with region 3 (170 nm thick, 28% of the total irradiated layer) being the primary contributor due to severe lattice distortion from pronounced helium bubble aggregation and complete amorphization, which significantly enhances phonon scattering. Region 2 (340 nm thick, 57% of the total irradiated layer) exhibits significant impact despite its SAED shows limited amorphization, as its thickness dominance, the significant contribution of numerous point defects to phonon scattering cannot be ignored.",
+        "snippetKind": "body",
+        "section": "TDTR",
+        "snippetOffset": {
+          "start": 26506,
+          "end": 28608
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 660,
+              "end": 664,
+              "matchedPaperCorpusId": "93162688"
+            },
+            {
+              "start": 664,
+              "end": 668,
+              "matchedPaperCorpusId": "237308659"
+            },
+            {
+              "start": 668,
+              "end": 672,
+              "matchedPaperCorpusId": "55858897"
+            },
+            {
+              "start": 955,
+              "end": 959,
+              "matchedPaperCorpusId": "93162688"
+            },
+            {
+              "start": 959,
+              "end": 963,
+              "matchedPaperCorpusId": "55858897"
+            },
+            {
+              "start": 963,
+              "end": 967,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 967,
+              "end": 971,
+              "matchedPaperCorpusId": "238663059"
+            },
+            {
+              "start": 971,
+              "end": 975,
+              "matchedPaperCorpusId": "6535999"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 167
+            },
+            {
+              "start": 168,
+              "end": 443
+            },
+            {
+              "start": 444,
+              "end": 673
+            },
+            {
+              "start": 676,
+              "end": 976
+            },
+            {
+              "start": 977,
+              "end": 1194
+            },
+            {
+              "start": 1195,
+              "end": 1518
+            },
+            {
+              "start": 1519,
+              "end": 1846
+            },
+            {
+              "start": 1847,
+              "end": 2102
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5458730918055642,
+      "paper": {
+        "corpusId": "249444509",
+        "title": "Thermodynamic Formation Properties of Point Defects in Germanium Crystal",
+        "authors": [
+          "Jinping Luo",
+          "Chenyang Zhou",
+          "Qihang Li",
+          "Li-Jun Liu"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9182451, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The formation entropy of self-interstitial and vacancy are shown as functions of temperature in Figure 4. The total formation entropies predicted by the two potentials are also very close at melting temperature, ~15 k B for self-interstitial and ~14 k B for vacancy. The harmonic formation entropy accounts for ~20% of the total formation entropy at melting temperature for both point defects. The point defect entropies are relatively less characterized in germanium. Considering the similarity of structure and properties between silicon and germanium, we may make a comparison between the calculated results and those of silicon crystals. Atomic simulations with both electronic structure and empirical methods suggest that the point defect vibrational entropies of formation are significant in silicon crystal: ~4-8 k B [30][31][32][33][34]. Cowern and coworkers [7] found that the point defects in silicon and germanium crystal transform from \"point like\" to \"extended defects\" as the temperature increases. The extended defects have very high configurational entropy in germanium (i.e., 30 k B ). Adding the configurational entropy, it is very possible that the melting point total formation entropy will be comparable to our estimated results.",
+        "snippetKind": "body",
+        "section": "Results",
+        "snippetOffset": {
+          "start": 19202,
+          "end": 20452
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 824,
+              "end": 828,
+              "matchedPaperCorpusId": "11092837"
+            },
+            {
+              "start": 828,
+              "end": 832,
+              "matchedPaperCorpusId": "121058091"
+            },
+            {
+              "start": 832,
+              "end": 836,
+              "matchedPaperCorpusId": "19867489"
+            },
+            {
+              "start": 836,
+              "end": 840,
+              "matchedPaperCorpusId": "121602535"
+            },
+            {
+              "start": 840,
+              "end": 844,
+              "matchedPaperCorpusId": "121807596"
+            },
+            {
+              "start": 846,
+              "end": 870,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 105
+            },
+            {
+              "start": 106,
+              "end": 266
+            },
+            {
+              "start": 267,
+              "end": 393
+            },
+            {
+              "start": 394,
+              "end": 468
+            },
+            {
+              "start": 469,
+              "end": 641
+            },
+            {
+              "start": 642,
+              "end": 1012
+            },
+            {
+              "start": 1013,
+              "end": 1250
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.543178221269471,
+      "paper": {
+        "corpusId": "13698098",
+        "title": "A Theoretical Simulation of the Radiation Responses of Si, Ge, and Si/Ge Superlattice to Low-Energy Irradiation",
+        "authors": [
+          "Ming Jiang",
+          "Haiyan Xiao",
+          "Shu-Ming Peng",
+          "Gui-Xia Yang",
+          "Zi-Jiang Liu",
+          "L. Qiao",
+          "X. Zu"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5931957, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "As the promising thermoelectric materials, the thermoelectric characteristic of Si/Ge system may be also affected under the radiation environment [11,15]. Zheng et al. irradiated the multiple periodic layers of Si 1 \u2212 x Ge x /Si employing 5 MeV Si ions, and they found that the thermo-electric figure of merit increases with increasing Si ions fluencies [11]. The defects and structural disorder reduce the cross plane thermal conductivity by absorbing and dissipating phonon along the lattice, and the electronic density of states in the miniband of the QD structure increases the electrical conductivity and the Seebeck coefficient, which all contribute to the increase of figure of merit [11]. \n\nTheoretically, Sayed and Windl both investigated the atomic displacements of bulk Si employing the classical molecular dynamics (MD) method [17,18]. They found that the threshold displacement energies (E d s) depend on the knock-on direction and the damaged states are mainly Frenkel pair (FP) defects [17,18]. Caturla et al. studied the effects of ion mass and energy on the radiation damage of bulk Si employing the MD method [19]. They reported that the production of amorphization as well as isolated point defects and small clusters have a strong dependence on ion mass and a weak relationship to ion energy [19]. Holmstr\u00f6m et al. calculated the E d s for germanium using the MD method and found that the stable defects are FP defects [20]. Shaw et al. applied an ab initio method to study the effects of antimony and germanium defects on the electronic structure of Si/Ge heterostructures and found that these defects interact with the Si/Ge interfaces, resulting in interface-related localized resonances and large local perturbations to the electronic structure [21]. Despite of these mentioned investigations, no theoretical simulations of dynamic process of radiation damage of Si/Ge SL have been reported in the literature thus far. There still lacks an atomic-level understanding of the micro-structural evolution and the underlying mechanism for defect generation in the semiconductor superlattices.",
+        "snippetKind": "body",
+        "section": "Background",
+        "snippetOffset": {
+          "start": 1700,
+          "end": 3811
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 146,
+              "end": 150,
+              "matchedPaperCorpusId": "98336452"
+            },
+            {
+              "start": 150,
+              "end": 153,
+              "matchedPaperCorpusId": "136561660"
+            },
+            {
+              "start": 354,
+              "end": 358,
+              "matchedPaperCorpusId": "98336452"
+            },
+            {
+              "start": 691,
+              "end": 695,
+              "matchedPaperCorpusId": "98336452"
+            },
+            {
+              "start": 839,
+              "end": 843,
+              "matchedPaperCorpusId": "93539220"
+            },
+            {
+              "start": 843,
+              "end": 846,
+              "matchedPaperCorpusId": "97396498"
+            },
+            {
+              "start": 1001,
+              "end": 1005,
+              "matchedPaperCorpusId": "93539220"
+            },
+            {
+              "start": 1005,
+              "end": 1008,
+              "matchedPaperCorpusId": "97396498"
+            },
+            {
+              "start": 1127,
+              "end": 1131,
+              "matchedPaperCorpusId": "38579564"
+            },
+            {
+              "start": 1312,
+              "end": 1316,
+              "matchedPaperCorpusId": "38579564"
+            },
+            {
+              "start": 1439,
+              "end": 1443,
+              "matchedPaperCorpusId": "73523429"
+            },
+            {
+              "start": 1445,
+              "end": 1464,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1769,
+              "end": 1773,
+              "matchedPaperCorpusId": "38966956"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 154
+            },
+            {
+              "start": 155,
+              "end": 359
+            },
+            {
+              "start": 360,
+              "end": 696
+            },
+            {
+              "start": 699,
+              "end": 847
+            },
+            {
+              "start": 848,
+              "end": 1009
+            },
+            {
+              "start": 1010,
+              "end": 1132
+            },
+            {
+              "start": 1133,
+              "end": 1317
+            },
+            {
+              "start": 1318,
+              "end": 1444
+            },
+            {
+              "start": 1445,
+              "end": 1774
+            },
+            {
+              "start": 1775,
+              "end": 1942
+            },
+            {
+              "start": 1943,
+              "end": 2111
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

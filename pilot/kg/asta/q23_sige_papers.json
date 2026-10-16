@@ -1,0 +1,551 @@
+{
+  "total": 1936,
+  "offset": 0,
+  "next": 20,
+  "data": [
+    {
+      "paperId": "5f38dc4566c6722b4c7a3423fe7e36eb83a730df",
+      "externalIds": {
+        "MAG": "3159746983",
+        "DOI": "10.1155/2021/6675159",
+        "CorpusId": 235556090
+      },
+      "title": "Molecular Dynamics Simulations of the Thermal Conductivity of Silicon-Germanium and Silicon-Germanium-Tin Alloys",
+      "venue": "Journal of nanomaterials",
+      "year": 2021,
+      "citationCount": 3,
+      "authors": [
+        {
+          "authorId": "2108270377",
+          "name": "Zan Wang"
+        },
+        {
+          "authorId": "2478736375",
+          "name": "X.-Y. Cai"
+        },
+        {
+          "authorId": "2483069531",
+          "name": "W.-K. Zhao"
+        },
+        {
+          "authorId": "153469790",
+          "name": "H. Wang"
+        },
+        {
+          "authorId": "2463243025",
+          "name": "Y. Ruan"
+        }
+      ]
+    },
+    {
+      "paperId": "87ebb64bd6341b9aa0d81b236308e60f94207e26",
+      "externalIds": {
+        "MAG": "2759431881",
+        "ArXiv": "1709.08688",
+        "DOI": "10.1063/1.4986884",
+        "CorpusId": 52083983
+      },
+      "title": "Ballistic transport of long wavelength phonons and thermal conductivity accumulation in nanograined silicon-germanium alloys",
+      "venue": "",
+      "year": 2017,
+      "citationCount": 16,
+      "authors": [
+        {
+          "authorId": "2145116644",
+          "name": "Long Chen"
+        },
+        {
+          "authorId": "26334733",
+          "name": "J. Braun"
+        },
+        {
+          "authorId": "35785335",
+          "name": "B. Donovan"
+        },
+        {
+          "authorId": "143827230",
+          "name": "P. Hopkins"
+        },
+        {
+          "authorId": "145902846",
+          "name": "S. Poon"
+        }
+      ]
+    },
+    {
+      "paperId": "80dd904ff51c442bb4c6e95ef22f8cbd568c63f9",
+      "externalIds": {
+        "MAG": "2472435346",
+        "DOI": "10.1039/c6cp04388g",
+        "CorpusId": 37983128,
+        "PubMed": "27398924"
+      },
+      "title": "What is the thermal conductivity limit of silicon germanium alloys?",
+      "venue": "Physical Chemistry, Chemical Physics - PCCP",
+      "year": 2016,
+      "citationCount": 21,
+      "authors": [
+        {
+          "authorId": "51994095",
+          "name": "Yong-Jin Lee"
+        },
+        {
+          "authorId": "35798926",
+          "name": "Alexander J. Pak"
+        },
+        {
+          "authorId": "34226643",
+          "name": "Gyeong S. Hwang"
+        }
+      ]
+    },
+    {
+      "paperId": "aaf8aab3b0d68fe2e7a7604e6aeef119d89585d9",
+      "externalIds": {
+        "MAG": "2995448798",
+        "DOI": "10.1103/PHYSREVLETT.106.045901",
+        "CorpusId": 14447829,
+        "PubMed": "21405336"
+      },
+      "title": "Role of disorder and anharmonicity in the thermal conductivity of silicon-germanium alloys: a first-principles study.",
+      "venue": "Physical Review Letters",
+      "year": 2011,
+      "citationCount": 382,
+      "authors": [
+        {
+          "authorId": "48962203",
+          "name": "J. Garg"
+        },
+        {
+          "authorId": "7524156",
+          "name": "N. Bonini"
+        },
+        {
+          "authorId": "51443274",
+          "name": "B. Kozinsky"
+        },
+        {
+          "authorId": "2292631",
+          "name": "N. Marzari"
+        }
+      ]
+    },
+    {
+      "paperId": "d1285bdfa7d70c12cadbbc1ad806b631441c2546",
+      "externalIds": {
+        "MAG": "2766354989",
+        "DOI": "10.1088/1361-6463/aa94a0",
+        "CorpusId": 125275518
+      },
+      "title": "Molecular dynamics investigation of the thermal conductivity of ternary silicon\u2013germanium\u2013tin alloys",
+      "venue": "",
+      "year": 2017,
+      "citationCount": 12,
+      "authors": [
+        {
+          "authorId": "51994095",
+          "name": "Yong-Jin Lee"
+        },
+        {
+          "authorId": "34226643",
+          "name": "Gyeong S. Hwang"
+        }
+      ]
+    },
+    {
+      "paperId": "83ee29bc1e75817ee5767cabc7aeadf5434d5b7f",
+      "externalIds": {
+        "PubMedCentral": "9602409",
+        "DBLP": "journals/entropy/CimmelliR22",
+        "DOI": "10.3390/e24101397",
+        "CorpusId": 252770331,
+        "PubMed": "37420416"
+      },
+      "title": "Approximation of Composition and Temperature Dependent Heat Conductivity and Optimization of Thermoelectric Energy Conversion in Silicon\u2013Germanium Alloys",
+      "venue": "Entropy",
+      "year": 2022,
+      "citationCount": 2,
+      "authors": [
+        {
+          "authorId": "2708959",
+          "name": "V. Cimmelli"
+        },
+        {
+          "authorId": "79515918",
+          "name": "P. Rogolino"
+        }
+      ]
+    },
+    {
+      "paperId": "88c4d17601331282f631a548579407ebe2764def",
+      "externalIds": {
+        "CorpusId": 273899912
+      },
+      "title": "MIT Open Access Articles Role of Disorder and Anharmonicity in the Thermal Conductivity of Silicon-Germanium Alloys: A First-Principles Study",
+      "venue": "",
+      "year": null,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "48962203",
+          "name": "J. Garg"
+        },
+        {
+          "authorId": "7524156",
+          "name": "N. Bonini"
+        },
+        {
+          "authorId": "51443274",
+          "name": "B. Kozinsky"
+        },
+        {
+          "authorId": "2238636426",
+          "name": "N. Marzari"
+        }
+      ]
+    },
+    {
+      "paperId": "39fddb734fab19ecae4dc13aaf938121e734ffd7",
+      "externalIds": {
+        "MAG": "1967003423",
+        "DOI": "10.1063/1.4828884",
+        "CorpusId": 119421052
+      },
+      "title": "Microsegregation effects on the thermal conductivity of silicon-germanium alloys",
+      "venue": "",
+      "year": 2013,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "51994095",
+          "name": "Yong-Jin Lee"
+        },
+        {
+          "authorId": "34226643",
+          "name": "Gyeong S. Hwang"
+        }
+      ]
+    },
+    {
+      "paperId": "2d664abe44057f3f1ab52e5ebd4b43dad1a9370d",
+      "externalIds": {
+        "MAG": "1991377543",
+        "DOI": "10.1016/0038-1101(67)90069-X",
+        "CorpusId": 96269132
+      },
+      "title": "Thermal conductivity of silicon, germanium, III\u2013V compounds and III\u2013V alloys",
+      "venue": "",
+      "year": 1967,
+      "citationCount": 270,
+      "authors": [
+        {
+          "authorId": "94272967",
+          "name": "P. Maycock"
+        }
+      ]
+    },
+    {
+      "paperId": "25c802839a33e192479666d407141f89d241b2fe",
+      "externalIds": {
+        "DOI": "10.35596/1729-7648-2025-23-2-20-27",
+        "CorpusId": 278316804
+      },
+      "title": "Synthesis of Silicon-Germanium Film Alloys Based on Chemically Formed Porous Silicon Layers",
+      "venue": "Doklady BGUIR",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2272009716",
+          "name": "N. L. Grevtsov"
+        }
+      ]
+    },
+    {
+      "paperId": "86492eb34a59795809388e1f8467a97b37e5de0d",
+      "externalIds": {
+        "MAG": "2395424430",
+        "DOI": "10.1149/2.F10134IF",
+        "CorpusId": 46978011
+      },
+      "title": "The 2013 Joseph W. Richards Summer Research Fellowship \u2014 Summary Report: Microsegregation Effects on the Thermal Conductivity of Silicon-Germanium Alloys",
+      "venue": "",
+      "year": 2013,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "51994095",
+          "name": "Yong-Jin Lee"
+        }
+      ]
+    },
+    {
+      "paperId": "be1671bb9ed8bf7ea3f5043772354b2440ec9410",
+      "externalIds": {
+        "DOI": "10.1149/ma2024-01231370mtgabs",
+        "CorpusId": 272008927
+      },
+      "title": "Evaluation of Thermal Transport Characteristics of Three-Dimensional Self-Ordered Multilayered Silicon-Germanium Nanodots",
+      "venue": "ECS Meeting Abstracts",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "30082789",
+          "name": "R. Yokogawa"
+        },
+        {
+          "authorId": "2249223728",
+          "name": "Yuiha Maeda"
+        },
+        {
+          "authorId": "2192122538",
+          "name": "Sho Sugawa"
+        },
+        {
+          "authorId": "2974968",
+          "name": "Y. Yamashita"
+        },
+        {
+          "authorId": "2279383812",
+          "name": "Wei-Chen Wen"
+        },
+        {
+          "authorId": "2276605344",
+          "name": "Yuji Yamamoto"
+        },
+        {
+          "authorId": "2238290986",
+          "name": "Atsushi Ogura"
+        }
+      ]
+    },
+    {
+      "paperId": "139d29790de76893c68932da82de7aba3dccbe27",
+      "externalIds": {
+        "PubMedCentral": "7597242",
+        "DBLP": "journals/entropy/RogolinoC20",
+        "MAG": "3091427362",
+        "DOI": "10.3390/e22101116",
+        "CorpusId": 224931830,
+        "PubMed": "33286885"
+      },
+      "title": "Thermoelectric Efficiency of Silicon\u2013Germanium Alloys in Finite-Time Thermodynamics",
+      "venue": "Entropy",
+      "year": 2020,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "79515918",
+          "name": "P. Rogolino"
+        },
+        {
+          "authorId": "2708959",
+          "name": "V. Cimmelli"
+        }
+      ]
+    },
+    {
+      "paperId": "290a603ecc4226197eecac1580d847ecf8bd45a2",
+      "externalIds": {
+        "MAG": "2412186655",
+        "DOI": "10.1088/0957-4484/27/17/175401",
+        "CorpusId": 11809975,
+        "PubMed": "26967792"
+      },
+      "title": "Low thermal conductivity and improved thermoelectric performance of nanocrystalline silicon germanium films by sputtering",
+      "venue": "Nanotechnology",
+      "year": 2016,
+      "citationCount": 34,
+      "authors": [
+        {
+          "authorId": null,
+          "name": "J. A. Perez Taborda"
+        },
+        {
+          "authorId": "47894026",
+          "name": "J. Romero"
+        },
+        {
+          "authorId": "6083924",
+          "name": "B. Abad"
+        },
+        {
+          "authorId": "1402640024",
+          "name": "M. Mu\u00f1oz-Rojo"
+        },
+        {
+          "authorId": "2260774456",
+          "name": "Alexandre Mello"
+        },
+        {
+          "authorId": "2247133238",
+          "name": "Fernando Briones"
+        },
+        {
+          "authorId": "2157376543",
+          "name": "M. M. Gonzalez"
+        }
+      ]
+    },
+    {
+      "paperId": "a537fafe8af9e7bb967b2c0a22096be089dbd3cb",
+      "externalIds": {
+        "MAG": "1670145094",
+        "CorpusId": 136757626
+      },
+      "title": "Thermal conductivity of silicon-germanium alloys from first-principles",
+      "venue": "",
+      "year": 2009,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "48962203",
+          "name": "J. Garg"
+        },
+        {
+          "authorId": "7524156",
+          "name": "N. Bonini"
+        },
+        {
+          "authorId": "2292631",
+          "name": "N. Marzari"
+        }
+      ]
+    },
+    {
+      "paperId": "91711d2251f3271475dece5b1fa36414f73631e2",
+      "externalIds": {
+        "MAG": "1891005323",
+        "CorpusId": 135705303
+      },
+      "title": "Thermal conductivity of silicon-germanium alloys and superlattices from first-principles",
+      "venue": "",
+      "year": 2010,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "48962203",
+          "name": "J. Garg"
+        },
+        {
+          "authorId": "7524156",
+          "name": "N. Bonini"
+        },
+        {
+          "authorId": "2292631",
+          "name": "N. Marzari"
+        }
+      ]
+    },
+    {
+      "paperId": "940da11c299328b562f3017c55fe527997a9d478",
+      "externalIds": {
+        "MAG": "2989813571",
+        "ArXiv": "1911.12149",
+        "DOI": "10.1063/1.5117345",
+        "CorpusId": 208309929
+      },
+      "title": "Enhancement of the electronic thermoelectric properties of bulk strained silicon-germanium alloys using the scattering relaxation times from first-principles calculations",
+      "venue": "Journal of Applied Physics",
+      "year": 2019,
+      "citationCount": 13,
+      "authors": [
+        {
+          "authorId": "1397204498",
+          "name": "F. Murphy\u2010Armando"
+        }
+      ]
+    },
+    {
+      "paperId": "9340cef2c91f7cff173df431eadf89f9be0f309f",
+      "externalIds": {
+        "MAG": "2017516245",
+        "DOI": "10.1103/PHYSREVB.40.6424",
+        "CorpusId": 36199724,
+        "PubMed": "9992721"
+      },
+      "title": "Thermal relaxation of the electric conductivity in amorphous silicon-germanium alloys.",
+      "venue": "Physical Review B (Condensed Matter)",
+      "year": 1989,
+      "citationCount": 7,
+      "authors": [
+        {
+          "authorId": "2108345739",
+          "name": "Jeffrey Liu"
+        },
+        {
+          "authorId": "144116222",
+          "name": "V. Chu"
+        },
+        {
+          "authorId": "120753522",
+          "name": "D. Shen"
+        },
+        {
+          "authorId": null,
+          "name": "D. Slobodin"
+        },
+        {
+          "authorId": "144767327",
+          "name": "S. Wagner"
+        }
+      ]
+    },
+    {
+      "paperId": "b0b7af87add03064e54fac36c8e76fbf98a2cffa",
+      "externalIds": {
+        "MAG": "2889346569",
+        "DOI": "10.1007/978-3-319-96341-9_4",
+        "CorpusId": 139830538
+      },
+      "title": "Thermoelectric Properties of Silicon-Germanium Alloys",
+      "venue": "Thermoelectrics",
+      "year": 2018,
+      "citationCount": 5,
+      "authors": [
+        {
+          "authorId": "4958248",
+          "name": "N. Ravindra"
+        },
+        {
+          "authorId": "12142757",
+          "name": "B. Jariwala"
+        },
+        {
+          "authorId": "97067863",
+          "name": "A. Ba\u00f1obre"
+        },
+        {
+          "authorId": "95201748",
+          "name": "Aniket Maske"
+        }
+      ]
+    },
+    {
+      "paperId": "ae5f20f78dabfd94851c4851eb2cac2596054626",
+      "externalIds": {
+        "DOI": "10.1109/NAP62956.2024.10739715",
+        "CorpusId": 273902266
+      },
+      "title": "Innovative Developpement of Silicon Germanium Alloy Enhanced with Nanoprecipitates by Additive Manufacturing",
+      "venue": "2024 IEEE 14th International Conference Nanomaterials: Applications & Properties (NAP)",
+      "year": 2024,
+      "citationCount": 0,
+      "authors": [
+        {
+          "authorId": "2244456029",
+          "name": "M. Baudry"
+        },
+        {
+          "authorId": "2244458012",
+          "name": "Guillaume Savelli"
+        },
+        {
+          "authorId": "2244461549",
+          "name": "Guilhem Roux"
+        }
+      ]
+    }
+  ]
+}

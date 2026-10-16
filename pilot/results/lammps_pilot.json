@@ -1,0 +1,31 @@
+{
+  "potential": "SiCGe.tersoff (Erhart-Albe 2005)",
+  "reference_a": {
+    "Si": 5.431,
+    "Ge": 5.658,
+    "Si0.5Ge0.5_vegard": 5.545
+  },
+  "Si": {
+    "a": 5.432,
+    "E_coh_eV_per_atom": -4.6296,
+    "natoms": 216
+  },
+  "Ge": {
+    "a": 5.6567,
+    "E_coh_eV_per_atom": -3.8506,
+    "natoms": 216
+  },
+  "Si0.5Ge0.5": {
+    "a": 5.5345,
+    "E_coh_eV_per_atom": -4.2581,
+    "natoms": 216
+  },
+  "benchmark": {
+    "natoms": 4096,
+    "steps": 5000,
+    "threads": 8,
+    "wall_s": 2.25,
+    "atom_steps_per_s": 9084707,
+    "est_greenkubo_point_hours": 0.25
+  }
+}

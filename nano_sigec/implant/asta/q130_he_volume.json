@@ -1,0 +1,1014 @@
+{
+  "data": [
+    {
+      "score": 0.6777478578326883,
+      "paper": {
+        "corpusId": "267847584",
+        "title": "Cavity Swelling of 15-15Ti Steel at High Doses by Ion Irradiation",
+        "authors": [
+          "Cong Liu",
+          "H. Ma",
+          "Ping Fan",
+          "Ke Li",
+          "Q. Zhang",
+          "Ai-Bing Du",
+          "Wei Feng",
+          "Xi-Ping Su",
+          "Sheng-Yun Zhu",
+          "Da-Qing Yuan"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10890172, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The depth-dependent swelling was then interpolated from the data of the sectioned bins. Using Equation ( 7) in Section 2.3, the damage curve was corrected and is shown in Figure 6b,c overlapped with the TEM image. \n\nCompared with the helium-implanted zone and the region with large cavities, the size of the cavities is smaller and the number density is larger in the helium-implanted zone than in the displacement-damage-only region under the same dose. Note that the helium implantation zone in Figure 6b and the region just beyond the helium implantation range in Figure 6a receive a similar dose of 70 dpa. However, the cavities in the latter region are significantly larger than those in the helium zone, indicating that the implanted helium may play a role in the growth of cavities. The abnormality can be found by comparing two regions in Figure 6b,c, where the irradiation dose is around 122 dpa. \n\nThe cavities in the helium-implanted zones were measured and counted at different doses, with their size distribution shown in Figure 7. It can be seen that the tail of the size distribution increases markedly with increasing dpa, although the peak shifts only moderately to the higher size, from ~5.5 nm to 7.5 nm, as the damage increases from ~30 dpa to ~122 dpa. Much larger cavities over a hundred nanometers were seen in the helium implantation zone as the damage reached ~122 dpa. \n\nMaterials 2024, 17, x FOR PEER REVIEW 9 of 13 region that was presumably helium-free. In Ref. [48], it was shown that the helium could diffuse further into a deeper region due to the vacancies created by ion bombardment. Those helium atoms could enhance the cavity nucleation, which can lead to significant swelling when combined with large doses. \n\nBased on the fact that cavities do not cause any energy loss of injected ions, a dpa correction formula was re-derived in Section 2.3. The dpa profile is like stretching the original curve for an irradiated sample. In order to perform the dpa profile correction, the TEM images were divided into five bins of equal width and the swelling of each bin was measured.",
+        "snippetKind": "body",
+        "section": "Results and Discussion",
+        "snippetOffset": {
+          "start": 35295,
+          "end": 37405
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1491,
+              "end": 1495,
+              "matchedPaperCorpusId": "255047827"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 87
+            },
+            {
+              "start": 88,
+              "end": 213
+            },
+            {
+              "start": 216,
+              "end": 454
+            },
+            {
+              "start": 455,
+              "end": 610
+            },
+            {
+              "start": 611,
+              "end": 789
+            },
+            {
+              "start": 790,
+              "end": 905
+            },
+            {
+              "start": 908,
+              "end": 1044
+            },
+            {
+              "start": 1045,
+              "end": 1273
+            },
+            {
+              "start": 1274,
+              "end": 1394
+            },
+            {
+              "start": 1397,
+              "end": 1482
+            },
+            {
+              "start": 1483,
+              "end": 1617
+            },
+            {
+              "start": 1618,
+              "end": 1744
+            },
+            {
+              "start": 1747,
+              "end": 1881
+            },
+            {
+              "start": 1882,
+              "end": 1961
+            },
+            {
+              "start": 1962,
+              "end": 2110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.676054686488446,
+      "paper": {
+        "corpusId": "139374631",
+        "title": "Dramatic reduction of void swelling by helium in ion-irradiated high purity \u03b1-iron",
+        "authors": [
+          "A. Bhattacharya",
+          "E. Meslin",
+          "J. Henry",
+          "B. D\u00e9camps",
+          "A. Barbu"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1080/21663831.2018.1462266?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/21663831.2018.1462266, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Microstructure was characterized utilizing a LaB 6 based 200 keV JEOL 2100 TEM, equipped with a Gatan Orius high resolution CCD camera and Gatan GIF Quantum spectrometer for EELS (electron energy-loss spectroscopy). Through-focal series technique [22] was used to image the cavities. For the sake of simplicity, only under-focused images are presented in this article. Depth variation of void swelling was estimated by calculating the cavity volume fraction from the TEM micrographs. \n\nThe error bars on cavity number density was estimated from error in sample thickness determination and statistical error in the number of cavities in analysed zone, while an additional error in cavity size determination was included for void swelling results. Specimen thickness was determined by measuring the plasmon peak intensity in EELS and utilizing the log-ratio model [23]. Details about error estimation can be found in supplementary material. For faceted cavities, the diagonal was considered as size, while for spherical cavities, the size is represented by their diameter. Figure 2 shows bright field TEM images of cavities formed after high dose irradiations, with and without helium co-implantation. Images in Figure 2(a, b) taken on (001) zone axis show that most of the cavities were faceted. Figure 2(c, d) show the entire depth distribution of cavities in the samples, imaged away from diffraction conditions. For a better understanding, quantitative values of the depth variation of cavity size, number density and void swelling extracted from the TEM images are shown in Figure 3. \n\nMaximum difference of swelling in the two cases was noted in the region between 200-300 nm. The trend of higher average cavity size when no helium was coimplanted was true for the entire damage depth, while the sample with helium always had higher cavity number density. Since void swelling was always higher for the sample with no helium, it is evident that swelling was dominated by the cavity size and not by the number density. \n\nFrom these results, it is conclusive that void swelling will not be always higher when helium is injected simultaneously.",
+        "snippetKind": "body",
+        "section": null,
+        "snippetOffset": {
+          "start": 5373,
+          "end": 7517
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 247,
+              "end": 251,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 862,
+              "end": 866,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 215
+            },
+            {
+              "start": 216,
+              "end": 283
+            },
+            {
+              "start": 284,
+              "end": 368
+            },
+            {
+              "start": 369,
+              "end": 483
+            },
+            {
+              "start": 486,
+              "end": 745
+            },
+            {
+              "start": 746,
+              "end": 867
+            },
+            {
+              "start": 868,
+              "end": 938
+            },
+            {
+              "start": 939,
+              "end": 1070
+            },
+            {
+              "start": 1071,
+              "end": 1199
+            },
+            {
+              "start": 1200,
+              "end": 1294
+            },
+            {
+              "start": 1295,
+              "end": 1413
+            },
+            {
+              "start": 1414,
+              "end": 1586
+            },
+            {
+              "start": 1589,
+              "end": 1680
+            },
+            {
+              "start": 1681,
+              "end": 1859
+            },
+            {
+              "start": 1860,
+              "end": 2020
+            },
+            {
+              "start": 2023,
+              "end": 2144
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6730647502339057,
+      "paper": {
+        "corpusId": "97675856",
+        "title": "Formation and growth of nanocavities and cavities induced by He+ implantation in silicon",
+        "authors": [
+          "M. Nguyen",
+          "M. Ruault",
+          "F. Fortuna"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2043-6262/3/1/015015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2043-6262/3/1/015015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Nanocavities and cavities are known to be efficient gettering sites for metallic impurities in silicon. Here, we report results from implanted \u3008100\u3009 silicon at room temperature with 50\u2009keV helium ions at a dose of 3\u00d71016\u2009 cm \u22122. Due to its low solubility, He segregates in gas-vacancy complexes and forms nanobubbles. Then, during an N 2 ambient annealing at 800\u2009\u00b0C using either rapid thermal annealing (RTA) or conventional furnace annealing, nanobubbles grow and He is released from the nanobubbles by gas exodiffusion, leading to (nano)cavities\u2019 formation. (Nano)cavities and residual defects were observed by transmission electron microscopy (TEM). The fraction of retained helium was shown to decrease with annealing time according to the first-order gas release model. Two nucleation-growth mechanisms involved in the growth of these (nano)cavities have been studied. A remarkable result shows evidence about the balance-time dependence of the two mechanisms involved in the growth process of (nano)cavities. At the very beginning (30\u2009s) of the annealing, the main mechanism is the migration-coalescence including nanobubbles and vacancy-helium complexes leading to the cavities\u2019 formation. Then, the Ostwald ripening mechanism, related to the helium exodiffusion, between the nanocavities and cavities appeared.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1318
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6624334916592447,
+      "paper": {
+        "corpusId": "97675856",
+        "title": "Formation and growth of nanocavities and cavities induced by He+ implantation in silicon",
+        "authors": [
+          "M. Nguyen",
+          "M. Ruault",
+          "F. Fortuna"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2043-6262/3/1/015015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2043-6262/3/1/015015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Czochralski (CZ), 100 oriented, n-type silicon wafers, 500 \u00b5m thick, were used in this study. They were implanted at room temperature with 50 keV helium ions by means of a Bernas-Nier source-type implanter at a dose of 3 \u00d7 10 16 He m \u22122 . According to the simulation program, named the stopping and range of ions in matter (SRIM08 or TRIM08) [11], the mean projected range (R P ) of these ions is \u223c450 nm. The implantation of helium ions into the samples was followed by the heat treatment in N 2 atmosphere, using either a rapid thermal annealing (RTA) system or a conventional furnace annealing (CFA). The annealing times range was from 30 s to 4 min for RTA and 60 min for CFA at 800 \u2022 C. This temperature is expected to form a cavity layer. The morphology of the cavity layer was observed by transmission electron microscopy (TEM) using a FEI Tecnai G 2 F20 microscope. To avoid any electron irradiation we performed TEM observations at 150 kV. The thinned samples in cross section were prepared by mechanical thinning. TEM analyses were performed along the 110 direction, for cross view analyses.",
+        "snippetKind": "body",
+        "section": "Experimental",
+        "snippetOffset": {
+          "start": 1064,
+          "end": 2165
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 342,
+              "end": 346,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 93
+            },
+            {
+              "start": 94,
+              "end": 238
+            },
+            {
+              "start": 239,
+              "end": 405
+            },
+            {
+              "start": 406,
+              "end": 603
+            },
+            {
+              "start": 604,
+              "end": 691
+            },
+            {
+              "start": 692,
+              "end": 744
+            },
+            {
+              "start": 745,
+              "end": 873
+            },
+            {
+              "start": 874,
+              "end": 948
+            },
+            {
+              "start": 949,
+              "end": 1023
+            },
+            {
+              "start": 1024,
+              "end": 1101
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6533976763307376,
+      "paper": {
+        "corpusId": "98104419",
+        "title": "Ultradense gas bubbles in hydrogen- or helium-implanted (or coimplanted) silicon",
+        "authors": [
+          "G. Cerofolini",
+          "G. Calzolari",
+          "F. Corni",
+          "C. Nobili",
+          "G. Ottaviani",
+          "R. Tonini"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1016/S0921-5107(99)00374-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/S0921-5107(99)00374-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Abstract Both hydrogen (as H2) and helium are dissolved endothermically in crystalline silicon. Once implanted into silicon, they have therefore a tendency to segregate in the vacancy clusters produced by the implantation itself, possibly transforming them in more or less stable cavities. Since the amount of vacancies generated in silicon by the implantation of hydrogen or helium at low energy, and surviving the spontaneous recovery of the radiation damage, may be lower than the amount of the implanted species, the atomic density attained after the cluster-to-cavity transformation may exceed the silicon one, with the formation of ultradense gas bubbles. The major difference between hydrogen and helium is that the pristine state of hydrogen in as-implanted silicon is not the molecular one, so that the formation of cavities requires preliminarily the transformation of hydrogen-involving species in H2. This paper highlights the mechanisms of cavity formation by helium or hydrogen implantation and sketches analogies and differences between these processes; coimplantation is discussed too.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1101
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6505829679013672,
+      "paper": {
+        "corpusId": "267847584",
+        "title": "Cavity Swelling of 15-15Ti Steel at High Doses by Ion Irradiation",
+        "authors": [
+          "Cong Liu",
+          "H. Ma",
+          "Ping Fan",
+          "Ke Li",
+          "Q. Zhang",
+          "Ai-Bing Du",
+          "Wei Feng",
+          "Xi-Ping Su",
+          "Sheng-Yun Zhu",
+          "Da-Qing Yuan"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10890172, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In order to perform the dpa profile correction, the TEM images were divided into five bins of equal width and the swelling of each bin was measured. The depth-dependent swelling was then interpolated from the data of the sectioned bins. Using Equation ( 7) in Section 2.3, the damage curve was corrected and is shown in Figure 6b,c overlapped with the TEM image. \n\nCompared with the helium-implanted zone and the region with large cavities, the size of the cavities is smaller and the number density is larger in the helium-implanted zone than in the displacement-damage-only region under the same dose. Note that the helium implantation zone in Figure 6b and the region just beyond the helium implantation range in Figure 6a receive a similar dose of 70 dpa. However, the cavities in the latter region are significantly larger than those in the helium zone, indicating that the implanted helium may play a role in the growth of cavities. The abnormality can be found by comparing two regions in Figure 6b,c, where the irradiation dose is around 122 dpa. \n\nThe cavities in the helium-implanted zones were measured and counted at different doses, with their size distribution shown in Figure 7. It can be seen that the tail of the size distribution increases markedly with increasing dpa, although the peak shifts only moderately to the higher size, from ~5.5 nm to 7.5 nm, as the damage increases from ~30 dpa to ~122 dpa. Much larger cavities over a hundred nanometers were seen in the helium implantation zone as the damage reached ~122 dpa. The cavity density in the helium-implanted zones is compared in Figure 8. It can be seen that the cavity density decreased significantly as the dose increased. A previous study has shown that voids rather than bubbles predominate in specimens after helium implantation followed by high-dose heavy ion irradiation [21]. The increase in cavity size and the decrease in density are mainly due to the growth and coalescence of cavities with increasing dose. The cavity density in the helium-implanted zones is compared in Figure 8. It can be seen that the cavity density decreased significantly as the dose increased.",
+        "snippetKind": "body",
+        "section": "Results and Discussion",
+        "snippetOffset": {
+          "start": 37257,
+          "end": 39414
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1857,
+              "end": 1861,
+              "matchedPaperCorpusId": "136004472"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 148
+            },
+            {
+              "start": 149,
+              "end": 236
+            },
+            {
+              "start": 237,
+              "end": 362
+            },
+            {
+              "start": 365,
+              "end": 603
+            },
+            {
+              "start": 604,
+              "end": 759
+            },
+            {
+              "start": 760,
+              "end": 938
+            },
+            {
+              "start": 939,
+              "end": 1054
+            },
+            {
+              "start": 1057,
+              "end": 1193
+            },
+            {
+              "start": 1194,
+              "end": 1422
+            },
+            {
+              "start": 1423,
+              "end": 1543
+            },
+            {
+              "start": 1544,
+              "end": 1617
+            },
+            {
+              "start": 1618,
+              "end": 1703
+            },
+            {
+              "start": 1704,
+              "end": 1862
+            },
+            {
+              "start": 1863,
+              "end": 1997
+            },
+            {
+              "start": 1998,
+              "end": 2071
+            },
+            {
+              "start": 2072,
+              "end": 2157
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6492088805587228,
+      "paper": {
+        "corpusId": "97928387",
+        "title": "Incorporation of Helium-implant-induced Cavities Near the Active Regions of Metal-oxide-semiconductor Devices: Effects on dc Electrical Characteristics",
+        "authors": [
+          "J. Terry",
+          "L. Haworth",
+          "A. Gundlach",
+          "J. Stevenson",
+          "V. Vishnyakov",
+          "S. Donnelly"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1116/1.1445163?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1116/1.1445163, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Cavities, formed by helium implantation and subsequent annealing, have proved to be effective at trapping metal impurities within silicon. This has led to interest in their use as proximity gettering sites. In this investigation, cavity populations were formed by helium implants of energy 40 keV and dose 5\u00d71016\u2009cm\u22122 followed by annealing at 900\u200a\u00b0C. This regime produces cavities with a mean void radius of 20 nm, located between 100 and 350 nm below the silicon surface. The effect of the presence of such cavities near the active areas of 1.2 \u03bcm p-type metal\u2013oxide\u2013semiconductor field-effect transistor devices is described. Electrical characterization of wafers, which have been implanted with helium on the front or rear silicon surface, has been carried out to determine whether the inclusion of void populations near the active regions of silicon devices is detrimental. These measurements found no evidence of any detrimental effect on the performance of working devices.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 979
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6479846246624119,
+      "paper": {
+        "corpusId": "14126331",
+        "title": "The microstructure of Si surface layers after plasma-immersion He+ ion implantation and subsequent thermal annealing",
+        "authors": [
+          "A. Lomov",
+          "K. Shcherbachev",
+          "Yu. M. Chesnokov",
+          "D. Kiselev"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5377348, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Over the past decade (Wesch & Wendler, 2016), the implantation of noble gas ions has attracted growing interest because of the formation of nanocavities (voids and gas-filled bubbles). As is well known (Nastasi & Mayer, 2006), light ions are considered preferable because of their low surface sputtering effect. Subsequent research showed that these voids have clean inner surfaces (dangling bonds) that can trap metallic impurities (Follstaedt et al., 1996). To control these unwanted impurities, gettering treatment is required, and cavities have been shown to be a powerful technique to locally getter metallic impurities (Roqueta et al., 2000). The defects induced by cavity formation can be used for very effective strain relaxation in pseudomorphic SiGe/Si heterostructures (Trinkaus et al., 2000). Gas-filled bubbles created by a combination of high-dose He and H implantation are also applied in the 'Smart Cut' process as a cutting tool for the production of silicon-on-insulator structures (Bruel, 1996). \n\nIn particular, nanosized cavities in silicon are usually generated by high-fluence He ion implantation at ambient temperature. Owing to its low solubility, He segregates in gasvacancy complexes and, depending on implantation parameters such as energy and fluence, forms highly pressurized helium-filled bubbles of a few nanometres in size (Chen et al., 1999). During subsequent annealing at above 973 K, the bubbles grow and He is released from the bubbles because of its ability to permeate from inside the bubble to the matrix, ISSN 1600-5767 leading ultimately to the formation of empty cavities (voids) (Griffioen et al., 1987;Raineri et al., 1995;Seager et al., 1994). \n\nThe formation of helium-filled bubbles can be achieved by a new doping process -high-dose plasma-immersion ion implantation (PIII) (Gupta, 2011). The high-dose low-energy PIII process has became popular as a cheaper alternative to conventional ion implantation for ion beam synthesis.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 15,
+          "end": 1992
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 21,
+              "end": 44,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 202,
+              "end": 225,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 433,
+              "end": 458,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 625,
+              "end": 647,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 780,
+              "end": 803,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1000,
+              "end": 1013,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1356,
+              "end": 1375,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1624,
+              "end": 1648,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1648,
+              "end": 1669,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1669,
+              "end": 1689,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1824,
+              "end": 1837,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 184
+            },
+            {
+              "start": 185,
+              "end": 311
+            },
+            {
+              "start": 312,
+              "end": 459
+            },
+            {
+              "start": 460,
+              "end": 648
+            },
+            {
+              "start": 649,
+              "end": 804
+            },
+            {
+              "start": 805,
+              "end": 1014
+            },
+            {
+              "start": 1017,
+              "end": 1143
+            },
+            {
+              "start": 1144,
+              "end": 1376
+            },
+            {
+              "start": 1377,
+              "end": 1690
+            },
+            {
+              "start": 1693,
+              "end": 1838
+            },
+            {
+              "start": 1839,
+              "end": 1977
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6370774302025094,
+      "paper": {
+        "corpusId": "267847584",
+        "title": "Cavity Swelling of 15-15Ti Steel at High Doses by Ion Irradiation",
+        "authors": [
+          "Cong Liu",
+          "H. Ma",
+          "Ping Fan",
+          "Ke Li",
+          "Q. Zhang",
+          "Ai-Bing Du",
+          "Wei Feng",
+          "Xi-Ping Su",
+          "Sheng-Yun Zhu",
+          "Da-Qing Yuan"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10890172, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "TEM images of irradiated samples with different dpa values are shown in Figure 6, overlapped with the damage curves. Small cavities can be seen in the helium-implanted zone around a depth of 1 \u00b5m (Figure 6d-f), while large cavities can be observed in the deeper regions, which are beyond the helium implantation ranges (see Figure 6a-c). Particularly for the sample with the peak dose of 400 dpa, the cavities coalesced to a very large cavity near the damage peak [44]. No cavity was observed at the damage peak. It is to be noted that the size of cavities generally increases with increasing dose in both helium-implanted and helium-free regions. Swelling did not occur in the peak damage region, indicating that the injected Ni ions suppressed swelling at the damage peak during irradiation [45,46]; in other words, the local vacancy supersaturation was lower than the threshold for cavity swelling. Swelling was not observed in 15-15Ti by single-beam irradiation with nickel even if the irradiation dose was over 100 dpa [47]. However, large swelling was observed in the Swelling was not observed in 15-15Ti by single-beam irradiation with nickel even if the irradiation dose was over 100 dpa [47]. However, large swelling was observed in the region that was presumably helium-free. In Ref. [48], it was shown that the helium could diffuse further into a deeper region due to the vacancies created by ion bombardment. Those helium atoms could enhance the cavity nucleation, which can lead to significant swelling when combined with large doses. \n\nBased on the fact that cavities do not cause any energy loss of injected ions, a dpa correction formula was re-derived in Section 2.3. The dpa profile is like stretching the original curve for an irradiated sample. In order to perform the dpa profile correction, the TEM images were divided into five bins of equal width and the swelling of each bin was measured. The depth-dependent swelling was then interpolated from the data of the sectioned bins.",
+        "snippetKind": "body",
+        "section": "Results and Discussion",
+        "snippetOffset": {
+          "start": 33381,
+          "end": 35382
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 464,
+              "end": 468,
+              "matchedPaperCorpusId": "97847993"
+            },
+            {
+              "start": 793,
+              "end": 797,
+              "matchedPaperCorpusId": "95615414"
+            },
+            {
+              "start": 797,
+              "end": 800,
+              "matchedPaperCorpusId": "103460674"
+            },
+            {
+              "start": 1024,
+              "end": 1028,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1196,
+              "end": 1200,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1294,
+              "end": 1298,
+              "matchedPaperCorpusId": "255047827"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 116
+            },
+            {
+              "start": 117,
+              "end": 337
+            },
+            {
+              "start": 338,
+              "end": 469
+            },
+            {
+              "start": 470,
+              "end": 512
+            },
+            {
+              "start": 513,
+              "end": 647
+            },
+            {
+              "start": 648,
+              "end": 901
+            },
+            {
+              "start": 902,
+              "end": 1029
+            },
+            {
+              "start": 1030,
+              "end": 1201
+            },
+            {
+              "start": 1202,
+              "end": 1285
+            },
+            {
+              "start": 1286,
+              "end": 1420
+            },
+            {
+              "start": 1421,
+              "end": 1547
+            },
+            {
+              "start": 1550,
+              "end": 1684
+            },
+            {
+              "start": 1685,
+              "end": 1764
+            },
+            {
+              "start": 1765,
+              "end": 1913
+            },
+            {
+              "start": 1914,
+              "end": 2001
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6310745554958246,
+      "paper": {
+        "corpusId": "97675856",
+        "title": "Formation and growth of nanocavities and cavities induced by He+ implantation in silicon",
+        "authors": [
+          "M. Nguyen",
+          "M. Ruault",
+          "F. Fortuna"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2043-6262/3/1/015015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2043-6262/3/1/015015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "(Nano)cavities induced by hydrogen or helium implantation are known to be very efficient traps for unwanted metallic impurities in silicon [1][2][3][4][5][6][7][8]. The widely accepted mechanism of trapping (or gettering) is the chemisorption at the internal surface of the (nano)cavities [4]. The gettering procedure is a method of removing impurities from the active device region. \n\nHence it has the most potential to satisfy the requirements on the predicted device layer [9]. Griffioen et al [10] were the first to show that helium, when implanted into silicon may form small bubbles and then outdiffuse during annealing, leaving empty cavities. However, the helium desorption kinetics generally observed at the temperature used to form cavities (higher than 700 \u2022 C) is not completely understood. In this paper, we show the results of the evolution of (nano)cavities formed at 800 \u2022 C as a function of the annealing time. The latter allows us to understand the role of the helium desorption in the formation of (nano)cavities.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 15,
+          "end": 1047
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 139,
+              "end": 142,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 142,
+              "end": 145,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 145,
+              "end": 148,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 148,
+              "end": 151,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 151,
+              "end": 154,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 154,
+              "end": 157,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 157,
+              "end": 160,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 160,
+              "end": 163,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 289,
+              "end": 292,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 476,
+              "end": 479,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 497,
+              "end": 501,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 164
+            },
+            {
+              "start": 165,
+              "end": 293
+            },
+            {
+              "start": 294,
+              "end": 383
+            },
+            {
+              "start": 386,
+              "end": 480
+            },
+            {
+              "start": 481,
+              "end": 650
+            },
+            {
+              "start": 651,
+              "end": 802
+            },
+            {
+              "start": 803,
+              "end": 927
+            },
+            {
+              "start": 928,
+              "end": 1032
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6144191044731518,
+      "paper": {
+        "corpusId": "258070726",
+        "title": "The Process and Mechanism of Preparing Nanoporous Silicon: Helium Ion Implantation",
+        "authors": [
+          "J. Wang",
+          "Kelin Zhu",
+          "Xiao-ling Wu",
+          "Guo-An Cheng",
+          "Rui-Ting Zheng"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10141629, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Ion implantation is an effective way to control performance in semiconductor technology. In this paper, the fabrication of 1~5 nm porous silicon by helium ion implantation was systemically studied, and the growth mechanism and regulation mechanism of helium bubbles in monocrystalline silicon at low temperatures were revealed. In this work, 100 keV He ions (1~7.5 \u00d7 1016 ions/cm2) were implanted into monocrystalline silicon at 115 \u00b0C~220 \u00b0C. There were three distinct stages in the growth of helium bubbles, showing different mechanisms of helium bubble formation. The minimum average diameter of a helium bubble is approximately 2.3 nm, and the maximum number density of the helium bubble is 4.2 \u00d7 1023 m\u22123 at 175 \u00b0C. The porous structure may not be obtained at injection temperatures below 115 \u00b0C or injection doses below 2.5 \u00d7 1016 ions/cm2. In the process, both the ion implantation temperature and ion implantation dose affect the growth of helium bubbles in monocrystalline silicon. Our findings suggest an effective approach to the fabrication of 1~5 nm nanoporous silicon, challenging the classic view of the relationship between process temperature or dose and pore size of porous silicon, and some new theories are summarized.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1238
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6071665135690769,
+      "paper": {
+        "corpusId": "97675856",
+        "title": "Formation and growth of nanocavities and cavities induced by He+ implantation in silicon",
+        "authors": [
+          "M. Nguyen",
+          "M. Ruault",
+          "F. Fortuna"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2043-6262/3/1/015015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2043-6262/3/1/015015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Helium implants in silicon, at a concentration equal to or higher than the critical value of 3 \u00d7 10 20 cm \u22123 [12], induce nanobubble formation. Nanobubbles can be observed directly by TEM analyses (e.g. figure 1). Figure 2 shows a TEM micrograph of an as-implanted sample with 50 keV He ions at a fluence of 3 \u00d7 10 16 He cm \u22122 . Also reported in this figure are the depth profiles of vacancies and He as obtained by SRIM08 calculations. \n\nNanobubbles of 2-3 nm in diameter are present from sample surface to 700 nm, corresponding to the end of the depth profile of He and vacancy distribution (figures 2-4). The peak of nanobubble concentration is localized at the   depth shallower than the one of the He projected range, in a region where the radiation damage peak is located according to SRIM08 calculations. \n\nTEM observations have been performed as well on wafers annealed for various times at 800 \u2022 C. Figure 5 is a TEM micrograph of a 50 keV-3 \u00d7 10 16 He cm \u22122 implanted sample annealed for 30 s at 800 \u2022 C. \n\nWe will show below that the main part of He has been removed from the sample after annealing. So, for clarity, we design as (nano)cavities the nanostructures observed after nanobubble evolution during annealing. \n\nIt can be seen that, even for this short annealing time, the large cavities (with diameter up to 10 nm) at the region II in  Besides cavities, other defects can be identified by using weak beam conditions of TEM analyses: {311} interstitial defects (figure 6). These defects are well-known in silicon (see for examples [13][14][15]). We have schematized in figure 7 the regions I-III with the structures, respectively, present after annealing. \n\nFor longer annealing times (up to 4 min for RTA), we observe the same features as reported in the case of 30 s, i.e. nanocavities in two sides of cavity band and {311} defects behind (see figure 8).",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 2192,
+          "end": 4067
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 109,
+              "end": 113,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1550,
+              "end": 1554,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1554,
+              "end": 1558,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1558,
+              "end": 1562,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 143
+            },
+            {
+              "start": 144,
+              "end": 202
+            },
+            {
+              "start": 203,
+              "end": 328
+            },
+            {
+              "start": 329,
+              "end": 436
+            },
+            {
+              "start": 439,
+              "end": 607
+            },
+            {
+              "start": 608,
+              "end": 811
+            },
+            {
+              "start": 814,
+              "end": 1014
+            },
+            {
+              "start": 1017,
+              "end": 1110
+            },
+            {
+              "start": 1111,
+              "end": 1228
+            },
+            {
+              "start": 1231,
+              "end": 1491
+            },
+            {
+              "start": 1492,
+              "end": 1564
+            },
+            {
+              "start": 1565,
+              "end": 1674
+            },
+            {
+              "start": 1677,
+              "end": 1875
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

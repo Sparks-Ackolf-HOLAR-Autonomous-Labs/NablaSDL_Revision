@@ -1,0 +1,2013 @@
+{
+ "diff": [
+  {
+   "paperId": "c21b3d3a688a65432d983ba5f2005269837b9288",
+   "externalIds": {
+    "DOI": "10.1063/5.0096577",
+    "CorpusId": 250235658
+   },
+   "title": "Kick-out diffusion of Al in 4H-SiC: an ab initio study",
+   "venue": "Journal of Applied Physics",
+   "year": 2022,
+   "authors": [
+    {
+     "authorId": "2115593692",
+     "name": "Yuan-Chao Huang"
+    },
+    {
+     "authorId": "2171811680",
+     "name": "Yixiao Qian"
+    },
+    {
+     "authorId": "2108656188",
+     "name": "Yi-Qiang Zhang"
+    },
+    {
+     "authorId": "2122835409",
+     "name": "De-Ren Yang"
+    },
+    {
+     "authorId": "8848630",
+     "name": "X. Pi"
+    }
+   ]
+  },
+  {
+   "paperId": "7f6bff0dfd85dc5d82b45796720a1850d4a731e5",
+   "externalIds": {
+    "MAG": "1969804509",
+    "DOI": "10.1016/S1468-6996(01)00015-8",
+    "CorpusId": 94071581
+   },
+   "title": "Volume and dislocation diffusion of iron, chromium and cobalt in CVD \u00df-SiC",
+   "venue": "",
+   "year": 2001,
+   "authors": [
+    {
+     "authorId": "113756411",
+     "name": "K. Takano"
+    },
+    {
+     "authorId": "49714839",
+     "name": "H. Nitta"
+    },
+    {
+     "authorId": "145053165",
+     "name": "H. Seto"
+    },
+    {
+     "authorId": "2488391921",
+     "name": "C. G. Lee"
+    },
+    {
+     "authorId": "2107463514",
+     "name": "K. Yamada"
+    },
+    {
+     "authorId": "47959161",
+     "name": "Y. Yamazaki"
+    },
+    {
+     "authorId": "2107337145",
+     "name": "H. Sato"
+    },
+    {
+     "authorId": "114055180",
+     "name": "S. Takeda"
+    },
+    {
+     "authorId": "118478972",
+     "name": "E. Toya"
+    },
+    {
+     "authorId": "2082893695",
+     "name": "E. Iijima"
+    }
+   ]
+  }
+ ],
+ "sol": [
+  {
+   "paperId": "4752add88b293c4cbef0bb00c79a2e9c73e89db4",
+   "externalIds": {
+    "MAG": "2059327510",
+    "DOI": "10.2320/MATERTRANS.M2009034",
+    "CorpusId": 54055278
+   },
+   "title": "Time and Temperature Dependence of the Solubility of Carbon in Liquid Silicon Equilibrated with Silicon Carbide and Its Dependence on Boron Levels",
+   "venue": "",
+   "year": 2009,
+   "authors": [
+    {
+     "authorId": "30627208",
+     "name": "H. Dalaker"
+    },
+    {
+     "authorId": "30886755",
+     "name": "M. Tangstad"
+    }
+   ]
+  },
+  {
+   "paperId": "36f91d339995591684adec817588de1be598a968",
+   "externalIds": {
+    "MAG": "99694971",
+    "DOI": "10.4229/23rdEUPVSEC2008-2CV.3.20",
+    "CorpusId": 92291887
+   },
+   "title": "Time and Temperature Dependence of the Solubility of Carbon in Liquid Silicon",
+   "venue": "",
+   "year": 2008,
+   "authors": [
+    {
+     "authorId": "30886755",
+     "name": "M. Tangstad"
+    },
+    {
+     "authorId": "30627208",
+     "name": "H. Dalaker"
+    }
+   ]
+  },
+  {
+   "paperId": "ca8775adada096200ccaaab71c5b8f226756d965",
+   "externalIds": {
+    "DOI": "10.1007/s11663-021-02216-4",
+    "CorpusId": 235221519
+   },
+   "title": "In Situ Interferometry for ppm-Order Solubility Analysis at High Temperatures: A Case Study of Carbon Solubility in Molten Silicon",
+   "venue": "Metallurgical and Materials Transactions B",
+   "year": 2021,
+   "authors": [
+    {
+     "authorId": "31527847",
+     "name": "S. Kawanishi"
+    },
+    {
+     "authorId": "14882299",
+     "name": "T. Yoshikawa"
+    },
+    {
+     "authorId": "9514684",
+     "name": "D. Chaussende"
+    },
+    {
+     "authorId": "144337996",
+     "name": "H. Shibata"
+    }
+   ]
+  },
+  {
+   "paperId": "e8c23f3841ced635693e22a61fb2d6b8f52dfa1f",
+   "externalIds": {
+    "MAG": "1990513587",
+    "DOI": "10.2320/MATERTRANS1989.38.990",
+    "CorpusId": 135690556
+   },
+   "title": "Solubility of Carbon in Liquid Silicon Equilibrated with Silicon Carbide",
+   "venue": "",
+   "year": 1997,
+   "authors": [
+    {
+     "authorId": "116376831",
+     "name": "K. Yanaba"
+    },
+    {
+     "authorId": "112970528",
+     "name": "M. Akasaka"
+    },
+    {
+     "authorId": "2068853440",
+     "name": "M. Takeuchi"
+    },
+    {
+     "authorId": "2110737758",
+     "name": "Masatoshi Watanabe"
+    },
+    {
+     "authorId": "6310643",
+     "name": "T. Narushima"
+    },
+    {
+     "authorId": "32318171",
+     "name": "Y. Iguchi"
+    }
+   ]
+  },
+  {
+   "paperId": "5f234726cac08a0367d839fa5d2d4898d60be914",
+   "externalIds": {
+    "MAG": "2039813014",
+    "DOI": "10.1063/1.1489715",
+    "CorpusId": 56563192
+   },
+   "title": "Carbon in silicon: Modeling of diffusion and clustering mechanisms",
+   "venue": "",
+   "year": 2002,
+   "authors": [
+    {
+     "authorId": "49502113",
+     "name": "R. Pinacho"
+    },
+    {
+     "authorId": "144212349",
+     "name": "P. Castrillo"
+    },
+    {
+     "authorId": "35035129",
+     "name": "M. Jara\u00edz"
+    },
+    {
+     "authorId": "1403777654",
+     "name": "I. Mart\u00edn-Bragado"
+    },
+    {
+     "authorId": "2077091",
+     "name": "J. Barbolla"
+    },
+    {
+     "authorId": "144230051",
+     "name": "H. Gossmann"
+    },
+    {
+     "authorId": "2325604",
+     "name": "G. Gilmer"
+    },
+    {
+     "authorId": "40096222",
+     "name": "J. Benton"
+    }
+   ]
+  },
+  {
+   "paperId": "015eccca373d631778e38a4331333a2aaed70d97",
+   "externalIds": {
+    "DOI": "10.26565/2312-4334-2019-2-07",
+    "CorpusId": 239077405
+   },
+   "title": "Investigation of Silicon and Manganese Solubility in Cementite of Iron-Based Alloys",
+   "venue": "East European Journal of Physics",
+   "year": 2019,
+   "authors": []
+  },
+  {
+   "paperId": "9e10fdd60bd406388b6f48522a959e00d40599bf",
+   "externalIds": {
+    "MAG": "1982622211",
+    "DOI": "10.1111/J.1551-2916.2006.00970.X",
+    "CorpusId": 94307451
+   },
+   "title": "Thermodynamic studies of carbon in liquid silicon using the central atoms model",
+   "venue": "",
+   "year": 2006,
+   "authors": [
+    {
+     "authorId": "2118048010",
+     "name": "Yi Chen"
+    },
+    {
+     "authorId": "16208857",
+     "name": "G. Dhanaraj"
+    },
+    {
+     "authorId": "144255480",
+     "name": "M. Dudley"
+    },
+    {
+     "authorId": "144181056",
+     "name": "Hui Zhang"
+    }
+   ]
+  },
+  {
+   "paperId": "a70b37def7cdca1dd24317bb93b8a9d4c6be211e",
+   "externalIds": {
+    "MAG": "2028488142",
+    "DOI": "10.1016/0008-6223(70)90069-2",
+    "CorpusId": 95893040
+   },
+   "title": "Simultaneous chemical vapour deposition of carbon and silicon",
+   "venue": "",
+   "year": 1970,
+   "authors": [
+    {
+     "authorId": "92685922",
+     "name": "S. Marinkovic"
+    },
+    {
+     "authorId": "92064849",
+     "name": "\u010c. Su\u017enjevi\u0107"
+    },
+    {
+     "authorId": "91853478",
+     "name": "I. De\u017earov"
+    },
+    {
+     "authorId": "91797321",
+     "name": "A. Mihajlovi\u0107"
+    },
+    {
+     "authorId": "91650938",
+     "name": "D. Cerovi\u0107"
+    }
+   ]
+  },
+  {
+   "paperId": "b9826278ef8b89492dd713222aceb9a8fd9425a2",
+   "externalIds": {
+    "MAG": "2150259023",
+    "DOI": "10.1016/S0360-3199(96)00049-3",
+    "CorpusId": 97055921
+   },
+   "title": "The influence of nitrogen, oxygen, carbon, boron, silicon and phosphorus on hydrogen solubility in crystals",
+   "venue": "",
+   "year": 1996,
+   "authors": [
+    {
+     "authorId": null,
+     "name": "S. Yu. Zaginaichenko"
+    },
+    {
+     "authorId": null,
+     "name": "Z. A. Matysina"
+    },
+    {
+     "authorId": "91825649",
+     "name": "D. Schur"
+    }
+   ]
+  },
+  {
+   "paperId": "4310e8c4fabc32be41e5b01c5096f5ae2aea56e7",
+   "externalIds": {
+    "MAG": "1975366844",
+    "DOI": "10.1016/0008-6223(79)90003-4",
+    "CorpusId": 94001635
+   },
+   "title": "Hydrogen diffusion and solubility in pyrolytic carbon",
+   "venue": "",
+   "year": 1979,
+   "authors": [
+    {
+     "authorId": "15999659",
+     "name": "R. Causey"
+    },
+    {
+     "authorId": "88846520",
+     "name": "T. Elleman"
+    },
+    {
+     "authorId": "145185252",
+     "name": "K. Verghese"
+    }
+   ]
+  },
+  {
+   "paperId": "c854e4a4d5a7f69da47151e4f071c9b21db11225",
+   "externalIds": {
+    "MAG": "2119140384",
+    "DOI": "10.1016/J.MARCHEM.2012.04.003",
+    "CorpusId": 96847814
+   },
+   "title": "Effect of pressure on silica solubility of diatom frustules in the oceans: Results from long-term laboratory and field incubations",
+   "venue": "",
+   "year": 2012,
+   "authors": [
+    {
+     "authorId": "11375514",
+     "name": "S. Loucaides"
+    },
+    {
+     "authorId": "143793790",
+     "name": "E. Koning"
+    },
+    {
+     "authorId": "4044643",
+     "name": "P. Van Cappellen"
+    }
+   ]
+  },
+  {
+   "paperId": "a7d20126c2a75b0b8783c66dc55a6aa81962f8fd",
+   "externalIds": {
+    "MAG": "1984549562",
+    "DOI": "10.1007/BF00203606",
+    "CorpusId": 137645872
+   },
+   "title": "Grain boundary segregation diagrams of \u03b1-iron",
+   "venue": "",
+   "year": 1993,
+   "authors": [
+    {
+     "authorId": "2578042",
+     "name": "P. Lej\u010dek"
+    },
+    {
+     "authorId": "2066132349",
+     "name": "S. Hofmann"
+    }
+   ]
+  }
+ ],
+ "gamma": [
+  {
+   "paperId": "eed9fa616b861bdb63a26a73607c03060e20b535",
+   "externalIds": {
+    "MAG": "2805363991",
+    "DOI": "10.1016/J.MATCHAR.2018.05.050",
+    "CorpusId": 55086830
+   },
+   "title": "Deformation and fracture characteristics of Al6092/SiC/17.5p metal matrix composite sheets due to heat treatments",
+   "venue": "Materials Characterization",
+   "year": 2018,
+   "authors": [
+    {
+     "authorId": "13512909",
+     "name": "S. Gatea"
+    },
+    {
+     "authorId": "2128690",
+     "name": "H. Ou"
+    },
+    {
+     "authorId": "91067647",
+     "name": "G. McCartney"
+    }
+   ]
+  },
+  {
+   "paperId": "fc0c724055aca5dd30799422553f61fc64fc6668",
+   "externalIds": {
+    "DOI": "10.1007/s12598-025-03301-2",
+    "CorpusId": 277555849
+   },
+   "title": "Revealing the mechanism of significant enhancement in interfacial thermal transport in silicon-based ceramic crystalline/amorphous matrix composite phase change materials",
+   "venue": "Rare Metals",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "2479061872",
+     "name": "Ling-Yue Li"
+    },
+    {
+     "authorId": "2255060985",
+     "name": "Lin Qiu"
+    },
+    {
+     "authorId": "2301845076",
+     "name": "Ning Cao"
+    },
+    {
+     "authorId": "2353742189",
+     "name": "Lei Xu"
+    },
+    {
+     "authorId": "3058118",
+     "name": "Li-Zhong Yang"
+    },
+    {
+     "authorId": "2267948004",
+     "name": "Jie Lin"
+    },
+    {
+     "authorId": "2268030077",
+     "name": "Yan-Hui Feng"
+    }
+   ]
+  },
+  {
+   "paperId": "532eb8a3a49f2d32f3a3150d862a9aea7527382f",
+   "externalIds": {
+    "DOI": "10.1007/s12633-025-03414-4",
+    "CorpusId": 280501884
+   },
+   "title": "Preparation and Modulation of the Morphological, Structural, Electrical, Dielectric and Linear/Nonlinear Optical Characteristics of PVA-PVP/SiC-Bi2O3 Nancomposites for Energy Storage Devices and Radiation Attenuation",
+   "venue": "Silicon",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "1460249398",
+     "name": "Jassim M. AL-Issawe"
+    },
+    {
+     "authorId": "1859788",
+     "name": "M. A. Habeeb"
+    },
+    {
+     "authorId": "1753039694",
+     "name": "A. R. Abdulridha"
+    }
+   ]
+  },
+  {
+   "paperId": "a3185cf4b86068a74ec6efec9600aeff65ba2b6a",
+   "externalIds": {
+    "DOI": "10.1002/pc.29792",
+    "CorpusId": 276986517
+   },
+   "title": "Interfacial decoration of UHMWPE composites with SiC nanoparticles to improve their ballistic limitations",
+   "venue": "Polymer Composites",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "2308706921",
+     "name": "Changjian Qi"
+    },
+    {
+     "authorId": "2237592011",
+     "name": "Yan Zhao"
+    },
+    {
+     "authorId": "2237589155",
+     "name": "Zhi-Yong Wang"
+    }
+   ]
+  },
+  {
+   "paperId": "d365f3f5d2bbc03411f2b2d1cb1a15849201f2d1",
+   "externalIds": {
+    "DOI": "10.1007/s12633-023-02468-6",
+    "CorpusId": 258422256
+   },
+   "title": "Effect of Microstructure on Mechanical Behaviors of Al6061 Metal Matrix Composite Reinforced with Silicon Nitride (Si3N4) and Silicon Carbide (SiC) Micro Particles",
+   "venue": "Silicon",
+   "year": 2023,
+   "authors": [
+    {
+     "authorId": "88519969",
+     "name": "R. Arya"
+    },
+    {
+     "authorId": "2145683486",
+     "name": "R. Kumar"
+    },
+    {
+     "authorId": "74403042",
+     "name": "Amit Telang"
+    },
+    {
+     "authorId": "2097091971",
+     "name": "A. Yadav"
+    }
+   ]
+  },
+  {
+   "paperId": "1c1eb119ee42cad54bada428190c52887c16372e",
+   "externalIds": {
+    "DOI": "10.1002/pc.29177",
+    "CorpusId": 274156701
+   },
+   "title": "Analysis of the effects of interfacial parameters on the thermal conductivity properties of SiC/SMPU composites",
+   "venue": "Polymer Composites",
+   "year": 2024,
+   "authors": [
+    {
+     "authorId": "2274423610",
+     "name": "Xiao-Yu Guan"
+    },
+    {
+     "authorId": "2331510216",
+     "name": "Jianing Bao"
+    },
+    {
+     "authorId": "2331844673",
+     "name": "Jiabin Wei"
+    },
+    {
+     "authorId": "2331688744",
+     "name": "Xueran Yuan"
+    },
+    {
+     "authorId": "2222963438",
+     "name": "Xinqi Wang"
+    },
+    {
+     "authorId": "2209126778",
+     "name": "Heng Zhang"
+    },
+    {
+     "authorId": "2331677287",
+     "name": "Hongyang Wang"
+    },
+    {
+     "authorId": "2331570687",
+     "name": "Hairong Chen"
+    },
+    {
+     "authorId": "2332080930",
+     "name": "Rui Wang"
+    }
+   ]
+  },
+  {
+   "paperId": "9b4b10e0b66f4cb4414667c9368989f6e74f93b6",
+   "externalIds": {
+    "DOI": "10.1007/s13632-025-01257-4",
+    "CorpusId": 281737083
+   },
+   "title": "Mechanical and Microstructural Behavior of Aluminum Matrix Composites Reinforced with Silicon Carbide Particles",
+   "venue": "Metallography Microstructure and Analysis",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "2383387737",
+     "name": "A. E. Zapata-Valencia"
+    },
+    {
+     "authorId": "1402989118",
+     "name": "Y. Cardona-Maya"
+    },
+    {
+     "authorId": "2383328320",
+     "name": "J. Vargas"
+    },
+    {
+     "authorId": "2495864230",
+     "name": "J. L. Ledezma Sillas"
+    },
+    {
+     "authorId": "2495863951",
+     "name": "J. H. Herrera Ram\u00edrez"
+    },
+    {
+     "authorId": "2495866672",
+     "name": "C. Isaza M."
+    }
+   ]
+  },
+  {
+   "paperId": "3a237ebdfade33abd1a5449ce3af87c1d7216215",
+   "externalIds": {
+    "DOI": "10.1007/s10443-023-10129-5",
+    "CorpusId": 259475855
+   },
+   "title": "Multi-scale Progressive Damage and Failure Behavior Analysis of Three-Dimensional Winding SiC Fiber-Reinforced SiC Matrix Composite Tube",
+   "venue": "Applied Composite Materials",
+   "year": 2023,
+   "authors": [
+    {
+     "authorId": "2270168186",
+     "name": "J. Pu"
+    },
+    {
+     "authorId": "2152810276",
+     "name": "Jun Wang"
+    },
+    {
+     "authorId": "2115855643",
+     "name": "Jianbo Tang"
+    },
+    {
+     "authorId": "2121272150",
+     "name": "Liang-Liang Shen"
+    },
+    {
+     "authorId": "2111526804",
+     "name": "Qingyu Huang"
+    },
+    {
+     "authorId": "2151959446",
+     "name": "Ning Hu"
+    },
+    {
+     "authorId": "2114827720",
+     "name": "Qiang Wei"
+    },
+    {
+     "authorId": "2110980674",
+     "name": "Jian Xu"
+    }
+   ]
+  },
+  {
+   "paperId": "911c72b4eff42ac917d6447721d961b4beffbf05",
+   "externalIds": {
+    "DOI": "10.1117/12.3098864",
+    "CorpusId": 284795913
+   },
+   "title": "Effect of SiC content and size on microstructure and properties of aluminum matrix composites",
+   "venue": "International Conference on Materials Science, Energy Technology and Environmental Engineering",
+   "year": 2026,
+   "authors": [
+    {
+     "authorId": "2109076633",
+     "name": "Xiaoyu Ma"
+    },
+    {
+     "authorId": "2362671103",
+     "name": "Anguo Wang"
+    },
+    {
+     "authorId": "2405136829",
+     "name": "Huan-Tong Zheng"
+    },
+    {
+     "authorId": "2361650815",
+     "name": "Junhuai Zhang"
+    },
+    {
+     "authorId": "2404787777",
+     "name": "Jiayuan Zang"
+    },
+    {
+     "authorId": "2279402004",
+     "name": "Yu-Fei Bai"
+    },
+    {
+     "authorId": "2218772422",
+     "name": "Yuan Wang"
+    },
+    {
+     "authorId": "2404981378",
+     "name": "Yu-Lin Liu"
+    },
+    {
+     "authorId": "6234342",
+     "name": "Chun-Zhong Liu"
+    }
+   ]
+  },
+  {
+   "paperId": "24b64f0e58f2bdf8f18029602198fd24130c2fae",
+   "externalIds": {
+    "DOI": "10.1111/ijac.14645",
+    "CorpusId": 267006065
+   },
+   "title": "Effect of BN interfacial layer on the mechanical behavior of SiC fiber reinforced SiC ceramic matrix composites",
+   "venue": "International Journal of Applied Ceramic Technology",
+   "year": 2024,
+   "authors": [
+    {
+     "authorId": "2276433590",
+     "name": "Mingwei Chen"
+    },
+    {
+     "authorId": "2276473407",
+     "name": "Hai-Peng Qiu"
+    },
+    {
+     "authorId": "2276447418",
+     "name": "Yuliang Zhao"
+    },
+    {
+     "authorId": "2011523100",
+     "name": "Bing-Yu Zhang"
+    },
+    {
+     "authorId": "2119051562",
+     "name": "Shan-Hua Liu"
+    },
+    {
+     "authorId": "2278270606",
+     "name": "Wendong Luo"
+    },
+    {
+     "authorId": "2115762024",
+     "name": "Xin Ma"
+    },
+    {
+     "authorId": "2493660342",
+     "name": "Wei-Jie Xie"
+    },
+    {
+     "authorId": "2201306456",
+     "name": "Yi Chen"
+    },
+    {
+     "authorId": "2276487324",
+     "name": "Qiyue Zhang"
+    }
+   ]
+  },
+  {
+   "paperId": "0f23ab9a38ba3c26dd650818637aa9459a385c1e",
+   "externalIds": {
+    "DOI": "10.1080/01694243.2025.2462165",
+    "CorpusId": 276219399
+   },
+   "title": "Mechanical, thermal and microstructural analysis of Basalt Fabric composite with interfacial reinforcement by electrostatic self-assembly of silicon carbide nanoparticles",
+   "venue": "Journal of Adhesion Science and Technology",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "2196173137",
+     "name": "S. M. Kennedy"
+    },
+    {
+     "authorId": "2240905248",
+     "name": "P. K."
+    },
+    {
+     "authorId": "2465214627",
+     "name": "J. B."
+    }
+   ]
+  },
+  {
+   "paperId": "7b6d4d252d912d3783dd68e995fc3ee816d1ec5c",
+   "externalIds": {
+    "DOI": "10.1007/s12633-026-03779-0",
+    "CorpusId": 291148837
+   },
+   "title": "Carbon Nanofillers in PVC/PEO/SiC: A Strategic Approach to Multifunctional Materials for Energy Storage and Optical Uses",
+   "venue": "Silicon",
+   "year": 2026,
+   "authors": [
+    {
+     "authorId": "2259038631",
+     "name": "A. M. El-naggar"
+    },
+    {
+     "authorId": "152967786",
+     "name": "A. Kamal"
+    },
+    {
+     "authorId": "11792584",
+     "name": "A. Albassam"
+    }
+   ]
+  }
+ ],
+ "prec": [
+  {
+   "paperId": "b17948ad83aab68ec4cd2f5bfb5548649edd7a1f",
+   "externalIds": {
+    "MAG": "1980408346",
+    "DOI": "10.1016/S0168-583X(03)00861-9",
+    "CorpusId": 94011456
+   },
+   "title": "Creation of internal point defect drains in silicon by carbon implantation",
+   "venue": "",
+   "year": 2003,
+   "authors": [
+    {
+     "authorId": null,
+     "name": "M. H\u00e4berlen"
+    },
+    {
+     "authorId": "152916453",
+     "name": "J. Lindner"
+    },
+    {
+     "authorId": "4944386",
+     "name": "B. Stritzker"
+    }
+   ]
+  },
+  {
+   "paperId": "6687c0cf1478be3938ada3406ed45f5bd1795749",
+   "externalIds": {
+    "MAG": "1562208897",
+    "DOI": "10.1002/9783527603978.MST0246",
+    "CorpusId": 137021401
+   },
+   "title": "Point Defects, Diffusion, and Precipitation",
+   "venue": "",
+   "year": 2013,
+   "authors": [
+    {
+     "authorId": "145136313",
+     "name": "U. G\u00f6sele"
+    }
+   ]
+  },
+  {
+   "paperId": "044afb975888962781194c2b79ad15f9b14dca52",
+   "externalIds": {
+    "MAG": "233651014",
+    "DOI": "10.2172/5163065",
+    "CorpusId": 91523320
+   },
+   "title": "Carbon, oxygen and their interaction with intrinsic point defects in solar silicon ribbon material. Annual report, September 1982-September 1983",
+   "venue": "",
+   "year": 1983,
+   "authors": [
+    {
+     "authorId": "47664498",
+     "name": "U. Goesele"
+    },
+    {
+     "authorId": "49365193",
+     "name": "D. Ast"
+    }
+   ]
+  },
+  {
+   "paperId": "3fe9b335706ce2aa76a545f2a855dc57406c4384",
+   "externalIds": {
+    "MAG": "1537919546",
+    "CorpusId": 135805174
+   },
+   "title": "Carbon, oxygen and their interaction with intrinsic point defects in solar silicon ribbon material: A speculative approach",
+   "venue": "",
+   "year": 1983,
+   "authors": [
+    {
+     "authorId": "47664498",
+     "name": "U. Goesele"
+    },
+    {
+     "authorId": "49365193",
+     "name": "D. Ast"
+    }
+   ]
+  },
+  {
+   "paperId": "3bac8bd338bde36671ec9bfc4519371fe5d0f2ad",
+   "externalIds": {
+    "CorpusId": 210877778
+   },
+   "title": "CARBON. OXYGEN AND THEIR INTERACTION WITH INTRINSIC POINT DEFECTS IN SOLAR SILICON RIBBON MATERIAL",
+   "venue": "",
+   "year": 2008,
+   "authors": [
+    {
+     "authorId": "49365193",
+     "name": "D. Ast"
+    }
+   ]
+  },
+  {
+   "paperId": "f2f06bcc1d1cf4717de59285895a4500672d6add",
+   "externalIds": {
+    "CorpusId": 208365921
+   },
+   "title": "CARBON. OXYGEN AND THEIR INTERACTION WITH INTRINSIC POINT DEFECTS IN SOLAR SILICON RIBBON MATERIAL",
+   "venue": "",
+   "year": 2008,
+   "authors": [
+    {
+     "authorId": "49365193",
+     "name": "D. Ast"
+    }
+   ]
+  },
+  {
+   "paperId": "10340ba9c46f08867a2b1d617ea0689cd702c3b0",
+   "externalIds": {
+    "CorpusId": 209486011
+   },
+   "title": "CARBON. OXYGEN AND THEIR INTERACTION WITH INTRINSIC POINT DEFECTS IN SOLAR SILICON RIBBON MATERIAL",
+   "venue": "",
+   "year": 2008,
+   "authors": [
+    {
+     "authorId": "49365193",
+     "name": "D. Ast"
+    }
+   ]
+  },
+  {
+   "paperId": "6c09627d593ad977f0e3278aa2cadbedff3ffcd0",
+   "externalIds": {
+    "MAG": "2078103487",
+    "DOI": "10.1143/JJAP.32.4857",
+    "CorpusId": 98262607
+   },
+   "title": "Co-Precipitation of Carbon and Oxygen in Silicon: The Dominant Flux Criterion",
+   "venue": "",
+   "year": 1993,
+   "authors": [
+    {
+     "authorId": "122629707",
+     "name": "W. Taylor"
+    },
+    {
+     "authorId": "145136313",
+     "name": "U. G\u00f6sele"
+    },
+    {
+     "authorId": "14146955",
+     "name": "T. Tan"
+    }
+   ]
+  },
+  {
+   "paperId": "48e10dab83269e6763ca4270edafdb6d61ee3fda",
+   "externalIds": {
+    "MAG": "1519563128",
+    "DOI": "10.1007/978-94-009-1976-1",
+    "CorpusId": 94751470
+   },
+   "title": "Diffusion in materials",
+   "venue": "",
+   "year": 1990,
+   "authors": [
+    {
+     "authorId": "91754073",
+     "name": "A. Laskar"
+    }
+   ]
+  }
+ ],
+ "sige": [
+  {
+   "paperId": "e01eb1687bcc8acdbf0d0033f8feb119ddccc53b",
+   "externalIds": {
+    "MAG": "1682703047",
+    "DOI": "10.1007/s10853-015-9475-1",
+    "CorpusId": 136359036
+   },
+   "title": "The effects of thermal nitridation on phosphorus diffusion in strained SiGe and SiGe:C",
+   "venue": "Journal of Materials Science",
+   "year": 2016,
+   "authors": [
+    {
+     "authorId": "51050706",
+     "name": "Yi-Heng Lin"
+    },
+    {
+     "authorId": "93466675",
+     "name": "H. Yasuda"
+    },
+    {
+     "authorId": "30819469",
+     "name": "M. Schiekofer"
+    },
+    {
+     "authorId": "46932684",
+     "name": "G. Xia"
+    }
+   ]
+  },
+  {
+   "paperId": "d1fb4f24de79e25fae2185650613c75a3726f812",
+   "externalIds": {
+    "DOI": "10.1063/5.0191350",
+    "CorpusId": 268598742
+   },
+   "title": "Epitaxial growth of Nd2O3 layers on virtual SiGe substrates on Si(111)",
+   "venue": "Journal of Applied Physics",
+   "year": 2024,
+   "authors": [
+    {
+     "authorId": "1580364552",
+     "name": "H. Genath"
+    },
+    {
+     "authorId": "2292494991",
+     "name": "M. A. Schubert"
+    },
+    {
+     "authorId": "2292578681",
+     "name": "H. L. Yamtomo"
+    },
+    {
+     "authorId": "91563127",
+     "name": "J. Kr\u00fcgener"
+    },
+    {
+     "authorId": "94125968",
+     "name": "H. Osten"
+    }
+   ]
+  },
+  {
+   "paperId": "40f57b65f99c919f2492047cea975f8cba82e12e",
+   "externalIds": {
+    "MAG": "1557611665",
+    "CorpusId": 32045944
+   },
+   "title": "Effects of Carbon Doping on the 1/f noise in SiGe HBTs",
+   "venue": "European Solid-State Device Research Conference",
+   "year": 1999,
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Andreas Gruhle"
+    },
+    {
+     "authorId": "9438883",
+     "name": "H. Kibbel"
+    },
+    {
+     "authorId": "9139364",
+     "name": "U. Konig"
+    },
+    {
+     "authorId": "30867087",
+     "name": "C. Mahner"
+    },
+    {
+     "authorId": "113623801",
+     "name": "W. Mroczek"
+    }
+   ]
+  },
+  {
+   "paperId": "1db44a97eb3a6b6d70bf25ba1dd11f43fe92262d",
+   "externalIds": {
+    "MAG": "2018584993",
+    "DOI": "10.1063/1.4794991",
+    "CorpusId": 55077121
+   },
+   "title": "Nano-structuring in SiGe by oxidation induced anisotropic Ge self-organization",
+   "venue": "",
+   "year": 2013,
+   "authors": [
+    {
+     "authorId": "152924400",
+     "name": "E. Long"
+    },
+    {
+     "authorId": "8619579",
+     "name": "A. Galeckas"
+    },
+    {
+     "authorId": "40133798",
+     "name": "A. Kuznetsov"
+    },
+    {
+     "authorId": "47042696",
+     "name": "A. Ronda"
+    },
+    {
+     "authorId": "38020195",
+     "name": "L. Favre"
+    },
+    {
+     "authorId": "8613146",
+     "name": "I. Berbezier"
+    },
+    {
+     "authorId": "9536483",
+     "name": "H. Radamson"
+    }
+   ]
+  },
+  {
+   "paperId": "a0d30ee20a68414945df0767454cff0869d616f4",
+   "externalIds": {
+    "MAG": "2009538027",
+    "DOI": "10.1166/JNN.2007.002",
+    "CorpusId": 25535094,
+    "PubMed": "18047125"
+   },
+   "title": "Atomistic simulation of boron diffusion with charged defects and diffusivity in strained Si/SiGe.",
+   "venue": "Journal of Nanoscience and Nanotechnology",
+   "year": 2007,
+   "authors": [
+    {
+     "authorId": "2108090980",
+     "name": "Young-kyu Kim"
+    },
+    {
+     "authorId": "92762065",
+     "name": "K. Yoon"
+    },
+    {
+     "authorId": "46454015",
+     "name": "Joong-sik Kim"
+    },
+    {
+     "authorId": "9180622",
+     "name": "T. Won"
+    }
+   ]
+  },
+  {
+   "paperId": "039983405af6283caa5d8aae5a28217968265956",
+   "externalIds": {
+    "MAG": "564763158",
+    "CorpusId": 108102676
+   },
+   "title": "Silicon-germanium carbon alloy",
+   "venue": "",
+   "year": 2002,
+   "authors": [
+    {
+     "authorId": "30851082",
+     "name": "S. Pantelides"
+    },
+    {
+     "authorId": "48439473",
+     "name": "S. Zollner"
+    }
+   ]
+  },
+  {
+   "paperId": "1549f522b050a197c544a0434e5c51bf3719ce8f",
+   "externalIds": {
+    "MAG": "2050818268",
+    "DOI": "10.1080/08927020701840051",
+    "CorpusId": 27326121
+   },
+   "title": "Atomistic modelling for boron diffusion in strained silicon substrate",
+   "venue": "",
+   "year": 2007,
+   "authors": [
+    {
+     "authorId": "2108090980",
+     "name": "Young-kyu Kim"
+    },
+    {
+     "authorId": "92762065",
+     "name": "K. Yoon"
+    },
+    {
+     "authorId": "46454015",
+     "name": "Joong-sik Kim"
+    },
+    {
+     "authorId": "2118625102",
+     "name": "Han-geon Kim"
+    },
+    {
+     "authorId": "9180622",
+     "name": "T. Won"
+    }
+   ]
+  },
+  {
+   "paperId": "3f4add835497f89443de6732db9cead1833fe637",
+   "externalIds": {
+    "MAG": "2004221692",
+    "DOI": "10.1143/JJAP.46.2519",
+    "CorpusId": 119399913
+   },
+   "title": "Kinetic Monte Carlo Modeling of Boron Diffusion in Strained Silicon",
+   "venue": "",
+   "year": 2007,
+   "authors": [
+    {
+     "authorId": "2108090980",
+     "name": "Young-kyu Kim"
+    },
+    {
+     "authorId": "92762065",
+     "name": "K. Yoon"
+    },
+    {
+     "authorId": "46454015",
+     "name": "Joong-sik Kim"
+    },
+    {
+     "authorId": "9180622",
+     "name": "T. Won"
+    }
+   ]
+  },
+  {
+   "paperId": "d7d368e972eaa99eb90600a44de6c682997b4077",
+   "externalIds": {
+    "MAG": "2060549512",
+    "DOI": "10.1088/0268-1242/16/11/311",
+    "CorpusId": 98276852
+   },
+   "title": "Estimated effect of germanium and carbon on the Early voltage of a Si1-x-yGexCy heterojunction bipolar transistor",
+   "venue": "",
+   "year": 2001,
+   "authors": [
+    {
+     "authorId": "50628577",
+     "name": "A. Biswas"
+    },
+    {
+     "authorId": "34162434",
+     "name": "P. Basu"
+    }
+   ]
+  },
+  {
+   "paperId": "2f12ed70db727ee9f39a74bf3dd1b0ce3298edcd",
+   "externalIds": {
+    "DOI": "10.1088/0268-1242/16/11/311",
+    "CorpusId": 250911525
+   },
+   "title": "Estimated effect of germanium and carbon on the Early voltage of a Si1-x-yGexCy heterojunction bipolar transistor",
+   "venue": "",
+   "year": 2001,
+   "authors": [
+    {
+     "authorId": "50628577",
+     "name": "A. Biswas"
+    },
+    {
+     "authorId": "34162434",
+     "name": "P. Basu"
+    }
+   ]
+  },
+  {
+   "paperId": "13fdf4c9795c29d6dc7d7125e669f1e11c25dea0",
+   "externalIds": {
+    "MAG": "2155341401",
+    "DOI": "10.1109/ICT.1997.667602",
+    "CorpusId": 138232044
+   },
+   "title": "Thermoelectric semiconductor and electrode-fabrication and evaluation of SiGe/electrode",
+   "venue": "XVI ICT '97. Proceedings ICT'97. 16th International Conference on Thermoelectrics (Cat. No.97TH8291)",
+   "year": 1997,
+   "authors": [
+    {
+     "authorId": "22250737",
+     "name": "K. Hasezaki"
+    },
+    {
+     "authorId": "113721165",
+     "name": "H. Tsukuda"
+    },
+    {
+     "authorId": "2053615721",
+     "name": "A. Yamada"
+    },
+    {
+     "authorId": "92529464",
+     "name": "S. Nakajima"
+    },
+    {
+     "authorId": "2107118596",
+     "name": "Y. Kang"
+    },
+    {
+     "authorId": "92859727",
+     "name": "M. Niino"
+    }
+   ]
+  },
+  {
+   "paperId": "1e781e2467be2254960947b3bbb155ca9d36fcd8",
+   "externalIds": {
+    "MAG": "2435294264",
+    "DOI": "10.7567/SSDM.2008.B-1-3",
+    "CorpusId": 114285732
+   },
+   "title": "High Mobility sub-60nm Gate Length Germanium-On-Insulator Channel pMOSFETs with Metal Source/Drain and TaN MIPS Gate",
+   "venue": "",
+   "year": 2008,
+   "authors": [
+    {
+     "authorId": "49230852",
+     "name": "K. Ikeda"
+    },
+    {
+     "authorId": "4732195",
+     "name": "Y. Yamashita"
+    },
+    {
+     "authorId": "70364223",
+     "name": "M. Harada"
+    },
+    {
+     "authorId": "2111262139",
+     "name": "Toyoji Yamamoto"
+    },
+    {
+     "authorId": "3663983",
+     "name": "S. Nakaharai"
+    },
+    {
+     "authorId": "48676585",
+     "name": "N. Hirashita"
+    },
+    {
+     "authorId": "46525709",
+     "name": "Y. Moriyama"
+    },
+    {
+     "authorId": "46811664",
+     "name": "T. Tezuka"
+    },
+    {
+     "authorId": "2403597",
+     "name": "N. Taoka"
+    },
+    {
+     "authorId": "49894488",
+     "name": "I. Watanabe"
+    },
+    {
+     "authorId": "50093318",
+     "name": "N. Hirose"
+    },
+    {
+     "authorId": "47232165",
+     "name": "N. Sugiyama"
+    },
+    {
+     "authorId": "3329985",
+     "name": "S. Takagi"
+    }
+   ]
+  }
+ ],
+ "lsw": [
+  {
+   "paperId": "69926eab6c008219e100ba934f9fad1655991081",
+   "externalIds": {
+    "MAG": "1984954693",
+    "DOI": "10.1016/0001-6160(79)90043-9",
+    "CorpusId": 136505575
+   },
+   "title": "Influence of interfacial properties on the kinetics of precipitation and precipitate coarsening in aluminium-silver alloys",
+   "venue": "",
+   "year": 1979,
+   "authors": [
+    {
+     "authorId": "48410849",
+     "name": "M. Ferrante"
+    },
+    {
+     "authorId": "46841730",
+     "name": "R. Doherty"
+    }
+   ]
+  },
+  {
+   "paperId": "cbb2d4f476ad5db8317c6c47da6f766722d1e1d8",
+   "externalIds": {
+    "MAG": "2558045588",
+    "CorpusId": 54922909
+   },
+   "title": "MODELING THE PRECIPITATION KINETICS IN SYSTEMS WITH STRONG HETEROPHASE FLUCTUATIONS",
+   "venue": "",
+   "year": 2007,
+   "authors": [
+    {
+     "authorId": "92399148",
+     "name": "A. Turkin"
+    },
+    {
+     "authorId": "40641953",
+     "name": "A. Bakai"
+    }
+   ]
+  },
+  {
+   "paperId": "9624e0d4fcc09f6c9a1f287f4aa38855bd0e683c",
+   "externalIds": {
+    "MAG": "2026111575",
+    "DOI": "10.1088/1751-8113/48/3/035103",
+    "CorpusId": 121942856
+   },
+   "title": "On the theory of Ostwald ripening: formation of the universal distribution",
+   "venue": "",
+   "year": 2015,
+   "authors": [
+    {
+     "authorId": "12148421",
+     "name": "D. Alexandrov"
+    }
+   ]
+  },
+  {
+   "paperId": "9beed488c6c50481f2be5627cc2eea8d3081bf35",
+   "externalIds": {
+    "MAG": "3020940632",
+    "DOI": "10.1016/j.mtla.2020.100682",
+    "CorpusId": 218958245
+   },
+   "title": "On the kinetics of gamma prime (\u03b3\u2019) precipitation and its strengthening mechanism in Alloy 617 during a long-term thermal aging",
+   "venue": "Materialia",
+   "year": 2020,
+   "authors": [
+    {
+     "authorId": "2108503797",
+     "name": "Zhi-Yang Wang"
+    },
+    {
+     "authorId": "21163806",
+     "name": "O. Mur\u00e1nsky"
+    },
+    {
+     "authorId": "47297598",
+     "name": "Han-Liang Zhu"
+    },
+    {
+     "authorId": "92097544",
+     "name": "Tao Wei"
+    },
+    {
+     "authorId": "152727115",
+     "name": "Anna Sokolova"
+    },
+    {
+     "authorId": "145350803",
+     "name": "K. Short"
+    },
+    {
+     "authorId": "2239442480",
+     "name": "R. N. Wright"
+    }
+   ]
+  },
+  {
+   "paperId": "2e80f94497a5087721e0154412f3a521c7590bff",
+   "externalIds": {
+    "MAG": "262406479",
+    "DOI": "10.1023/A:1015408116016",
+    "CorpusId": 137538262
+   },
+   "title": "Review Progress in Ostwald ripening theories and their applications to the \u03b3\u2032-precipitates in nickel-base superalloys Part II Nickel-base superalloys",
+   "venue": "",
+   "year": 2002,
+   "authors": [
+    {
+     "authorId": "50386740",
+     "name": "A. Baldan"
+    }
+   ]
+  },
+  {
+   "paperId": "ca498b6930d4482396dd4592390c4e82eddf69a3",
+   "externalIds": {
+    "MAG": "2042674775",
+    "DOI": "10.1007/BF02698244",
+    "CorpusId": 198222865
+   },
+   "title": "Decomposition and dissolution kinetics of\u03b4\u2032 precipitation in Al-Li binary alloys",
+   "venue": "",
+   "year": 1990,
+   "authors": [
+    {
+     "authorId": "118014518",
+     "name": "B. Shaiu"
+    },
+    {
+     "authorId": "2108501726",
+     "name": "H.-T. Li"
+    },
+    {
+     "authorId": "93540453",
+     "name": "H. Lee"
+    },
+    {
+     "authorId": "49177704",
+     "name": "Haydn Chen"
+    }
+   ]
+  },
+  {
+   "paperId": "a492260f870f81676a3ac5bad85bc96899d80638",
+   "externalIds": {
+    "DOI": "10.1007/BF02656533",
+    "CorpusId": 137685432
+   },
+   "title": "Decomposition and dissolution kinetics of\u03b4\u2032 precipitation in Al-Li binary alloys",
+   "venue": "",
+   "year": 1990,
+   "authors": [
+    {
+     "authorId": "118014518",
+     "name": "B. Shaiu"
+    },
+    {
+     "authorId": "2108501726",
+     "name": "H.-T. Li"
+    },
+    {
+     "authorId": "93540453",
+     "name": "H. Lee"
+    },
+    {
+     "authorId": "49177704",
+     "name": "Haydn Chen"
+    }
+   ]
+  },
+  {
+   "paperId": "d33f2b19044f0eebd75c64345e15ee5f97f5ec8f",
+   "externalIds": {
+    "MAG": "2047446391",
+    "DOI": "10.1002/adfm.201000377",
+    "CorpusId": 97784735
+   },
+   "title": "Time\u2013Temperature\u2013Transformation (TTT) Diagrams for Crystallization of Metal Oxide Thin Films",
+   "venue": "",
+   "year": 2010,
+   "authors": [
+    {
+     "authorId": "145368478",
+     "name": "J. Rupp"
+    },
+    {
+     "authorId": "51057217",
+     "name": "Barbara Scherrer"
+    },
+    {
+     "authorId": "2492150997",
+     "name": "Nina Sch\u00e4uble"
+    },
+    {
+     "authorId": "2856365",
+     "name": "L. Gauckler"
+    }
+   ]
+  },
+  {
+   "paperId": "aa9102698459bffcab43916f24ee52db74272301",
+   "externalIds": {
+    "MAG": "2318864946",
+    "DOI": "10.1021/JP402729H",
+    "CorpusId": 102295016
+   },
+   "title": "Size Distribution of Nanoparticles of ZnO and SnS in the Frame of Lifshits\u2013Slezov\u2013Wagner Modified Theory",
+   "venue": "",
+   "year": 2013,
+   "authors": [
+    {
+     "authorId": null,
+     "name": "Roman Vengrenovich"
+    },
+    {
+     "authorId": null,
+     "name": "Bohdan Ivanskii"
+    },
+    {
+     "authorId": "14060506",
+     "name": "I. Panko"
+    },
+    {
+     "authorId": null,
+     "name": "Miroslav Stasyk"
+    }
+   ]
+  },
+  {
+   "paperId": "8a2eb7e927f4999cd6162dfaa40a08d50616f8a5",
+   "externalIds": {
+    "MAG": "2038619943",
+    "DOI": "10.1016/0956-7151(90)90029-G",
+    "CorpusId": 137039118
+   },
+   "title": "Microstructural evolution and mechanical properties of rapidly solidified AlZrV alloys at high temperatures",
+   "venue": "",
+   "year": 1990,
+   "authors": [
+    {
+     "authorId": "2462419660",
+     "name": "Y.-C. Chen"
+    },
+    {
+     "authorId": "4041590",
+     "name": "M. E. Fine"
+    },
+    {
+     "authorId": "117777854",
+     "name": "J. Weertman"
+    }
+   ]
+  },
+  {
+   "paperId": "51d377690fae4807de25a88180157c852bcc68a2",
+   "externalIds": {
+    "MAG": "2468079847",
+    "CorpusId": 99060460
+   },
+   "title": "PRECIPITATION IN ALLOYS: A KINETIC MONTE CARLO AND CLASS MODEL STUDY",
+   "venue": "",
+   "year": 2011,
+   "authors": [
+    {
+     "authorId": "15550358",
+     "name": "D. Bomba\u010d"
+    },
+    {
+     "authorId": "2379067",
+     "name": "G. Kugler"
+    }
+   ]
+  },
+  {
+   "paperId": "550493d9df4a962492b760bcb4f849c1657e547c",
+   "externalIds": {
+    "MAG": "2070557883",
+    "DOI": "10.1016/0036-9748(84)90372-7",
+    "CorpusId": 135523046
+   },
+   "title": "The early stage of gamma prime precipitation in a nickel-silicon alloy",
+   "venue": "",
+   "year": 1984,
+   "authors": [
+    {
+     "authorId": "98398418",
+     "name": "M. Dvorack"
+    },
+    {
+     "authorId": "33386260",
+     "name": "S. Polat"
+    },
+    {
+     "authorId": "49177704",
+     "name": "Haydn Chen"
+    }
+   ]
+  }
+ ],
+ "gb": [
+  {
+   "paperId": "c505f38ee61ab85dec5ddb1ffc018ebdf3159414",
+   "externalIds": {
+    "MAG": "2998666256",
+    "DOI": "10.1080/09500839.2019.1703053",
+    "CorpusId": 213287228
+   },
+   "title": "Coarsening kinetics of grain-boundary precipitates: a reanalysis based on the multiple pairwise interaction model of Ostwald ripening",
+   "venue": "",
+   "year": 2019,
+   "authors": [
+    {
+     "authorId": "2496542575",
+     "name": "P. D. Di Nunzio"
+    }
+   ]
+  },
+  {
+   "paperId": "2cce46df74835bccd75eb30229faecfdc44f275d",
+   "externalIds": {
+    "MAG": "174581507",
+    "DOI": "10.1016/B978-1-4832-8423-1.50157-7",
+    "CorpusId": 135704558
+   },
+   "title": "The Coarsening of Precipitates",
+   "venue": "",
+   "year": 1982,
+   "authors": [
+    {
+     "authorId": "72830090",
+     "name": "M. McGirr"
+    },
+    {
+     "authorId": "48602021",
+     "name": "S. Y. Lee"
+    }
+   ]
+  },
+  {
+   "paperId": "6b9327da73e849887a90a6c672263087d91ce528",
+   "externalIds": {
+    "MAG": "2045309069",
+    "DOI": "10.2298/SOS1303261R",
+    "CorpusId": 53496067
+   },
+   "title": "A mathematical approach to Ostwald ripening due to diffusion and deformation in liquid bridge",
+   "venue": "",
+   "year": 2013,
+   "authors": [
+    {
+     "authorId": "2559526",
+     "name": "B. Randjelovi\u0107"
+    },
+    {
+     "authorId": "93133998",
+     "name": "K. Shinagawa"
+    },
+    {
+     "authorId": "32950263",
+     "name": "Z. Nikolic"
+    }
+   ]
+  },
+  {
+   "paperId": "025e8ab918a46f40c16de40838a1723d8e654e06",
+   "externalIds": {
+    "MAG": "2029134641",
+    "DOI": "10.1063/1.111423",
+    "CorpusId": 95645830
+   },
+   "title": "Activation energy for Ostwald ripening of Al2Cu in Al(4 wt. % Cu) thin films using a lateral diffusion couple",
+   "venue": "",
+   "year": 1994,
+   "authors": [
+    {
+     "authorId": "49731266",
+     "name": "E. Colgan"
+    }
+   ]
+  },
+  {
+   "paperId": "82b687044c6f9bce8a046cf45b742e5762debed7",
+   "externalIds": {
+    "MAG": "2068376015",
+    "DOI": "10.1063/1.1894584",
+    "CorpusId": 122863293
+   },
+   "title": "Rapid ion-beam-induced Ostwald ripening in two dimensions",
+   "venue": "",
+   "year": 2005,
+   "authors": [
+    {
+     "authorId": "47707083",
+     "name": "P. Berdahl"
+    },
+    {
+     "authorId": null,
+     "name": "Ronald P. Reade"
+    },
+    {
+     "authorId": "37112287",
+     "name": "R. Russo"
+    }
+   ]
+  },
+  {
+   "paperId": "12eb70f173722be5f20b8c90d2d871173eb759af",
+   "externalIds": {
+    "DOI": "10.1007/s10853-023-08663-5",
+    "CorpusId": 259512882
+   },
+   "title": "Precipitates evolution during isothermal aging and its effect on tensile properties for an AFA alloy containing W and B elements",
+   "venue": "Journal of Materials Science",
+   "year": 2023,
+   "authors": [
+    {
+     "authorId": "93113973",
+     "name": "Ming-Yong Shu"
+    },
+    {
+     "authorId": "2164334410",
+     "name": "Qin Zhou"
+    },
+    {
+     "authorId": "2111222780",
+     "name": "Jun Xiao"
+    },
+    {
+     "authorId": "47230406",
+     "name": "Zhang-Jian Zhou"
+    },
+    {
+     "authorId": "3805888",
+     "name": "Yong-duo Sun"
+    },
+    {
+     "authorId": "2146071376",
+     "name": "Le Chen"
+    },
+    {
+     "authorId": "2074109802",
+     "name": "Ke Zhao"
+    },
+    {
+     "authorId": "30714384",
+     "name": "T. Xiao"
+    }
+   ]
+  },
+  {
+   "paperId": "495b515d3225b5cfcf8f00ce961086f8dccb5c22",
+   "externalIds": {
+    "MAG": "2076123732",
+    "DOI": "10.1016/0036-9748(87)90143-8",
+    "CorpusId": 137550628
+   },
+   "title": "Coarsening behavior of Ll2 structured Al3(Zrx V1\u2212x) precipitates in rapidly solidified AlZrV alloy",
+   "venue": "",
+   "year": 1987,
+   "authors": [
+    {
+     "authorId": "2462419660",
+     "name": "Y.-C. Chen"
+    },
+    {
+     "authorId": "4041590",
+     "name": "M. E. Fine"
+    },
+    {
+     "authorId": "117777854",
+     "name": "J. Weertman"
+    },
+    {
+     "authorId": "2107671132",
+     "name": "R. Lewis"
+    }
+   ]
+  },
+  {
+   "paperId": "e8491cc21952d03774287853be03c3e205da1245",
+   "externalIds": {
+    "MAG": "1668494",
+    "DOI": "10.1023/A:1004577014266",
+    "CorpusId": 134347659
+   },
+   "title": "Computer simulation of grain growth by grain boundary migration during liquid phase sintering",
+   "venue": "",
+   "year": 1999,
+   "authors": [
+    {
+     "authorId": "32950263",
+     "name": "Z. Nikolic"
+    }
+   ]
+  },
+  {
+   "paperId": "7539e3fd26f370717b31c054f364dcc8cad93f14",
+   "externalIds": {
+    "DBLP": "journals/symmetry/LuWLYZCLF25",
+    "DOI": "10.3390/sym17071146",
+    "CorpusId": 281669795
+   },
+   "title": "Creep Behavior and Deformation Mechanism of Aluminum Alloy: Integrating Multiscale Simulation and Experiments",
+   "venue": "Symmetry",
+   "year": 2025,
+   "authors": [
+    {
+     "authorId": "2237109647",
+     "name": "Weizheng Lu"
+    },
+    {
+     "authorId": "2145108947",
+     "name": "Jianguo Wu"
+    },
+    {
+     "authorId": "2293135464",
+     "name": "Jiajun Liu"
+    },
+    {
+     "authorId": "2322643753",
+     "name": "Xiaoai Yi"
+    },
+    {
+     "authorId": "2382932584",
+     "name": "Qiyue Zhang"
+    },
+    {
+     "authorId": "2144353922",
+     "name": "Yang Chen"
+    },
+    {
+     "authorId": "2311734025",
+     "name": "Jia Li"
+    },
+    {
+     "authorId": "2255454536",
+     "name": "Qi-Hong Fang"
+    }
+   ]
+  },
+  {
+   "paperId": "262ce495ad9909a35a19f3579f9a74c031835008",
+   "externalIds": {
+    "MAG": "2068274014",
+    "DOI": "10.1016/J.VACUUM.2015.03.028",
+    "CorpusId": 98323137
+   },
+   "title": "Microstructural evolution of nanometric Ti(NiCu)2 precipitates in annealed Ni\u2013Ti\u2013Cu thin films",
+   "venue": "",
+   "year": 2015,
+   "authors": [
+    {
+     "authorId": "15909377",
+     "name": "M. Callisti"
+    },
+    {
+     "authorId": "2746430",
+     "name": "T. Polcar"
+    }
+   ]
+  },
+  {
+   "paperId": "a779793b958b40aad738f4c7895e5b3a70b19c9f",
+   "externalIds": {
+    "MAG": "2008416424",
+    "DOI": "10.1016/J.MATCHAR.2014.01.017",
+    "CorpusId": 136762986
+   },
+   "title": "Microstructural coarsening of 7005 aluminum alloy semisolid billets with high solid fraction",
+   "venue": "",
+   "year": 2014,
+   "authors": [
+    {
+     "authorId": "10091655",
+     "name": "Jufu Jiang"
+    },
+    {
+     "authorId": "65862898",
+     "name": "Ying Wang"
+    },
+    {
+     "authorId": "143847101",
+     "name": "H. Atkinson"
+    }
+   ]
+  },
+  {
+   "paperId": "243304fd15746511c384d9222cda6bf6cce348bd",
+   "externalIds": {
+    "DOI": "10.1007/s11665-026-13540-8",
+    "CorpusId": 286297190
+   },
+   "title": "Observations on the Effects of Cu, Sc, Ti and Zr Addition on Precipitation in Al-Li-Based Alloys",
+   "venue": "Journal of materials engineering and performance (Print)",
+   "year": 2026,
+   "authors": [
+    {
+     "authorId": "2254161679",
+     "name": "L. Radan"
+    },
+    {
+     "authorId": "2086748648",
+     "name": "Agnes M. Samuel"
+    },
+    {
+     "authorId": "2369993651",
+     "name": "V. Songmene"
+    },
+    {
+     "authorId": "2247109128",
+     "name": "F. Samuel"
+    }
+   ]
+  }
+ ]
+}

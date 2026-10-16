@@ -1,0 +1,242 @@
+{
+ "action": "shard-action-ge-corner-2026-09-29",
+ "analysis": {
+  "kappa_inf": "per (x, T, seed) series: least squares 1/kappa = a + b/L over ncz 24/48/96 (L = box length along z), kappa_inf = 1/a, exactly as detector.points_of",
+  "replicate_distance": "per replica series: mean over the three sizes of |ln(k_rep / k_orig)|"
+ },
+ "compute": "CHPC notchpeak-guest / owner-guest, 16 ranks per run, one array; grn061 untouched",
+ "decides": [
+  "quarantine C37_z24/z48/z96",
+  "quarantine C38_z24/z48/z96"
+ ],
+ "decision_rule": [
+  {
+   "detail": "that point's original rows are forgotten from the law (archived, influence removed) and its replica series take their place; the quarantine on it is closed",
+   "if": "T1 fails for a point",
+   "op": "replace"
+  },
+  {
+   "detail": "valid anomaly: the rows are real dilute-limit physics the current law form (x(1-x) plus x in resistivity) cannot follow. Quarantine released (rows kept), current law scope-limited to x <= 0.90, and a basis-expansion candidate opened for the Ge-rich dilute limit",
+   "if": "T1 passes and T2 passes and T3 passes",
+   "op": "scope-limit + release"
+  },
+  {
+   "detail": "the 1/L extrapolation is invalid in the Ge-rich corner (ballistic-regime method off-data, blind-catalog class M03); rows kept as lower-bound evidence, law scope-limited to x <= 0.90 with the method reason",
+   "if": "T1 passes and T3 fails",
+   "op": "scope-limit (method)"
+  },
+  {
+   "detail": "inconclusive; recorded, next shard action designed from the result",
+   "if": "T1 passes, T3 passes, T2 fails",
+   "op": "keep quarantine"
+  }
+ ],
+ "deviation_policy": "any change to runs, tests, or the rule after the ledger entry is a deviation with its own ledger entry before the affected run; infrastructure failures may be rerun once with the same seed and are logged",
+ "predictions": {
+  "stated_before_outcomes": [
+   "T1 passes (the production rows are not isolated faults)",
+   "T2 passes (kappa rises toward the Ge endpoint, as in BTE-DFT: x 0.85 -> 11.5, x 1 -> 57.1 W/mK at 300 K)",
+   "T3 is the uncertain one: C37's b/a is 40, the largest in the campaign, so the ballistic regime is plausible"
+  ],
+  "status": "predictions are reported pass or fail; the decision rule above is what acts"
+ },
+ "protocol": "identical to the production campaign (in.mp_kappa2: Muller-Plathe rNEMD, SiCGe.tersoff, ncxy 4, swap every 50, NPT 50 ps, warm 100 ps, production 500 ps); in.mp_kappa3 adds only a final PE/atom print",
+ "runs": [
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "replicate",
+   "run_id": "C37r2037_z24",
+   "seed": 2037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "replicate",
+   "run_id": "C37r2037_z48",
+   "seed": 2037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "replicate",
+   "run_id": "C37r2037_z96",
+   "seed": 2037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "replicate",
+   "run_id": "C37r3037_z24",
+   "seed": 3037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "replicate",
+   "run_id": "C37r3037_z48",
+   "seed": 3037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "replicate",
+   "run_id": "C37r3037_z96",
+   "seed": 3037,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "replicate",
+   "run_id": "C38r2038_z24",
+   "seed": 2038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "replicate",
+   "run_id": "C38r2038_z48",
+   "seed": 2038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "replicate",
+   "run_id": "C38r2038_z96",
+   "seed": 2038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "replicate",
+   "run_id": "C38r3038_z24",
+   "seed": 3038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "replicate",
+   "run_id": "C38r3038_z48",
+   "seed": 3038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "replicate",
+   "run_id": "C38r3038_z96",
+   "seed": 3038,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "gradient",
+   "run_id": "G90_T866_z24",
+   "seed": 2101,
+   "swapn": 50,
+   "x": 0.9
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "gradient",
+   "run_id": "G90_T866_z48",
+   "seed": 2101,
+   "swapn": 50,
+   "x": 0.9
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "gradient",
+   "run_id": "G90_T866_z96",
+   "seed": 2101,
+   "swapn": 50,
+   "x": 0.9
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 24,
+   "role": "gradient",
+   "run_id": "G97_T866_z24",
+   "seed": 2102,
+   "swapn": 50,
+   "x": 0.97
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 48,
+   "role": "gradient",
+   "run_id": "G97_T866_z48",
+   "seed": 2102,
+   "swapn": 50,
+   "x": 0.97
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 96,
+   "role": "gradient",
+   "run_id": "G97_T866_z96",
+   "seed": 2102,
+   "swapn": 50,
+   "x": 0.97
+  },
+  {
+   "T": 866.0,
+   "ncxy": 4,
+   "ncz": 144,
+   "role": "ballistic",
+   "run_id": "C37_z144",
+   "seed": 1038,
+   "swapn": 50,
+   "x": 0.943
+  }
+ ],
+ "tests": {
+  "T1_reproduce": "for BOTH C37 and C38: both replica series have replicate_distance <= 0.10 (Phase B seed scatter is 3% at ncz 24; 0.10 allows about 3 sigma)",
+  "T2_gradient": "at 866 K: kappa_inf(x 0.970) > kappa_inf(x 0.943, mean of original + replicas) > kappa_inf(x 0.900)",
+  "T3_one_over_L": "C37 seed 1038: |1/k(ncz 144) - (a + b/L144)| / (1/k(ncz 144)) <= 0.10 using a, b fitted on ncz 24/48/96 only"
+ },
+ "trigger": "frozen detector, production campaign, reason 'isolated point outlier, no cause identified'"
+}

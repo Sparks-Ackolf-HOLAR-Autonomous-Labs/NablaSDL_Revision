@@ -1,0 +1,38 @@
+{
+ "x": 0.3,
+ "a_A": 5.496602661527807,
+ "cells": [
+  12,
+  12,
+  40
+ ],
+ "note": "Tersoff 1989 Si0.7Ge0.3 random alloy box (seed 20260930) after the registered minimisation (box/relax aniso 0, max iterations reached as in the registered run); a = mean cell length per conventional cell",
+ "boxes": {
+  "host": {
+   "n_atoms": 46080,
+   "cell_A": [
+    65.95864112877926,
+    65.95890146571311,
+    219.8671774016957
+   ],
+   "counts": {
+    "Si": 32389,
+    "Ge": 13691,
+    "C": 0
+   }
+  },
+  "p20": {
+   "n_atoms": 49094,
+   "cell_A": [
+    65.8955770779557,
+    65.89462204506188,
+    219.66476569342427
+   ],
+   "counts": {
+    "Si": 34483,
+    "Ge": 11370,
+    "C": 3241
+   }
+  }
+ }
+}

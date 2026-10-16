@@ -1,0 +1,207 @@
+{
+ "source": "Yang et al., J. Inorg. Mater. 31, 997 (2016), 10.15541/jim20160060",
+ "measured": {
+  "vol_pct": 0.5,
+  "T_K": 1000,
+  "kappa_L_W_mK": 2.54,
+  "drop_vs_BM_pct": -10.0,
+  "drop_vs_matrix_pct": -25.0,
+  "note": "kappa_L rises again at 1.0 vol% SiC"
+ },
+ "rows": [
+  {
+   "vol_pct": 0.3,
+   "R_nm": 25,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.512,
+   "measured_extrapolated_pct": -0.129
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 25,
+   "d_eff_um": 0.3,
+   "constant_pct": -1.38,
+   "measured_extrapolated_pct": -0.204
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 25,
+   "d_eff_um": 0.5,
+   "constant_pct": -2.088,
+   "measured_extrapolated_pct": -0.24
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 50,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.257,
+   "measured_extrapolated_pct": -0.067
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 50,
+   "d_eff_um": 0.3,
+   "constant_pct": -0.701,
+   "measured_extrapolated_pct": -0.107
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 50,
+   "d_eff_um": 0.5,
+   "constant_pct": -1.069,
+   "measured_extrapolated_pct": -0.126
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 100,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.129,
+   "measured_extrapolated_pct": -0.035
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 100,
+   "d_eff_um": 0.3,
+   "constant_pct": -0.353,
+   "measured_extrapolated_pct": -0.056
+  },
+  {
+   "vol_pct": 0.3,
+   "R_nm": 100,
+   "d_eff_um": 0.5,
+   "constant_pct": -0.541,
+   "measured_extrapolated_pct": -0.066
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 25,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.846,
+   "measured_extrapolated_pct": -0.214
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 25,
+   "d_eff_um": 0.3,
+   "constant_pct": -2.256,
+   "measured_extrapolated_pct": -0.339
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 25,
+   "d_eff_um": 0.5,
+   "constant_pct": -3.38,
+   "measured_extrapolated_pct": -0.398
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 50,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.427,
+   "measured_extrapolated_pct": -0.111
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 50,
+   "d_eff_um": 0.3,
+   "constant_pct": -1.157,
+   "measured_extrapolated_pct": -0.178
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 50,
+   "d_eff_um": 0.5,
+   "constant_pct": -1.755,
+   "measured_extrapolated_pct": -0.21
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 100,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.215,
+   "measured_extrapolated_pct": -0.058
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 100,
+   "d_eff_um": 0.3,
+   "constant_pct": -0.586,
+   "measured_extrapolated_pct": -0.093
+  },
+  {
+   "vol_pct": 0.5,
+   "R_nm": 100,
+   "d_eff_um": 0.5,
+   "constant_pct": -0.895,
+   "measured_extrapolated_pct": -0.11
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 25,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -1.663,
+   "measured_extrapolated_pct": -0.427
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 25,
+   "d_eff_um": 0.3,
+   "constant_pct": -4.308,
+   "measured_extrapolated_pct": -0.674
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 25,
+   "d_eff_um": 0.5,
+   "constant_pct": -6.316,
+   "measured_extrapolated_pct": -0.79
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 50,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.847,
+   "measured_extrapolated_pct": -0.222
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 50,
+   "d_eff_um": 0.3,
+   "constant_pct": -2.258,
+   "measured_extrapolated_pct": -0.355
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 50,
+   "d_eff_um": 0.5,
+   "constant_pct": -3.384,
+   "measured_extrapolated_pct": -0.418
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 100,
+   "d_eff_um": 0.09999999999999999,
+   "constant_pct": -0.427,
+   "measured_extrapolated_pct": -0.116
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 100,
+   "d_eff_um": 0.3,
+   "constant_pct": -1.157,
+   "measured_extrapolated_pct": -0.186
+  },
+  {
+   "vol_pct": 1.0,
+   "R_nm": 100,
+   "d_eff_um": 0.5,
+   "constant_pct": -1.755,
+   "measured_extrapolated_pct": -0.22
+  }
+ ],
+ "summary_0p5vol": {
+  "largest_model_reduction_pct": -3.38,
+  "smallest_model_reduction_pct": -0.058,
+  "measured_pct": -10.0
+ }
+}

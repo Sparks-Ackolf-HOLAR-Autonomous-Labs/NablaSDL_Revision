@@ -1,0 +1,2887 @@
+{
+ "interface energy of SiC precipitates in Si estimated value": {
+  "data": [
+   {
+    "score": 0.7695636129016745,
+    "paper": {
+     "corpusId": "119218405",
+     "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+     "authors": [
+      "L. Pizzagalli",
+      "G. Cicero",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "As far as we know, there is no measured value of the SiC/Si(001) interface energy. Experimentally, it is possible to determine the bonding energy, which is related to the interface energy, from wafer bonding experiments. However, a large range of values may be obtained, depending on the kind of SiC polytypes or surface terminations. 27 From the theoretical point of view, no value is available. Possible explanations are either the large size of the system that have to be dealt with first principles methods, or the difficulty to extract such energy from a slab calculation. A simplified frame for obtaining the interface energy of mismatched interfaces has been proposed recently. 5 The method however does not take into account a possible reconstruction or understoichiometry of the core of the misfit dislocations, which is mandatory for the SiC/Si(001) system, as discussed above. \n\nIn order to extract the interface energy of the CSS configuration, the energies of the surfaces on both sides of the slabs have to be known. However, with ab initio methods, only the total energy is accessible, and surface energies cannot be obtained directly. Instead, they were determined by extrapolating from slabs with an increasing number of layers, following the scheme proposed by Fiorentini and Methfessel. 20 Si(001)-(1\u00d71) and C:SiC(001)-(1\u00d71) hydrogenated surfaces were investigated, since only the carbon terminated surface was relevant for the selected configurations. In order to minimize computational errors, a large (c(4\u00d74)) slab, with increasing thickness, from 7 up to 15 layers, was used: the extrapolated values for the chemical potentials are close to those obtained from bulk calculations for Si and SiC respectively (see Table I). To be consistent with the SiC/Si interface slab calculation, each surface atom was saturated by 2 symmetric hydrogens. As a consequence, the surface energies reported in Table IV include the energies of the pseudo-hydrogens.",
+     "snippetKind": "body",
+     "section": "V. INTERFACE ENERGY",
+     "snippetOffset": {
+      "start": 27657,
+      "end": 29626
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 335,
+        "end": 337,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 685,
+        "end": 686,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1279,
+        "end": 1308,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 82
+       },
+       {
+        "start": 83,
+        "end": 220
+       },
+       {
+        "start": 221,
+        "end": 337
+       },
+       {
+        "start": 338,
+        "end": 396
+       },
+       {
+        "start": 397,
+        "end": 577
+       },
+       {
+        "start": 578,
+        "end": 686
+       },
+       {
+        "start": 687,
+        "end": 887
+       },
+       {
+        "start": 890,
+        "end": 1030
+       },
+       {
+        "start": 1031,
+        "end": 1150
+       },
+       {
+        "start": 1151,
+        "end": 1471
+       },
+       {
+        "start": 1472,
+        "end": 1744
+       },
+       {
+        "start": 1745,
+        "end": 1863
+       },
+       {
+        "start": 1864,
+        "end": 1969
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6241641972874667,
+    "paper": {
+     "corpusId": "119218405",
+     "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+     "authors": [
+      "L. Pizzagalli",
+      "G. Cicero",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In conclusion, we have characterized the energetics, the atomic and electronic structure of the SiC/Si(001) interface. We performed first principles DFT-LDA, classical potential and elasticity theory calculations. The most stable atomic configuration is in agreement with experiments 7,8,9 , where an array of misfit dislocations pinned at the interface is observed. Actually, from our results, we also predict that the dislocation core is characterized by a substoichiometry in carbon atoms. Additional experiments are needed to confirm our proposed configuration: our relaxed structures may be used as input for simulating HREM experimental images and complement the results. \n\nWe furthermore estimated the interface energy from ab initio calculations, for a non-coherent interface, in the case of a multicomponent system, like SiC: this quantity, which is hardly accessible from experiment, has been here evaluated for the SiC/Si(001) interface, although with a non-negligible uncertainty. This is to our knowledge the first ab initio determination of interface energies at a mismatched semiconductor heterostructure. \n\nSeveral electronic interface states, calculated at \u0393, have been identified. These states, located on the core of the misfit dislocations, may influence the electronic and optical properties of the interface. \n\nWe point out that the approach we used in this study, i.e. the combination of elasticity theory, classical potential, and ab initio methods, may be easily adapted for other systems of interest, in particular for systems with large mismatch, where a coherent interface model is not suited, or for semiconducting systems, where core reconstructions are expected.",
+     "snippetKind": "body",
+     "section": "VII. CONCLUSION",
+     "snippetOffset": {
+      "start": 35731,
+      "end": 37424
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 284,
+        "end": 286,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 286,
+        "end": 288,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 288,
+        "end": 289,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 118
+       },
+       {
+        "start": 119,
+        "end": 213
+       },
+       {
+        "start": 214,
+        "end": 366
+       },
+       {
+        "start": 367,
+        "end": 492
+       },
+       {
+        "start": 493,
+        "end": 677
+       },
+       {
+        "start": 680,
+        "end": 992
+       },
+       {
+        "start": 993,
+        "end": 1120
+       },
+       {
+        "start": 1123,
+        "end": 1198
+       },
+       {
+        "start": 1199,
+        "end": 1330
+       },
+       {
+        "start": 1333,
+        "end": 1693
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5723946148446374,
+    "paper": {
+     "corpusId": "232381609",
+     "title": "A Multi-Scale Approach for Phase Field Modeling of Ultra-Hard Ceramic Composites",
+     "authors": [
+      "J. Clayton",
+      "M. Guziewski",
+      "J. Ligda",
+      "R. Leavy",
+      "J. Knap"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8000373, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "This process is repeated 10,000 times for each considered orientation to determined the minimum energy structure, with the added benefit of sampling numerous metastable states in the process. \n\nIn order to account for non-stoichiometric interfaces when calculating energetics, the grand canonical potential is utilized [79], with the interfacial energy defined as \n\nwhere E tot is the total energy of the system, E SiC the per-atom energy of SiC, A GB the area of the grain boundary, N = N Si + N C , and \u2206N = N Si \u2212 N C , with N representing the number of the associated atom type. Quantity \u2206\u00b5 is \u00b5 Si \u2212 \u00b5 C , where \u00b5 is the chemical potential. However the values of \u00b5 Si and \u00b5 C vary with the chemical environment of the interface. For the SiC-SiC interfaces the chemical environment is assumed to be stoichiometric, and so the midpoint of the possible range of values is used, \u22122.74 eV. For the diamond-SiC interfaces the chemical environment is carbon-rich, resulting in \u2206\u00b5 = \u22122.06 eV.",
+     "snippetKind": "body",
+     "section": "Interface Construction",
+     "snippetOffset": {
+      "start": 47539,
+      "end": 48528
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 319,
+        "end": 323,
+        "matchedPaperCorpusId": "94594219"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 191
+       },
+       {
+        "start": 194,
+        "end": 363
+       },
+       {
+        "start": 366,
+        "end": 582
+       },
+       {
+        "start": 583,
+        "end": 645
+       },
+       {
+        "start": 646,
+        "end": 733
+       },
+       {
+        "start": 734,
+        "end": 889
+       },
+       {
+        "start": 890,
+        "end": 985
+       },
+       {
+        "start": 986,
+        "end": 989
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5512092172545588,
+    "paper": {
+     "corpusId": "119218405",
+     "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+     "authors": [
+      "L. Pizzagalli",
+      "G. Cicero",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Here, h is the slab size. E a is a constant adhesive energy between Si and SiC parts; E c is the core energy of the misfit dislocation network; E el is an elastic energy due to the strain field; E is is the interaction energy between surface and interface, which is zero for a slab including a large (infinite) number of layers. Only three terms depend on the slab size h. E el is determined by using isotropic elasticity theory and a model of misfit dislocation arrays at the interface between a thin film of height h and an infinite substrate. 25 The dislocation core radius 26 is assumed to be equal to the Burgers vector b, i.e. the in-plane SiC lattice parameter a(SiC)/2 110 , in the present case. Provided that E el is known for each h, E is may be obtained from Eqn. 6 by calculating the configuration energy E \u03b1 with increasing slab size, for a chosen dislocation network. Here, the surface-interface interaction energy is determined separately for both the Si and SiC parts of the slab. We performed Tersoff potential calculations for slabs 31/n (increasing the Si part) and n/31 (increasing the SiC part), with n ranging from 5 to 31, and for both the S1a and CSS configurations. \n\nThe calculated interaction energies between surface and interface, E is , are shown in Fig. 6, for both configurations, in both portions of the slab, together with the sum of these terms. The SiC contribution appears larger than the Si one, for a given number of layers. Note that the interlayer spacing for SiC is about 20% lower than for Si, and more SiC layers are needed to get an equivalent contribution from the SiC and Si parts of the slab. For example, a 10/8 slab will have SiC and Si parts of nearly identical weights on E is . A larger SiC contribution is then expected for a lower number of layers. Here, the difference is important, in particular for CSS with an interaction energy almost three times larger for SiC than for Si. This could be explained by the geometry of CSS. The dislocation core along one direction is reconstructed with a ring of atoms, almost entirely located in the SiC part of the slab.",
+     "snippetKind": "body",
+     "section": "IV. EFFECT OF SLAB SIZE",
+     "snippetOffset": {
+      "start": 24440,
+      "end": 26555
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 546,
+        "end": 548,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 25
+       },
+       {
+        "start": 26,
+        "end": 328
+       },
+       {
+        "start": 329,
+        "end": 372
+       },
+       {
+        "start": 373,
+        "end": 548
+       },
+       {
+        "start": 549,
+        "end": 703
+       },
+       {
+        "start": 704,
+        "end": 881
+       },
+       {
+        "start": 882,
+        "end": 996
+       },
+       {
+        "start": 997,
+        "end": 1190
+       },
+       {
+        "start": 1193,
+        "end": 1380
+       },
+       {
+        "start": 1381,
+        "end": 1463
+       },
+       {
+        "start": 1464,
+        "end": 1640
+       },
+       {
+        "start": 1641,
+        "end": 1730
+       },
+       {
+        "start": 1731,
+        "end": 1803
+       },
+       {
+        "start": 1804,
+        "end": 1934
+       },
+       {
+        "start": 1935,
+        "end": 1982
+       },
+       {
+        "start": 1983,
+        "end": 2115
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5423593750208963,
+    "paper": {
+     "corpusId": "235636540",
+     "title": "Enhancing the phase stability of ceramics under radiation via multilayer engineering",
+     "authors": [
+      "Hong-Liang Zhang",
+      "Jian-Qi Xi",
+      "Ran-Ran Su",
+      "Xuanxin Hu",
+      "Jun Young Kim",
+      "Shuguang Wei",
+      "Chenyu Zhang",
+      "Li-Qun Shi",
+      "I. Szlufarska"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8232911, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "S TiC and S Ti3SiC2 are the surface energies of TiC and Ti 3 SiC 2 , respectively. Because the five different supercells have the same numbers of atoms of each type i and the same surface areas, the relative interfacial energy of these interfaces can be determined by comparing the total energies of the supercells. On the basis our DFT calculations, we found that the configuration where the Si layer is located in the interface (i.e., Fig. 9B) has the lowest interfacial energy, and thus, in the following study, we will mainly focus on this configuration. \n\nWithin the interface plane, each slab consists of 3 \u00d7 3 unit cells. The total numbers of atoms in the SiC/Ti 3 SiC 2 and TiC/Ti 3 SiC 2 slabs are 279 and 243, respectively. To form coherent interfaces, in-plane lattice constants of Ti 3 SiC 2 (c/a = 5.772, a = 3.075 \u00c5) were expanded by 0.68% and \u22120.26% to match those of the stiffer SiC (3.096 \u00c5) and TiC (3.067 \u00c5), respectively. Because of the small lattice-constant mismatch, as a first approximation, we neglected the effect of potential misfit dislocations. All calculations were performed with the energy cutoff of 520 eV for the plane-wave basis set. A 3 \u00d7 3 \u00d7 1 k-point mesh was used for integrations over the Brillouin zone. Errors from both the cutoff energy and the k-point convergence were smaller than 1 meV per atom. The supercells were fully relaxed (i.e., we relaxed the atomic coordinates) until the forces on the ions converged to below 1\u00d710 \u22122 eV/\u00c5. \n\nThe formation energies of defects were calculated as follows \n\nwhere E T (def) is the total energy of a supercell with one defect, n i is the number of atoms of type i removed from the system (n i > 0) to form vacancies, and \uf06d i is the chemical potential of atom i.",
+     "snippetKind": "body",
+     "section": "Computational details",
+     "snippetOffset": {
+      "start": 31486,
+      "end": 33233
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 82
+       },
+       {
+        "start": 83,
+        "end": 315
+       },
+       {
+        "start": 316,
+        "end": 558
+       },
+       {
+        "start": 561,
+        "end": 628
+       },
+       {
+        "start": 629,
+        "end": 733
+       },
+       {
+        "start": 734,
+        "end": 941
+       },
+       {
+        "start": 942,
+        "end": 1073
+       },
+       {
+        "start": 1074,
+        "end": 1168
+       },
+       {
+        "start": 1169,
+        "end": 1244
+       },
+       {
+        "start": 1245,
+        "end": 1341
+       },
+       {
+        "start": 1342,
+        "end": 1479
+       },
+       {
+        "start": 1482,
+        "end": 1542
+       },
+       {
+        "start": 1545,
+        "end": 1747
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5394862166592124,
+    "paper": {
+     "corpusId": "119218405",
+     "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+     "authors": [
+      "L. Pizzagalli",
+      "G. Cicero",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In this work, we have always compared the energies of systems with the same N/M. The numbers of C and Si atoms in the SiC slab may however change for two N/M slabs with different interface configurations. In addition, the surface of the SiC slab may be either Si-or C-terminated. Hence, the energy E slab of the N/M slab model described above, obtained from either methods, cannot be used directly for determining the most stable structure. Instead, a configuration energy E \u03b1 , given by the following expression, can be defined within the grand canonical frame: \n\nis the surface energy of the SiC part of the slab, Sior C-terminated depending on the configuration at the interface and on the number of layers, whereas E Si S is the surface energy of the Si part. n Si and n C are the numbers of Si or C atoms in the SiC/Si slab. Finally, \u00b5 Si and \u00b5 C are the chemical potentials for each species. For the Si part of the slab, \u00b5 Si is equal to the bulk silicon chemical potential. Though \u00b5 Si and \u00b5 C cannot be exactly determined for the SiC part, it is possible to determine a range of thermodynamically allowed values. 19 The following relations must be satisfied at the same time: \n\nHere, the \u00b5 I 0 are the chemical potentials of the monoelemental bulk phases, and are easily calculated. \u2206H f is the heat of formation of silicon carbide: in this work, we used the experimental value, \u2206H f = 0.72 eV. These two relations reveal that the Si and C chemical potential values are linked, and that the chemical potential of one species is always equal or lower than the chemical potential of the mono-elemental bulk phase. The allowed ranges are then \n\nThe values obtained in the present work for \u00b5 I 0 are listed in Table I: here, for the ab initio results, we indicate the respective values as obtained from standard converged bulk calculations and as extrapolated from surface calculations with the scheme originally proposed by Fiorentini and Methfessel. 20 This will be useful to determine the different contributions in Eqn. (1) and the interface energy, as described below.",
+     "snippetKind": "body",
+     "section": "C. Configuration energy",
+     "snippetOffset": {
+      "start": 8656,
+      "end": 10733
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 1121,
+        "end": 1123,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1929,
+        "end": 1958,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 80
+       },
+       {
+        "start": 81,
+        "end": 204
+       },
+       {
+        "start": 205,
+        "end": 279
+       },
+       {
+        "start": 280,
+        "end": 440
+       },
+       {
+        "start": 441,
+        "end": 562
+       },
+       {
+        "start": 565,
+        "end": 763
+       },
+       {
+        "start": 764,
+        "end": 829
+       },
+       {
+        "start": 830,
+        "end": 897
+       },
+       {
+        "start": 898,
+        "end": 980
+       },
+       {
+        "start": 981,
+        "end": 1123
+       },
+       {
+        "start": 1124,
+        "end": 1183
+       },
+       {
+        "start": 1186,
+        "end": 1290
+       },
+       {
+        "start": 1291,
+        "end": 1402
+       },
+       {
+        "start": 1403,
+        "end": 1619
+       },
+       {
+        "start": 1620,
+        "end": 1647
+       },
+       {
+        "start": 1650,
+        "end": 2027
+       },
+       {
+        "start": 2028,
+        "end": 2077
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5369304731392879,
+    "paper": {
+     "corpusId": "7682906",
+     "title": "Ab initio study of misfit dislocations at the SiC/Si(001) interface.",
+     "authors": [
+      "G. Cicero",
+      "L. Pizzagalli",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1585, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "At the interface, the dislocation directions are not equivalent, because of the zincblende stacking: this renders inequivalent the dislocation cores. \n\nWe have performed a structural optimization for several possible interface configurations, varying both geometry and stoichiometry, via classical and ab initio Molecular Dynamics (MD) methods in order to get the most stable structure. The relative energy of systems containing different numbers of atoms has been discussed in the grand canonical scheme [9]. \n\nClassical MD for several interface configurations allowed us to select the core dislocation structures and slab size for the ab initio simulations. The Si-Si, Si-C and C-C interactions were modelled by means of the empirical Tersoff's potentials [10]. It has recently been demonstrated that these potentials give formation energies and properties of native defects in \u03b2-SiC(001) in good agreement with ab initio calculations [11]. We performed tests varying the stoichiometry at the interface and the core dislocation distance from the interface. In order to prevent the interaction between the interface and the slab surfaces, we considered thick slabs (36 SiC layers on top of 36 Si layers: in the following, we will indicate the systems as N/M, where N (M) stems for the number of SiC (Si) layers, thus the slab described above will be labelled as 36/36). All the atoms were allowed to move, except those belonging to the outermost layers, which were constrained to relax in a collective way. Our results indicate that configurations with C atoms at the interface are always more stable. A pseudomorphic SiC layer on top of Si, before the dislocations start, is unfavorable. In agreement with experimental results [5], the favored core structures are those with the dislocations pinned at the interface [12]. Among all the considered geometries, we focussed on the most meaningful ones: the stoichiometric interface and the one which is lowest in energy.",
+     "snippetKind": "body",
+     "section": null,
+     "snippetOffset": {
+      "start": 3933,
+      "end": 5902
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 505,
+        "end": 508,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 758,
+        "end": 762,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 937,
+        "end": 941,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1729,
+        "end": 1732,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1818,
+        "end": 1822,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 149
+       },
+       {
+        "start": 152,
+        "end": 386
+       },
+       {
+        "start": 387,
+        "end": 509
+       },
+       {
+        "start": 512,
+        "end": 659
+       },
+       {
+        "start": 660,
+        "end": 763
+       },
+       {
+        "start": 764,
+        "end": 942
+       },
+       {
+        "start": 943,
+        "end": 1058
+       },
+       {
+        "start": 1059,
+        "end": 1370
+       },
+       {
+        "start": 1371,
+        "end": 1507
+       },
+       {
+        "start": 1508,
+        "end": 1602
+       },
+       {
+        "start": 1603,
+        "end": 1689
+       },
+       {
+        "start": 1690,
+        "end": 1823
+       },
+       {
+        "start": 1824,
+        "end": 1969
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5357926241382123,
+    "paper": {
+     "corpusId": "268487135",
+     "title": "Accelerated First-Principles Calculations Based on Machine Learning for Interfacial Modification Element Screening of SiCp/Al Composites",
+     "authors": [
+      "Xiaoshuang Du",
+      "Nan Qu",
+      "Xue-Xi Zhang",
+      "Jia-Ying Chen",
+      "Pu-chang Cui",
+      "Jingtao Huang",
+      "Yong Liu",
+      "Jing-chuan Zhu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10972090, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The results of the surface energy calculations are shown in Table 1; the surface energy of Al ( 111) is the lowest because Al belongs to a face-centered cubic structure and ( 111) is the surface with the highest density of Al, and so Al (111) is chosen. The surface energy of SiC (001) surface is the lowest, the selected 4H-SiC belongs to a hexagonal crystal system, and the surface of (001) is the surface with the highest density as well, and so the surface of SiC ( 001) is chosen to construct the interface model. In order to reduce the calculation time of the first principle, this paper carries out the surface convergence calculations for Al and SiC's. It is found that when the number of atomic layers of Al is greater than or equal to four, its surface energy almost no longer changes; when the number of atomic layers of SiC is greater than or equal to eight, its surface energy tends to be unchanged. Therefore, the Al atoms of the constructed interface model are in four layers and the SiC atoms are in eight layers. Since the surface of SiC has two structures, a C-terminal and Si-terminal, it constitutes an interface model with Al with six different structures as shown in Figure 1, namely the Si-top, Si-center, Si-vacancy, C-top, C-center, and C-vacancy. According to the results of existing studies, the structures of the Si-top and C-top are the most widely used and stable under realistic conditions. Therefore, in this paper, the total energy of the interface model is calculated for Si-top and C-top structures, and it is found that the total energy of the Si-top is lower than that of the C-top and that the structure with Si as the top is more stable than that with the C-top. \n\nAccording to the formula of interfacial adhesion work, the model energy values of different interfacial distances can be calculated and the optimal interfacial spacing can be screened out.",
+     "snippetKind": "body",
+     "section": "First-Principles Calculation Results",
+     "snippetOffset": {
+      "start": 14919,
+      "end": 16811
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 253
+       },
+       {
+        "start": 254,
+        "end": 518
+       },
+       {
+        "start": 519,
+        "end": 660
+       },
+       {
+        "start": 661,
+        "end": 912
+       },
+       {
+        "start": 913,
+        "end": 1029
+       },
+       {
+        "start": 1030,
+        "end": 1272
+       },
+       {
+        "start": 1273,
+        "end": 1421
+       },
+       {
+        "start": 1422,
+        "end": 1701
+       },
+       {
+        "start": 1704,
+        "end": 1892
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "Si/SiC interfacial energy per unit area calculated incoherent interface 3C-SiC precipitate": {
+  "data": [
+   {
+    "score": 0.6509574591814554,
+    "paper": {
+     "corpusId": "236486605",
+     "title": "First-principles study of the effect of vacancies on the interface stability of 3C-SiC/Mg composites based on theoretical physical method",
+     "authors": [
+      "Z. Lv",
+      "Jun-Ping Yao"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1742-6596/1980/1/012012?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1742-6596/1980/1/012012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "After the presence of C vacancy, due to the absence of C atom, the atoms near the C vacancy deviate from the original position, resulting in lattice distortion, and the energy of the system increases by 156.52eV and 158.06eV respectively. The presence of C vacancy in the first and third layers leads to the interfacial adhesion work of the system being 1.4372J/m 2 and 1.3641J/m 2 . Compared with the ideal system without C vacancy (2.5834J/m 2 ), the interfacial adhesion work decreases significantly. It shows that the existence of C vacancy is not conducive to the interface bonding of 3C-SiC/Mg. In terms of vacancy formation energy, the vacancy formation energy of 3C-SiC-V C\u22123 /Mg is 1.5 times that of 3C-SiC-V C\u22121 /Mg. The interface model with C vacancy in the first layer is easier to form than the interface model with C vacancy in the third layer. \n\nDue to the absence of Si atom, the atoms near the Si vacancy defect deviate from the original atomic center, resulting in lattice distortion, and the energy of the system increases by 111.83eV and 113.01eV, respectively. Compared with the ideal system without Si vacancy (2.5834J/m 2 ), the interfacial adhesion work of the system with Si vacancy in the second layer is 1.6721J/m 2 , which is significantly reduced. The interfacial adhesion work of the system with Si vacancy in the fourth layer is 2.5226J/m 2 . It shows that the existence of Si vacancy in the second layer is very unfavorable to the interface bonding of 3C-SiC/Mg, while the existence of Si vacancy in the fourth layer has little effect on the interface bonding of 3C-SiC/Mg. In terms of vacancy formation energy, the vacancy formation energy of 3C-SiC-V Si\u22122 /Mg and the vacancy formation energy of 3C-SiC-V Si\u22124 /Mg are 5.6956eV and 6.8693eV, respectively. The formation energy of Si vacancy is relatively large, and it is difficult to form.",
+     "snippetKind": "body",
+     "section": "Ideal work of adhesion and vacancy formation energy",
+     "snippetOffset": {
+      "start": 6574,
+      "end": 8447
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 238
+       },
+       {
+        "start": 239,
+        "end": 383
+       },
+       {
+        "start": 384,
+        "end": 503
+       },
+       {
+        "start": 504,
+        "end": 600
+       },
+       {
+        "start": 601,
+        "end": 726
+       },
+       {
+        "start": 727,
+        "end": 858
+       },
+       {
+        "start": 861,
+        "end": 1081
+       },
+       {
+        "start": 1082,
+        "end": 1276
+       },
+       {
+        "start": 1277,
+        "end": 1373
+       },
+       {
+        "start": 1374,
+        "end": 1605
+       },
+       {
+        "start": 1606,
+        "end": 1788
+       },
+       {
+        "start": 1789,
+        "end": 1873
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6495708238010384,
+    "paper": {
+     "corpusId": "229722962",
+     "title": "Anomalous Properties of the Dislocation-Free Interface between Si(111) Substrate and 3C-SiC(111) Epitaxial Layer",
+     "authors": [
+      "S. Kukushkin",
+      "A. Osipov"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7795334, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Therefore, typical defects of polytype interfaces are also absent. For the growth on Si(100), reflexes 3C-SiC (111), (110), and (100) are equally present. As shown in [12], this is because the process of substitution of atoms on the (100) face of Si occurs somewhat differently than on the (111) face. In the process of substitution of silicon atoms with carbon atoms, the (100) Si face transforms into a SiC face consisting of an ensemble of facets, the side surfaces of which are covered by the (111) and (110) SiC planes. It has been found by electron microscopy that lattice misfit dislocations at the 3C-SiC(111)/Si(111) interface are absent, and instead of them, so-called partial dislocations are formed, leading to the formation of stacking faults with interlayers of close-packed hexagonal phases (4H-SiC and 6H-SiC) within the main phase of cubic silicon carbide [2]. Nevertheless, from the shift of the Raman lines of 3C-SiC, it can be concluded that 3C-SiC is compressed (but it is stretched in the CVD method) with the stress of \u223c0.5 GPa, while characteristic 3C-SiC film thickness is \u223c100 nm. \n\nTo describe the 3C-SiC(111)/Si(111) interface and calculate its properties, we use the methods of quantum chemistry in this work. More specifically, the energy of the 3C-SiC(111)/Si(111) system has been calculated within the framework of the density functional theory and the optimal configuration of atoms corresponding to the minimum energy has been found. For this purpose, the MedeA-VASP (MedeA Vienna Ab Initio Simulation Package) package [13] was utilized. This package helped to analyze a large number of different configurations of the 3C-SiC(111)/Si(111) interfaces obtained by MedeA by the following approach. First, two sets of surface cells are created that are multiples of the original 3C-SiC and Si cells, and a search is performed for the relative orientation with the minimal mismatch between the two surfaces.",
+     "snippetKind": "body",
+     "section": "Analysis of a 3C-SiC(111)/Si(111) Interface Obtained by the Epitaxial Method of Coordinated Substitution of Atoms",
+     "snippetOffset": {
+      "start": 21915,
+      "end": 23851
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 167,
+        "end": 171,
+        "matchedPaperCorpusId": "199555555"
+       },
+       {
+        "start": 873,
+        "end": 876,
+        "matchedPaperCorpusId": "121623418"
+       },
+       {
+        "start": 1553,
+        "end": 1557,
+        "matchedPaperCorpusId": "42302021"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 66
+       },
+       {
+        "start": 67,
+        "end": 154
+       },
+       {
+        "start": 155,
+        "end": 301
+       },
+       {
+        "start": 302,
+        "end": 524
+       },
+       {
+        "start": 525,
+        "end": 877
+       },
+       {
+        "start": 878,
+        "end": 1106
+       },
+       {
+        "start": 1109,
+        "end": 1238
+       },
+       {
+        "start": 1239,
+        "end": 1467
+       },
+       {
+        "start": 1468,
+        "end": 1571
+       },
+       {
+        "start": 1572,
+        "end": 1728
+       },
+       {
+        "start": 1729,
+        "end": 1936
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6366507470375299,
+    "paper": {
+     "corpusId": "236486605",
+     "title": "First-principles study of the effect of vacancies on the interface stability of 3C-SiC/Mg composites based on theoretical physical method",
+     "authors": [
+      "Z. Lv",
+      "Jun-Ping Yao"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1742-6596/1980/1/012012?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1742-6596/1980/1/012012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In this paper, the effects of Si vacancy, C vacancy and Mg vacancy on the bonding properties of 3C-SiC(111)/Mg(0001) interface system were investigated by first principles. The conclusions are as follows. \n\n(1) The interface adhesion work of 3C-SiC/Mg-V Mg\u22121 \u3001 3C-SiC/Mg-V Mg\u22122 \u3001 3C-SiC/Mg-V Mg\u22123 is all greater than the interface adhesion work of 3C-SiC/Mg, indicating that Mg vacancy is beneficial to interface bonding. \n\n(2) The interfacial adhesion work of 3C-SiC-V C\u22121 /Mg and 3C-SiC-V C\u22123 /Mg is less than that of 3C-SiC/Mg, indicating that C vacancy are not conducive to interfacial bonding. The interface adhesion work of 3C-SiC-V C\u22121 /Mg is greater than the interface adhesion work of 3C-SiC-V C\u22123 /Mg. \n\n(3) The interfacial adhesion work of 3C-SiC-V Si\u22122 /Mg and 3C-SiC-V Si\u22124 /Mg is less than that of 3C-SiC/Mg, indicating that Si vacancy is not conducive to interfacial bonding. The interface adhesion work of 3C-SiC-V Si\u22122 /Mg is less than the interface adhesion work of 3C-SiC-V Si\u22124 /Mg.",
+     "snippetKind": "body",
+     "section": "Conclusion",
+     "snippetOffset": {
+      "start": 9177,
+      "end": 10179
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 172
+       },
+       {
+        "start": 173,
+        "end": 204
+       },
+       {
+        "start": 207,
+        "end": 421
+       },
+       {
+        "start": 424,
+        "end": 598
+       },
+       {
+        "start": 599,
+        "end": 711
+       },
+       {
+        "start": 714,
+        "end": 890
+       },
+       {
+        "start": 891,
+        "end": 1002
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6348423073806928,
+    "paper": {
+     "corpusId": "119218405",
+     "title": "Theoretical investigations of a highly mismatched interface: SiC/Si(001)",
+     "authors": [
+      "L. Pizzagalli",
+      "G. Cicero",
+      "A. Catellani"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/0709.1591, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Considering that the lattice parameters of Si and 3C-SiC are respectively a(Si) = 5.4309 \u00c5 and a(SiC) = 4.3596 \u00c513 , the calculated misfit (a(Si) \u2212 a(SiC)) /a(Si) at the interface is 19.73%. Within the hypothesis of a coherent interface, such a misfit is equivalent to a huge tensile stress in the SiC layers. A simple estimate shows that the elastic energy stored in the coherent film would be approximately 1.6 J/m 2 /layer. 14 However, it is observed that the interface is semi-coherent, the stress being relaxed by the introduction of a network of undissociated edge dislocations of Burgers vector b = a(SiC)/2 110 , with dislocation lines lying along the [110] and [ 110]  directions. 7,8,9 Due to the peculiar value of the misfit, approximately equal to 1 5 , the semi-coherence is obtained when the spacing between misfit dislocations is 5b. The SiC/Si(001) interface is then modelled by matching a p(5 \u00d7 5)-SiC(001) slab (N layers) with a p(4\u00d74)-Si( 001) slab (M layers) along the [001] direction (z-axis), at the Si lattice parameter, optimized for bulk calculations with the chosen method. In the following, size conditions for a system will be simply designed by N/M. Periodic boundary conditions are applied along [110] and [ 110] directions (x-and y-axis) in any case. Atoms belonging to the topmost SiC and bottommost Si layers were fixed in bulk positions. However, in order to better relax the interface, the SiC topmost layer was allowed to move as a whole in all directions. This procedure was achieved at each step by (i) compute the average of atomic forces in this layer, (ii) apply this force to all layer atoms. Once the structures were converged, we also performed additional calculations to check the effect of the surfaces on the interface by releasing the constraints on both surfaces.",
+     "snippetKind": "body",
+     "section": "A. Model",
+     "snippetOffset": {
+      "start": 4798,
+      "end": 6610
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 690,
+        "end": 692,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 692,
+        "end": 694,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 694,
+        "end": 695,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 190
+       },
+       {
+        "start": 191,
+        "end": 309
+       },
+       {
+        "start": 310,
+        "end": 429
+       },
+       {
+        "start": 430,
+        "end": 695
+       },
+       {
+        "start": 696,
+        "end": 848
+       },
+       {
+        "start": 849,
+        "end": 1099
+       },
+       {
+        "start": 1100,
+        "end": 1178
+       },
+       {
+        "start": 1179,
+        "end": 1281
+       },
+       {
+        "start": 1282,
+        "end": 1371
+       },
+       {
+        "start": 1372,
+        "end": 1492
+       },
+       {
+        "start": 1493,
+        "end": 1634
+       },
+       {
+        "start": 1635,
+        "end": 1812
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6346266504828115,
+    "paper": {
+     "corpusId": "287465793",
+     "title": "First-Principles Study of Interfacial Properties and Fracture Behavior of (3C and 4H) SiC/Al Interfaces",
+     "authors": [
+      "Rong Zhang",
+      "Yongbiao Zhong",
+      "Kaile Zhao",
+      "Jun-Feng Wang",
+      "Jun-Hui Si",
+      "Yu-Ping Wu",
+      "Chun-Ming Zou",
+      "Hong-Wei Wang",
+      "Zun-Jie Wei"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": null,
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13117090, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "To further investigate the electron distribution and bonding interactions at the 3C-SiC(111)/Al(111) and 4H-SiC(0001)/Al(111) interfaces, the calculated Mulliken population results for interfacial atoms in both the C-and Si-top configurations are summarized in Tables 7 and 8. \n\nIn the C-top 3C-SiC(111)/Al(111) interface, the interfacial Al atom exhibits a significant charge loss of 0.28 e. It forms a bond with the C atom, as indicated by a bond population of 0.25. In contrast, for the Si-top 3C-SiC(111)/Al(111) interface, the Al atom gains a small amount of charge (0.05 e) and is bonded to a Si atom, with a bond population of 0.33. A similar trend is observed for the 4H-SiC(0001)/Al(111) interface. With the C-top termination, the Al atom shows a charge loss of 0.28 e and a bond population of 0.26 with the C atom. Conversely, with the Si-top termination, the Al atom gains 0.05 e and exhibits a bond population of 0.35 with the Si atom. \n\nThe integration of interface spacing, work of separation, and electronic structure analysis indicates that the C-top configuration has the highest interfacial bonding strength. Based on this conclusion, subsequent tensile mechanical property analyses of the interfacial systems are conducted exclusively using the C-top model.",
+     "snippetKind": "body",
+     "section": "Interfacial Distance and Work of Separation",
+     "snippetOffset": {
+      "start": 17382,
+      "end": 18658
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 276
+       },
+       {
+        "start": 279,
+        "end": 392
+       },
+       {
+        "start": 393,
+        "end": 468
+       },
+       {
+        "start": 469,
+        "end": 639
+       },
+       {
+        "start": 640,
+        "end": 707
+       },
+       {
+        "start": 708,
+        "end": 824
+       },
+       {
+        "start": 825,
+        "end": 947
+       },
+       {
+        "start": 950,
+        "end": 1126
+       },
+       {
+        "start": 1127,
+        "end": 1276
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6316407321272073,
+    "paper": {
+     "corpusId": "261632599",
+     "title": "Investigation of Al droplet wetting behavior on highly-oriented SiC",
+     "authors": [
+      "Song Zhang",
+      "Kaixin Zuo",
+      "Pengjian Lu",
+      "Qingfang Xu",
+      "Meijun Yang",
+      "Kai Liu",
+      "Rong Tu"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNC",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10483271, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The transition from non-wetting state to wetting state is caused by the change of interfacial tension between solid and liquid. The results show that the contact angle of the h111i meritocratic orientation is greater than that of the h110i meritocratic orientation, which we speculate is due to the difference in surface polarity. \n\n3C-SiC has a sphalerite structure (cubic phase) with four Si and four C atoms in each cell and belongs to the F 43m space group. In the 3C-SiC lattice, the relationship between the (111) and (110) planes were depicted schematically in Fig. 9(b) and (c). The Si or C atoms terminated the (110) polar plane, whereas the Si and C atoms terminated the (110) nonpolar planes. Because of the different atomic radii and bonding energies, the surface energies of the different surfaces are anisotropic, and the magnitudes of the contact angles also appear to be different. The Si-Si bond, C-C bond, Si-C bond energies are 176, 332, and 347 kJ mol \u22121 . The increase in the energy per unit area of the crystal surface becomes the speci\ue103c surface energy, which is numerically equal to the surface tension. The source of surface energy is related to the bonds that are broken during surface formation. For SiC covalent crystals, the surface energy is considered to be half the energy required to break the entire build per unit area, i.e. u s \u00bc  spots, along the [\u22121\u221210] and [110] band axes. The elongated spots indicated the presence of layer errors in the h111i direction. In addition, atomic roughness was observed at the 3C-SiC (111) and Al (111) interfaces. Fig. 10(d) and (f) show the inverse Fourier transform (IFFT) maps of the Al (111)/SiC (111) interface, indicating the presence of a large number of dislocation regions at the interface. The magnitude of the interfacial energy depends on the chemical composition (g c ) and structure (g s ) of the interface, as shown in eqn (8).",
+     "snippetKind": "body",
+     "section": "Table 1 Deposition conditions of each sample",
+     "snippetOffset": {
+      "start": 11787,
+      "end": 13699
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 127
+       },
+       {
+        "start": 128,
+        "end": 330
+       },
+       {
+        "start": 333,
+        "end": 461
+       },
+       {
+        "start": 462,
+        "end": 586
+       },
+       {
+        "start": 587,
+        "end": 703
+       },
+       {
+        "start": 704,
+        "end": 897
+       },
+       {
+        "start": 898,
+        "end": 976
+       },
+       {
+        "start": 977,
+        "end": 1127
+       },
+       {
+        "start": 1128,
+        "end": 1222
+       },
+       {
+        "start": 1223,
+        "end": 1412
+       },
+       {
+        "start": 1413,
+        "end": 1495
+       },
+       {
+        "start": 1496,
+        "end": 1583
+       },
+       {
+        "start": 1584,
+        "end": 1769
+       },
+       {
+        "start": 1770,
+        "end": 1912
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6254061440660823,
+    "paper": {
+     "corpusId": "232381609",
+     "title": "A Multi-Scale Approach for Phase Field Modeling of Ultra-Hard Ceramic Composites",
+     "authors": [
+      "J. Clayton",
+      "M. Guziewski",
+      "J. Ligda",
+      "R. Leavy",
+      "J. Knap"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8000373, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "This process is repeated 10,000 times for each considered orientation to determined the minimum energy structure, with the added benefit of sampling numerous metastable states in the process. \n\nIn order to account for non-stoichiometric interfaces when calculating energetics, the grand canonical potential is utilized [79], with the interfacial energy defined as \n\nwhere E tot is the total energy of the system, E SiC the per-atom energy of SiC, A GB the area of the grain boundary, N = N Si + N C , and \u2206N = N Si \u2212 N C , with N representing the number of the associated atom type. Quantity \u2206\u00b5 is \u00b5 Si \u2212 \u00b5 C , where \u00b5 is the chemical potential. However the values of \u00b5 Si and \u00b5 C vary with the chemical environment of the interface. For the SiC-SiC interfaces the chemical environment is assumed to be stoichiometric, and so the midpoint of the possible range of values is used, \u22122.74 eV. For the diamond-SiC interfaces the chemical environment is carbon-rich, resulting in \u2206\u00b5 = \u22122.06 eV.",
+     "snippetKind": "body",
+     "section": "Interface Construction",
+     "snippetOffset": {
+      "start": 47539,
+      "end": 48528
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 319,
+        "end": 323,
+        "matchedPaperCorpusId": "94594219"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 191
+       },
+       {
+        "start": 194,
+        "end": 363
+       },
+       {
+        "start": 366,
+        "end": 582
+       },
+       {
+        "start": 583,
+        "end": 645
+       },
+       {
+        "start": 646,
+        "end": 733
+       },
+       {
+        "start": 734,
+        "end": 889
+       },
+       {
+        "start": 890,
+        "end": 985
+       },
+       {
+        "start": 986,
+        "end": 989
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6236590748318505,
+    "paper": {
+     "corpusId": "824029",
+     "title": "Electron tomography analysis of 3D interfacial nanostructures appearing in annealed Si rich SiC films.",
+     "authors": [
+      "Ling Xie",
+      "K. Jarolimek",
+      "V. Kocevski",
+      "J. Rusz",
+      "M. Zeman",
+      "Ren\u00e9 A. C. M. M. van Swaaij",
+      "K. Leifer"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1039/c7nr00799j?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/c7nr00799j, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The observation of the a-SiC interfacial layer between the Si network structure and 3C-SiC NPs is the most intriguing finding from the electron tomography analysis. Though our observations are limited to two samples, certainly the following two physical magnitudes contribute to the explanation of the formation of the a-SiC interface layer in SRSC films: (1) the 19.7% mismatch of the c-Si and 3C-SiC crystals; (2) the presence of diffusion layers at the interface between Si and SiC. \n\nFirstly, the formation of the disordered interface sandwiched by the bulk c-Si and 3C-SiC was observed by TEM. 30 Due to the 19.7% mismatch of lattice parameters between c-Si and 3C-SiC crystals, a high density of misfit dislocations of the SiC lattice planes was observed by TEM at the interface. 30 In order to understand the influence of strain on the atomic order at the Si/SiC interface, we carried out MD simulations. The results, displayed in Fig. 5, show the nearest neighbor distances and their variations close to the Si/SiC {111} interface with different numbers of unit cells along the {001} and {110}  directions, as well as an interface for a Si NP surrounded by a SiC matrix. In the case of the planar interfaces (Fig. 5a and b), we observe an increase of the c-Si nearest neighbor distance variation up to about 5 \u00c5 away from the Si/SiC interface, note the larger distribution of nearest neighbor distances (y-axes) in this region. The nearest neighbor distance variations are slightly higher for Si than for SiC. The width of the interfacial disorder remains unchanged with increasing size of the Si and SiC parts in both {001} and {110} directions (Fig. S10(c) and (d)) \u2020. Once we insert a Si NP in the SiC matrix (Fig. 5c), the disorder in the Si gets smaller, showing crystallinity up to 5 \u00c5 from the center. A similar trend is observed for larger, \u223c10 nm, Si and SiC NPs in SiC and Si matrixes, respectively (Fig. S10(e) and (f )) \u2020.",
+     "snippetKind": "body",
+     "section": "Driving forces for the formation of the a-SiC interfacial layer",
+     "snippetOffset": {
+      "start": 19634,
+      "end": 21576
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 599,
+        "end": 601,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 786,
+        "end": 788,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 164
+       },
+       {
+        "start": 165,
+        "end": 485
+       },
+       {
+        "start": 488,
+        "end": 788
+       },
+       {
+        "start": 789,
+        "end": 911
+       },
+       {
+        "start": 912,
+        "end": 1178
+       },
+       {
+        "start": 1179,
+        "end": 1435
+       },
+       {
+        "start": 1436,
+        "end": 1517
+       },
+       {
+        "start": 1518,
+        "end": 1678
+       },
+       {
+        "start": 1679,
+        "end": 1816
+       },
+       {
+        "start": 1817,
+        "end": 1942
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "Ostwald ripening of SiC precipitates in silicon during annealing ion beam synthesis interface energy": {
+  "data": [
+   {
+    "score": 0.6041382584957774,
+    "paper": {
+     "corpusId": "53576990",
+     "title": "The Formation of Silicon Carbide in the SiCx Layers (x = 0.03\u20131.4) Formed by Multiple Implantation of C Ions in Si",
+     "authors": [
+      "K. Nussupov",
+      "N. Beisenkhanov"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.5772/22256?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/22256, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "High-dose carbon implantation into silicon in combination with subsequent or in situ thermal annealing has been shown to be able to form polycrystalline or epitaxial cubic SiC (\u03b2-SiC) layers in silicon (Liangdeng et al., 2008;Kantor et al., 1997;Durupt et al., 1980;Calcagno et al., 1996). To create a SiC\u2212Si heterojunctions were among the first used the method of ion implantation the authors of (Borders et al., 1971;Baranova et al., 1971), in which the synthesis of silicon carbide was carried out by implantation of 12 C + ions (\u0415 = 200 \u043a\u044d\u0412, D = ~10 17 \u0441 -2 (Borders et al., 1971) or \u0415 = 40 \u043a\u044d\u0412, D > 10 17 \u0438 /\u0441 2 (Baranova et al., 1971)) into a silicon substrate. From the position of the IR absorption band (700-725 cm -1 ), reducing its half-width after annealing and displacement in the region at 800 cm -1 , corresponding to transverse optical phonons of SiC, it was found that the formation of crystalline SiC phase occurs in the temperature range near 850\u00baC (Borders et al., 1971) and 900\u00b0C (Baranova et al., 1971). Silicon carbide was identified using transverse optical phonon spectra in most of the above work on ion implantation, as well as in (Gerasimenko et al., 1974, Wong et al., 1998, Akimchenko et al., 1977a, 1980;Chen et al., 1999, Kimura et al., 1981). The detection of longitudinal optical vibrations of lattice atoms (LO phonons) and their changes during film annealing give additional information on the crystallization processes (Akimchenko et al., 1977b(Akimchenko et al., , 1979)). Difficulties associated with the problem of synthesis of a crystalline silicon carbide prevent the wide use of SiC in microelectronics.",
+     "snippetKind": "body",
+     "section": "Introduction",
+     "snippetOffset": {
+      "start": 3848,
+      "end": 5494
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 202,
+        "end": 226,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 226,
+        "end": 246,
+        "matchedPaperCorpusId": "120317223"
+       },
+       {
+        "start": 246,
+        "end": 266,
+        "matchedPaperCorpusId": "136600306"
+       },
+       {
+        "start": 266,
+        "end": 288,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 397,
+        "end": 419,
+        "matchedPaperCorpusId": "119660783"
+       },
+       {
+        "start": 419,
+        "end": 441,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 562,
+        "end": 584,
+        "matchedPaperCorpusId": "119660783"
+       },
+       {
+        "start": 617,
+        "end": 639,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 968,
+        "end": 989,
+        "matchedPaperCorpusId": "119660783"
+       },
+       {
+        "start": 1001,
+        "end": 1024,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1158,
+        "end": 1183,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1183,
+        "end": 1202,
+        "matchedPaperCorpusId": "98539700"
+       },
+       {
+        "start": 1202,
+        "end": 1228,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1228,
+        "end": 1235,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1235,
+        "end": 1252,
+        "matchedPaperCorpusId": "95854227"
+       },
+       {
+        "start": 1252,
+        "end": 1274,
+        "matchedPaperCorpusId": "94995598"
+       },
+       {
+        "start": 1456,
+        "end": 1481,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1481,
+        "end": 1509,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 289
+       },
+       {
+        "start": 290,
+        "end": 667
+       },
+       {
+        "start": 668,
+        "end": 1025
+       },
+       {
+        "start": 1026,
+        "end": 1275
+       },
+       {
+        "start": 1276,
+        "end": 1510
+       },
+       {
+        "start": 1511,
+        "end": 1646
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.6032174523682763,
+    "paper": {
+     "corpusId": "53576990",
+     "title": "The Formation of Silicon Carbide in the SiCx Layers (x = 0.03\u20131.4) Formed by Multiple Implantation of C Ions in Si",
+     "authors": [
+      "K. Nussupov",
+      "N. Beisenkhanov"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.5772/22256?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/22256, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "annealing. It is of considerable interest to study the effect of the concentration component, nanoclusters, the phase composition of SiC films and their heat or plasma treatment on the crystallization processes and clustering, the size of nanocrystals and, consequently, the physical properties of the films. \n\nA number of studies have shown that the implantation of ions with multiple different energies is the most suitable for obtaining a uniform layer of carbon and silicon atoms to form SiC (Liangdeng et al., 2008, Calcagno et al ., 1996, Srikanth et al., 1988, Rothemund&Fritzsche, 1974, Reeson et al., 1990, Lindner et al., 1996;Martin et al., 1990). By carefully selecting the values of implantation energy and corresponding doses of carbon ions, a rectangular carbon concentration profile can be achieved for the buried \u03b2-SiC layer using this approach. Implantation of carbon ions at temperatures of silicon substrate well above room temperature by in-situ annealing helps to form SiC crystalline layers immediately during implantation or after annealing at lower temperatures (Durupt et al., 1980;Frangis et al., 1997;Edelman et al., 1976;Simon et al., 1996;Preckwinkel et al., 1996). High temperature of the substrate can be achieved also by using beams with high current density of carbon ions (Reeson et al., 1990;Alexandrov et al., 1986). Treatment of carbon implanted silicon layers by power ion (Liangdeng et al., 2008;Bayazitov et al., 2003), electron (Theodossiu et al., 1999) or laser (Bayazitov et al., 2003a(Bayazitov et al., , 2003b) ) beams like thermal annealing also leads to the formation of a polycrystalline \u03b2-SiC layer. \n\nIn this paper, the composition and structure of homogeneous SiC1.4, SiC 0.95 , SiC 0.7 , SiC 0.4 , SiC 0.12 and SiC 0.03 layers, received by multiple high-dose implantation of carbon ions with energies of 40, 20, 10, 5 and 3 keV are investigated.",
+     "snippetKind": "body",
+     "section": "Introduction",
+     "snippetOffset": {
+      "start": 6995,
+      "end": 8893
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 496,
+        "end": 519,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 519,
+        "end": 543,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 543,
+        "end": 566,
+        "matchedPaperCorpusId": "135924901"
+       },
+       {
+        "start": 566,
+        "end": 593,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 593,
+        "end": 614,
+        "matchedPaperCorpusId": "97642734"
+       },
+       {
+        "start": 614,
+        "end": 637,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 637,
+        "end": 657,
+        "matchedPaperCorpusId": "119399776"
+       },
+       {
+        "start": 1087,
+        "end": 1108,
+        "matchedPaperCorpusId": "136600306"
+       },
+       {
+        "start": 1108,
+        "end": 1129,
+        "matchedPaperCorpusId": "96180698"
+       },
+       {
+        "start": 1129,
+        "end": 1150,
+        "matchedPaperCorpusId": "93373740"
+       },
+       {
+        "start": 1150,
+        "end": 1169,
+        "matchedPaperCorpusId": "97599878"
+       },
+       {
+        "start": 1169,
+        "end": 1194,
+        "matchedPaperCorpusId": "95870841"
+       },
+       {
+        "start": 1307,
+        "end": 1328,
+        "matchedPaperCorpusId": "97642734"
+       },
+       {
+        "start": 1328,
+        "end": 1352,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1412,
+        "end": 1436,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1436,
+        "end": 1459,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1470,
+        "end": 1495,
+        "matchedPaperCorpusId": "122642791"
+       },
+       {
+        "start": 1505,
+        "end": 1529,
+        "matchedPaperCorpusId": "121814267"
+       },
+       {
+        "start": 1529,
+        "end": 1558,
+        "matchedPaperCorpusId": "95206996"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 10
+       },
+       {
+        "start": 11,
+        "end": 308
+       },
+       {
+        "start": 311,
+        "end": 658
+       },
+       {
+        "start": 659,
+        "end": 862
+       },
+       {
+        "start": 863,
+        "end": 1195
+       },
+       {
+        "start": 1196,
+        "end": 1353
+       },
+       {
+        "start": 1354,
+        "end": 1649
+       },
+       {
+        "start": 1652,
+        "end": 1719
+       },
+       {
+        "start": 1720,
+        "end": 1898
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.602793821726399,
+    "paper": {
+     "corpusId": "95926118",
+     "title": "Study of ion beam induced mixing in nano-layered Si/C multilayer structures",
+     "authors": [
+      "R. Prakash",
+      "S. Amirthapandian",
+      "D. M. Phase",
+      "S. K. Deshpande",
+      "R. Kesavamoorthy",
+      "K. Nair"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GREEN",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/cond-mat/0601224, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Figure 1 shows the GIXRD pattern corresponding to as deposited, ion beam mixed and subsequent annealed Si/C multilayer samples. The observed peak position and corresponding phases are tabulated in Table -1. The spectrum corresponding to the as deposited sample (Fig. 1(a)) shows major contribution of silicon and a small contribution of the hexagonal phase of SiC. Since in our multilayer structures the individual layer thicknesses are small, formation of metastable SiC phase is attributed to deposition induced reactions. The absence of the SiC peaks in the spectrum corresponding to the annealed sample (Fig. 1(b)) indeed confirm the metastability of this phase. The spectrum corresponding to the low fluence irradiated sample (Fig. 1(c)) shows the same feature as observed in that of the as-prepared sample. However, upon thermal treatment the low fluence irradiated sample shows a different behaviour when compared with as-prepared and annealed sample. The spectrum (Fig. 1(d)) shows an increase of the contribution of the hexagonal phase of SiC. This difference is attributed to the presence of defects in the irradiated sample, which enhances the inter diffusion and solid state reaction across the interface upon thermal treatment. Further bombardment at high fluence results in a drastic change of the GIXRD spectrum (Fig. 1(e)). When compared with spectra corresponding to as deposited (Fig. 1(a)) and low fluence irradiated sample (Fig. 1(c)), this spectrum shows the absence of peaks corresponding to silicon. This confirms that complete mixing has occurred in the multilayer structure. The spectrum shows emergence of new peaks corresponding to hexagonal and cubic SiC phases. The additional diffraction peak at 22.4 o matches well with carbon cluster. Also, all the diffraction peaks corresponding to SiC phase show small variation in 2\u03b8 position when compared with standard powder diffraction data. This is expected in our case as a high density of defects are produce in the sample due to high fluence Ar ion bombardment. Besides the defect generation these argon atoms are physically present in the mixed region.",
+     "snippetKind": "body",
+     "section": "Results and Discussion",
+     "snippetOffset": {
+      "start": 5157,
+      "end": 7287
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 127
+       },
+       {
+        "start": 128,
+        "end": 206
+       },
+       {
+        "start": 207,
+        "end": 364
+       },
+       {
+        "start": 365,
+        "end": 524
+       },
+       {
+        "start": 525,
+        "end": 666
+       },
+       {
+        "start": 667,
+        "end": 812
+       },
+       {
+        "start": 813,
+        "end": 958
+       },
+       {
+        "start": 959,
+        "end": 1052
+       },
+       {
+        "start": 1053,
+        "end": 1240
+       },
+       {
+        "start": 1241,
+        "end": 1339
+       },
+       {
+        "start": 1340,
+        "end": 1522
+       },
+       {
+        "start": 1523,
+        "end": 1599
+       },
+       {
+        "start": 1600,
+        "end": 1690
+       },
+       {
+        "start": 1691,
+        "end": 1766
+       },
+       {
+        "start": 1767,
+        "end": 1914
+       },
+       {
+        "start": 1915,
+        "end": 2038
+       },
+       {
+        "start": 2039,
+        "end": 2130
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5929361325111677,
+    "paper": {
+     "corpusId": "53870035",
+     "title": "Ion Synthesis of SiC and Its Instability at High Temperatures",
+     "authors": [
+      "K. Nussupov",
+      "N. Beisenkhanov"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.5772/51389?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5772/51389, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "It also reported that implantation at a lower temperature (500\u00b0C), but at higher energy (300 keV) leads to the formation of good quality \u03b2-SiC. Aleksandrov et al. [6] carried out the synthesis of single-crystal SiC layer with one-step technique of high current ion implantation of carbon atoms into silicon substrates with orientations (001) and (111). Single crystal layer of SiC, which contains a small number of twins, was synthesized by the implantation of carbon ions with dose of 6\u00d710 17 cm -2 into (001) oriented silicon wafer using a focused ion beam with current density of 300 A/cm 2 . When the ion current density was 150 A/cm 2 , a single crystal SiC layer with a high concentration of twins was formed at the interface with the substrate Si. On top of this layer is formed a layer of polycrystalline SiC. When the implantation of carbon ions was carried out into (111) oriented silicon, single crystal \u03b2-SiC layer is not formed even when implanted into substrate heated up to a temperature of 850\u00b0C. Polycrystalline SiC layer at the surface and single-crystal SiC layer with a high density of twins near the interface with the crystal Si matrix, are formed. \n\nThis chapter presents the study of silicon carbide and carbon layers on silicon synthesized by ion beam techniques. The investigations of silicon layers implanted by carbon ions with energy 40 keV and dose 3.56\u00d710 17 cm -2 after annealing over a wide temperature range from 20 up to 1400\u00b0C using the special IR analysis are described. The features of change of the SiC-peaks in the spectra of the infrared transmission due to the influence of the Gaussian profile of the distribution of carbon in silicon are shown. Experiments to observe the longitudinal optical oscillations (LO-phonons) associated with the silicon carbide were carried out. A type of a conduction of synthesized silicon carbide was studied. Definite information from a shape analysis of the IR transmission curve was obtained. A particular attention was attracted on some problems which were disputable in previous investigations.",
+     "snippetKind": "body",
+     "section": "Introduction",
+     "snippetOffset": {
+      "start": 9274,
+      "end": 11347
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 163,
+        "end": 166,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 143
+       },
+       {
+        "start": 144,
+        "end": 352
+       },
+       {
+        "start": 353,
+        "end": 595
+       },
+       {
+        "start": 596,
+        "end": 754
+       },
+       {
+        "start": 755,
+        "end": 817
+       },
+       {
+        "start": 818,
+        "end": 1012
+       },
+       {
+        "start": 1013,
+        "end": 1170
+       },
+       {
+        "start": 1173,
+        "end": 1288
+       },
+       {
+        "start": 1289,
+        "end": 1507
+       },
+       {
+        "start": 1508,
+        "end": 1688
+       },
+       {
+        "start": 1689,
+        "end": 1816
+       },
+       {
+        "start": 1817,
+        "end": 1883
+       },
+       {
+        "start": 1884,
+        "end": 1969
+       },
+       {
+        "start": 1970,
+        "end": 2073
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5911542776401615,
+    "paper": {
+     "corpusId": "100385450",
+     "title": "Low-energy SiC2H6+ and SiC3H9+ ion beam productions by the mass-selection of fragments produced from hexamethyldisilane for SiC film formations",
+     "authors": [
+      "S. Yoshimura",
+      "S. Sugimoto",
+      "K. Murai",
+      "M. Kiuchi"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/1.4972206?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/1.4972206, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "We have been attempting to produce low-energy ion beams from fragments produced through the decomposition of hexamethyldisilane (HMD) for silicon carbide (SiC) film formations. We mass-selected SiC2H6+ and SiC3H9+ ions from fragments produced from HMD, and finally produced low-energy SiC2H6+ and SiC3H9+ ion beams. The ion energy was approximately 100 eV. Then, the ion beams were irradiated to Si(100) substrates. The temperature of the Si substrate was 800\u00b0C during the ion irradiation. The X-ray diffraction and Raman spectroscopy of the substrates obtained following SiC2H6+ ion irradiation demonstrated the occurrence of 3C-SiC deposition. On the other hand, the film deposited by the irradiation of SiC3H9+ ions included diamond-like carbon in addition to 3C-SiC.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 770
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5874167100847936,
+    "paper": {
+     "corpusId": "135821641",
+     "title": "A Comparative Study of High-Temperature Aluminum Post-Implantation Annealing in 6H- and 4H-SiC, Non-Uniform Temperature Effects",
+     "authors": [
+      "M. Lazar",
+      "C. Raynaud",
+      "D. Planson",
+      "M. Locatelli",
+      "Karine Isoird",
+      "L. Ottaviani",
+      "J. Chante",
+      "R. Nipoti",
+      "A. Poggi",
+      "G. Cardinali"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/MSF.389-393.827?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/MSF.389-393.827, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "4H-and 6H-SiC small samples were implanted by keV Al + ions at room temperature and annealed in an induction heating furnace, at the center of the susceptor, for different temperatures and times in the range 1600-1800\u00b0C and 5-60 min, respectively. The implanted layers were amorphous but the SiC crystalline structures were recovered after annealing, as measured by Rutherford Back-Scattering analyses in Channeling geometry. Al + electrical activation determined by sheet resistance and Hall effect measurements increases with the annealing temperature or time, on both polytypes. When whole SiC wafers were annealed in the same induction heating furnace, sheet resistance mapping systematically presented a radial gradient from the center to the periphery of the wafer. The measured linear dependence between sheet resistance and temperature allowed us to rebuild the radial temperature gradient at the crucible-susceptor furnace during the annealing process. Introduction Silicon carbide (SiC) is envisaged as a promising semiconductor material for a wide variety of high-temperature, high-power and high-frequency electronic applications. Ion implantation, an indispensable technique to locally dope silicon carbide still presents many problems in particular for p-type zone creation. High ionization energy of dopants imposes to raise the implanted dose above the amorphization threshold for room temperature implantations. Structure recrystallization and electrical activation of dopants, i.e. their incorporation in active SiC atomic sites, require high temperature annealing, about 1700\u00b0C in special configuration, with an overpressure of silicon and carbide. In this work p-type 6H and 4H-SiC layers created by Aluminum (Al) ion implantations followed by high temperature annealings are studied in order to realize efficient p +-n junctions for bipolar power diodes. Dopant electrical activation dependence on the post-implantation annealing conditions is discussed considering the non-uniform temperature at the SiC sample surface during this process.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 2061
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5805832002083007,
+    "paper": {
+     "corpusId": "250671312",
+     "title": "Ion implantation enhanced formation of 3C-SiC grains at the SiO2/Si interface after annealing in CO gas",
+     "authors": [
+      "B. P\u00e9cz",
+      "J. Stoemenos",
+      "M. Voelskow",
+      "W. Skorupa",
+      "L. Dobos",
+      "A. Pongr\u00e1cz",
+      "G. Battistig"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1742-6596/209/1/012045?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1742-6596/209/1/012045, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Despite careful analysis carried out on samples implanted to the lowest dose (8\u00d710 14 cm -2 ) and annealed in nitrogen, SiC precipitates were not found in the sample. However, a few grains of cubic SiC were detected in a sample implanted by carbon ions to the highest dose (4\u00d710 15 cm -2 ) and subsequently annealed in nitrogen (Fig. 1). Another important observation was the high number of bright features appearing on a dark field image taken using the silicon (220) reflection (Fig. 2). They appeared as black and white contrast in the high resolution images [3] on the scale of about 5 nm and that contrast was attributed to Si-C complexes [3], which were considered as possible nucleation sites for 3C-SiC formation during subsequent annealing in CO. Another reference sample was annealed in CO, but not implanted. That specimen showed well developed 3C-SiC grains formed exactly at the SiO 2 /Si interface with a mean size of 18 nm and a characteristic thickness of about 10 nm. All of those crystallites are epitaxial to the silicon and are tetragonal with sides along the [100] and [010] directions. About 24% of the silicon surface is covered by the 3C-SiC crystallites. \n\nIn all of the samples implanted by carbon and subsequently annealed in CO, a high number of 3C-SiC grains were formed, all of them epitaxially aligned to the single crystalline silicon matrix. Moir\u00e9 patterns show those grains clearly. The relatively large SiC grains (shown in bright field in Fig. 3) are situated down to the depth of 50 nm. This is a remarkable difference from the former results, in which   However, two types of the cubic SiC grains were formed (in all cases, when carbon implantation was done prior to annealing in CO), the first is tetragonal with sidewalls parallel to the <100> type directions (exactly like in the case of the former results achieved without ion implantation), the second is elongated, rectangular grains with sides along the <110> type directions (Fig. 4). The longer sidewall of the latter grains is 3-4 times longer than the shorter one.",
+     "snippetKind": "body",
+     "section": "Results",
+     "snippetOffset": {
+      "start": 2601,
+      "end": 4664
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 562,
+        "end": 565,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 644,
+        "end": 647,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 166
+       },
+       {
+        "start": 167,
+        "end": 337
+       },
+       {
+        "start": 338,
+        "end": 489
+       },
+       {
+        "start": 490,
+        "end": 755
+       },
+       {
+        "start": 756,
+        "end": 819
+       },
+       {
+        "start": 820,
+        "end": 984
+       },
+       {
+        "start": 985,
+        "end": 1107
+       },
+       {
+        "start": 1108,
+        "end": 1179
+       },
+       {
+        "start": 1182,
+        "end": 1374
+       },
+       {
+        "start": 1375,
+        "end": 1416
+       },
+       {
+        "start": 1417,
+        "end": 1523
+       },
+       {
+        "start": 1524,
+        "end": 1980
+       },
+       {
+        "start": 1981,
+        "end": 2063
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5770178571993005,
+    "paper": {
+     "corpusId": "214158020",
+     "title": "Silicon carbide color centers for quantum applications",
+     "authors": [
+      "S. Castelletto",
+      "A. Boretti"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/2515-7647/ab77a2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/2515-7647/ab77a2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Similarly, defects being very shallow serve as a critical resource in quantum-sensing applications. For this experiment, ODMR was measured and a broader spectrum was attributed to residual strain due to lack of annealing. \n\nFabrication of single V Si defect arrays in SiC using a focused 35 keV focused Si 2+ ion beam is presented in [115]. The implantation doses were between 40 and 700 Si ions with a 5\u221210 nm focused ion beam spot, the average depth of the silicon ions was 18.5 nm based on SRIM simulations, and the longitudinal and lateral straggling uncertainty was about 7 and 6 nm, respectively. Annealing of the implanted defect array sample at 650 \u00b0C in air for 6 h was performed. From irradiation corresponding to 40 Si ions, single emitters in the array were found. The Si 2+ ion conversion to V Si defect was studied versus the implanted dose, showing a 4% at low doses from 40 to 100 Si ions and then decreased for higher doses, which indicates lattice damage and formation of charged defects in the lattice. \n\nDifferent ions were used in [116] to implant an array of ensemble and single V Si in intrinsic pure commercial 4H SiC. Shallow V Si defects (less than 200 nm below surface) were created by implanting hydrogen (H 2 + ), helium (He + ), and (less than 60 nm below surface) carbon (C + ) with energy 40 keV for H 2 + , 20 keV for He + and C + with the fluences ranging from 1\uf0a0\u00d7\uf0a010 11 cm \u22122 to 1\uf0a0\u00d7\uf0a010 14 cm \u22122 , respectively. It was first shown that the use of helium produced the highest concentration of defects (up to 4 times and 1.5 higher than hydrogen for low doses and high doses, respectively), while with carbon ions the lowest brightness was observed and with a reduced number of defects at higher doses due to ion-induced damage of the crystal lattices. Optimal annealing was found at 600 \u00b0C was found to improve the formation of V Si . Using carbon implantation at 1\uf0a0\u00d7\uf0a010 11 cm \u22122 through a PMMA mask with EBL 50 nm holes, an array of emitters was generated where single emission was observed with an implanted conversion efficiency of 80%.",
+     "snippetKind": "body",
+     "section": "Defects fabrication: material growth and irradiation",
+     "snippetOffset": {
+      "start": 46640,
+      "end": 48712
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 334,
+        "end": 339,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1052,
+        "end": 1057,
+        "matchedPaperCorpusId": "191208214"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 99
+       },
+       {
+        "start": 100,
+        "end": 221
+       },
+       {
+        "start": 224,
+        "end": 340
+       },
+       {
+        "start": 341,
+        "end": 602
+       },
+       {
+        "start": 603,
+        "end": 689
+       },
+       {
+        "start": 690,
+        "end": 776
+       },
+       {
+        "start": 777,
+        "end": 1021
+       },
+       {
+        "start": 1024,
+        "end": 1142
+       },
+       {
+        "start": 1143,
+        "end": 1445
+       },
+       {
+        "start": 1446,
+        "end": 1784
+       },
+       {
+        "start": 1785,
+        "end": 1867
+       },
+       {
+        "start": 1868,
+        "end": 2072
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ },
+ "precipitation of SiC in carbon-rich silicon critical nucleus radius interfacial energy": {
+  "data": [
+   {
+    "score": 0.6755706548816716,
+    "paper": {
+     "corpusId": "265187084",
+     "title": "Evaluation of critical supersaturation ratios during epitaxial growth of hexagonal SiC {0001} under carbon- and hydrogen-rich conditions",
+     "authors": [
+      "Kazuhiro Mochizuki",
+      "T. Mishima"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNCND",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.35848/1347-4065/ad0c2d?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.35848/1347-4065/ad0c2d, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "We therefore presume that under carbon-rich conditions, the lateral growth rate on the 3C-SiC {001} surface consisting of silicon and hydrogen atoms [Fig. 2(d)] should be lower than that on the 3C-SiC {001} surface consisting of carbon and hydrogen atoms [Fig. 2(c)]. However, investigations are needed to clarify the atomic configurations of the side surfaces of hexagonal-prismshaped critical nuclei on (0001). Future studies should also include clarification of H-Si and H-C exchange processes and their influences on supersaturation ratios. \n\nIn conclusion, we evaluated \u03b1 crit during CVD of SiC {0001} under carbon-and hydrogen-rich conditions. The use of reported surface free energies for hydrogen-passivated 3C-SiC surfaces suggested that silicon atoms on the side surfaces of hexagonal-prism-shaped critical nuclei should be terminated by hydrogen atoms. We believe the evaluation will lead to further understanding of the elementary processes during CVD of SiC.",
+     "snippetKind": "body",
+     "section": "/ /",
+     "snippetOffset": {
+      "start": 2419,
+      "end": 3390
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": [
+       {
+        "start": 0,
+        "end": 154
+       },
+       {
+        "start": 155,
+        "end": 260
+       },
+       {
+        "start": 261,
+        "end": 267
+       },
+       {
+        "start": 268,
+        "end": 412
+       },
+       {
+        "start": 413,
+        "end": 544
+       },
+       {
+        "start": 547,
+        "end": 649
+       },
+       {
+        "start": 650,
+        "end": 863
+       },
+       {
+        "start": 864,
+        "end": 971
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5987905893856331,
+    "paper": {
+     "corpusId": "265187084",
+     "title": "Evaluation of critical supersaturation ratios during epitaxial growth of hexagonal SiC {0001} under carbon- and hydrogen-rich conditions",
+     "authors": [
+      "Kazuhiro Mochizuki",
+      "T. Mishima"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNCND",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.35848/1347-4065/ad0c2d?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.35848/1347-4065/ad0c2d, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "Critical supersaturation ratios \u03b1 crit during epitaxial growth on 6H-SiC (0001) and (000 1\u203e ) under carbon- and hydrogen-rich conditions were formerly estimated by assuming disc-shaped critical nuclei whose side surfaces were terminated with silicon and carbon atoms, respectively. Since this assumption contradicts the atomic configurations of possible hexagonal-prism-shaped critical nuclei, we evaluated \u03b1 crit by using the reported surface free energies for hydrogen-passivated 3C-SiC surfaces. To account for the observed \u03b1 crit being much larger on 6H-SiC (0001) than on 6H-SiC (000 1\u203e ), we considered that silicon atoms on the side surfaces of hexagonal-prism-shaped critical nuclei be terminated not by carbon but by hydrogen atoms.",
+     "snippetKind": "abstract",
+     "section": null,
+     "snippetOffset": {
+      "start": 0,
+      "end": 741
+     },
+     "annotations": {
+      "refMentions": null,
+      "sentences": null
+     }
+    }
+   },
+   {
+    "score": 0.5894897125976591,
+    "paper": {
+     "corpusId": "55773911",
+     "title": "Theoretical Study of Carbon Clusters in Silicon Carbide Nanowires",
+     "authors": [
+      "Juliana M. Morbec",
+      "R. H. Miwa"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1010.0945, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "We examined C clusters in 3C-SiC bulk and in hydrogen-passivated SiC NWs grown along the [111] and [100] directions. 7,31 We considered SiC NWs with diameter of about 10 \u00c5, constructed from the 3C-SiC structure. 5,32 For [100] SiC NWs, two kinds of wires were studied: carbon-coated [100] SiC NW and silicon-coated [100] SiC NW, whose surfaces are, respectively, carbon and silicon terminated. Eight C defects were investigated 33 in the present work (see Fig. 2 \n\nIn order to examine the energetic stability of the C defects in the 3C-SiC bulk and in the [100] and [111] SiC NWs, we used the grand canonical potential at T = 0 K (as suggested in the Refs. 34 and 35) \n\nHere E tot is the total energy of the considered structure, \u00b5 i is the chemical potential of atomic specie i (i = Si, C or H) and N i is the number of atoms i in the system. In the thermodynamic equilibrium, 36 \n\nand where \u2206H(SiC) is the formation heat of the SiC bulk. Employing diamond structure 37 for bulk phases of Si and C, and zincblend structure 37,38 for SiC, we found \u2206H(SiC) = 0.73 eV, which is in good agreement with the experimental value \u2206H(SiC) = 0.68 eV. 39 he upper limits of \u00b5 Si and \u00b5 C are \u00b5 bulk  In Table I we present the formation energies, relative to the pristine structures, of C defects in 3C-SiC bulk, and in hydrogen-passivated [100] and [111] SiC NWs. The two values presented in each column correspond to Sirich (or C-poor) and C-rich limits. For 3C-SiC bulk at stoichiometric condition we found that the formation en-  I). At Si-rich limit C -Si is the most favorable configuration, followed by the C -C and (C -C) i defects. However, under C-rich conditions 2(C -C) Si is the most stable defect, followed by the C -C Si and [(C -C) Si + (C -C) C ] aggregates.",
+     "snippetKind": "body",
+     "section": "III. RESULTS AND DISCUSSION",
+     "snippetOffset": {
+      "start": 4713,
+      "end": 6475
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 117,
+        "end": 119,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 119,
+        "end": 121,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 212,
+        "end": 214,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 214,
+        "end": 216,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 428,
+        "end": 430,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1024,
+        "end": 1027,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1027,
+        "end": 1029,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1141,
+        "end": 1143,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 121
+       },
+       {
+        "start": 122,
+        "end": 216
+       },
+       {
+        "start": 217,
+        "end": 393
+       },
+       {
+        "start": 394,
+        "end": 462
+       },
+       {
+        "start": 465,
+        "end": 656
+       },
+       {
+        "start": 657,
+        "end": 667
+       },
+       {
+        "start": 670,
+        "end": 843
+       },
+       {
+        "start": 844,
+        "end": 880
+       },
+       {
+        "start": 883,
+        "end": 939
+       },
+       {
+        "start": 940,
+        "end": 1143
+       },
+       {
+        "start": 1144,
+        "end": 1351
+       },
+       {
+        "start": 1352,
+        "end": 1443
+       },
+       {
+        "start": 1444,
+        "end": 1524
+       },
+       {
+        "start": 1525,
+        "end": 1627
+       },
+       {
+        "start": 1628,
+        "end": 1762
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5727316946360159,
+    "paper": {
+     "corpusId": "232381609",
+     "title": "A Multi-Scale Approach for Phase Field Modeling of Ultra-Hard Ceramic Composites",
+     "authors": [
+      "J. Clayton",
+      "M. Guziewski",
+      "J. Ligda",
+      "R. Leavy",
+      "J. Knap"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8000373, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "This process is repeated 10,000 times for each considered orientation to determined the minimum energy structure, with the added benefit of sampling numerous metastable states in the process. \n\nIn order to account for non-stoichiometric interfaces when calculating energetics, the grand canonical potential is utilized [79], with the interfacial energy defined as \n\nwhere E tot is the total energy of the system, E SiC the per-atom energy of SiC, A GB the area of the grain boundary, N = N Si + N C , and \u2206N = N Si \u2212 N C , with N representing the number of the associated atom type. Quantity \u2206\u00b5 is \u00b5 Si \u2212 \u00b5 C , where \u00b5 is the chemical potential. However the values of \u00b5 Si and \u00b5 C vary with the chemical environment of the interface. For the SiC-SiC interfaces the chemical environment is assumed to be stoichiometric, and so the midpoint of the possible range of values is used, \u22122.74 eV. For the diamond-SiC interfaces the chemical environment is carbon-rich, resulting in \u2206\u00b5 = \u22122.06 eV.",
+     "snippetKind": "body",
+     "section": "Interface Construction",
+     "snippetOffset": {
+      "start": 47539,
+      "end": 48528
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 319,
+        "end": 323,
+        "matchedPaperCorpusId": "94594219"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 191
+       },
+       {
+        "start": 194,
+        "end": 363
+       },
+       {
+        "start": 366,
+        "end": 582
+       },
+       {
+        "start": 583,
+        "end": 645
+       },
+       {
+        "start": 646,
+        "end": 733
+       },
+       {
+        "start": 734,
+        "end": 889
+       },
+       {
+        "start": 890,
+        "end": 985
+       },
+       {
+        "start": 986,
+        "end": 989
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5604997492974694,
+    "paper": {
+     "corpusId": "258187073",
+     "title": "High\u2010Quality and Wafer\u2010Scale Cubic Silicon Carbide Single Crystals",
+     "authors": [
+      "Guo-Bin Wang",
+      "Da Sheng",
+      "Yun Yang",
+      "Haiyang Li",
+      "Cong Chai",
+      "Zhenkai Xie",
+      "Wen-Jun Wang",
+      "Jiangang Guo",
+      "Xiaolong Chen"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2304.09065, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "In a typical run, we use commercial semi-insulating 4H-SiC (0001) wafers as seed and the growth is performed under a mixed Ar/N2 gas.\n\nFor a typical vicinal (0001) surface, the Gibbs free energy change  \u210e = \u03c0 2 \u210e \u2022  + 2\u03c0\u210e \u2022  4 , if a two-dimensional 4H-SiC nucleus with a radius of  forms on a 4H-SiC step terrace.In comparison, the change  \u210e = \u03c0 2\n\nterrace, where  is the Gibbs free energy change from liquid to solid per volume,  4 ,  3 ,  4/ ,  3/ the interfacial energies between lateral surfaces, (0001), (111) facets to melts for 4H-and 3C-SiC, respectively;  3/4 the interfacial energy for (0001) and (111) crystallographic planes between the two polytypes, \u210e the height of the island.It is reasonable to assume that  4 \u2248  3 because these lateral surfaces form from stacking Si-C bilayers in a similar spacing but in a different sequence, their interfacial energies will approach equal if averaging the fluctuations of interactions at a macro-scale. 3/4 \u2248 0 is a reasonable assumption because of the negligible lattice mismatch between 4H-(0001) and 3C-(111).Therefore, the  \u210e is always smaller than the  \u210e if the  3/ \u2212  4H/ < 0. This means that nucleation and crystal growth are favored for 3C than for 4H if the difference between  \u210e \u2212  \u210e is large enough.It is expected that nucleation easily occurs on 4H substrate and its step flow is faster than that for 4H, leading to the total coverage of 3C-SiC on 4H-SiC substrate.Then the growth of 3C will proceed steadily.Fig. 1c schematically describes the possible route for the phase transition starting from preferential hetero-nucleation to subsequent growth for 3C-SiC single crystal on the condition that it has a lower enough interfacial energy with melts.",
+     "snippetKind": "body",
+     "section": "Considerations on stabilizing 3C-SiC over 4H-SiC and crystal growth",
+     "snippetOffset": {
+      "start": 4246,
+      "end": 5963
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 347,
+        "end": 348,
+        "matchedPaperCorpusId": "197106057"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 133
+       },
+       {
+        "start": 135,
+        "end": 314
+       },
+       {
+        "start": 314,
+        "end": 348
+       },
+       {
+        "start": 350,
+        "end": 692
+       },
+       {
+        "start": 692,
+        "end": 956
+       },
+       {
+        "start": 956,
+        "end": 1066
+       },
+       {
+        "start": 1066,
+        "end": 1264
+       },
+       {
+        "start": 1264,
+        "end": 1431
+       },
+       {
+        "start": 1431,
+        "end": 1475
+       },
+       {
+        "start": 1475,
+        "end": 1717
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5474050395386187,
+    "paper": {
+     "corpusId": "265187084",
+     "title": "Evaluation of critical supersaturation ratios during epitaxial growth of hexagonal SiC {0001} under carbon- and hydrogen-rich conditions",
+     "authors": [
+      "Kazuhiro Mochizuki",
+      "T. Mishima"
+     ],
+     "openAccessInfo": {
+      "license": "CCBYNCND",
+      "status": "HYBRID",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.35848/1347-4065/ad0c2d?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.35848/1347-4065/ad0c2d, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "When d \u0394G/dl = 0, l becomes the critical l (i.e. l * ); namely, \n\n* is thus given by putting Eq. ( 4) into Eq. ( 2). \n\n/ / * By substituting Eq. ( 5) into Eq. ( 1), we can obtain \u03b1 crit as \n\nUnder the condition for J nuc * being 10 16 m \u22122 s \u22121 (i.e. one nucleation per unit time on a 10 nm \u00d7 10 nm area), 12) we calculated \u03b1 crit using the reported values of \u03c3 1 and \u03c3 2 32) shown in Figs. 2(c)\u22122(e). As shown as a dash-dotted line in Fig. 3, \u03b1 crit on hydrogen-passivated (0001) (type I) [Fig. 2(c)] becomes close to unity at T of 1500 \u00b0C, which contradicts to the experimental observation. 12) In contrast, \u03b1 crit on hydrogenpassivated (0001) (type II) [Fig. 2(d)] becomes much larger than \u03b1 crit on hydrogen-passivated (000\u203e 1) [Fig. 2(e)]. Furthermore, \u03b1 crit on hydrogen-passivated (000\u203e 1) is close to unity at T of 1500 \u00b0C. Since the combination of dash-two dot line and solid line in Fig. 3 successfully explains the observed rougher 6H-SiC (000\u203e 1) surface at T of 1500 \u00b0C, 12) we considered that the 3C-SiC {001} surfaces appeared on the side surfaces of hexagonal-prism-shaped critical nuclei on (0001) should consist of silicon and hydrogen atoms [Fig. 2(d)], not of carbon and hydrogen atoms [Fig. 2(c)]. \n\nUnder thermal equilibrium conditions, nuclei should have surfaces with the lowest surface energies; under growth conditions, in contrast, they should have surfaces with the lowest growth rates. 34) We therefore presume that under carbon-rich conditions, the lateral growth rate on the 3C-SiC {001} surface consisting of silicon and hydrogen atoms [Fig.",
+     "snippetKind": "body",
+     "section": "/ /",
+     "snippetOffset": {
+      "start": 1000,
+      "end": 2573
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 306,
+        "end": 309,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 372,
+        "end": 375,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 593,
+        "end": 596,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 984,
+        "end": 987,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1415,
+        "end": 1418,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 48
+       },
+       {
+        "start": 49,
+        "end": 63
+       },
+       {
+        "start": 66,
+        "end": 110
+       },
+       {
+        "start": 111,
+        "end": 116
+       },
+       {
+        "start": 119,
+        "end": 158
+       },
+       {
+        "start": 159,
+        "end": 188
+       },
+       {
+        "start": 191,
+        "end": 390
+       },
+       {
+        "start": 391,
+        "end": 401
+       },
+       {
+        "start": 402,
+        "end": 495
+       },
+       {
+        "start": 496,
+        "end": 596
+       },
+       {
+        "start": 597,
+        "end": 661
+       },
+       {
+        "start": 662,
+        "end": 737
+       },
+       {
+        "start": 738,
+        "end": 744
+       },
+       {
+        "start": 745,
+        "end": 831
+       },
+       {
+        "start": 832,
+        "end": 1165
+       },
+       {
+        "start": 1166,
+        "end": 1211
+       },
+       {
+        "start": 1212,
+        "end": 1218
+       },
+       {
+        "start": 1221,
+        "end": 1418
+       },
+       {
+        "start": 1419,
+        "end": 1573
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5455858101315306,
+    "paper": {
+     "corpusId": "3152292",
+     "title": "Nanocarbon synthesis by high-temperature oxidation of nanoparticles",
+     "authors": [
+      "K. Nomura",
+      "R. Kalia",
+      "Ying Li",
+      "Aiichiro Nakano",
+      "P. Rajak",
+      "Chunyang Sheng",
+      "K. Shimamura",
+      "F. Shimojo",
+      "P. Vashishta"
+     ],
+     "openAccessInfo": {
+      "license": "CCBY",
+      "status": "GOLD",
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4837334, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "It should be noted that SiC is abundant in the interstellar space, and has been thought of as the source of polycyclic aromatic hydrocarbons that may be a precursor of biomolecules 15 . Interfacial C-rich layers have also been observed during thermal oxidation of SiC in high-power electronic devices 16,17 , which is a potential source of poor carrier mobility at SiO 2 /SiC interfaces. QMD simulations suggest that these excess carbons may segregate to form carbon clusters 18 , which is consistent with our observation. Earlier X-ray diffraction measurement also indicated the segregation of graphitic materials in high-temperature SiC crystal at 2,400 K 19 . \n\nTo understand the formation mechanism of nanocarbon product and its geometry, we have performed larger simulations with nSiC diameters D = 46 and 100 nm. Figure 2c shows snapshots at time 0.2 and 0.4 ns for D = 100 nm, where the mass of each carbon cluster in atomic mass unit (amu) is color-coded. At 0.2 ns, a large number of disjoint carbon clusters are formed on the nSiC surface. By 0.4 ns, in contrast, most carbon clusters have been interconnected to form a single nanocarbon that covers the entire surface. Figure 2d shows the size of the largest C cluster as a function of time. We observe a sharp increase in the size of the largest C cluster at 0.34 ns, indicating a percolation transition 20 , in which the entire carbon product is connected. Supplementary movie, S2.mov, animates the percolation transition for carbon clusters during the oxidation of a 100-nm nSiC at 2,800 K. A similar percolation transition was also observed for D = 46 nm. Supplementary Fig. S3 shows the size distribution of the graphene flakes (blue) and the size of the largest C cluster (red) as a function of time for D = 46 nm. \n\nPercolation transition shown in Fig. 2d is associated with a fractal geometry, which is manifested in the critical cluster-size distribution just before the transition. Figure 2e plots the number of clusters C(i) as a function of the cluster size i at 0.3 ns for D = 100 nm.",
+     "snippetKind": "body",
+     "section": null,
+     "snippetOffset": {
+      "start": 3559,
+      "end": 5617
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 181,
+        "end": 183,
+        "matchedPaperCorpusId": "4305843"
+       },
+       {
+        "start": 301,
+        "end": 304,
+        "matchedPaperCorpusId": "122749741"
+       },
+       {
+        "start": 304,
+        "end": 306,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 476,
+        "end": 478,
+        "matchedPaperCorpusId": "118510191"
+       },
+       {
+        "start": 658,
+        "end": 660,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 1366,
+        "end": 1368,
+        "matchedPaperCorpusId": "9338306"
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 185
+       },
+       {
+        "start": 186,
+        "end": 387
+       },
+       {
+        "start": 388,
+        "end": 522
+       },
+       {
+        "start": 523,
+        "end": 662
+       },
+       {
+        "start": 665,
+        "end": 963
+       },
+       {
+        "start": 964,
+        "end": 1049
+       },
+       {
+        "start": 1050,
+        "end": 1179
+       },
+       {
+        "start": 1180,
+        "end": 1252
+       },
+       {
+        "start": 1253,
+        "end": 1419
+       },
+       {
+        "start": 1420,
+        "end": 1554
+       },
+       {
+        "start": 1555,
+        "end": 1620
+       },
+       {
+        "start": 1621,
+        "end": 1781
+       },
+       {
+        "start": 1784,
+        "end": 1952
+       },
+       {
+        "start": 1953,
+        "end": 2058
+       }
+      ]
+     }
+    }
+   },
+   {
+    "score": 0.5220105193525105,
+    "paper": {
+     "corpusId": "204823961",
+     "title": "The (3$\\times$3)-SiC-($\\bar{1}\\bar{1}\\bar{1}$) Reconstruction: Atomic Structure of the Graphene Precursor Surface from a Large-Scale First-Principles Structure Search.",
+     "authors": [
+      "J. Kloppenburg",
+      "L. Nemec",
+      "B. Lange",
+      "M. Scheffler",
+      "V. Blum"
+     ],
+     "openAccessInfo": {
+      "license": null,
+      "status": null,
+      "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1910.09608, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+     }
+    },
+    "snippet": {
+     "text": "The possible equilibrium conditions for different surface phases can be represented by the chemical potentials of C and Si, \u00b5 C and \u00b5 Si in a grand canonical formalism. 16 n the limit of sufficiently thick SiC slabs the surface energies \u03b3 of a two-dimensional periodic surface with a C face and a Si face is defined as where N a denotes the total number of atoms and \u00b5 a denotes the chemical potential of atom type a. The term A slab represents the surface area of the slab supercell. E slab is the total energy of the slab. In our calculations, we choose a fixed H-terminated Si-face geometry at the bottom of the slab, which cancels out for all surface energy differences related to the C face. \n\nThe major experimental temperature and pressure (T, p) dependence during growth arises through the reservoirs of Si and C, which define \u00b5 Si and \u00b5 C . 16,17 The chemical potentials are limited by carbon rich (\u00b5 C \u2265 E Bulk Graphite ) or carbon poor (\u00b5 Si \u2265 E Bulk Silicon ) growth conditions. For the carbon rich limit we include the diamond and graphite structure in our surface energy phase diagrams. Using PBE+TS total energies, graphite is more stable than the diamond phase by 67 meV per atom. For the structure search, we use the energy of carbon in the graphite structure. The chemical potentials are thus obtained from \n\nIn thermodynamic equilibrium the chemical potentials of silicon and carbon in are related by",
+     "snippetKind": "body",
+     "section": "C. Surface Energies and Chemical Potentials",
+     "snippetOffset": {
+      "start": 24263,
+      "end": 25682
+     },
+     "annotations": {
+      "refMentions": [
+       {
+        "start": 169,
+        "end": 171,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 850,
+        "end": 853,
+        "matchedPaperCorpusId": null
+       },
+       {
+        "start": 853,
+        "end": 855,
+        "matchedPaperCorpusId": null
+       }
+      ],
+      "sentences": [
+       {
+        "start": 0,
+        "end": 171
+       },
+       {
+        "start": 172,
+        "end": 417
+       },
+       {
+        "start": 418,
+        "end": 484
+       },
+       {
+        "start": 485,
+        "end": 524
+       },
+       {
+        "start": 525,
+        "end": 696
+       },
+       {
+        "start": 699,
+        "end": 855
+       },
+       {
+        "start": 856,
+        "end": 990
+       },
+       {
+        "start": 991,
+        "end": 1100
+       },
+       {
+        "start": 1101,
+        "end": 1196
+       },
+       {
+        "start": 1197,
+        "end": 1277
+       },
+       {
+        "start": 1278,
+        "end": 1324
+       },
+       {
+        "start": 1327,
+        "end": 1419
+       }
+      ]
+     }
+    }
+   }
+  ],
+  "retrievalVersion": "pa1-v1"
+ }
+}

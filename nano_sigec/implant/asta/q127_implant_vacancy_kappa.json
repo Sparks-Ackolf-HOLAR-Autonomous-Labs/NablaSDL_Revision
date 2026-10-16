@@ -1,0 +1,1026 @@
+{
+  "data": [
+    {
+      "score": 0.6690983204869723,
+      "paper": {
+        "corpusId": "249214059",
+        "title": "Monitoring of Dose Dependent Damage in MeV Energy Hydrogen Implanted Silicon by Photo-Modulated Reflectance Measurements",
+        "authors": [
+          "J. Sz\u00edv\u00f3s",
+          "L. Balogh",
+          "I. Rajta",
+          "G. Nagy",
+          "Z. Ga\u00e1l",
+          "V. Samu",
+          "K. Takefumi",
+          "Z. Zolnai"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1109/JEDS.2022.3178866?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/JEDS.2022.3178866, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The evaluated average defect concentration is \u223c6\u00d710 15 cm \u22123 , much lower than predicted by corrected SRIM simulations (for the concentration of vacancies: N vac > 10 17 cm \u22123 ), see Fig. 1(b). This also suggests significant in-situ defect reduction during implantation, i.e., before the start of the slower post-implantation defect relaxation process detected by the PMR decay on longer time scale. \n\nFor interpretation of the PMR decay process one may consider the followings. A high mobility defect in Si is the isolated vacancy (V Si ). To date, a number of extensive studies report on vacancy migration in silicon both at cryogenic and elevated temperatures [21]- [23]. The diffusion coefficient of V Si was found to be D V = (0.0012 cm 2 s \u22121 )\u00d7exp(\u22120.45eV/kT) [21], where k is Boltzmann constant and T is temperature. Based on this, for room temperature (RT) and a duration of t = 24 hours a diffusion length of (D V t) 1/2 \u2248 12 \u00b5m can be derived, which is comparable to the maximum penetration depth of 600 keV H + ions, see Fig. 1(b). Nevertheless, in irradiated material, depending on the defect structure, only a fraction of vacancies can freely migrate toward the bulk or the surface since they can be captured by another defects or dopant atoms in the damaged region to form defect complexes of low thermal mobility and ability to capture free carriers. \n\nPreviously, in electron irradiated Si samples a diluted defect structure has been found beneath the sample surface after irradiation, i.e., the concentration of V Si related defects such as divacancies (VV), vacancy-oxygen (VO) pairs, and vacancy-phosphorus (VP) pairs, has shown exponential like decay toward the sample surface in the uppermost 3-6 \u00b5m of the damaged layer [23]. This result was attributed to the migration of V Si in the irradiated material.",
+        "snippetKind": "body",
+        "section": "C. RESULTS OF PMR MEASUREMENTS",
+        "snippetOffset": {
+          "start": 22633,
+          "end": 24461
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 663,
+              "end": 667,
+              "matchedPaperCorpusId": "96979077"
+            },
+            {
+              "start": 669,
+              "end": 673,
+              "matchedPaperCorpusId": "122864038"
+            },
+            {
+              "start": 767,
+              "end": 771,
+              "matchedPaperCorpusId": "96979077"
+            },
+            {
+              "start": 1743,
+              "end": 1747,
+              "matchedPaperCorpusId": "122864038"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 193
+            },
+            {
+              "start": 194,
+              "end": 399
+            },
+            {
+              "start": 402,
+              "end": 478
+            },
+            {
+              "start": 479,
+              "end": 540
+            },
+            {
+              "start": 541,
+              "end": 674
+            },
+            {
+              "start": 675,
+              "end": 766
+            },
+            {
+              "start": 767,
+              "end": 824
+            },
+            {
+              "start": 825,
+              "end": 1043
+            },
+            {
+              "start": 1044,
+              "end": 1366
+            },
+            {
+              "start": 1369,
+              "end": 1748
+            },
+            {
+              "start": 1749,
+              "end": 1828
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6595458322305955,
+      "paper": {
+        "corpusId": "14290779",
+        "title": "Annealing of radiation-induced defects in silicon in a simplified phenomenological model",
+        "authors": [
+          "S. Lazanu",
+          "I. Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/physics/0008077, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Most of the old studies were dedicated to electronic devices, made from low resistivity (in the \u2126cm range) silicon. Recently, the behaviour of the silicon material with medium and high resistivity (tens \u2126cm -k\u2126cm) in intense hadron fields started to present very much interest, these materials representing a major option for the detectors at the new generation of particle colliders and for space applications. \n\nIn the present paper, the time evolution of the concentration of primary defects induced by pion irradiation in silicon is studied in the frame of a simplified phenomenological model based on direct interactions between the primary induced defects and the impurities present in the material. \n\n2 Equations for the kinetics of radiation induced defects: general formulation \n\nThe starting hypothesis of the physical model is that the irradiation process is unique at the determined particle fluence, and that the time of irradiation is shorter that all characteristic times of annealing. \n\nIn the frame of the model, equal concentrations of vacancies and interstitials are supposed to be produced by irradiation, in much greater concentrations than the corresponding thermal equilibrium values, characteristic to each temperature. Both the pre-existing defects and those produced by irradiation, as well as the impurities, are assumed to be randomly distributed in the solid. An important part of the vacancies and interstitials annihilate. The sample contains certain concentrations of impurities which can trap interstitials and vacancies respectively, and form stable defects. \n\nIn the present paper, vacancy-interstitial annihilation, interstitial migration to sinks, vacancy and interstitial impurity complex formation as well as divacancy formation are considered. The sample could contain more impurities that trap vacancies or interstitials, and in this case all processes are to be taken into account.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 1959,
+          "end": 3882
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 115
+            },
+            {
+              "start": 116,
+              "end": 411
+            },
+            {
+              "start": 414,
+              "end": 705
+            },
+            {
+              "start": 708,
+              "end": 786
+            },
+            {
+              "start": 789,
+              "end": 1000
+            },
+            {
+              "start": 1003,
+              "end": 1243
+            },
+            {
+              "start": 1244,
+              "end": 1388
+            },
+            {
+              "start": 1389,
+              "end": 1453
+            },
+            {
+              "start": 1454,
+              "end": 1592
+            },
+            {
+              "start": 1595,
+              "end": 1783
+            },
+            {
+              "start": 1784,
+              "end": 1923
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6541190566535624,
+      "paper": {
+        "corpusId": "54776357",
+        "title": "Efficient thermoelectric performance in silicon nano-films by vacancy-engineering",
+        "authors": [
+          "N. Bennett",
+          "N. Wight",
+          "Srinivasa R. Popuri",
+          "Jan-Willem G. Bos"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.NANOEN.2015.07.007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.NANOEN.2015.07.007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Vacancies (V) are simple, intrinsic point-defects, which in basic form, are a missing Si atom within an otherwise tetrahedrally coordinated lattice [14]. This is in contrast to their counterpartthe self-interstitial (I)which, for simplicity, can be considered as an extra Si atom in the lattice. Around a vacancy, lattice relaxation occurs, creating a lattice contraction [14] and additional scattering sites for phonons. Their presence can therefore influence thermal transport, however the equilibrium concentration of vacancies is extremely low in regular Czochralski-grown Si (o10 11 cm \u00c0 3 [14]) creating negligible impact. Large vacancy concentrations (1.5%) have been calculated theoretically to have a significant impact on the thermal conductivity of bulk Si, reducing \u03ba by up to 95% at 300 K [15][16][17]. This is explained by increased phonon scattering and a reduction in the meanfree-path length for phonons, due to the relatively high concentration of vacancy defects. However, the vacancy concentration required theoretically, equivalent to $ 10 21 cm \u00c0 3 , is significantly at odds with the equilibrium vacancy concentration in practice. With vacancy-engineering it is possible to close this gap by artificially creating a supersaturation of vacancies, using self-implantation of Si ions to introduce high vacancy concentrations (0.1-4%) in the nearsurface of Si nano-films. This approach has been previously successful in overcoming the problem of transient-enhanced boron diffusion in Si transistor devices [18].",
+        "snippetKind": "body",
+        "section": "Theory",
+        "snippetOffset": {
+          "start": 3936,
+          "end": 5466
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 148,
+              "end": 152,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 372,
+              "end": 376,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 595,
+              "end": 599,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 802,
+              "end": 806,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 806,
+              "end": 810,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 810,
+              "end": 814,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1525,
+              "end": 1529,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 153
+            },
+            {
+              "start": 154,
+              "end": 295
+            },
+            {
+              "start": 296,
+              "end": 421
+            },
+            {
+              "start": 422,
+              "end": 628
+            },
+            {
+              "start": 629,
+              "end": 815
+            },
+            {
+              "start": 816,
+              "end": 982
+            },
+            {
+              "start": 983,
+              "end": 1153
+            },
+            {
+              "start": 1154,
+              "end": 1390
+            },
+            {
+              "start": 1391,
+              "end": 1530
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6238285282113043,
+      "paper": {
+        "corpusId": "289625731",
+        "title": "In situ cryogenic characterization of proton damage in thick p-channel skipper CCDs",
+        "authors": [
+          "B. Roach",
+          "B. Vergara",
+          "Alex Drlica-Wagner",
+          "P. Alpine",
+          "A. Botti",
+          "Claudio Chavez",
+          "J. Cuevas-Zepeda",
+          "J. Estrada",
+          "G. Moroni",
+          "N. Hoch",
+          "S. Holland",
+          "B. I. Gimenez",
+          "A. Lapi",
+          "S. Perez",
+          "N. Saffold",
+          "J. Tiffenberg",
+          "Yi-Kai Wu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2606.26409, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Deep-level transient spectroscopy of n-type silicon has previously identified similar structures which have been attributed to higher-multiplicity vacancy clusters [e.g., 83,84]. We propose that these defects formed during the initial proton irradiation, captured charge, and were prevented from annealing into more stable configurations (e.g., V 2 ) by the low operating temperature. Further irradiation studies at lower temperatures may help to test this hypothesis.",
+        "snippetKind": "body",
+        "section": "Dark current",
+        "snippetOffset": {
+          "start": 41687,
+          "end": 42155
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 171,
+              "end": 174,
+              "matchedPaperCorpusId": "97225537"
+            },
+            {
+              "start": 174,
+              "end": 177,
+              "matchedPaperCorpusId": "253940549"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 178
+            },
+            {
+              "start": 179,
+              "end": 384
+            },
+            {
+              "start": 385,
+              "end": 468
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.620038246386383,
+      "paper": {
+        "corpusId": "279118147",
+        "title": "Revisiting the Mechanisms of Thermal Transport in Vacancy-Defective Silicon",
+        "authors": [
+          "Xueyan Zhu",
+          "Jin Yang",
+          "J. Shiomi",
+          "Cheng Shao"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2506.02436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In conclusion, we investigated the thermal conduction in vacancy defected silicon, considering both the particle-like propagation of vibrational modes and wave-like tunnelling between modes. \n\nOur analyses incorporate anharmonic vibrational frequencies, interatomic force constants, and vacancy-induced changes in both velocity operators and lifetimes. It is found that although the particle-like propagation dominates in defect-free silicon, wave-like tunnelling becomes nonnegligible in silicon containing vacancies. As vacancy concentration increases, wave-like tunnelling becomes increasingly important. Further investigations on the frequency-dependent thermal conductivities, velocity operators, and lifetimes reveal that particle-like propagation is primarily contributed by the low-frequency modes, while the coherences term of wave-like tunnelling is mainly contributed by modes with intermediate frequencies. Considering anharmonic frequencies and IFCs in the thermal conductivity calculations, we found that anharmonic effects suppress thermal conductivity in pristine silicon. However, increasing vacancy concentration progressively attenuates this anharmonic suppression, with a critical transition occurring at 1% concentration where the effect shifts from conductivity reduction to enhancement. To elucidate thermal transport mechanisms in vacancy-defected silicon, we systematically investigate vacancy-induced modifications in both velocity operators and vibrational lifetimes. Our analyses demonstrate that the observed thermal conductivity reduction arises predominantly from altered velocity operators, rather than lifetime shortening. This finding challenges the conventional knowledge that defects reduce thermal conductivity primarily through enhanced phonon scattering, suggesting that current defect engineering strategies for thermal management may require reassessment. The revealed dominance of phonon velocity reduction mechanism provides new insights for developing thermal design methodologies.",
+        "snippetKind": "body",
+        "section": "Conclusions",
+        "snippetOffset": {
+          "start": 19844,
+          "end": 21869
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 190
+            },
+            {
+              "start": 193,
+              "end": 352
+            },
+            {
+              "start": 353,
+              "end": 518
+            },
+            {
+              "start": 519,
+              "end": 607
+            },
+            {
+              "start": 608,
+              "end": 918
+            },
+            {
+              "start": 919,
+              "end": 1088
+            },
+            {
+              "start": 1089,
+              "end": 1309
+            },
+            {
+              "start": 1310,
+              "end": 1494
+            },
+            {
+              "start": 1495,
+              "end": 1655
+            },
+            {
+              "start": 1656,
+              "end": 1896
+            },
+            {
+              "start": 1897,
+              "end": 2025
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6190045093307729,
+      "paper": {
+        "corpusId": "119393302",
+        "title": "Correlation between radiation processes in silicon and long-time degradation of detectors for high-energy physics experiments",
+        "authors": [
+          "S. Lazanu",
+          "I. Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/physics/0611185, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In Figures 1a \u00f7 c, the fluence dependence of the concentrations of defects, induced by 2\u202210 14 cm -2 neutron irradiation, both in FZ and DOFZ silicon, is presented as an example. The calculations reproduce the conditions at 10 days after irradiation, at room temperature. While the concentration of Si FFCD depends linearly on fluence, the concentration of vacancies in FZ Si has a tendency toward saturation. In DOFZ Si, the concentration of vacancies has a linear dependence on fluence, but is several orders of magnitude lower than in FZ Si, due to the fact that oxygen trap vacancies and form the VO centre. The presence of oxygen and the formation of VO and C i O i centres, which involve both vacancies and interstitials, conduce to much quicker stabilisation in time of oxygen rich silicon after irradiation. While for FZ materials the concentrations of V 2 and C i C s have been estimated to be the most important, in DOFZ VO and C i O i are the defects with the highest concentrations. FZ Si \n\nFig. 1. Fluence dependence of defect concentrations in FZ and DOFZ Si after irradiation with 2\u202210 14 n/cm 2 . \n\nThe dependencies of the reciprocal of the effective trapping times for electrons (left) and holes (right) on the pion (up) and neutron (down) fluences are represented in Figures 2a \u00f7 d. Lines correspond to calculations in the frame of the present work, while points are experimental data from Ref [7]. Results similar to those presented for pions have been obtained for protons. The differences in silicon resistivity in the range 1 to 15 kWcm have irrelevant influence on the effective trapping times for electrons and holes, but they depend on the type and energy of irradiating particle. The model reproduces very well the experimental effective electron trapping times in FZ material and differences -in a reasonable range exist for DOFZ materials and for hole trapping times. Probably, additional mechanisms in the kinetics of defects must be considered in the model to diminish these discrepancies.",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 4264,
+          "end": 6283
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1412,
+              "end": 1415,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 178
+            },
+            {
+              "start": 179,
+              "end": 271
+            },
+            {
+              "start": 272,
+              "end": 409
+            },
+            {
+              "start": 410,
+              "end": 611
+            },
+            {
+              "start": 612,
+              "end": 815
+            },
+            {
+              "start": 816,
+              "end": 994
+            },
+            {
+              "start": 995,
+              "end": 1000
+            },
+            {
+              "start": 1003,
+              "end": 1010
+            },
+            {
+              "start": 1011,
+              "end": 1112
+            },
+            {
+              "start": 1115,
+              "end": 1300
+            },
+            {
+              "start": 1301,
+              "end": 1416
+            },
+            {
+              "start": 1417,
+              "end": 1493
+            },
+            {
+              "start": 1494,
+              "end": 1705
+            },
+            {
+              "start": 1706,
+              "end": 1895
+            },
+            {
+              "start": 1896,
+              "end": 2019
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6188563968633156,
+      "paper": {
+        "corpusId": "275428617",
+        "title": "Formation of shallow-acceptor defects in Li-irradiated N-type silicon",
+        "authors": [
+          "A. Kiyoi",
+          "Naoyuki Kawabata"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.35848/1882-0786/ada7c1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.35848/1882-0786/ada7c1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": " acceptor formation was observed even in the as-implanted stage. The acceptor concentration increased with annealing temperatures up to 400 \u00b0C and decreased at 500 \u00b0C. These temperature range corresponds to a typical temperature range for observing irradiation-induced point defects in Si at 300 \u00b0C-500 \u00b0C. [21][22][23] At 600 \u00b0C, only low n-type conductivity was observed as the difference of the density between the P donor and thermally stable carrier-compensation defects (i.e. deep-level defects). \n\nThese observations revealed that the shallow acceptor is a type of irradiation-induced defect complexes that includes at least two types of defects: intrinsic defect and Li-related defect complex. The intrinsic defect-related acceptor is evidenced by weak p-type conductivity in samples irradiated with inert He ions. We speculated that the Li-related acceptor provided the major contribution to shallow acceptor density, judging from comparison of carrier concentration profiles between the He (involving only intrinsic defect-related acceptors) and Li samples (including both types of acceptors), as depicted in Fig. 1. The precise amounts of carrier-compensation defects could not be discriminated through SR profiles. However, this limitation affects slightly on calculated N A , judging from the residual carrier-compensation defect concentration observed in the sample annealed at 600 \u2103. \n\nThe Li incorporation for forming the shallow acceptor was also evidenced by the overlapping distribution of p-type carrier and Li atom concentrations as presented below. Figure 4 shows the carrier concentration and Li atom  concentration profiles of Li samples annealed at 400 and 500 \u00b0C, respectively. An acceleration energy of 1 MeV was used to adjust R p to 2 \u03bcm, facilitating accurate SIMS data acquisition. P-type conductivity was observed in the depth range in which Li atoms resided adequately at both annealing temperatures. Even after annealing at 500 \u00b0C, Li atoms still resided around R p , indicating the existence of strong bonds between irradiation-induced defects and Li atoms in the acceptor defect complex, similar to the thermal stability of Si-H bonds at 500 \u00b0C with the relaxation of atomic configuration in silicon. 24)",
+        "snippetKind": "body",
+        "section": "L",
+        "snippetOffset": {
+          "start": 7705,
+          "end": 9945
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 307,
+              "end": 311,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 311,
+              "end": 315,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 315,
+              "end": 319,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 64
+            },
+            {
+              "start": 65,
+              "end": 167
+            },
+            {
+              "start": 168,
+              "end": 306
+            },
+            {
+              "start": 307,
+              "end": 481
+            },
+            {
+              "start": 482,
+              "end": 502
+            },
+            {
+              "start": 505,
+              "end": 701
+            },
+            {
+              "start": 702,
+              "end": 822
+            },
+            {
+              "start": 823,
+              "end": 1126
+            },
+            {
+              "start": 1127,
+              "end": 1226
+            },
+            {
+              "start": 1227,
+              "end": 1398
+            },
+            {
+              "start": 1401,
+              "end": 1570
+            },
+            {
+              "start": 1571,
+              "end": 1703
+            },
+            {
+              "start": 1704,
+              "end": 1812
+            },
+            {
+              "start": 1813,
+              "end": 1933
+            },
+            {
+              "start": 1934,
+              "end": 2240
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6182791905477969,
+      "paper": {
+        "corpusId": "1738306",
+        "title": "Radiation defects in silicon due to hadrons and leptons, their annealing and influence on detector performance",
+        "authors": [
+          "I. Lazanu",
+          "S. Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "BRONZE",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/hep-ph/0203230, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The effects of the incident particle type, of its kinetic energy and of the irradiation conditions on the concentration of defects are studied. Vacancy-interstitial annihilation, interstitial migration to sinks, vacancy -impurity complexes (V P , V O and V 2 O), and divacancy (V 2 ) formation are considered in different irradiation conditions, for different concentrations of impurities in the semiconductor material and at different temperatures near room temperature. The model can be extended directly to include the effects of other mechanisms related to these, or other impurities in silicon, and of their interaction with the vacancy and/or interstitial. The density of the reverse current in the detector after irradiation is estimated. Comparison with experimental published data of the time evolution of the concentration of defects is performed, as well as with measurements of the density of the leakage current. For different discrepancies, some explanations are suggested. A special application considered in the paper is the simulated case of the behaviour of silicon detectors operating in the pion field simulated for the future conditions at the new LHC (Large Hadron Collider) accelerator.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 2380,
+          "end": 3589
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 143
+            },
+            {
+              "start": 144,
+              "end": 471
+            },
+            {
+              "start": 472,
+              "end": 662
+            },
+            {
+              "start": 663,
+              "end": 745
+            },
+            {
+              "start": 746,
+              "end": 925
+            },
+            {
+              "start": 926,
+              "end": 987
+            },
+            {
+              "start": 988,
+              "end": 1209
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6136066696576626,
+      "paper": {
+        "corpusId": "7263342",
+        "title": "Long-term Damage Induced by Hadrons in Silicon Detectors for Uses at the LHC-accelerator and in Space Missions",
+        "authors": [
+          "Ionel Lazanu",
+          "Sorina Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/hep-ph/0209086, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "At high oxygen concentrations, the concentrations of V O centres attain a plateau during the 10 years period considered. \n\nAfter cosmic proton irradiation, the effects are strongly different. For this generation rate, the increase of the oxygen concentration produces the decrease of the concentration of all centres, with the exception of the V O concentration, that, at these rates, is not influenced by the oxygen content, and of the C i O i concentration, where an increase is observed. As a consequence of the small rate of generation of vacancy-interstitial pairs, after ten years of operation, \n\nTime [x10 8 s.] \n\nTime [x10 8 s.]     the equilibrium between generation and annealing is not reached, the concentrations of defects being, with the exception of V P (that has a relatively low binding energy), slightly increasing functions of time. \n\nAll the processes have been calculated for 20 o C temperature. Thermal generation has been taken into account in all cases, although it is important only for the silicon exposed to cosmic protons. \n\nAlso, it is necessary to emphasise the importance of the irradiation and annealing conditions (initial material parameters, type of irradiation particles, energetic incident particle spectra and their flux, temperature) on defect evolution. These aspects have been discussed in previous papers [13,16].",
+        "snippetKind": "body",
+        "section": "Changes in the microscopic material properties",
+        "snippetOffset": {
+          "start": 13143,
+          "end": 14498
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1347,
+              "end": 1351,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1351,
+              "end": 1354,
+              "matchedPaperCorpusId": "17350335"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 120
+            },
+            {
+              "start": 123,
+              "end": 191
+            },
+            {
+              "start": 192,
+              "end": 490
+            },
+            {
+              "start": 491,
+              "end": 600
+            },
+            {
+              "start": 603,
+              "end": 618
+            },
+            {
+              "start": 621,
+              "end": 851
+            },
+            {
+              "start": 854,
+              "end": 916
+            },
+            {
+              "start": 917,
+              "end": 1050
+            },
+            {
+              "start": 1053,
+              "end": 1293
+            },
+            {
+              "start": 1294,
+              "end": 1355
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6132803710237003,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "significant role in reducing the thermal conductivity of crystalline regions to 10 W m \u00c01 K \u00c01 or less. One may also consider the effects of bond strength, where the bonding between Si-Si and Si-Ge atom pairs is expected to be significantly stronger than the interactions between Si and Kr (a noble gas). Ratsifaritana and Klemens 70 considered the removal of atomic linkages due to vacancies as being equivalent to a point defect with a factor of 2 mass difference, following the expression from Eq. ( 9), and we take this as an extreme lower limit for the weakened bonding between silicon and krypton. Even considering this extreme limit, concentrations must be on the order of 1% in order to achieve a thermal conductivity reduction to 10 W m \u00c01 K \u00c01 . 61 We again see that significantly higher ion concentrations would be required for us to attribute our thermal conductivity reductions to these effects. \n\nWe next consider the influence of damage to the crystalline lattice structure as induced by displacements and/or cascades. SRIM predicts that up to 40% of atoms may be dislocated as a product of bombardment; however, this should be taken as an upper bound due to the possibility of recombination of selfinterstitials and vacancies during the bombardment process. Furthermore, a level of 30% structural damage can be taken as the threshold for amorphization of crystalline silicon. 7 Taking the effects of mass point defects as an approximate analogy, and without going into depth as to specific types of structural defects present, we note that a 30% concentration of point defects could lead to a thermal conductivity as low as 5 W m \u00c01 K \u00c01 for bulk. This effect is far more significant than either mass or bondstrength scattering effects alone, as the passage of each individual ion can introduce far more structural disorder than would result from the mere presence of the ion itself. We also refer to past studies that have made similar observations; post-annealed ionbombarded samples have seen a near-complete restoration of high thermal conductivity. 17",
+        "snippetKind": "body",
+        "section": "Journal of Applied Physics",
+        "snippetOffset": {
+          "start": 32807,
+          "end": 34879
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 756,
+              "end": 758,
+              "matchedPaperCorpusId": "16679370"
+            },
+            {
+              "start": 1392,
+              "end": 1393,
+              "matchedPaperCorpusId": "122182354"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 103
+            },
+            {
+              "start": 104,
+              "end": 304
+            },
+            {
+              "start": 305,
+              "end": 603
+            },
+            {
+              "start": 604,
+              "end": 758
+            },
+            {
+              "start": 759,
+              "end": 908
+            },
+            {
+              "start": 911,
+              "end": 1033
+            },
+            {
+              "start": 1034,
+              "end": 1273
+            },
+            {
+              "start": 1274,
+              "end": 1393
+            },
+            {
+              "start": 1394,
+              "end": 1663
+            },
+            {
+              "start": 1664,
+              "end": 1899
+            },
+            {
+              "start": 1900,
+              "end": 2072
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.6131841842574057,
+      "paper": {
+        "corpusId": "138400276",
+        "title": "Low-temperature hysteresis of dynamic shear modulus G eff in silicon",
+        "authors": [
+          "B. I. Gutsulyak",
+          "A. V. Oleynich-Lysyuk",
+          "Yu . Fed"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYND",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.15407/SPQEO8.03.025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.15407/SPQEO8.03.025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In so doing, the scheme of possible transformation is as follows [5,12]: \n\nMoreover, one can assume the existence of another type of defects -vacancy sets (VV-sets), as long as in mechanical spectra of irradiated silicon (unlike control samples of the first group), under dynamic thermal cycling, maxima in the region of 180 to 220 \u00baC appear and gain in magnitude. Such defects are typical exactly of VV-clusters in silicon planes (111).",
+        "snippetKind": "body",
+        "section": "Investigation results",
+        "snippetOffset": {
+          "start": 12737,
+          "end": 13174
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 65,
+              "end": 68,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 68,
+              "end": 71,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 72
+            },
+            {
+              "start": 75,
+              "end": 364
+            },
+            {
+              "start": 365,
+              "end": 437
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.609838850584544,
+      "paper": {
+        "corpusId": "119085402",
+        "title": "The role of primary point defects in the degradation of silicon detectors due to hadron and lepton irradiation",
+        "authors": [
+          "Ionel Lazanu",
+          "Sorina Lazanu"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "BRONZE",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/physics/0507058, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The model of kinetics of defects used in the present work has been developed previously by the authors [22]. It describes the formation and evolution of defects in silicon during and after irradiation. \n\nIn the first step of the model, the incident particle interacts with the semiconductor material. The peculiarities of the interaction mechanisms are explicitly considered for each particle and kinetic energy. \n\nIn the second step, the recoil nuclei resulting from these interactions lose their energy in the semiconductor lattice. Their energy partition between displacements and ionization is considered in agreement with Lindhard's theory [23,24]. The kinetic energy dependence of the concentration of primary defects on unit particle fluence (CPD) is thus calculated for each incident particle, and it is used in the evaluation of the generation rate of defects during irradiation. \n\nThe third step is devoted to the study of formation and time evolution of complex defects, associations of primary defects or of primary defects and impurities. The primary point defects considered here are vacancies (as 'classical' vacancies and fourfold coordinated vacancy defect: Si FFCD ) and silicon self-interstitials. \n\nRelated to the Si FFCD defect we supposed that this defect is produced simultaneously with the classical vacancy with a concentration that must be determined, it is uniformly introduced in the bulk during irradiation, has deep energy level(s) in the gap, and is stable in time. In these hypotheses, the reaction of production of primary defects is: \n\nThe primary defects are created at a rate G, sum of contributions from thermal generation and irradiation; the rate of defect production due to irradiation being calculated as: \n\nThe energy dependence of the CPD produced by different incident particles could be found, e.g. in figure 1 of [25]. \n\nApplying the theory for diffusion-limited reactions, the Table 3. The kinetics of defects.",
+        "snippetKind": "body",
+        "section": "Complex defects and their kinetics. Basic model hypothesis and concrete mechanisms",
+        "snippetOffset": {
+          "start": 10199,
+          "end": 12156
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 103,
+              "end": 107,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 645,
+              "end": 649,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 649,
+              "end": 652,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1859,
+              "end": 1863,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 108
+            },
+            {
+              "start": 109,
+              "end": 201
+            },
+            {
+              "start": 204,
+              "end": 300
+            },
+            {
+              "start": 301,
+              "end": 412
+            },
+            {
+              "start": 415,
+              "end": 534
+            },
+            {
+              "start": 535,
+              "end": 653
+            },
+            {
+              "start": 654,
+              "end": 888
+            },
+            {
+              "start": 891,
+              "end": 1051
+            },
+            {
+              "start": 1052,
+              "end": 1216
+            },
+            {
+              "start": 1219,
+              "end": 1496
+            },
+            {
+              "start": 1497,
+              "end": 1567
+            },
+            {
+              "start": 1570,
+              "end": 1746
+            },
+            {
+              "start": 1749,
+              "end": 1864
+            },
+            {
+              "start": 1867,
+              "end": 1932
+            },
+            {
+              "start": 1933,
+              "end": 1957
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

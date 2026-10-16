@@ -1,0 +1,1827 @@
+{
+ "what": "CHD stage-0 on the literature party (2026-09-28)",
+ "chd_version": "2.1.0",
+ "calibrated_setting": "lin|maxinc",
+ "sensitivity_setting": "lin+quad|thr0.8",
+ "row_counts": {
+  "literature_rows_total": 67,
+  "with_kappa": 67,
+  "fit_table_x_T_kappa": 17,
+  "x_table_x_kappa": 42,
+  "missing_T_dropped_from_fit_table": 25,
+  "missing_x_dropped_everywhere": 25,
+  "fit_table_by_sample_group": {
+   "reduced-dim": 2,
+   "bulk": 15
+  },
+  "fit_table_by_method_group": {
+   "measurement": 8,
+   "unclear": 3,
+   "simulation": 6
+  },
+  "x_table_by_sample_group": {
+   "bulk": 33,
+   "reduced-dim": 3,
+   "amorphous": 5,
+   "unclassified": 1
+  },
+  "x_table_by_method_group": {
+   "measurement": 20,
+   "simulation": 19,
+   "unclear": 3
+  },
+  "all_by_system": {
+   "bulk": 35,
+   "nanowire": 10,
+   "amorphous": 7,
+   "nanostructured": 5,
+   "other": 6,
+   "superlattice": 1,
+   "film": 3
+  }
+ },
+ "md_contrast_rows": {
+  "chpc_md_used": 29,
+  "dropped_unparseable": [
+   {
+    "party": "DGX-MD",
+    "snippet_hash": "kappa_x0.15_T300"
+   },
+   {
+    "party": "DGX-MD",
+    "snippet_hash": "kappa_x0.5_T1100"
+   },
+   {
+    "party": "DGX-MD",
+    "snippet_hash": "kappa_x0.5_T300"
+   },
+   {
+    "party": "DGX-MD",
+    "snippet_hash": "kappa_x0.5_T300_L48"
+   }
+  ]
+ },
+ "chd_literature_fit_table": {
+  "xT": {
+   "variables": [
+    "x",
+    "T"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.7693299950198241,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      2,
+      1
+     ],
+     "noise": [
+      0.6856123663436922,
+      0.7693299950198241
+     ],
+     "Z_low": [
+      0.8852628906988217,
+      0.9252587774868237
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.7671995350995667,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      2,
+      1
+     ],
+     "noise": [
+      0.6801452897059524,
+      0.7671995350995667
+     ],
+     "Z_low": [
+      0.8865424031444521,
+      0.9278980177301817
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.9772897118302122,
+      "Z_low": 0.871170478587073,
+      "Z_high": 0.995381784293971,
+      "gamma": 26.763490543696705
+     },
+     "quadratic": {
+      "noise": 0.6856123663436922,
+      "Z_low": 0.8852628906988217,
+      "Z_high": 0.9979081376550495,
+      "gamma": 0.8554472200642599
+     },
+     "gaussian": {
+      "noise": 0.6801452897059524,
+      "Z_low": 0.8865424031444521,
+      "Z_high": 0.997869060169771,
+      "gamma": 1.6949099329225359
+     }
+    },
+    "min_noise": 0.6801452897059524,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "xT+sample": {
+   "variables": [
+    "x",
+    "T",
+    "rdim",
+    "amorph"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "rdim"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8004819119812547,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7215599966623717,
+      0.7685779734480941,
+      0.8004819119812547
+     ],
+     "Z_low": [
+      0.813362738788945,
+      0.8798918465373132,
+      0.9051711776183573
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "rdim",
+     "x"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.7685779734480941,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7215599966623717,
+      0.7685779734480941,
+      0.8004819119812547
+     ],
+     "Z_low": [
+      0.813362738788945,
+      0.8798918465373132,
+      0.9051711776183573
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "rdim"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8004819119812547,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7215599966623717,
+      0.7685779734480941,
+      0.8004819119812547
+     ],
+     "Z_low": [
+      0.813362738788945,
+      0.8798918465373132,
+      0.9051711776183573
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "rdim"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.7215599966623717,
+      "Z_low": 0.813362738788945,
+      "Z_high": 0.9908733662840902,
+      "gamma": 15.919161622271911
+     },
+     "quadratic": {
+      "noise": 0.7578355286446568,
+      "Z_low": 0.8293999530375732,
+      "Z_high": 0.9880630147303399,
+      "gamma": 45.24447535090561
+     },
+     "gaussian": {
+      "noise": 0.724817533019707,
+      "Z_low": 0.8127447573789396,
+      "Z_high": 0.9855689530225987,
+      "gamma": 61.998222435278485
+     }
+    },
+    "min_noise": 0.7215599966623717,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": [
+     "amorph"
+    ]
+   }
+  },
+  "xT+method": {
+   "variables": [
+    "x",
+    "T",
+    "sim"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.7693299950198241,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.6995335567811757,
+      0.7879511970044573,
+      0.7693299950198241
+     ],
+     "Z_low": [
+      0.8370471846745646,
+      0.9327224443437994,
+      0.9258305555641986
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.7671995350995667,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.6899500779937242,
+      0.7882652050673661,
+      0.7671995350995667
+     ],
+     "Z_low": [
+      0.8269935812377763,
+      0.9321755651876245,
+      0.9285549589108621
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "sim"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.9489090524322502,
+      "Z_low": 0.8479905429880363,
+      "Z_high": 0.9871515110810709,
+      "gamma": 32.207038696410066
+     },
+     "quadratic": {
+      "noise": 0.6995335567811757,
+      "Z_low": 0.8370471846745646,
+      "Z_high": 0.9932986945283833,
+      "gamma": 1.1666407643203995
+     },
+     "gaussian": {
+      "noise": 0.6899500779937242,
+      "Z_low": 0.8269935812377763,
+      "Z_high": 0.9923434321613379,
+      "gamma": 2.885665748429988
+     }
+    },
+    "min_noise": 0.6899500779937242,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "xT+sample+method+junk": {
+   "variables": [
+    "x",
+    "T",
+    "rdim",
+    "amorph",
+    "sim",
+    "junk"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "rdim"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8004819119812547,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7108796105693354,
+      0.7130391743286043,
+      0.7667312483082775,
+      0.7841625309267505,
+      0.8004819119812547
+     ],
+     "Z_low": [
+      0.7724585677438451,
+      0.7990996235690333,
+      0.8514131268967251,
+      0.8754320594267839,
+      0.9223478569183661
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "rdim",
+     "sim"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.7938106667153162,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.6006691123568033,
+      0.6921213460057503,
+      0.7313338341672159,
+      0.7938106667153162,
+      0.8176451520423624
+     ],
+     "Z_low": [
+      0.637002538069359,
+      0.7309520445536791,
+      0.8281712394805263,
+      0.8875652061323475,
+      0.9326545575219796
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "T",
+     "junk",
+     "rdim",
+     "sim"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.6425949540648164,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.5397560072432707,
+      0.6425949540648164,
+      0.8615551808918457,
+      0.9101919339763408,
+      0.9621475444601026
+     ],
+     "Z_low": [
+      0.5566648788634934,
+      0.6023928838051315,
+      0.7611035431061719,
+      0.8312112200382923,
+      0.9140684209782123
+     ],
+     "chosen_n_ancestors": 4
+    },
+    "dropped_constant": [
+     "amorph"
+    ]
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "rdim",
+     "sim",
+     "junk"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.7108796105693354,
+      "Z_low": 0.7724585677438451,
+      "Z_high": 0.974670535640501,
+      "gamma": 16.638804241146676
+     },
+     "quadratic": {
+      "noise": 0.6006691123568033,
+      "Z_low": 0.637002538069359,
+      "Z_high": 0.8959147260686007,
+      "gamma": 10.48822680320207
+     },
+     "gaussian": {
+      "noise": 0.5397560072432707,
+      "Z_low": 0.5566648788634934,
+      "Z_high": 0.8380745188912958,
+      "gamma": 18.9409115180764
+     }
+    },
+    "min_noise": 0.5397560072432707,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": [
+     "amorph"
+    ]
+   }
+  }
+ },
+ "chd_literature_x_table": {
+  "x": {
+   "variables": [
+    "x"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.9025615563695422,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      1
+     ],
+     "noise": [
+      0.9025615563695422
+     ],
+     "Z_low": [
+      0.9758900116913706
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.9019178718415642,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      1
+     ],
+     "noise": [
+      0.9019178718415642
+     ],
+     "Z_low": [
+      0.9741464899695738
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.9792884752677906,
+      "Z_low": 0.9734098130775012,
+      "Z_high": 0.9998713992464696,
+      "gamma": 80.61031886448366
+     },
+     "quadratic": {
+      "noise": 0.9025615563695422,
+      "Z_low": 0.9758900116913706,
+      "Z_high": 0.9997087004623508,
+      "gamma": 6.574788520025434
+     },
+     "gaussian": {
+      "noise": 0.9019178718415642,
+      "Z_low": 0.9741464899695738,
+      "Z_high": 0.9992259666860125,
+      "gamma": 10.202365312122591
+     }
+    },
+    "min_noise": 0.9019178718415642,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "x+sample": {
+   "variables": [
+    "x",
+    "rdim",
+    "amorph"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "amorph",
+     "rdim"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.9094734697014603,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8895574329542197,
+      0.9094734697014603,
+      0.959921721764554
+     ],
+     "Z_low": [
+      0.9512783384780981,
+      0.9613195631625068,
+      0.9618703507953041
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "amorph",
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.8592164698825346,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8886793494812061,
+      0.8592164698825346,
+      0.9025615563695422
+     ],
+     "Z_low": [
+      0.9555096290453188,
+      0.9689403659278824,
+      0.9594542521497696
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.9019178718415647,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8543658011983986,
+      0.8548329439481974,
+      0.9019178718415647
+     ],
+     "Z_low": [
+      0.9616348161838799,
+      0.9646538899478422,
+      0.9580717422280555
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "rdim",
+     "amorph"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.8895574329542197,
+      "Z_low": 0.9512783384780981,
+      "Z_high": 0.9985293849586118,
+      "gamma": 65.70247931400155
+     },
+     "quadratic": {
+      "noise": 0.8886793494812061,
+      "Z_low": 0.9555096290453188,
+      "Z_high": 0.9968045869433191,
+      "gamma": 10.090214299640753
+     },
+     "gaussian": {
+      "noise": 0.8543658011983986,
+      "Z_low": 0.9616348161838799,
+      "Z_high": 0.9983418678845117,
+      "gamma": 0.0007914860487588301
+     }
+    },
+    "min_noise": 0.8543658011983986,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "x+method": {
+   "variables": [
+    "x",
+    "sim"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "sim",
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.8918725954636707,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      2,
+      1
+     ],
+     "noise": [
+      0.8918725954636707,
+      0.9025615563695422
+     ],
+     "Z_low": [
+      0.970546443212767,
+      0.9728312265657191
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.9025615563695422,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      2,
+      1
+     ],
+     "noise": [
+      0.8918725954636707,
+      0.9025615563695422
+     ],
+     "Z_low": [
+      0.970546443212767,
+      0.9728312265657191
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "sim"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.9768329368182515,
+      "Z_low": 0.968164989993334,
+      "Z_high": 0.9992200564633296,
+      "gamma": 83.32821508477365
+     },
+     "quadratic": {
+      "noise": 0.8918725954636707,
+      "Z_low": 0.970546443212767,
+      "Z_high": 0.998068618820701,
+      "gamma": 6.66626214996082
+     },
+     "gaussian": {
+      "noise": 0.8921361548901061,
+      "Z_low": 0.9627522065601501,
+      "Z_high": 0.9965919545418787,
+      "gamma": 12.482731554629765
+     }
+    },
+    "min_noise": 0.8918725954636707,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "x+sample+method+junk": {
+   "variables": [
+    "x",
+    "rdim",
+    "amorph",
+    "sim",
+    "junk"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "amorph",
+     "rdim"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.9094734697014603,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8863501002391156,
+      0.8874033687826821,
+      0.8895574329542197,
+      0.9094734697014603,
+      0.959921721764554
+     ],
+     "Z_low": [
+      0.9333775991300033,
+      0.9458428901955388,
+      0.9400652866086089,
+      0.9614537525004002,
+      0.9717192574838313
+     ],
+     "chosen_n_ancestors": 2
+    },
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "amorph",
+     "junk",
+     "rdim",
+     "sim",
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.7949138394709694,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7949138394709694,
+      0.8261544663916541,
+      0.8257636790222829,
+      0.8918725954636707,
+      0.9025615563695422
+     ],
+     "Z_low": [
+      0.8575668614693226,
+      0.8745030994082231,
+      0.9433356382237779,
+      0.9705282450745519,
+      0.9651540987465026
+     ],
+     "chosen_n_ancestors": 5
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.9019178718415647,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.7049176466046785,
+      0.8006784847169519,
+      0.8120975147296521,
+      0.8760365336698058,
+      0.9019178718415647
+     ],
+     "Z_low": [
+      0.7838850441043187,
+      0.8122758457686078,
+      0.8348839777743137,
+      0.86013459557629,
+      0.9644523909627915
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "rdim",
+     "amorph",
+     "sim",
+     "junk"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.8863501002391156,
+      "Z_low": 0.9333775991300033,
+      "Z_high": 0.9921620116461316,
+      "gamma": 67.35701586886061
+     },
+     "quadratic": {
+      "noise": 0.7949138394709694,
+      "Z_low": 0.8575668614693226,
+      "Z_high": 0.9639715737079823,
+      "gamma": 34.89428271563359
+     },
+     "gaussian": {
+      "noise": 0.7049176466046785,
+      "Z_low": 0.7838850441043187,
+      "Z_high": 0.9561383378866464,
+      "gamma": 0.02036859501839455
+     }
+    },
+    "min_noise": 0.7049176466046785,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  }
+ },
+ "chd_md_contrast": {
+  "xTL": {
+   "variables": [
+    "x",
+    "T",
+    "L"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "L"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8977090726753224,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8917563855320197,
+      0.892420273838418,
+      0.8977090726753224
+     ],
+     "Z_low": [
+      0.9132342115479433,
+      0.9308317860596974,
+      0.9490237224692128
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.5904900860659332,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.42364508521710803,
+      0.42747235713802567,
+      0.5904900860659332
+     ],
+     "Z_low": [
+      0.901135709880957,
+      0.9137522429790417,
+      0.9480379494954858
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.5649491620222361,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.14927210008097716,
+      0.2459573250053351,
+      0.5649491620222361
+     ],
+     "Z_low": [
+      0.9012671695508794,
+      0.8856356993443402,
+      0.939807449171981
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "L"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.8917563855320197,
+      "Z_low": 0.9132342115479433,
+      "Z_high": 0.9954207593917752,
+      "gamma": 48.080413809999484
+     },
+     "quadratic": {
+      "noise": 0.42364508521710803,
+      "Z_low": 0.901135709880957,
+      "Z_high": 0.9873307375462617,
+      "gamma": 10.693082321643361
+     },
+     "gaussian": {
+      "noise": 0.14927210008097716,
+      "Z_low": 0.9012671695508794,
+      "Z_high": 0.9902889334785465,
+      "gamma": 0.04112453135692802
+     }
+    },
+    "min_noise": 0.14927210008097716,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "xTL+seed": {
+   "variables": [
+    "x",
+    "T",
+    "L",
+    "seed"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "L"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8977090726753224,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8651952142375479,
+      0.8653283501972151,
+      0.877475311024179,
+      0.8977090726753224
+     ],
+     "Z_low": [
+      0.9002322970825318,
+      0.911968993626057,
+      0.9385892379447411,
+      0.950342951783263
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.5904900860659332,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.4372177395928701,
+      0.42364508521710803,
+      0.42747235713802567,
+      0.5904900860659332
+     ],
+     "Z_low": [
+      0.8566016418185602,
+      0.8974908145488588,
+      0.9245475666841221,
+      0.9553093104488339
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.5649491620222361,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.09678230122920382,
+      0.14927210008098146,
+      0.2459573250053351,
+      0.5649491620222361
+     ],
+     "Z_low": [
+      0.6811180112361562,
+      0.8906236872421062,
+      0.9074416551949502,
+      0.9415388975367593
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "L",
+     "seed"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.8651952142375479,
+      "Z_low": 0.9002322970825318,
+      "Z_high": 0.9915380740749092,
+      "gamma": 48.749346349289596
+     },
+     "quadratic": {
+      "noise": 0.4372177395928701,
+      "Z_low": 0.8566016418185602,
+      "Z_high": 0.9724969853426939,
+      "gamma": 11.33197037663639
+     },
+     "gaussian": {
+      "noise": 0.09678230122920382,
+      "Z_low": 0.6811180112361562,
+      "Z_high": 0.9684481595686397,
+      "gamma": 0.05050623549626583
+     }
+    },
+    "min_noise": 0.09678230122920382,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "all": {
+   "variables": [
+    "x",
+    "T",
+    "L",
+    "seed",
+    "xsec",
+    "swap"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [
+     "L"
+    ],
+    "kernel": "linear",
+    "noise_after_pruning": 0.8977090726753224,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.8434717251355519,
+      0.8434273121539769,
+      0.855450403016343,
+      0.8653283501972151,
+      0.877475311024179,
+      0.8977090726753224
+     ],
+     "Z_low": [
+      0.8625030713547487,
+      0.8844850834049232,
+      0.8974116045696771,
+      0.912606693021289,
+      0.9423088731602289,
+      0.9452636029893562
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "quadratic",
+    "noise_after_pruning": 0.5904900860659332,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.4494484514698668,
+      0.4417569369851504,
+      0.4372177395928701,
+      0.42364508521710803,
+      0.42747235713802567,
+      0.5904900860659332
+     ],
+     "Z_low": [
+      0.8011906284954083,
+      0.8160617326425773,
+      0.8594120028934732,
+      0.9050603601440618,
+      0.9367573823789781,
+      0.9463741016059699
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [
+     "x"
+    ],
+    "kernel": "gaussian",
+    "noise_after_pruning": 0.5649491620222361,
+    "pruning_path": {
+     "node": "logk",
+     "n_ancestors": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+     ],
+     "noise": [
+      0.36315480149449597,
+      0.055218054791973115,
+      0.09678230122920474,
+      0.14927210008098146,
+      0.2459573250053351,
+      0.5649491620222361
+     ],
+     "Z_low": [
+      0.6372507582950354,
+      0.4605925126894539,
+      0.7013284716743035,
+      0.8918304680772732,
+      0.9045975707134225,
+      0.9347353636177258
+     ],
+     "chosen_n_ancestors": 1
+    },
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "x",
+     "T",
+     "L",
+     "seed",
+     "xsec",
+     "swap"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.8434717251355519,
+      "Z_low": 0.8625030713547487,
+      "Z_high": 0.9736205458570459,
+      "gamma": 46.769959808447055
+     },
+     "quadratic": {
+      "noise": 0.4494484514698668,
+      "Z_low": 0.8011906284954083,
+      "Z_high": 0.9445285763662968,
+      "gamma": 8.104355305185994
+     },
+     "gaussian": {
+      "noise": 0.36315480149449597,
+      "Z_low": 0.6372507582950354,
+      "Z_high": 0.8179927514047926,
+      "gamma": 34.534408561766014
+     }
+    },
+    "min_noise": 0.36315480149449597,
+    "min_noise_below_Z_low": true,
+    "dropped_constant": []
+   }
+  },
+  "seed_only": {
+   "variables": [
+    "seed"
+   ],
+   "calibrated": {
+    "setting": "lin|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "sensitivity": {
+    "setting": "lin+quad|thr0.8",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "library_default": {
+    "setting": "lin+quad+gauss|maxinc",
+    "ancestors": [],
+    "kernel": null,
+    "noise_after_pruning": null,
+    "pruning_path": null,
+    "dropped_constant": []
+   },
+   "noise_given_all": {
+    "candidates": [
+     "seed"
+    ],
+    "per_kernel": {
+     "linear": {
+      "noise": 0.9744244141019895,
+      "Z_low": 0.9457412095252288,
+      "Z_high": 0.9992267233513907,
+      "gamma": 55.05212374559756
+     },
+     "quadratic": {
+      "noise": 0.9797736264488996,
+      "Z_low": 0.9499085127622062,
+      "Z_high": 0.9982747570177251,
+      "gamma": 99.17441330617642
+     },
+     "gaussian": {
+      "noise": 0.9784569803530502,
+      "Z_low": 0.9458297417370367,
+      "Z_high": 0.99766524679965,
+      "gamma": 105.68233500032599
+     }
+    },
+    "min_noise": 0.9744244141019895,
+    "min_noise_below_Z_low": false,
+    "dropped_constant": []
+   }
+  }
+ },
+ "fallback_anova": {
+  "fit_table": {
+   "ols_ln_kappa": {
+    "terms": [
+     "1",
+     "x",
+     "x(1-x)",
+     "T/1000"
+    ],
+    "coefs": {
+     "1": 5.799684774553254,
+     "x": -1.7495278855292755,
+     "x(1-x)": -23.25284233473589,
+     "T/1000": -3.014574397482734
+    },
+    "n": 17,
+    "R2": 0.7341622896390391,
+    "residual_sd_ln": 0.9950810258828038
+   },
+   "sample_group": {
+    "group_sizes": {
+     "reduced-dim": 2,
+     "bulk": 15
+    },
+    "group_mean_residual_ln": {
+     "reduced-dim": -0.6861362363456951,
+     "bulk": 0.09148483151275827
+    },
+    "eta2": 0.08289877770157975,
+    "F": 1.3558826826196002,
+    "p": 0.2624384707094321,
+    "groups_in_test": [
+     "reduced-dim",
+     "bulk"
+    ]
+   },
+   "method_group": {
+    "group_sizes": {
+     "measurement": 8,
+     "unclear": 3,
+     "simulation": 6
+    },
+    "group_mean_residual_ln": {
+     "measurement": 0.07287347145727739,
+     "unclear": -0.4919559005019987,
+     "simulation": 0.14881332164129346
+    },
+    "eta2": 0.07002712071722707,
+    "F": 0.5271012262192429,
+    "p": 0.6015780534880909,
+    "groups_in_test": [
+     "measurement",
+     "unclear",
+     "simulation"
+    ]
+   }
+  },
+  "x_table": {
+   "ols_ln_kappa": {
+    "terms": [
+     "1",
+     "x",
+     "x(1-x)"
+    ],
+    "coefs": {
+     "1": 3.4034483882988904,
+     "x": -0.6528949249453637,
+     "x(1-x)": -12.837790387042322
+    },
+    "n": 42,
+    "R2": 0.34748320694267265,
+    "residual_sd_ln": 1.775629527846779
+   },
+   "sample_group": {
+    "group_sizes": {
+     "bulk": 33,
+     "reduced-dim": 3,
+     "amorphous": 5,
+     "unclassified": 1
+    },
+    "group_mean_residual_ln": {
+     "bulk": 0.4507012312482175,
+     "reduced-dim": -0.9067214618379076,
+     "amorphous": -2.4503397929941038,
+     "unclassified": 0.09872271929305265
+    },
+    "eta2": 0.3188016608014998,
+    "F": 8.889758676821419,
+    "p": 0.0006805625479508592,
+    "groups_in_test": [
+     "bulk",
+     "reduced-dim",
+     "amorphous"
+    ]
+   },
+   "method_group": {
+    "group_sizes": {
+     "measurement": 20,
+     "simulation": 19,
+     "unclear": 3
+    },
+    "group_mean_residual_ln": {
+     "measurement": -0.5073087950239957,
+     "simulation": 0.5330957508046809,
+     "unclear": 0.005785545063655769
+    },
+    "eta2": 0.08577458010266799,
+    "F": 1.8295316183506038,
+    "p": 0.17399597658567575,
+    "groups_in_test": [
+     "measurement",
+     "simulation",
+     "unclear"
+    ]
+   }
+  }
+ },
+ "partitions": {
+  "P_sample": {
+   "indicator_vars": [
+    "rdim",
+    "amorph"
+   ],
+   "group_key": "sample_group",
+   "n_nonreference_rows_fit_table": 2,
+   "C1_table_used": "x_table",
+   "C1_calibrated_ancestors": [
+    "amorph",
+    "rdim"
+   ],
+   "C1_pass": true,
+   "scopes": {
+    "bulk": {
+     "n_rows": 15,
+     "row_ids": [
+      "6e1177603b7c3b1227b8494edb97d3f4e21743fc286c035f034304c3fd975b65",
+      "8d1b185503168e8fe40b2780ccad2eed185a2f9baeb6cb9433fe613750ea6041",
+      "306a798c013afd401faa17c2f44bd9105e989c94c1976a33ed6d8de2e0f2b6b4",
+      "80bfe9271151d8d4f8befd30c8ce8b3254672a06dda52f67758eaf95e84611e1",
+      "4206466f741957d283faa44fbc04408fe4576d8a0e0e3d7c07456293f13947f5",
+      "d5607cddcc9f7a00caf191647b5e97b0888cedab06095af6dbae5335856ecd4b",
+      "55d5eab7545d876cab6c51ab02ca0b5c787c55cd4e8d2ddeac1504e8a7ab4007",
+      "32c2092f4c39675e6026beb99e500867f806df95d62b70f4486add1cd9119dbb",
+      "c284dcf558f4e5483efbce3d237529839362e123f0d2cdab7296de14887e7dd6",
+      "c5d4667a2c4369eaa881ff7fdc94bd1ba25cbfa6d806062f4843c29dd3097bce",
+      "dbb06d9ce4fe34b61db4a4ee4dedfdb9129382039f53caf65abd38499f577c7a",
+      "50ba28326e043dc31ad9405245ad926e6eaa4ac8ab0360bb65441f530bf04379",
+      "3524a8ecb1cf840e9a79832353962107a7f067400b18445b359f630d1eb7197c",
+      "4b73fc84aed6a86e87defbec09dd0752c7171ae206a7d46f3c75fae5710ed9b5",
+      "dc496f0467d556f575b20755157d61a3983b45f17c90900b03b5a2b7b68a4505"
+     ],
+     "engines": {
+      "hgsr": {
+       "law": "kappa = 1/r, r = 0.05132*1",
+       "complexity": 1,
+       "in_sample": {
+        "medape_pct": 87.01022666069451,
+        "rmse_kappa": 132.85513855003296,
+        "n_invalid_pred": 0,
+        "n": 15
+       },
+       "cv_own_scope": {
+        "medape_pct": 67.044920794583,
+        "rmse_kappa": 109.75577248823532,
+        "n_invalid_pred": 0,
+        "n": 15
+       },
+       "cv_pooled_law_same_rows": {
+        "medape_pct": 100.0,
+        "rmse_kappa": 131.3519660062466,
+        "n_invalid_pred": 8,
+        "n": 15
+       },
+       "cv_gain_pts": 32.95507920541699
+      },
+      "minisr-pooled": {
+       "law": "kappa = 1/r, r = 0.5898*x + 4.924e-05*T + -0.5407*x^2",
+       "complexity": 4,
+       "in_sample": {
+        "medape_pct": 61.09293189418866,
+        "rmse_kappa": 106.94938941746955,
+        "n_invalid_pred": 0,
+        "n": 15
+       },
+       "cv_own_scope": {
+        "medape_pct": 60.919261516952915,
+        "rmse_kappa": 107.02110315604313,
+        "n_invalid_pred": 0,
+        "n": 15
+       },
+       "cv_pooled_law_same_rows": {
+        "medape_pct": 100.0,
+        "rmse_kappa": 130.193189594323,
+        "n_invalid_pred": 8,
+        "n": 15
+       },
+       "cv_gain_pts": 39.080738483047085
+      }
+     }
+    },
+    "reduced-dim": {
+     "n_rows": 2,
+     "row_ids": [
+      "6ac928727da168a8cf029501729e74f740d7c36fb9b151b5e2e54d37b0058cfc",
+      "ace35dff48766ef6cdbaa8d0825ab1d00c248a3df393a3ebaa827f92fffc7f3d"
+     ],
+     "law": "REFUSED: 2 < MIN_POINTS=12",
+     "pooled_cv_on_these_rows": {
+      "hgsr": {
+       "medape_pct": 1584.8391445879563,
+       "rmse_kappa": 18.18909194747257,
+       "n_invalid_pred": 0,
+       "n": 2
+      },
+      "minisr-pooled": {
+       "medape_pct": 684.0909090913761,
+       "rmse_kappa": 7.850159234059152,
+       "n_invalid_pred": 0,
+       "n": 2
+      }
+     }
+    }
+   },
+   "fittable_scopes": [
+    "bulk"
+   ],
+   "pooled_cv_all_rows": {
+    "hgsr": {
+     "medape_pct": 100.0,
+     "rmse_kappa": 123.54131738894665,
+     "n_invalid_pred": 8,
+     "n": 17
+    },
+    "minisr-pooled": {
+     "medape_pct": 100.0,
+     "rmse_kappa": 122.32484458608084,
+     "n_invalid_pred": 8,
+     "n": 17
+    }
+   },
+   "pooled_full_fit": {
+    "hgsr": "kappa = 1/r, r = 3.846*x + -3.782*x^2",
+    "minisr-pooled": "kappa = 1/r, r = 3.846*x + -3.782*x^2"
+   },
+   "C2_pass": true,
+   "mean_cv_gain_pts": 36.01790884423204,
+   "adopted": true
+  },
+  "P_method": {
+   "indicator_vars": [
+    "sim"
+   ],
+   "group_key": "method_group",
+   "n_nonreference_rows_fit_table": 6,
+   "C1_table_used": "fit_table",
+   "C1_calibrated_ancestors": [
+    "rdim"
+   ],
+   "C1_pass": false,
+   "scopes": {
+    "measurement": {
+     "n_rows": 8,
+     "row_ids": [
+      "6ac928727da168a8cf029501729e74f740d7c36fb9b151b5e2e54d37b0058cfc",
+      "6e1177603b7c3b1227b8494edb97d3f4e21743fc286c035f034304c3fd975b65",
+      "ace35dff48766ef6cdbaa8d0825ab1d00c248a3df393a3ebaa827f92fffc7f3d",
+      "4206466f741957d283faa44fbc04408fe4576d8a0e0e3d7c07456293f13947f5",
+      "d5607cddcc9f7a00caf191647b5e97b0888cedab06095af6dbae5335856ecd4b",
+      "55d5eab7545d876cab6c51ab02ca0b5c787c55cd4e8d2ddeac1504e8a7ab4007",
+      "dbb06d9ce4fe34b61db4a4ee4dedfdb9129382039f53caf65abd38499f577c7a",
+      "50ba28326e043dc31ad9405245ad926e6eaa4ac8ab0360bb65441f530bf04379"
+     ],
+     "law": "REFUSED: 8 < MIN_POINTS=12",
+     "pooled_cv_on_these_rows": {
+      "hgsr": {
+       "medape_pct": 100.0,
+       "rmse_kappa": 94.9734740149501,
+       "n_invalid_pred": 5,
+       "n": 8
+      },
+      "minisr-pooled": {
+       "medape_pct": 100.0,
+       "rmse_kappa": 94.61847731812229,
+       "n_invalid_pred": 5,
+       "n": 8
+      }
+     }
+    },
+    "simulation": {
+     "n_rows": 6,
+     "row_ids": [
+      "32c2092f4c39675e6026beb99e500867f806df95d62b70f4486add1cd9119dbb",
+      "c284dcf558f4e5483efbce3d237529839362e123f0d2cdab7296de14887e7dd6",
+      "c5d4667a2c4369eaa881ff7fdc94bd1ba25cbfa6d806062f4843c29dd3097bce",
+      "3524a8ecb1cf840e9a79832353962107a7f067400b18445b359f630d1eb7197c",
+      "4b73fc84aed6a86e87defbec09dd0752c7171ae206a7d46f3c75fae5710ed9b5",
+      "dc496f0467d556f575b20755157d61a3983b45f17c90900b03b5a2b7b68a4505"
+     ],
+     "law": "REFUSED: 6 < MIN_POINTS=12",
+     "pooled_cv_on_these_rows": {
+      "hgsr": {
+       "medape_pct": 85.46192142088056,
+       "rmse_kappa": 175.23290595206493,
+       "n_invalid_pred": 2,
+       "n": 6
+      },
+      "minisr-pooled": {
+       "medape_pct": 78.68115449424984,
+       "rmse_kappa": 173.05747726116377,
+       "n_invalid_pred": 2,
+       "n": 6
+      }
+     }
+    },
+    "unclear": {
+     "n_rows": 3,
+     "row_ids": [
+      "8d1b185503168e8fe40b2780ccad2eed185a2f9baeb6cb9433fe613750ea6041",
+      "306a798c013afd401faa17c2f44bd9105e989c94c1976a33ed6d8de2e0f2b6b4",
+      "80bfe9271151d8d4f8befd30c8ce8b3254672a06dda52f67758eaf95e84611e1"
+     ],
+     "law": "REFUSED: 3 < MIN_POINTS=12",
+     "pooled_cv_on_these_rows": {
+      "hgsr": {
+       "medape_pct": 100.0,
+       "rmse_kappa": 31.951299583173064,
+       "n_invalid_pred": 1,
+       "n": 3
+      },
+      "minisr-pooled": {
+       "medape_pct": 100.0,
+       "rmse_kappa": 31.951299583171366,
+       "n_invalid_pred": 1,
+       "n": 3
+      }
+     }
+    }
+   },
+   "fittable_scopes": [],
+   "pooled_cv_all_rows": {
+    "hgsr": {
+     "medape_pct": 100.0,
+     "rmse_kappa": 123.54131738894665,
+     "n_invalid_pred": 8,
+     "n": 17
+    },
+    "minisr-pooled": {
+     "medape_pct": 100.0,
+     "rmse_kappa": 122.32484458608084,
+     "n_invalid_pred": 8,
+     "n": 17
+    }
+   },
+   "pooled_full_fit": {
+    "hgsr": "kappa = 1/r, r = 3.846*x + -3.782*x^2",
+    "minisr-pooled": "kappa = 1/r, r = 3.846*x + -3.782*x^2"
+   },
+   "C2_pass": false,
+   "mean_cv_gain_pts": null,
+   "adopted": false
+  }
+ }
+}

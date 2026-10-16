@@ -1,0 +1,7 @@
+<Tsweep>
+  <H5repository root_directory="."/>
+  <compound directory="h5" base="Si0.3Ge0.7" gridA="24" gridB="24" gridC="24"/>
+  <sweep type="lin" start="300" stop="1100" points="3"/>
+  <fullBTE iterative="true"/>
+  <target directory="out" file="AUTO"/>
+</Tsweep>

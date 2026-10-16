@@ -1,0 +1,124 @@
+{
+  "fault_campaign": {
+    "tag": "fault",
+    "n_rows": 50,
+    "selected_law": {
+      "terms": [
+        "1",
+        "T",
+        "x(1-x)",
+        "1/T"
+      ],
+      "coefs": [
+        -0.01094523,
+        1.364e-05,
+        0.05832778,
+        3.16543233
+      ],
+      "mse": 1.3499503368133202e-06
+    },
+    "term_front_frequency": {
+      "x": 0.6666666666666666,
+      "T": 0.8333333333333334,
+      "x^2": 0.6666666666666666,
+      "1": 0.25,
+      "x(1-x)": 0.25,
+      "1/T": 0.3333333333333333,
+      "x(1-x)*T": 0.08333333333333333
+    },
+    "batch_offsets": {
+      "B1": 0.099,
+      "B2": 0.0827,
+      "B3": -0.2541,
+      "B4": 0.1015,
+      "B5": 0.0756
+    },
+    "high_priority_regimes": {
+      "x0T1": 0.805,
+      "x3T0": 0.584,
+      "x3T3": 0.543,
+      "x0T3": 0.593
+    },
+    "transversal": {
+      "greedy": [
+        "x4T4",
+        "x1T3"
+      ],
+      "greedy_size": 2,
+      "exact_min_size": 2
+    },
+    "forget_ops": [
+      {
+        "batch": "B3",
+        "z": 31.57,
+        "n_removed": 10
+      }
+    ],
+    "scope_limited_above_1000K": true,
+    "verification": {
+      "same_terms": true,
+      "max_coef_delta": 0.0,
+      "ledger_chain_valid": true
+    },
+    "ledger_entries": 16,
+    "ledger_chain_valid": true
+  },
+  "null_campaign": {
+    "tag": "null",
+    "n_rows": 50,
+    "selected_law": {
+      "terms": [
+        "1",
+        "T",
+        "x(1-x)",
+        "1/T"
+      ],
+      "coefs": [
+        -0.01149367,
+        1.368e-05,
+        0.05908639,
+        3.40235318
+      ],
+      "mse": 1.2782949582818754e-06
+    },
+    "term_front_frequency": {
+      "x": 0.4166666666666667,
+      "T": 1.0,
+      "x^2": 0.4166666666666667,
+      "1": 0.8333333333333334,
+      "x(1-x)": 0.5833333333333334,
+      "1/T": 0.5833333333333334
+    },
+    "batch_offsets": {
+      "B1": -0.0111,
+      "B2": -0.0251,
+      "B3": 0.0171,
+      "B4": 0.0278,
+      "B5": -0.0095
+    },
+    "high_priority_regimes": {
+      "x4T1": 0.847,
+      "x0T3": 0.6
+    },
+    "transversal": {
+      "greedy": [
+        "x1T3"
+      ],
+      "greedy_size": 1,
+      "exact_min_size": 1
+    },
+    "forget_ops": [],
+    "scope_limited_above_1000K": false,
+    "verification": null,
+    "ledger_entries": 13,
+    "ledger_chain_valid": true
+  },
+  "checks": {
+    "fault_batch_caught": true,
+    "no_extra_forgets": true,
+    "anomaly_scope_limited_not_forgotten": true,
+    "null_no_forgets": true,
+    "forget_verified_exact": true,
+    "greedy_transversal_optimal": true
+  }
+}

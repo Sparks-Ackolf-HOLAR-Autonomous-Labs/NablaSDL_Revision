@@ -1,0 +1,22 @@
+{
+ "He_Si_40keV": {
+  "ions_stopped": 19821,
+  "Rp_nm": 388.5,
+  "dRp_nm": 105.2
+ },
+ "He_Si0.8Ge0.2_40keV": {
+  "ions_stopped": 19656,
+  "Rp_nm": 352.3,
+  "dRp_nm": 110.9
+ },
+ "C_Si0.8Ge0.2_40keV": {
+  "ions_stopped": 19458,
+  "Rp_nm": 126.0,
+  "dRp_nm": 51.1
+ },
+ "Kr_Si_500keV": {
+  "ions_stopped": 20000,
+  "Rp_nm": 286.5,
+  "dRp_nm": 81.2
+ }
+}

@@ -1,0 +1,2337 @@
+{
+ "agreement": "two estimates agree when |a-b| <= 2*sqrt(sa^2+sb^2) + 0.10*(a+b)/2",
+ "campaign": "gpumd-gk300-level-2026-10-07",
+ "cost_estimate": "scaled from ledger-100 timing (15 min per 8192 atoms x 5 ns on H100): 8^3 runs about 15 min, 12^3 about 50 min, 16^3 about 2 h on H100, roughly twice on A40. K1 (38 runs) about 22 H100-hours; K2 (24 runs) 6 (box 8) or 20 (box 12) H100-hours",
+ "decision_rule": {
+  "fail": "any gate fails: the 300 K level stays carried from 700-1100 K; the K1 values are recorded as evidence about the equilibrium estimator; no factor change",
+  "not_affected": "the 700-1100 K level (1.281), the law's composition shape outside 300 K, all SiGeC and SiC claims",
+  "pass": "rho300(x) = kappa_GK(x, 300 K at box*) / kappa_law(x, 300) over x = 0.15, 0.2, 0.3, 0.5, 0.7, 0.85 (each needs a qualifying point; if fewer than 5 qualify, branch fail). Let m = median rho300, cv = stdev/mean. (a) cv <= 0.15 and |m/1.281 - 1| <= 0.10: strengthen the ledger-90 level correction at 300 K and lift the 'carried' label. (b) cv <= 0.15 and |m/1.281 - 1| > 0.10: correct, a temperature-dependent level: factor m at 300 K and 1.281 at 700-1100 K, linear in T between 300 and 700 K, scope label 'level from equilibrium GK at 300 K and HNEMD at 700-1100 K, shape from rNEMD'. (c) cv > 0.15: downweight the law's composition shape at 300 K (scope label 'composition shape at 300 K disagrees with equilibrium GK'); no refit in this registration"
+ },
+ "gates": {
+  "G_conv": "at x = 0.15 and 0.85, the 12^3 point agrees with the 16^3 point",
+  "G_meth": "the GK point at x = 0.5, 700 K, 8^3 agrees with the size-free HNEMD reference (1.8656 +/- 0.1381 W/mK)",
+  "G_plat": "for every K1 point, the seed-mean running conductivity averaged over 75-100 ps agrees with that over 50-75 ps (same agreement rule, SE from seeds)",
+  "box_star": "if G_plat, G_meth and G_conv pass: box* = 8 if the 8^3 point also agrees with the 16^3 point at both x, else box* = 12. If any gate fails: no box*, K2 is not run"
+ },
+ "hnemd_reference_700K": {
+  "T": 700,
+  "kappa": 1.8656,
+  "se": 0.1381,
+  "source": "gpumd/sizefree/analysis_sizefree.json (ledger 87-90), 8x8x8, size-free HNEMD",
+  "x": 0.5
+ },
+ "law": "kappa_law(x, T) = 1 / (0.2092492 + 1.9190900 x - 2.2443438 x^2 + 8.352241e-5 T) (phase_c/final_law/final_law.json)",
+ "level_factor_carried": 1.281,
+ "n_runs_K1": 38,
+ "n_runs_K2_per_box": 24,
+ "paper": "P1 (law level at 300 K); P2 (a third follow-up purchase on a gap two registered rules left open, with a change of estimator fixed before the data)",
+ "parent": "gpumd-sizefree-check300-2026-10-04 (ledger 91, 96-98) and gpumd-sizefree-level300-2026-10-04 (ledger 99-102): both scope_limit, 300 K level carried from 700-1100 K",
+ "point_rule": "an (x, T, box) point needs >= 3 passing runs (>= 2 for 16^3); estimate = seed mean of kappa_run, SE = seed standard deviation / sqrt(n)",
+ "predictions": {
+  "PrK1": "G_meth passes: GK and HNEMD agree at x = 0.5, 700 K",
+  "PrK2": "G_plat and G_conv pass, with box* = 12",
+  "PrK3": "kappa_GK(x = 0.15, 300 K, box*) >= 4.60 W/mK (the largest HNEMD value recorded at ledger 101, which was still rising with box length)",
+  "PrK4": "branch (b) with m > 1.281"
+ },
+ "protocol": {
+  "engine": "GPUMD (CHPC build, gpumd_v2/GPUMD), equilibrium MD, compute_hac",
+  "kappa_run": "hac.out running conductivity columns: kx = kxi + kxo, ky = kyi + kyo, kz; kappa_run(t) = (kx + ky + kz) / 3",
+  "placement": "execution detail: grn061 (granite sparks-gpu-grn, H100) when no sparks-partition job runs there, otherwise notchpeak-gpu-guest A40 (--gres=gpu:a40:1); moving between them needs only a placement note",
+  "preemption": "requeue, restart from scratch with the same seed (declared, not a deviation)",
+  "readout": "kappa_run = mean of kappa_run(t) over the window 50-100 ps",
+  "run_in": "npt_ber 100 ps, nvt_nhc 50 ps, then nve with compute_hac 10 10000 10 for 10 ns, dump_thermo 10000, time step 1 fs (HAC sampled every 10 fs to 100 ps correlation time)",
+  "stage_order": [
+   "K1",
+   "K2-box<box*> (only the box K1 selects is built and run)"
+  ]
+ },
+ "question": "What is the box-converged equilibrium Green-Kubo 300 K conductivity of Tersoff-1989 SiGe across x = 0.15-0.85, and does its level agree with the factor 1.281 carried from 700-1100 K?",
+ "run_gates": "R1: exit 0 and hac.out has 1000 rows; R2: mean NVE temperature within 3% of target (all thermo.out rows; dump_thermo covers only the NVE production); R3: 0 < kappa_run < 2000 W/mK",
+ "runs": [
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59005,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59005",
+   "seed": 59005,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59006,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_8c_s59006",
+   "seed": 59006,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59005,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59005",
+   "seed": 59005,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59006,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_12c_s59006",
+   "seed": 59006,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_16c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_16c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_16c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4657,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.15_T300_16c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.15
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59005,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59005",
+   "seed": 59005,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "size",
+   "config_seed": 59006,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_8c_s59006",
+   "seed": 59006,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59005,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59005",
+   "seed": 59005,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "size",
+   "config_seed": 59006,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_12c_s59006",
+   "seed": 59006,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59001,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_16c_s59001",
+   "seed": 59001,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59002,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_16c_s59002",
+   "seed": 59002,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59003,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_16c_s59003",
+   "seed": 59003,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.6233,
+   "cells": [
+    16,
+    16,
+    16
+   ],
+   "check": "size",
+   "config_seed": 59004,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 32768,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.85_T300_16c_s59004",
+   "seed": 59004,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.85
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59101,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59101",
+   "seed": 59101,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59102,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59102",
+   "seed": 59102,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59103,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59103",
+   "seed": 59103,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59104,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59104",
+   "seed": 59104,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59105,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59105",
+   "seed": 59105,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 700,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "method",
+   "config_seed": 59106,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T700_8c_s59106",
+   "seed": 59106,
+   "stage": "K1",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59201",
+   "seed": 59201,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59202",
+   "seed": 59202,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59203",
+   "seed": 59203,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59204",
+   "seed": 59204,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59205",
+   "seed": 59205,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_8c_s59206",
+   "seed": 59206,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59201",
+   "seed": 59201,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59202",
+   "seed": 59202,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59203",
+   "seed": 59203,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59204",
+   "seed": 59204,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59205",
+   "seed": 59205,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_8c_s59206",
+   "seed": 59206,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59201",
+   "seed": 59201,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59202",
+   "seed": 59202,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59203",
+   "seed": 59203,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59204",
+   "seed": 59204,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59205",
+   "seed": 59205,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_8c_s59206",
+   "seed": 59206,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59201",
+   "seed": 59201,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59202",
+   "seed": 59202,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59203",
+   "seed": 59203,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59204",
+   "seed": 59204,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59205",
+   "seed": 59205,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    8,
+    8,
+    8
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 8,
+   "n_atoms": 4096,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_8c_s59206",
+   "seed": 59206,
+   "stage": "K2-box8",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59201",
+   "seed": 59201,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59202",
+   "seed": 59202,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59203",
+   "seed": 59203,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59204",
+   "seed": 59204,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59205",
+   "seed": 59205,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.477,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.2_T300_12c_s59206",
+   "seed": 59206,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.2
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59201",
+   "seed": 59201,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59202",
+   "seed": 59202,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59203",
+   "seed": 59203,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59204",
+   "seed": 59204,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59205",
+   "seed": 59205,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.4995,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.3_T300_12c_s59206",
+   "seed": 59206,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.3
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59201",
+   "seed": 59201,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59202",
+   "seed": 59202,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59203",
+   "seed": 59203,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59204",
+   "seed": 59204,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59205",
+   "seed": 59205,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5445,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.5_T300_12c_s59206",
+   "seed": 59206,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.5
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59201,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59201",
+   "seed": 59201,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59202,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59202",
+   "seed": 59202,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59203,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59203",
+   "seed": 59203,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59204,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59204",
+   "seed": 59204,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59205,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59205",
+   "seed": 59205,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  },
+  {
+   "T_K": 300,
+   "a0_A": 5.5895,
+   "cells": [
+    12,
+    12,
+    12
+   ],
+   "check": "main",
+   "config_seed": 59206,
+   "estimator": "EMD Green-Kubo",
+   "hac": {
+    "Nc": 10000,
+    "output_interval": 10,
+    "sample_interval_steps": 10
+   },
+   "in_law_domain": true,
+   "k2_box": 12,
+   "n_atoms": 13824,
+   "potential": "/uufs/chpc.utah.edu/common/home/u1496771/mat_theory/gpumd_v2/GPUMD/potentials/tersoff/SiGe_Tersoff_1989.txt",
+   "production_ns": 10.0,
+   "run_id": "GK_x0.7_T300_12c_s59206",
+   "seed": 59206,
+   "stage": "K2-box12",
+   "system": "SiGe",
+   "x_ge": 0.7
+  }
+ ],
+ "why": "ledger 101: in Tersoff SiGe at 300 K the longest HNEMD cells (48x8x8) ran away or failed the drift gate, so no box length could be selected. The reading recorded there was that long-wavelength modes respond nonlinearly to the driving force. Equilibrium Green-Kubo measures the same conductivity from heat-current fluctuations with no driving force."
+}

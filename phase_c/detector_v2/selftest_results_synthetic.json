@@ -1,0 +1,2418 @@
+{
+ "detector": "v2",
+ "clean_campaign": {
+  "ops": [
+   {
+    "op": "split",
+    "layer": "structure",
+    "target_runs": [
+     "N2_z24",
+     "N2_z48",
+     "N2_z96",
+     "N3_z24",
+     "N3_z48",
+     "N3_z96"
+    ],
+    "reason": "bond-angle spread >= 10.0 deg: not the tetrahedral crystal the law describes (other phase, separate scope)"
+   },
+   {
+    "op": "scope-limit",
+    "layer": "domain",
+    "target_runs": [
+     "C36_z24",
+     "C36_z48",
+     "C36_z96",
+     "C37_z24",
+     "C37_z48",
+     "C37_z96",
+     "C38_z24",
+     "C38_z48",
+     "C38_z96"
+    ],
+    "reason": "x > 0.9: outside the declared law domain (ledger seq 29)"
+   },
+   {
+    "op": "scope-limit",
+    "layer": "physics",
+    "target_runs": [
+     "C30_z24",
+     "C30_z48",
+     "C30_z96",
+     "N0_z24",
+     "N0_z48",
+     "N0_z96",
+     "N1_z24",
+     "N1_z48",
+     "N1_z96"
+    ],
+    "reason": "T >= 0.85 T_solidus: premelting band of the real alloy, crystalline Tersoff MD outside its validity"
+   },
+   {
+    "op": "scope-limit",
+    "layer": "statistical",
+    "target_regime": "x0T0",
+    "target_runs": [
+     "C00_z24",
+     "C00_z48",
+     "C00_z96",
+     "C01_z24",
+     "C01_z48",
+     "C01_z96"
+    ],
+    "reason": "regime-coherent deviation z=5.9 across 2 batches: world richer than the law; keep data, narrow the claim"
+   }
+  ],
+  "flags": [],
+  "law": {
+   "terms": [
+    "x(1-x)",
+    "x",
+    "t",
+    "x(1-x)t"
+   ],
+   "coef": [
+    -0.0020168797829325604,
+    3.5458092389689226,
+    -0.34894531508823556,
+    0.35590237714040235,
+    -1.5615178669270577
+   ],
+   "bic": -228.4653739926591,
+   "cov": [
+    [
+     0.0029071364743862987,
+     -0.014515320544870087,
+     -8.836042680634622e-06,
+     -0.004038010459923192,
+     0.01998552433554332
+    ],
+    [
+     -0.01451532054487017,
+     0.08635634847910936,
+     -0.0018717940813623667,
+     0.020485322114991263,
+     -0.11263791759379244
+    ],
+    [
+     -8.836042680628783e-06,
+     -0.001871794081362391,
+     0.0006374100903071665,
+     -0.00017917825219096312,
+     0.0013995611724757898
+    ],
+    [
+     -0.0040380104599232166,
+     0.020485322114991274,
+     -0.00017917825219095564,
+     0.006718486059229568,
+     -0.03301440531159112
+    ],
+    [
+     0.01998552433554349,
+     -0.11263791759379273,
+     0.0013995611724757508,
+     -0.03301440531159118,
+     0.17570594332755488
+    ]
+   ]
+  },
+  "n_points": 36,
+  "n_good": 36
+ },
+ "entries": {
+  "NULL": {
+   "summary": {
+    "category": "null",
+    "expected": "retain",
+    "detected_rate": 0.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 0.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {}
+   },
+   "trials": [
+    {
+     "detected": false,
+     "ops_on_affected": [],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": null,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 0,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": false,
+     "ops_on_affected": [],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": null,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 1,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": false,
+     "ops_on_affected": [],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": null,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 2,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P01": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "quarantine",
+    "detected_rate": 1.0,
+    "A": {
+     "wrong-op": 1,
+     "partial": 2
+    },
+    "B": {
+     "partial": 3
+    },
+    "trials_with_collateral": 2,
+    "detected_rate_adj": 0.6666666666666666,
+    "A_adj": {
+     "miss": 1,
+     "hit": 2
+    },
+    "B_adj": {
+     "miss": 1,
+     "hit": 2
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "scope-limit": 3,
+     "split": 1,
+     "quarantine": 2
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit",
+      "split"
+     ],
+     "outcome_A": "wrong-op",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.0852532444662456,
+     "detected_adj": false,
+     "outcome_A_adj": "miss",
+     "outcome_B_adj": "miss",
+     "collateral_adj": [],
+     "trial_seed": 1000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6189135159850665,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 1001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [],
+     "severity_u": 0.6652308463498163,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 1002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "P02": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "correct",
+    "detected_rate": 1.0,
+    "A": {
+     "partial": 3
+    },
+    "B": {
+     "forbidden-op": 3
+    },
+    "trials_with_collateral": 1,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "quarantine": 2,
+     "scope-limit": 3,
+     "correct": 1,
+     "split": 1
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "forbidden-op",
+     "collateral": [],
+     "severity_u": 0.33808957533646633,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 2000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "forbidden-op",
+     "collateral": [],
+     "severity_u": 0.1758429651559127,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 2001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit",
+      "split"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "forbidden-op",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.8656580349957259,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 2002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "correct",
+       "statistical",
+       21
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P03": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "correct",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "correct": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.38713143292594365,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 3000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.2320091222926024,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 3001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.6139753876491736,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 3002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P04": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "correct",
+    "detected_rate": 1.0,
+    "A": {
+     "partial": 2,
+     "hit": 1
+    },
+    "B": {
+     "partial": 2,
+     "hit": 1
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "correct": 3,
+     "split": 1,
+     "scope-limit": 1
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "split"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.4920025354777008,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 4000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.09784895826272344,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 4001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.19010140893426464,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 4002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P05": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "correct",
+    "detected_rate": 1.0,
+    "A": {
+     "partial": 3
+    },
+    "B": {
+     "partial": 3
+    },
+    "trials_with_collateral": 2,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "correct": 3,
+     "scope-limit": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [],
+     "severity_u": 0.45664226437130795,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 5000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       27
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6059976214139547,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 5001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       27
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6766785037178638,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 5002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       27
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P06": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "forget",
+    "detected_rate": 1.0,
+    "A": {
+     "partial": 2,
+     "hit": 1
+    },
+    "B": {
+     "partial": 2,
+     "hit": 1
+    },
+    "trials_with_collateral": 2,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "partial": 2,
+     "hit": 1
+    },
+    "B_adj": {
+     "partial": 2,
+     "hit": 1
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "forget": 3,
+     "scope-limit": 2,
+     "split": 1
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "forget",
+      "scope-limit",
+      "split"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.47142604161345103,
+     "detected_adj": true,
+     "outcome_A_adj": "partial",
+     "outcome_B_adj": "partial",
+     "collateral_adj": [],
+     "trial_seed": 6000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       9
+      ],
+      [
+       "scope-limit",
+       "domain",
+       10
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "forget",
+       "statistical",
+       16
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "forget"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.5185923637046136,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 6001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "forget",
+       "statistical",
+       16
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "forget",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [],
+     "severity_u": 0.5364990422800571,
+     "detected_adj": true,
+     "outcome_A_adj": "partial",
+     "outcome_B_adj": "partial",
+     "collateral_adj": [],
+     "trial_seed": 6002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       11
+      ],
+      [
+       "scope-limit",
+       "physics",
+       11
+      ],
+      [
+       "forget",
+       "statistical",
+       13
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P07": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "forget",
+    "detected_rate": 1.0,
+    "A": {
+     "partial": 2,
+     "hit": 1
+    },
+    "B": {
+     "partial": 2,
+     "hit": 1
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "quarantine": 3,
+     "scope-limit": 2,
+     "split": 1
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit",
+      "split"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.593872398336783,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 7000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.4536878955426896,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 7001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       21
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "quarantine"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.9584087466970517,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 7002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       24
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "P08": {
+   "summary": {
+    "category": "planted-error",
+    "expected": "correct",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 1,
+     "partial": 2
+    },
+    "B": {
+     "hit": 1,
+     "partial": 2
+    },
+    "trials_with_collateral": 2,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 2,
+     "partial": 1
+    },
+    "B_adj": {
+     "hit": 2,
+     "partial": 1
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "correct": 3,
+     "quarantine": 1,
+     "scope-limit": 2,
+     "split": 1
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "quarantine"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.044934540436140535,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 8000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "quarantine",
+       "statistical",
+       3
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit",
+      "split"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [],
+     "severity_u": 0.3812361733539359,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 8001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "correct",
+      "scope-limit"
+     ],
+     "outcome_A": "partial",
+     "outcome_B": "partial",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.23892012419431552,
+     "detected_adj": true,
+     "outcome_A_adj": "partial",
+     "outcome_B_adj": "partial",
+     "collateral_adj": [],
+     "trial_seed": 8002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "correct",
+       "structure",
+       3
+      ],
+      [
+       "scope-limit",
+       "domain",
+       15
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "M01": {
+   "summary": {
+    "category": "method-off-data",
+    "expected": "scope-limit",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "scope-limit": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6985094528878081,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 9000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       12
+      ],
+      [
+       "scope-limit",
+       "physics",
+       24
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6292982699081971,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 9001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       12
+      ],
+      [
+       "scope-limit",
+       "physics",
+       24
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.76750584319054,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 9002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       18
+      ],
+      [
+       "scope-limit",
+       "physics",
+       21
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "M02": {
+   "summary": {
+    "category": "method-off-data",
+    "expected": "split",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 1.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 1,
+    "ops_seen": {
+     "split": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.04353962588408822,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 10000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       9
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.3178908482879862,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 10001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       15
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.20603494718773885,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [
+      "scope-limit"
+     ],
+     "trial_seed": 10002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       15
+      ],
+      [
+       "scope-limit",
+       "domain",
+       6
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  "M03": {
+   "summary": {
+    "category": "method-off-data",
+    "expected": "scope-limit",
+    "detected_rate": 0.6666666666666666,
+    "A": {
+     "hit": 2,
+     "miss": 1
+    },
+    "B": {
+     "hit": 2,
+     "miss": 1
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 0.6666666666666666,
+    "A_adj": {
+     "hit": 2,
+     "miss": 1
+    },
+    "B_adj": {
+     "hit": 2,
+     "miss": 1
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "split": 2
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.6250529806090425,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 11000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "split",
+       "statistical",
+       3
+      ]
+     ]
+    },
+    {
+     "detected": false,
+     "ops_on_affected": [],
+     "outcome_A": "miss",
+     "outcome_B": "miss",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.30374047979588104,
+     "detected_adj": false,
+     "outcome_A_adj": "miss",
+     "outcome_B_adj": "miss",
+     "collateral_adj": [],
+     "trial_seed": 11001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.7859756891455512,
+     "detected_adj": true,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 11002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "split",
+       "statistical",
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  "V01": {
+   "summary": {
+    "category": "valid-anomaly",
+    "expected": "retain",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 3,
+    "detected_rate_adj": 0.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "split": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.035643984097654124,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 12000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit",
+      "scope-limit"
+     ],
+     "severity_u": 0.065850781272623,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 12001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "split"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [
+      "scope-limit"
+     ],
+     "severity_u": 0.9300003702008918,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 12002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "V02": {
+   "summary": {
+    "category": "valid-anomaly",
+    "expected": "retain",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "hit": 3
+    },
+    "trials_with_collateral": 0,
+    "detected_rate_adj": 0.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "scope-limit": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [],
+     "severity_u": 0.2577738602012266,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 13000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [],
+     "severity_u": 0.7738834472452166,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 13001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "hit",
+     "collateral": [],
+     "severity_u": 0.3861533162043309,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 13002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "V03": {
+   "summary": {
+    "category": "valid-anomaly",
+    "expected": "retain",
+    "detected_rate": 1.0,
+    "A": {
+     "hit": 3
+    },
+    "B": {
+     "harmful": 3
+    },
+    "trials_with_collateral": 0,
+    "detected_rate_adj": 0.0,
+    "A_adj": {
+     "hit": 3
+    },
+    "B_adj": {
+     "hit": 3
+    },
+    "trials_with_collateral_adj": 0,
+    "ops_seen": {
+     "scope-limit": 3
+    }
+   },
+   "trials": [
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "harmful",
+     "collateral": [],
+     "severity_u": 0.9681373785566358,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 14000,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "harmful",
+     "collateral": [],
+     "severity_u": 0.8452736489782838,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 14001,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    },
+    {
+     "detected": true,
+     "ops_on_affected": [
+      "scope-limit"
+     ],
+     "outcome_A": "hit",
+     "outcome_B": "harmful",
+     "collateral": [],
+     "severity_u": 0.7760363155512034,
+     "detected_adj": false,
+     "outcome_A_adj": "hit",
+     "outcome_B_adj": "hit",
+     "collateral_adj": [],
+     "trial_seed": 14002,
+     "ops_all": [
+      [
+       "split",
+       "structure",
+       6
+      ],
+      [
+       "scope-limit",
+       "domain",
+       9
+      ],
+      [
+       "scope-limit",
+       "physics",
+       9
+      ],
+      [
+       "scope-limit",
+       "statistical",
+       6
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

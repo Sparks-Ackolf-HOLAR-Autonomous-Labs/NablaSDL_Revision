@@ -1,0 +1,2183 @@
+{
+ "campaign": "phase-c-production-2026-09-28",
+ "detector_blindness": "the detector sees run rows (run_id, batch_id, x, T, ncz, seed, kappa); probe_truth is read only by the scoring step",
+ "n_runs": 132,
+ "paper": "P1 (fault study substrate + kappa(x,T) alloy law)",
+ "partition": "notchpeak-guest / owner-guest (grn061 off-limits)",
+ "pinned": {
+  "endpoints": "excluded (scope-limit-alloys-2026-09-27)",
+  "ncxy": 4,
+  "swapn": 50
+ },
+ "points": [
+  {
+   "T": 304,
+   "batch_id": "PB1",
+   "cell": [
+    0,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C00",
+   "replica": 0,
+   "seed": 1001,
+   "x": 0.063
+  },
+  {
+   "T": 414,
+   "batch_id": "PB2",
+   "cell": [
+    0,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C01",
+   "replica": 1,
+   "seed": 1002,
+   "x": 0.091
+  },
+  {
+   "T": 533,
+   "batch_id": "PB3",
+   "cell": [
+    0,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C02",
+   "replica": 0,
+   "seed": 1003,
+   "x": 0.083
+  },
+  {
+   "T": 698,
+   "batch_id": "PB4",
+   "cell": [
+    0,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C03",
+   "replica": 1,
+   "seed": 1004,
+   "x": 0.117
+  },
+  {
+   "T": 779,
+   "batch_id": "PB5",
+   "cell": [
+    0,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C04",
+   "replica": 0,
+   "seed": 1005,
+   "x": 0.204
+  },
+  {
+   "T": 908,
+   "batch_id": "PB1",
+   "cell": [
+    0,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C05",
+   "replica": 1,
+   "seed": 1006,
+   "x": 0.185
+  },
+  {
+   "T": 1136,
+   "batch_id": "PB2",
+   "cell": [
+    0,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C06",
+   "replica": 0,
+   "seed": 1007,
+   "x": 0.18
+  },
+  {
+   "T": 1020,
+   "batch_id": "PB3",
+   "cell": [
+    0,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C07",
+   "replica": 1,
+   "seed": 1008,
+   "x": 0.16
+  },
+  {
+   "T": 402,
+   "batch_id": "PB4",
+   "cell": [
+    1,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C08",
+   "replica": 0,
+   "seed": 1009,
+   "x": 0.338
+  },
+  {
+   "T": 497,
+   "batch_id": "PB5",
+   "cell": [
+    1,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C09",
+   "replica": 1,
+   "seed": 1010,
+   "x": 0.259
+  },
+  {
+   "T": 598,
+   "batch_id": "PB1",
+   "cell": [
+    1,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C10",
+   "replica": 0,
+   "seed": 1011,
+   "x": 0.252
+  },
+  {
+   "T": 601,
+   "batch_id": "PB2",
+   "cell": [
+    1,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C11",
+   "replica": 1,
+   "seed": 1012,
+   "x": 0.275
+  },
+  {
+   "T": 949,
+   "batch_id": "PB3",
+   "cell": [
+    1,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C12",
+   "replica": 0,
+   "seed": 1013,
+   "x": 0.306
+  },
+  {
+   "T": 963,
+   "batch_id": "PB4",
+   "cell": [
+    1,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C13",
+   "replica": 1,
+   "seed": 1014,
+   "x": 0.392
+  },
+  {
+   "T": 1141,
+   "batch_id": "PB5",
+   "cell": [
+    1,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C14",
+   "replica": 0,
+   "seed": 1015,
+   "x": 0.275
+  },
+  {
+   "T": 1015,
+   "batch_id": "PB1",
+   "cell": [
+    1,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C15",
+   "replica": 1,
+   "seed": 1016,
+   "x": 0.373
+  },
+  {
+   "T": 409,
+   "batch_id": "PB2",
+   "cell": [
+    2,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C16",
+   "replica": 0,
+   "seed": 1017,
+   "x": 0.478
+  },
+  {
+   "T": 339,
+   "batch_id": "PB3",
+   "cell": [
+    2,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C17",
+   "replica": 1,
+   "seed": 1018,
+   "x": 0.549
+  },
+  {
+   "T": 649,
+   "batch_id": "PB4",
+   "cell": [
+    2,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C18",
+   "replica": 0,
+   "seed": 1019,
+   "x": 0.533
+  },
+  {
+   "T": 560,
+   "batch_id": "PB5",
+   "cell": [
+    2,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C19",
+   "replica": 1,
+   "seed": 1020,
+   "x": 0.482
+  },
+  {
+   "T": 927,
+   "batch_id": "PB1",
+   "cell": [
+    2,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C20",
+   "replica": 0,
+   "seed": 1021,
+   "x": 0.54
+  },
+  {
+   "T": 833,
+   "batch_id": "PB2",
+   "cell": [
+    2,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C21",
+   "replica": 1,
+   "seed": 1022,
+   "x": 0.425
+  },
+  {
+   "T": 1161,
+   "batch_id": "PB3",
+   "cell": [
+    2,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C22",
+   "replica": 0,
+   "seed": 1023,
+   "x": 0.417
+  },
+  {
+   "T": 1079,
+   "batch_id": "PB4",
+   "cell": [
+    2,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C23",
+   "replica": 1,
+   "seed": 1024,
+   "x": 0.586
+  },
+  {
+   "T": 361,
+   "batch_id": "PB5",
+   "cell": [
+    3,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C24",
+   "replica": 0,
+   "seed": 1025,
+   "x": 0.749
+  },
+  {
+   "T": 397,
+   "batch_id": "PB1",
+   "cell": [
+    3,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C25",
+   "replica": 1,
+   "seed": 1026,
+   "x": 0.74
+  },
+  {
+   "T": 534,
+   "batch_id": "PB2",
+   "cell": [
+    3,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C26",
+   "replica": 0,
+   "seed": 1027,
+   "x": 0.746
+  },
+  {
+   "T": 734,
+   "batch_id": "PB3",
+   "cell": [
+    3,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C27",
+   "replica": 1,
+   "seed": 1028,
+   "x": 0.61
+  },
+  {
+   "T": 776,
+   "batch_id": "PB4",
+   "cell": [
+    3,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C28",
+   "replica": 0,
+   "seed": 1029,
+   "x": 0.725
+  },
+  {
+   "T": 883,
+   "batch_id": "PB5",
+   "cell": [
+    3,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C29",
+   "replica": 1,
+   "seed": 1030,
+   "x": 0.694
+  },
+  {
+   "T": 1199,
+   "batch_id": "PB1",
+   "cell": [
+    3,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C30",
+   "replica": 0,
+   "seed": 1031,
+   "x": 0.63
+  },
+  {
+   "T": 1077,
+   "batch_id": "PB2",
+   "cell": [
+    3,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C31",
+   "replica": 1,
+   "seed": 1032,
+   "x": 0.706
+  },
+  {
+   "T": 470,
+   "batch_id": "PB3",
+   "cell": [
+    4,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C32",
+   "replica": 0,
+   "seed": 1033,
+   "x": 0.841
+  },
+  {
+   "T": 307,
+   "batch_id": "PB4",
+   "cell": [
+    4,
+    0
+   ],
+   "deck": "std",
+   "point_id": "C33",
+   "replica": 1,
+   "seed": 1034,
+   "x": 0.795
+  },
+  {
+   "T": 669,
+   "batch_id": "PB5",
+   "cell": [
+    4,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C34",
+   "replica": 0,
+   "seed": 1035,
+   "x": 0.797
+  },
+  {
+   "T": 746,
+   "batch_id": "PB1",
+   "cell": [
+    4,
+    1
+   ],
+   "deck": "std",
+   "point_id": "C35",
+   "replica": 1,
+   "seed": 1036,
+   "x": 0.844
+  },
+  {
+   "T": 820,
+   "batch_id": "PB2",
+   "cell": [
+    4,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C36",
+   "replica": 0,
+   "seed": 1037,
+   "x": 0.909
+  },
+  {
+   "T": 866,
+   "batch_id": "PB3",
+   "cell": [
+    4,
+    2
+   ],
+   "deck": "std",
+   "point_id": "C37",
+   "replica": 1,
+   "seed": 1038,
+   "x": 0.943
+  },
+  {
+   "T": 1180,
+   "batch_id": "PB4",
+   "cell": [
+    4,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C38",
+   "replica": 0,
+   "seed": 1039,
+   "x": 0.932
+  },
+  {
+   "T": 1044,
+   "batch_id": "PB5",
+   "cell": [
+    4,
+    3
+   ],
+   "deck": "std",
+   "point_id": "C39",
+   "replica": 1,
+   "seed": 1040,
+   "x": 0.847
+  },
+  {
+   "T": 1500,
+   "batch_id": "PB1",
+   "deck": "std",
+   "point_id": "N0",
+   "seed": 2001,
+   "x": 0.5
+  },
+  {
+   "T": 1450,
+   "batch_id": "PB2",
+   "deck": "std",
+   "point_id": "N1",
+   "seed": 2002,
+   "x": 0.7
+  },
+  {
+   "T": 300,
+   "batch_id": "PB3",
+   "deck": "amorph",
+   "point_id": "N2",
+   "seed": 2003,
+   "x": 0.5
+  },
+  {
+   "T": 700,
+   "batch_id": "PB4",
+   "deck": "amorph",
+   "point_id": "N3",
+   "seed": 2004,
+   "x": 0.5
+  }
+ ],
+ "probe_truth": {
+  "N0": {
+   "category": "method-off-data",
+   "expected_op": "scope-limit",
+   "probe": "near-melt",
+   "why": "above the real solidus (~1400 K at x=0.5); Tersoff crystal persists"
+  },
+  "N1": {
+   "category": "method-off-data",
+   "expected_op": "scope-limit",
+   "probe": "near-melt",
+   "why": "above the real solidus (~1330 K at x=0.7); Tersoff crystal persists"
+  },
+  "N2": {
+   "category": "valid-anomaly (other phase)",
+   "expected_op": "split",
+   "probe": "amorphous",
+   "why": "melt-quenched a-SiGe: real physics, different phase"
+  },
+  "N3": {
+   "category": "valid-anomaly (other phase)",
+   "expected_op": "split",
+   "probe": "amorphous",
+   "why": "melt-quenched a-SiGe: real physics, different phase"
+  }
+ },
+ "protocol": {
+  "amorph": "phase_c/production/in.mp_amorph (melt 3500 K 50 ps, quench to T over 100 ps, NPT 50 ps, then the identical MP protocol)",
+  "std": "chpc/in.mp_kappa2 (NPT 50 ps, MP warmup 100 ps, production 500 ps, 20 z-bins)"
+ },
+ "runs": [
+  {
+   "T": 304,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C00",
+   "run_id": "C00_z24",
+   "seed": 1001,
+   "swapn": 50,
+   "x": 0.063
+  },
+  {
+   "T": 304,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C00",
+   "run_id": "C00_z48",
+   "seed": 1001,
+   "swapn": 50,
+   "x": 0.063
+  },
+  {
+   "T": 304,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C00",
+   "run_id": "C00_z96",
+   "seed": 1001,
+   "swapn": 50,
+   "x": 0.063
+  },
+  {
+   "T": 414,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C01",
+   "run_id": "C01_z24",
+   "seed": 1002,
+   "swapn": 50,
+   "x": 0.091
+  },
+  {
+   "T": 414,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C01",
+   "run_id": "C01_z48",
+   "seed": 1002,
+   "swapn": 50,
+   "x": 0.091
+  },
+  {
+   "T": 414,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C01",
+   "run_id": "C01_z96",
+   "seed": 1002,
+   "swapn": 50,
+   "x": 0.091
+  },
+  {
+   "T": 533,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C02",
+   "run_id": "C02_z24",
+   "seed": 1003,
+   "swapn": 50,
+   "x": 0.083
+  },
+  {
+   "T": 533,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C02",
+   "run_id": "C02_z48",
+   "seed": 1003,
+   "swapn": 50,
+   "x": 0.083
+  },
+  {
+   "T": 533,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C02",
+   "run_id": "C02_z96",
+   "seed": 1003,
+   "swapn": 50,
+   "x": 0.083
+  },
+  {
+   "T": 698,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C03",
+   "run_id": "C03_z24",
+   "seed": 1004,
+   "swapn": 50,
+   "x": 0.117
+  },
+  {
+   "T": 698,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C03",
+   "run_id": "C03_z48",
+   "seed": 1004,
+   "swapn": 50,
+   "x": 0.117
+  },
+  {
+   "T": 698,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C03",
+   "run_id": "C03_z96",
+   "seed": 1004,
+   "swapn": 50,
+   "x": 0.117
+  },
+  {
+   "T": 779,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C04",
+   "run_id": "C04_z24",
+   "seed": 1005,
+   "swapn": 50,
+   "x": 0.204
+  },
+  {
+   "T": 779,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C04",
+   "run_id": "C04_z48",
+   "seed": 1005,
+   "swapn": 50,
+   "x": 0.204
+  },
+  {
+   "T": 779,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C04",
+   "run_id": "C04_z96",
+   "seed": 1005,
+   "swapn": 50,
+   "x": 0.204
+  },
+  {
+   "T": 908,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C05",
+   "run_id": "C05_z24",
+   "seed": 1006,
+   "swapn": 50,
+   "x": 0.185
+  },
+  {
+   "T": 908,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C05",
+   "run_id": "C05_z48",
+   "seed": 1006,
+   "swapn": 50,
+   "x": 0.185
+  },
+  {
+   "T": 908,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C05",
+   "run_id": "C05_z96",
+   "seed": 1006,
+   "swapn": 50,
+   "x": 0.185
+  },
+  {
+   "T": 1136,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C06",
+   "run_id": "C06_z24",
+   "seed": 1007,
+   "swapn": 50,
+   "x": 0.18
+  },
+  {
+   "T": 1136,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C06",
+   "run_id": "C06_z48",
+   "seed": 1007,
+   "swapn": 50,
+   "x": 0.18
+  },
+  {
+   "T": 1136,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C06",
+   "run_id": "C06_z96",
+   "seed": 1007,
+   "swapn": 50,
+   "x": 0.18
+  },
+  {
+   "T": 1020,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C07",
+   "run_id": "C07_z24",
+   "seed": 1008,
+   "swapn": 50,
+   "x": 0.16
+  },
+  {
+   "T": 1020,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C07",
+   "run_id": "C07_z48",
+   "seed": 1008,
+   "swapn": 50,
+   "x": 0.16
+  },
+  {
+   "T": 1020,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C07",
+   "run_id": "C07_z96",
+   "seed": 1008,
+   "swapn": 50,
+   "x": 0.16
+  },
+  {
+   "T": 402,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C08",
+   "run_id": "C08_z24",
+   "seed": 1009,
+   "swapn": 50,
+   "x": 0.338
+  },
+  {
+   "T": 402,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C08",
+   "run_id": "C08_z48",
+   "seed": 1009,
+   "swapn": 50,
+   "x": 0.338
+  },
+  {
+   "T": 402,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C08",
+   "run_id": "C08_z96",
+   "seed": 1009,
+   "swapn": 50,
+   "x": 0.338
+  },
+  {
+   "T": 497,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C09",
+   "run_id": "C09_z24",
+   "seed": 1010,
+   "swapn": 50,
+   "x": 0.259
+  },
+  {
+   "T": 497,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C09",
+   "run_id": "C09_z48",
+   "seed": 1010,
+   "swapn": 50,
+   "x": 0.259
+  },
+  {
+   "T": 497,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C09",
+   "run_id": "C09_z96",
+   "seed": 1010,
+   "swapn": 50,
+   "x": 0.259
+  },
+  {
+   "T": 598,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C10",
+   "run_id": "C10_z24",
+   "seed": 1011,
+   "swapn": 50,
+   "x": 0.252
+  },
+  {
+   "T": 598,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C10",
+   "run_id": "C10_z48",
+   "seed": 1011,
+   "swapn": 50,
+   "x": 0.252
+  },
+  {
+   "T": 598,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C10",
+   "run_id": "C10_z96",
+   "seed": 1011,
+   "swapn": 50,
+   "x": 0.252
+  },
+  {
+   "T": 601,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C11",
+   "run_id": "C11_z24",
+   "seed": 1012,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 601,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C11",
+   "run_id": "C11_z48",
+   "seed": 1012,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 601,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C11",
+   "run_id": "C11_z96",
+   "seed": 1012,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 949,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C12",
+   "run_id": "C12_z24",
+   "seed": 1013,
+   "swapn": 50,
+   "x": 0.306
+  },
+  {
+   "T": 949,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C12",
+   "run_id": "C12_z48",
+   "seed": 1013,
+   "swapn": 50,
+   "x": 0.306
+  },
+  {
+   "T": 949,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C12",
+   "run_id": "C12_z96",
+   "seed": 1013,
+   "swapn": 50,
+   "x": 0.306
+  },
+  {
+   "T": 963,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C13",
+   "run_id": "C13_z24",
+   "seed": 1014,
+   "swapn": 50,
+   "x": 0.392
+  },
+  {
+   "T": 963,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C13",
+   "run_id": "C13_z48",
+   "seed": 1014,
+   "swapn": 50,
+   "x": 0.392
+  },
+  {
+   "T": 963,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C13",
+   "run_id": "C13_z96",
+   "seed": 1014,
+   "swapn": 50,
+   "x": 0.392
+  },
+  {
+   "T": 1141,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C14",
+   "run_id": "C14_z24",
+   "seed": 1015,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 1141,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C14",
+   "run_id": "C14_z48",
+   "seed": 1015,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 1141,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C14",
+   "run_id": "C14_z96",
+   "seed": 1015,
+   "swapn": 50,
+   "x": 0.275
+  },
+  {
+   "T": 1015,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C15",
+   "run_id": "C15_z24",
+   "seed": 1016,
+   "swapn": 50,
+   "x": 0.373
+  },
+  {
+   "T": 1015,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C15",
+   "run_id": "C15_z48",
+   "seed": 1016,
+   "swapn": 50,
+   "x": 0.373
+  },
+  {
+   "T": 1015,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C15",
+   "run_id": "C15_z96",
+   "seed": 1016,
+   "swapn": 50,
+   "x": 0.373
+  },
+  {
+   "T": 409,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C16",
+   "run_id": "C16_z24",
+   "seed": 1017,
+   "swapn": 50,
+   "x": 0.478
+  },
+  {
+   "T": 409,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C16",
+   "run_id": "C16_z48",
+   "seed": 1017,
+   "swapn": 50,
+   "x": 0.478
+  },
+  {
+   "T": 409,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C16",
+   "run_id": "C16_z96",
+   "seed": 1017,
+   "swapn": 50,
+   "x": 0.478
+  },
+  {
+   "T": 339,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C17",
+   "run_id": "C17_z24",
+   "seed": 1018,
+   "swapn": 50,
+   "x": 0.549
+  },
+  {
+   "T": 339,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C17",
+   "run_id": "C17_z48",
+   "seed": 1018,
+   "swapn": 50,
+   "x": 0.549
+  },
+  {
+   "T": 339,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C17",
+   "run_id": "C17_z96",
+   "seed": 1018,
+   "swapn": 50,
+   "x": 0.549
+  },
+  {
+   "T": 649,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C18",
+   "run_id": "C18_z24",
+   "seed": 1019,
+   "swapn": 50,
+   "x": 0.533
+  },
+  {
+   "T": 649,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C18",
+   "run_id": "C18_z48",
+   "seed": 1019,
+   "swapn": 50,
+   "x": 0.533
+  },
+  {
+   "T": 649,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C18",
+   "run_id": "C18_z96",
+   "seed": 1019,
+   "swapn": 50,
+   "x": 0.533
+  },
+  {
+   "T": 560,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C19",
+   "run_id": "C19_z24",
+   "seed": 1020,
+   "swapn": 50,
+   "x": 0.482
+  },
+  {
+   "T": 560,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C19",
+   "run_id": "C19_z48",
+   "seed": 1020,
+   "swapn": 50,
+   "x": 0.482
+  },
+  {
+   "T": 560,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C19",
+   "run_id": "C19_z96",
+   "seed": 1020,
+   "swapn": 50,
+   "x": 0.482
+  },
+  {
+   "T": 927,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C20",
+   "run_id": "C20_z24",
+   "seed": 1021,
+   "swapn": 50,
+   "x": 0.54
+  },
+  {
+   "T": 927,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C20",
+   "run_id": "C20_z48",
+   "seed": 1021,
+   "swapn": 50,
+   "x": 0.54
+  },
+  {
+   "T": 927,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C20",
+   "run_id": "C20_z96",
+   "seed": 1021,
+   "swapn": 50,
+   "x": 0.54
+  },
+  {
+   "T": 833,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C21",
+   "run_id": "C21_z24",
+   "seed": 1022,
+   "swapn": 50,
+   "x": 0.425
+  },
+  {
+   "T": 833,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C21",
+   "run_id": "C21_z48",
+   "seed": 1022,
+   "swapn": 50,
+   "x": 0.425
+  },
+  {
+   "T": 833,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C21",
+   "run_id": "C21_z96",
+   "seed": 1022,
+   "swapn": 50,
+   "x": 0.425
+  },
+  {
+   "T": 1161,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C22",
+   "run_id": "C22_z24",
+   "seed": 1023,
+   "swapn": 50,
+   "x": 0.417
+  },
+  {
+   "T": 1161,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C22",
+   "run_id": "C22_z48",
+   "seed": 1023,
+   "swapn": 50,
+   "x": 0.417
+  },
+  {
+   "T": 1161,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C22",
+   "run_id": "C22_z96",
+   "seed": 1023,
+   "swapn": 50,
+   "x": 0.417
+  },
+  {
+   "T": 1079,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C23",
+   "run_id": "C23_z24",
+   "seed": 1024,
+   "swapn": 50,
+   "x": 0.586
+  },
+  {
+   "T": 1079,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C23",
+   "run_id": "C23_z48",
+   "seed": 1024,
+   "swapn": 50,
+   "x": 0.586
+  },
+  {
+   "T": 1079,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C23",
+   "run_id": "C23_z96",
+   "seed": 1024,
+   "swapn": 50,
+   "x": 0.586
+  },
+  {
+   "T": 361,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C24",
+   "run_id": "C24_z24",
+   "seed": 1025,
+   "swapn": 50,
+   "x": 0.749
+  },
+  {
+   "T": 361,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C24",
+   "run_id": "C24_z48",
+   "seed": 1025,
+   "swapn": 50,
+   "x": 0.749
+  },
+  {
+   "T": 361,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C24",
+   "run_id": "C24_z96",
+   "seed": 1025,
+   "swapn": 50,
+   "x": 0.749
+  },
+  {
+   "T": 397,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C25",
+   "run_id": "C25_z24",
+   "seed": 1026,
+   "swapn": 50,
+   "x": 0.74
+  },
+  {
+   "T": 397,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C25",
+   "run_id": "C25_z48",
+   "seed": 1026,
+   "swapn": 50,
+   "x": 0.74
+  },
+  {
+   "T": 397,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C25",
+   "run_id": "C25_z96",
+   "seed": 1026,
+   "swapn": 50,
+   "x": 0.74
+  },
+  {
+   "T": 534,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C26",
+   "run_id": "C26_z24",
+   "seed": 1027,
+   "swapn": 50,
+   "x": 0.746
+  },
+  {
+   "T": 534,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C26",
+   "run_id": "C26_z48",
+   "seed": 1027,
+   "swapn": 50,
+   "x": 0.746
+  },
+  {
+   "T": 534,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C26",
+   "run_id": "C26_z96",
+   "seed": 1027,
+   "swapn": 50,
+   "x": 0.746
+  },
+  {
+   "T": 734,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C27",
+   "run_id": "C27_z24",
+   "seed": 1028,
+   "swapn": 50,
+   "x": 0.61
+  },
+  {
+   "T": 734,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C27",
+   "run_id": "C27_z48",
+   "seed": 1028,
+   "swapn": 50,
+   "x": 0.61
+  },
+  {
+   "T": 734,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C27",
+   "run_id": "C27_z96",
+   "seed": 1028,
+   "swapn": 50,
+   "x": 0.61
+  },
+  {
+   "T": 776,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C28",
+   "run_id": "C28_z24",
+   "seed": 1029,
+   "swapn": 50,
+   "x": 0.725
+  },
+  {
+   "T": 776,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C28",
+   "run_id": "C28_z48",
+   "seed": 1029,
+   "swapn": 50,
+   "x": 0.725
+  },
+  {
+   "T": 776,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C28",
+   "run_id": "C28_z96",
+   "seed": 1029,
+   "swapn": 50,
+   "x": 0.725
+  },
+  {
+   "T": 883,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C29",
+   "run_id": "C29_z24",
+   "seed": 1030,
+   "swapn": 50,
+   "x": 0.694
+  },
+  {
+   "T": 883,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C29",
+   "run_id": "C29_z48",
+   "seed": 1030,
+   "swapn": 50,
+   "x": 0.694
+  },
+  {
+   "T": 883,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C29",
+   "run_id": "C29_z96",
+   "seed": 1030,
+   "swapn": 50,
+   "x": 0.694
+  },
+  {
+   "T": 1199,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C30",
+   "run_id": "C30_z24",
+   "seed": 1031,
+   "swapn": 50,
+   "x": 0.63
+  },
+  {
+   "T": 1199,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C30",
+   "run_id": "C30_z48",
+   "seed": 1031,
+   "swapn": 50,
+   "x": 0.63
+  },
+  {
+   "T": 1199,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C30",
+   "run_id": "C30_z96",
+   "seed": 1031,
+   "swapn": 50,
+   "x": 0.63
+  },
+  {
+   "T": 1077,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C31",
+   "run_id": "C31_z24",
+   "seed": 1032,
+   "swapn": 50,
+   "x": 0.706
+  },
+  {
+   "T": 1077,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C31",
+   "run_id": "C31_z48",
+   "seed": 1032,
+   "swapn": 50,
+   "x": 0.706
+  },
+  {
+   "T": 1077,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C31",
+   "run_id": "C31_z96",
+   "seed": 1032,
+   "swapn": 50,
+   "x": 0.706
+  },
+  {
+   "T": 470,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C32",
+   "run_id": "C32_z24",
+   "seed": 1033,
+   "swapn": 50,
+   "x": 0.841
+  },
+  {
+   "T": 470,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C32",
+   "run_id": "C32_z48",
+   "seed": 1033,
+   "swapn": 50,
+   "x": 0.841
+  },
+  {
+   "T": 470,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C32",
+   "run_id": "C32_z96",
+   "seed": 1033,
+   "swapn": 50,
+   "x": 0.841
+  },
+  {
+   "T": 307,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C33",
+   "run_id": "C33_z24",
+   "seed": 1034,
+   "swapn": 50,
+   "x": 0.795
+  },
+  {
+   "T": 307,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C33",
+   "run_id": "C33_z48",
+   "seed": 1034,
+   "swapn": 50,
+   "x": 0.795
+  },
+  {
+   "T": 307,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C33",
+   "run_id": "C33_z96",
+   "seed": 1034,
+   "swapn": 50,
+   "x": 0.795
+  },
+  {
+   "T": 669,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C34",
+   "run_id": "C34_z24",
+   "seed": 1035,
+   "swapn": 50,
+   "x": 0.797
+  },
+  {
+   "T": 669,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C34",
+   "run_id": "C34_z48",
+   "seed": 1035,
+   "swapn": 50,
+   "x": 0.797
+  },
+  {
+   "T": 669,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C34",
+   "run_id": "C34_z96",
+   "seed": 1035,
+   "swapn": 50,
+   "x": 0.797
+  },
+  {
+   "T": 746,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C35",
+   "run_id": "C35_z24",
+   "seed": 1036,
+   "swapn": 50,
+   "x": 0.844
+  },
+  {
+   "T": 746,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C35",
+   "run_id": "C35_z48",
+   "seed": 1036,
+   "swapn": 50,
+   "x": 0.844
+  },
+  {
+   "T": 746,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C35",
+   "run_id": "C35_z96",
+   "seed": 1036,
+   "swapn": 50,
+   "x": 0.844
+  },
+  {
+   "T": 820,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C36",
+   "run_id": "C36_z24",
+   "seed": 1037,
+   "swapn": 50,
+   "x": 0.909
+  },
+  {
+   "T": 820,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C36",
+   "run_id": "C36_z48",
+   "seed": 1037,
+   "swapn": 50,
+   "x": 0.909
+  },
+  {
+   "T": 820,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C36",
+   "run_id": "C36_z96",
+   "seed": 1037,
+   "swapn": 50,
+   "x": 0.909
+  },
+  {
+   "T": 866,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C37",
+   "run_id": "C37_z24",
+   "seed": 1038,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C37",
+   "run_id": "C37_z48",
+   "seed": 1038,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 866,
+   "batch_id": "PB3",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C37",
+   "run_id": "C37_z96",
+   "seed": 1038,
+   "swapn": 50,
+   "x": 0.943
+  },
+  {
+   "T": 1180,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C38",
+   "run_id": "C38_z24",
+   "seed": 1039,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C38",
+   "run_id": "C38_z48",
+   "seed": 1039,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1180,
+   "batch_id": "PB4",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C38",
+   "run_id": "C38_z96",
+   "seed": 1039,
+   "swapn": 50,
+   "x": 0.932
+  },
+  {
+   "T": 1044,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "C39",
+   "run_id": "C39_z24",
+   "seed": 1040,
+   "swapn": 50,
+   "x": 0.847
+  },
+  {
+   "T": 1044,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "C39",
+   "run_id": "C39_z48",
+   "seed": 1040,
+   "swapn": 50,
+   "x": 0.847
+  },
+  {
+   "T": 1044,
+   "batch_id": "PB5",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "C39",
+   "run_id": "C39_z96",
+   "seed": 1040,
+   "swapn": 50,
+   "x": 0.847
+  },
+  {
+   "T": 1500,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "N0",
+   "run_id": "N0_z24",
+   "seed": 2001,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 1500,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "N0",
+   "run_id": "N0_z48",
+   "seed": 2001,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 1500,
+   "batch_id": "PB1",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "N0",
+   "run_id": "N0_z96",
+   "seed": 2001,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 1450,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "N1",
+   "run_id": "N1_z24",
+   "seed": 2002,
+   "swapn": 50,
+   "x": 0.7
+  },
+  {
+   "T": 1450,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "N1",
+   "run_id": "N1_z48",
+   "seed": 2002,
+   "swapn": 50,
+   "x": 0.7
+  },
+  {
+   "T": 1450,
+   "batch_id": "PB2",
+   "deck": "std",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "N1",
+   "run_id": "N1_z96",
+   "seed": 2002,
+   "swapn": 50,
+   "x": 0.7
+  },
+  {
+   "T": 300,
+   "batch_id": "PB3",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "N2",
+   "run_id": "N2_z24",
+   "seed": 2003,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 300,
+   "batch_id": "PB3",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "N2",
+   "run_id": "N2_z48",
+   "seed": 2003,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 300,
+   "batch_id": "PB3",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "N2",
+   "run_id": "N2_z96",
+   "seed": 2003,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 700,
+   "batch_id": "PB4",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 24,
+   "point_id": "N3",
+   "run_id": "N3_z24",
+   "seed": 2004,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 700,
+   "batch_id": "PB4",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 48,
+   "point_id": "N3",
+   "run_id": "N3_z48",
+   "seed": 2004,
+   "swapn": 50,
+   "x": 0.5
+  },
+  {
+   "T": 700,
+   "batch_id": "PB4",
+   "deck": "amorph",
+   "ncxy": 4,
+   "ncz": 96,
+   "point_id": "N3",
+   "run_id": "N3_z96",
+   "seed": 2004,
+   "swapn": 50,
+   "x": 0.5
+  }
+ ],
+ "seed_design_sha256": "20608f425b5a68eef97d7c1a939f151cdb76b1865f1437dbcea1481ee3b3da7d"
+}

@@ -1,0 +1,43 @@
+{
+ "design_sha256": "cb7d656cdf8fdc8c53d563c9f82be1828d3f73866dbe40ce9d7d31bbe91b8ef1",
+ "observed_kappa_W_mK": {
+  "300": 8.2068,
+  "700": 6.03044,
+  "1100": 4.95276
+ },
+ "abs_ln_error_1100K": {
+  "symbolic_transfer": 0.2217,
+  "interpolated_calibration": 0.11
+ },
+ "D1_winner": "interpolated_calibration",
+ "sanity_gate_pass": true,
+ "nodes_added_T_K": [
+  300,
+  700,
+  1100
+ ],
+ "D2_refit_selected": {
+  "terms": [
+   "1",
+   "x",
+   "x(1-x)",
+   "t"
+  ],
+  "coefs": [
+   1.2905,
+   -0.476,
+   1.9282,
+   -0.3692
+  ],
+  "loo_rmse_ln_ratio": 0.0762
+ },
+ "D2_refit_1100K": {
+  "argmin_x": 0.505,
+  "kappa_min": 4.418269322197556,
+  "window": [
+   0.24,
+   0.715
+  ]
+ },
+ "D3_confirmed": "both refuted"
+}

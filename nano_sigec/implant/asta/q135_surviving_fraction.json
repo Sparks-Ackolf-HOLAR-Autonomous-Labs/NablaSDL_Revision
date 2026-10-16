@@ -1,0 +1,893 @@
+{
+  "data": [
+    {
+      "score": 0.5909619037016618,
+      "paper": {
+        "corpusId": "121985714",
+        "title": "Vacancy-type defects created by single-shot and chain ion implantation of silicon",
+        "authors": [
+          "P. Coleman",
+          "C. J. Edwardson",
+          "A. Knights",
+          "R. Gwilliam"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1088/1367-2630/14/2/025007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1088/1367-2630/14/2/025007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Vacancy engineering is an established method in front-end device processing, used for example to limit dopant diffusion, getter impurities and separate wafers [1][2][3]. A common way of introducing or 'implanting' vacancy-type defects is by ion implantation [4] in which ions of predetermined energy are implanted into a semiconductor target and create vacancies and interstitials (Frenkel pairs) along their path as they slow down. MeV silicon ions in silicon have a relatively narrow depth profile centred a few \u00b5m beneath the surface with a width of a few hundreds of nm; the vacancies (and recoil interstitials) they produce have a somewhat broader but nevertheless peaked depth profile, centred 100-200 nm below the ion range with a tail extending to the surface. The ion and vacancy profiles at the moment of implantation (i.e. before any post-implant diffusion or recombination) can be simulated using the standard code SRIM [5]. \n\nMonovacancies and Si interstitials are mobile below room temperature; it is therefore often assumed that the 5-10% of vacancies that survive room-temperature implantation are predominantly those which have encountered another vacancy to form divacancies, which are immobile at room temperature, rather than migrated to sinks or recombined with mobile interstitials. This rather simplistic model is complicated in the case of wafers doped with impurities (in which vacancy-dopant complexes may form) and in samples which have received a relatively large implantation dose in which complex defect structures may form prior to the eventual amorphization of the silicon substrate. \n\nIn order to investigate the dependence of vacancy survival on the depth profile of vacancy and interstitial defects, silicon has been implanted with (a) 4 MeV Si + ions and (b) Si + ions of five different energies, each with one-fifth of the dose of the single implant, so that in the latter case the interstitial and vacancy depth profiles extend more uniformly from the surface to the maximum ion range, and the surviving vacancy-type defects studied in the as-implanted samples and after annealing at a range of temperatures.",
+        "snippetKind": "body",
+        "section": "Introduction",
+        "snippetOffset": {
+          "start": 15,
+          "end": 2161
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 159,
+              "end": 162,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 162,
+              "end": 165,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 165,
+              "end": 168,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 258,
+              "end": 261,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 932,
+              "end": 935,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 169
+            },
+            {
+              "start": 170,
+              "end": 432
+            },
+            {
+              "start": 433,
+              "end": 768
+            },
+            {
+              "start": 769,
+              "end": 833
+            },
+            {
+              "start": 834,
+              "end": 936
+            },
+            {
+              "start": 939,
+              "end": 1304
+            },
+            {
+              "start": 1305,
+              "end": 1615
+            },
+            {
+              "start": 1618,
+              "end": 2146
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5240046206744468,
+      "paper": {
+        "corpusId": "73649238",
+        "title": "Modeling injected interstitial effects on void swelling in self-ion irradiation experiments",
+        "authors": [
+          "M. Short",
+          "D. Gaston",
+          "Miao-Miao Jin",
+          "L. Shao",
+          "F. Garner"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCND",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JNUCMAT.2015.10.002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JNUCMAT.2015.10.002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The point defect kinetics equations were implemented as follows:\n\nwhere C v and C i are the spatially-dependent concentrations of vacancies and interstitials in # nm 3 , f survive is the intracascade point defect survival fraction (the true fraction of remaining point defects after the damage cascade quenches & anneals), K 0 is the point defect source term from binary collisions in # nm 3 \u2212s , K II is the injected interstitial source term in    rate constants, diffusivities, and point defect concentrations are spatially dependent in one dimension on local state variables and defect concentrations. Here, an aspect of the PBM was used to assume that a fraction of interstitials immediately form highly mobile SIA clusters within each damage cascade [22], which diffuse so quickly in one dimension that they are eliminated from localized recombination and sinking. The SIA cluster concentration is therefore not tracked in this model. The term K 0 was calculated using the SRIM-2010 code [24], with simulation parameters as shown in Table 1. These parameters were chosen to match those used in the experiments of Shao et al. [10]. SRIM was run in \"quick calculation\" mode using the Kinchin-Pease model, to avoid recently discovered anomalies in its full-cascade model [25]. Also, because the random number seed in SRIM does not change automatically, 50 separate simulations each containing 10,000 flown ions were averaged using a script 1 to obtain smooth profiles of both the DPA rate and the injected interstitial rate as a function of distance from the free surface.\n\nThe VACANCY.TXT and RANGE.TXT files from SRIM (shown in Figure 1), which give V acancies A-ion and injected ions cm , respectively, were converted to data files giving defect production and interstitial injection rates. The ballistic Frenkel pair (FP) production rate was multiplied by the experimentally measured beam current (200nA) and dividing by the beam area (1mm in diameter) in terms of the ionic flux:\n\nSimultaneously, the spatially dependent ion range distribution from SRIM was converted to total injected interstitials (II) per nm, by also multiplying by the beam current density:\n\nNext, the dislocation sink rate",
+        "snippetKind": "body",
+        "section": "Equational Framework",
+        "snippetOffset": {
+          "start": 8921,
+          "end": 11122
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 755,
+              "end": 759,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 993,
+              "end": 997,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1130,
+              "end": 1134,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1273,
+              "end": 1277,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.523725933215062,
+      "paper": {
+        "corpusId": "249214059",
+        "title": "Monitoring of Dose Dependent Damage in MeV Energy Hydrogen Implanted Silicon by Photo-Modulated Reflectance Measurements",
+        "authors": [
+          "J. Sz\u00edv\u00f3s",
+          "L. Balogh",
+          "I. Rajta",
+          "G. Nagy",
+          "Z. Ga\u00e1l",
+          "V. Samu",
+          "K. Takefumi",
+          "Z. Zolnai"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1109/JEDS.2022.3178866?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/JEDS.2022.3178866, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The evaluated average defect concentration is \u223c6\u00d710 15 cm \u22123 , much lower than predicted by corrected SRIM simulations (for the concentration of vacancies: N vac > 10 17 cm \u22123 ), see Fig. 1(b). This also suggests significant in-situ defect reduction during implantation, i.e., before the start of the slower post-implantation defect relaxation process detected by the PMR decay on longer time scale. \n\nFor interpretation of the PMR decay process one may consider the followings. A high mobility defect in Si is the isolated vacancy (V Si ). To date, a number of extensive studies report on vacancy migration in silicon both at cryogenic and elevated temperatures [21]- [23]. The diffusion coefficient of V Si was found to be D V = (0.0012 cm 2 s \u22121 )\u00d7exp(\u22120.45eV/kT) [21], where k is Boltzmann constant and T is temperature. Based on this, for room temperature (RT) and a duration of t = 24 hours a diffusion length of (D V t) 1/2 \u2248 12 \u00b5m can be derived, which is comparable to the maximum penetration depth of 600 keV H + ions, see Fig. 1(b). Nevertheless, in irradiated material, depending on the defect structure, only a fraction of vacancies can freely migrate toward the bulk or the surface since they can be captured by another defects or dopant atoms in the damaged region to form defect complexes of low thermal mobility and ability to capture free carriers. \n\nPreviously, in electron irradiated Si samples a diluted defect structure has been found beneath the sample surface after irradiation, i.e., the concentration of V Si related defects such as divacancies (VV), vacancy-oxygen (VO) pairs, and vacancy-phosphorus (VP) pairs, has shown exponential like decay toward the sample surface in the uppermost 3-6 \u00b5m of the damaged layer [23]. This result was attributed to the migration of V Si in the irradiated material.",
+        "snippetKind": "body",
+        "section": "C. RESULTS OF PMR MEASUREMENTS",
+        "snippetOffset": {
+          "start": 22633,
+          "end": 24461
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 663,
+              "end": 667,
+              "matchedPaperCorpusId": "96979077"
+            },
+            {
+              "start": 669,
+              "end": 673,
+              "matchedPaperCorpusId": "122864038"
+            },
+            {
+              "start": 767,
+              "end": 771,
+              "matchedPaperCorpusId": "96979077"
+            },
+            {
+              "start": 1743,
+              "end": 1747,
+              "matchedPaperCorpusId": "122864038"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 193
+            },
+            {
+              "start": 194,
+              "end": 399
+            },
+            {
+              "start": 402,
+              "end": 478
+            },
+            {
+              "start": 479,
+              "end": 540
+            },
+            {
+              "start": 541,
+              "end": 674
+            },
+            {
+              "start": 675,
+              "end": 766
+            },
+            {
+              "start": 767,
+              "end": 824
+            },
+            {
+              "start": 825,
+              "end": 1043
+            },
+            {
+              "start": 1044,
+              "end": 1366
+            },
+            {
+              "start": 1369,
+              "end": 1748
+            },
+            {
+              "start": 1749,
+              "end": 1828
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5143603689335854,
+      "paper": {
+        "corpusId": "275788772",
+        "title": "Microtubes and nanomembranes by ion-beam-induced exfoliation of \u03b2-Ga2O3",
+        "authors": [
+          "D. M. Esteves",
+          "R. He",
+          "Calliope Bazioti",
+          "S. Magalh\u00e3es",
+          "M. Sequeira",
+          "L. F. Santos",
+          "A. Azarov",
+          "Andrej Kuznetsov",
+          "F. Djurabekova",
+          "K. Lorenz",
+          "Marco Peres"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2501.13055, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Finally, Fig. 7 shows the RBS/C data for the as-implanted and the one annealed at 250 \u00b0C. Akin to the data in Fig. 4, the defect profile of the as-implanted sample is observed to closely follow the vacancy profile obtained from SRIM. Moreover, upon an annealing at a temperature of 250 \u00b0C, the defect profile essentially vanishes, indicating a defect concentration below the RBS/C detection limit of the technique, and confirming the remarkable recovery capability of the lattice already suggested by XRD.",
+        "snippetKind": "body",
+        "section": "15/26",
+        "snippetOffset": {
+          "start": 28435,
+          "end": 28940
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 89
+            },
+            {
+              "start": 90,
+              "end": 233
+            },
+            {
+              "start": 234,
+              "end": 505
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5092638198100671,
+      "paper": {
+        "corpusId": "237471065",
+        "title": "Microstructure Evolution in He-Implanted Si at 600 \u00b0C Followed by 1000 \u00b0C Annealing",
+        "authors": [
+          "Zhen Yang",
+          "Z. Zou",
+          "Zeyang Zhang",
+          "Yubo Xing",
+          "Tao Wang"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8434436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Therefore, the crystal free energy decreases due to the consumption of vacancies by \u03c0R d 2b/ \u2126 \u00d7 k B T \u00d7 ln (C v /C v eq ). The net Si crystal free energy change can be expressed as \n\nAccording to Raineri et al.'s report, the energy of the defects is defined by Equations ( 2) and ( 8) at the equilibrium condition C v = C v eq , where it is assumed \u2126 = 2 \u00d7 20 \u221223 cm 3 , \u03c3 = 1230 ergs cm \u22122 , \u03b3 = 60 ergs cm \u22122 for the faulted dislocation loop, \u00b5 = 6.46 \u00d7 10 11 dyne cm \u22122 , \u03bd = 0.228, \u03b1 = 4, b = 3.135 \u00d7 10 \u22128 cm for the 1/3<111> Frank loop and 3.84 \u00d7 10 \u22128 cm for the 1/2<110> perfect loop. Defect energy increases linearly with vacancy number. Cavities are stable when they contain fewer than 4 \u00d7 10 7 vacancies (\u226450 nm in diameter). The present result shows any cavities or stacking-fault tetrahedrons that were less than 50 nm along the long axis. \n\nIn Li et al.'s report [43], a high density of extended defects was kept stable in Arimplanted Si followed by 1100 \u2022 C annealing. This can be attributed to cavities that act as a sink for interstitials, and therefore the defect annealing is more efficient in He-implanted Si than Ar implantation. Stolk et al. previously reported that these ribbon-like defects belong to the {311} type, which will dissolve in a temperature range of 670-815 \u2022 C [44]. Roqueta et al. [45] argued that the self-interstitials produced by the dissolution of {311} defects can be captured by small cavities, consistent with our finding that many small cavities disappeared after annealing. Interestingly, Figure 3a presents one dislocation that started from cavity a, went around cavity b and ended at cavity c.",
+        "snippetKind": "body",
+        "section": "Results and Discussion",
+        "snippetOffset": {
+          "start": 20215,
+          "end": 21859
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 878,
+              "end": 882,
+              "matchedPaperCorpusId": "135589087"
+            },
+            {
+              "start": 1300,
+              "end": 1304,
+              "matchedPaperCorpusId": "6045308"
+            },
+            {
+              "start": 1306,
+              "end": 1325,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 123
+            },
+            {
+              "start": 124,
+              "end": 181
+            },
+            {
+              "start": 184,
+              "end": 593
+            },
+            {
+              "start": 594,
+              "end": 647
+            },
+            {
+              "start": 648,
+              "end": 737
+            },
+            {
+              "start": 738,
+              "end": 853
+            },
+            {
+              "start": 856,
+              "end": 984
+            },
+            {
+              "start": 985,
+              "end": 1151
+            },
+            {
+              "start": 1152,
+              "end": 1305
+            },
+            {
+              "start": 1306,
+              "end": 1522
+            },
+            {
+              "start": 1523,
+              "end": 1644
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5072178443828902,
+      "paper": {
+        "corpusId": "277596296",
+        "title": "A silicon spin vacuum: isotopically enriched $^{28}$silicon-on-insulator and $^{28}$silicon from ultra-high fluence ion implantation",
+        "authors": [
+          "Shao-Qi Lim",
+          "B. C. Johnson",
+          "S. Rubanov",
+          "N. Klingner",
+          "Bin Gong",
+          "A. M. Jakob",
+          "Danielle Holmes",
+          "D. Jamieson",
+          "Jim S. Williams",
+          "Jeffrey C. McCallum"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2504.03332, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The dependence of the a/c-interface microstructure (sharp or broadened) on the specific implantation conditions (temperature, flux) and substrate type (bulk Si or SOI) can be explained by considering the competition between the generation rate of vacancy-interstitial pairs (a.k.a. Frenkel pairs) and their dynamic annealing. To clarify, dynamic annealing here may refer to the complete annihilation of vacancies and interstitials through a pair-recombination mechanism or their migration to the front/back Si surfaces (referred to as 'annihilation'), and/or the formation of larger and less mobile complex defect clusters (referred to as 'clustering'). [29] Under ion irradiation, Frenkel pairs are generated along the ion track and near the projected ion range in the Si at a rate that is proportional to the ion flux. At 77 K, the mobilities of vacancies and interstitials are reduced as compared to RT. Thus, for the same ion flux, dynamic annealing of point defects at 77 K is suppressed, favoring amorphization. Therefore, for samples implanted under high flux, the a/c-interface is sharp for the 77 K implantation [Fig. 1(b)] due to a reduction in dynamic annealing, while for RT implantation the a/c-interface is broadened [Fig. 1(d)] due to enhanced dynamic annealing (the interstitial clustering rate exceeding its annihilation). In the case where the implantation was performed at RT and under low flux, due to a lower defect generation rate, defect annihilation exceeds its generation and clustering rates and thus the a/c-interface is also sharp [Supplementary Material Fig. S2]. \n\nThe subsequent SPE annealing characteristics depend crucially on the sharpness of the a/c-interface. The SPE annealing of SOI samples with a sharp or broadened a/cinterface resulted in either high quality single crystal Si free from microscopic defects or threading dislocations, respectively.",
+        "snippetKind": "body",
+        "section": "(g)).",
+        "snippetOffset": {
+          "start": 16565,
+          "end": 18453
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 654,
+              "end": 658,
+              "matchedPaperCorpusId": "136703863"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 281
+            },
+            {
+              "start": 282,
+              "end": 325
+            },
+            {
+              "start": 326,
+              "end": 653
+            },
+            {
+              "start": 654,
+              "end": 820
+            },
+            {
+              "start": 821,
+              "end": 906
+            },
+            {
+              "start": 907,
+              "end": 1017
+            },
+            {
+              "start": 1018,
+              "end": 1126
+            },
+            {
+              "start": 1127,
+              "end": 1236
+            },
+            {
+              "start": 1237,
+              "end": 1339
+            },
+            {
+              "start": 1340,
+              "end": 1592
+            },
+            {
+              "start": 1595,
+              "end": 1695
+            },
+            {
+              "start": 1696,
+              "end": 1888
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5028317673085968,
+      "paper": {
+        "corpusId": "54776357",
+        "title": "Efficient thermoelectric performance in silicon nano-films by vacancy-engineering",
+        "authors": [
+          "N. Bennett",
+          "N. Wight",
+          "Srinivasa R. Popuri",
+          "Jan-Willem G. Bos"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.NANOEN.2015.07.007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.NANOEN.2015.07.007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Figure 1 shows the simulated defect depth-concentration distribution for an ion-implanted SOI substrate (100 nm Si/ 200 nm SiO 2 /300 \u03bcm Si). A high concentration (410 21 cm \u00c0 3 ) of vacancy defects is found immediately below the Si surface, which falls to a plateau at depths between 25 and 100 nm, where the vacancy concentration varies between 10 19 -10 20 cm \u00c0 3 . Integrating under the curve for depths 0-100 nm gives a net vacancy density of 7.94 \u00c2 10 14 cm \u00c0 2 , which equates to an average concentration of 7.94 \u00c2 10 19 cm \u00c0 3 or $0.16%, though the vacancy concentration reaches 4% in the top 10 nm of the nano-film. While the simulation considers mono-vacancies, known to be mobile at room temperature, di-vacancies and small vacancy-clustersstable at ambient temperatureare likely to be present with an equivalent depth distribution [22,23]. A relatively high implant fluence of 4.5 \u00c2 10 15 cm \u00c0 2 was chosen to give as high a concentration of vacancy defects as possible in the 100 nm film, without causing complete amorphisation [20]. Likewise a relatively high implant energy of 1 MeV was chosen to ensure adequate separation of point-defect distributions, with a net concentration of vacancy defects in the Si nano-film and a net interstitial profile well below the buried oxide, i.e. beyond $ 750 nm in this case. This separation of vacancies and interstitials is caused by the forward momentum transferred from implanted to host atoms creating a slight displacement between interstitial and vacancies, which on annealing, recombine locally but leave a net vacancy concentration near the surface and interstitials near the implant's projected range [24,25]. This is illustrated schematically in Supporting Information. Although demonstrated here through simulation, implantation-induced vacancy-engineering has been verified experimentally in several other studies, including confirmation of the close match between experiments and SRIM simulations [26][27][28].",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 6722,
+          "end": 8699
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 843,
+              "end": 847,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 847,
+              "end": 850,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1041,
+              "end": 1045,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1664,
+              "end": 1668,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1668,
+              "end": 1671,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1964,
+              "end": 1968,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1968,
+              "end": 1972,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1972,
+              "end": 1976,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 141
+            },
+            {
+              "start": 142,
+              "end": 368
+            },
+            {
+              "start": 369,
+              "end": 624
+            },
+            {
+              "start": 625,
+              "end": 851
+            },
+            {
+              "start": 852,
+              "end": 1046
+            },
+            {
+              "start": 1047,
+              "end": 1328
+            },
+            {
+              "start": 1329,
+              "end": 1672
+            },
+            {
+              "start": 1673,
+              "end": 1733
+            },
+            {
+              "start": 1734,
+              "end": 1977
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.498192789455714,
+      "paper": {
+        "corpusId": "250088922",
+        "title": "Irradiation-induced strain localization and strain burst suppression investigated by microcompression and concurrent acoustic emission experiments",
+        "authors": [
+          "D\u00e1vid Ugi",
+          "G'abor P'eterffy",
+          "S. Lipcsei",
+          "Z. Fogarassy",
+          "E. Szil'agyi",
+          "I. Groma",
+          "P\u00e9ter Dus\u00e1n Isp\u00e1novity"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCND",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2206.13906, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Damage exposure (i.e., displacements per atom, DPA) profiles were calculated by the SRIM code 48 , as shown in Fig. 1b. As seen, the fluences for different energies were chosen such that the total DPA profile was close-to-homogeneous in a Energy (keV) Fluence (p/cm depth of 3\u221213 \u00b5m. Implantations were made at room temperature (RT). Normally, implanting at RT (300 K) causes most of the implantation damage to \"self-anneal\" since lattice atoms have enough energy to relax into their original crystalline position. However, thermal effects are not considered in SRIM, so the calculated damage corresponds to 0 K implantation. Although thermal effects do change the quantity of final damage, but the same basic damage types are expected to occur.",
+        "snippetKind": "body",
+        "section": "Proton implantation",
+        "snippetOffset": {
+          "start": 11568,
+          "end": 12313
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 94,
+              "end": 96,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 119
+            },
+            {
+              "start": 120,
+              "end": 283
+            },
+            {
+              "start": 284,
+              "end": 333
+            },
+            {
+              "start": 334,
+              "end": 514
+            },
+            {
+              "start": 515,
+              "end": 625
+            },
+            {
+              "start": 626,
+              "end": 745
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.49546617423759476,
+      "paper": {
+        "corpusId": "14338704",
+        "title": "Ar+-Implanted Si-Waveguide Photodiodes for Mid-Infrared Detection",
+        "authors": [
+          "B. Souhan",
+          "Christine P. Chen",
+          "Ming Lu",
+          "A. Stein",
+          "H. Bakhru",
+          "R. Grote",
+          "K. Bergman",
+          "W. Green",
+          "R. Osgood"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3390/PHOTONICS3030046?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/PHOTONICS3030046, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "However, since the vacancies are highly mobile at the annealing temperatures used in [20], a nearly uniform distribution of defects and Ar ions throughout the channel section of the waveguide was expected after the annealing process. The exact ion energies and doses chosen for the implantation step were based on prior reports of ion-induced defects [12,23,24] and Stopping Range of Ions in Matter (SRIM) calculations [25]. Figure 1b shows the results of the SRIM calculations for both the initial (pre-annealing) defect profile and the Ar + -ion profile overlapping with the modal intensity calculated at the center of the channel waveguide. Post-processing after the initial implantation exposed the chips to a temperature of approximately 80 \u02ddC, at which initial device parameters were measured. Subsequent annealing steps started at 150 \u02ddC for 10 min in an ambient atmosphere, after which the device measurements were repeated. Further annealing was conducted at temperatures of 200 \u02ddC, 250 \u02ddC, 300 \u02ddC, and 350 \u02ddC, again for 10 min in atmosphere at each step, with the final annealing temperature limited by the reflow temperature of the Al electrical contacts. Following each anneal, the device parameters were again measured. To pattern the photodiodes, the device array was then masked using photolithography and a 1 \u00b5m layer of Shipley S1811 resist with openings of 250 \u00b5 m and 3 mm over the p-i-n diode section of the devices. The devices were then subsequently implanted with Ar + at an energy of 240 keV. \n\nUnlike the Si + -implanted devices previously fabricated in [12] or the Zn + -implanted devices in [13], the Ar + implantation energy was chosen to place both the peak of the defect density and the peak Ar ion concentration in the waveguide. In previously fabricated Si + -implanted devices, the energy was chosen to place the peak of the defect density in the center of the waveguide [24] resulting in a large portion of the Si ions in the substrate. However, since the vacancies are highly mobile at the",
+        "snippetKind": "body",
+        "section": "Fabrication",
+        "snippetOffset": {
+          "start": 6076,
+          "end": 8100
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 85,
+              "end": 89,
+              "matchedPaperCorpusId": "120242014"
+            },
+            {
+              "start": 351,
+              "end": 355,
+              "matchedPaperCorpusId": "8660612"
+            },
+            {
+              "start": 355,
+              "end": 358,
+              "matchedPaperCorpusId": "24467578"
+            },
+            {
+              "start": 358,
+              "end": 361,
+              "matchedPaperCorpusId": "21236595"
+            },
+            {
+              "start": 419,
+              "end": 423,
+              "matchedPaperCorpusId": "94627202"
+            },
+            {
+              "start": 1579,
+              "end": 1583,
+              "matchedPaperCorpusId": "8660612"
+            },
+            {
+              "start": 1618,
+              "end": 1622,
+              "matchedPaperCorpusId": "119200197"
+            },
+            {
+              "start": 1904,
+              "end": 1908,
+              "matchedPaperCorpusId": "21236595"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 233
+            },
+            {
+              "start": 234,
+              "end": 424
+            },
+            {
+              "start": 425,
+              "end": 643
+            },
+            {
+              "start": 644,
+              "end": 799
+            },
+            {
+              "start": 800,
+              "end": 932
+            },
+            {
+              "start": 933,
+              "end": 1166
+            },
+            {
+              "start": 1167,
+              "end": 1232
+            },
+            {
+              "start": 1233,
+              "end": 1436
+            },
+            {
+              "start": 1437,
+              "end": 1516
+            },
+            {
+              "start": 1519,
+              "end": 1760
+            },
+            {
+              "start": 1761,
+              "end": 1970
+            },
+            {
+              "start": 1971,
+              "end": 2024
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.4907533145217032,
+      "paper": {
+        "corpusId": "264491038",
+        "title": "Molecular dynamics simulation of W Silicon Emitting Centers formation by Ga ion implantation",
+        "authors": [
+          "C. Gennetidis",
+          "Patrice Chantrenne",
+          "Thomas Wood"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2310.17412, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The annealing temperature is an important parameter [3,[7][8][9][10][11][12][13] for the formation of silicon emission centers. The MD simulations cannot be used to investigate the full annealing process in terms of time but the trend the defect populations follow during short annealing times can be investigated. Thus, annealing was carried out on the system of 5keV implantation energy and a dose of 50 \u00d7 10 12 ions/cm 2 for 0.5ns at different temperatures in the range of 400K-1400K. The results for the tri-interstitial clusters can be seen in the top of Fig 6 for the different annealing temperatures. The number of clusters fluctuates widely especially at low annealing temperatures. This happens because a lot of these clusters are located in the highly defected area and transition from tri-interstitial clusters to other kind of defects due to their distorted environment. The mean number of clusters decreases slowly till the 600K and then it decreases more rapidly up to 1200K. From there the number of clusters increases for the higher annealing temperatures. This behavior at high temperature may be explained by the high kinetic energy of the atoms which leads to faster defect diffusion for the same annealing time and eventually to the formation of more tri-interstitial clusters.",
+        "snippetKind": "body",
+        "section": "C. Annealing temperature",
+        "snippetOffset": {
+          "start": 14619,
+          "end": 15916
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 52,
+              "end": 55,
+              "matchedPaperCorpusId": "120798722"
+            },
+            {
+              "start": 55,
+              "end": 58,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 58,
+              "end": 61,
+              "matchedPaperCorpusId": "215779270"
+            },
+            {
+              "start": 61,
+              "end": 64,
+              "matchedPaperCorpusId": "248427128"
+            },
+            {
+              "start": 64,
+              "end": 68,
+              "matchedPaperCorpusId": "54956263"
+            },
+            {
+              "start": 68,
+              "end": 72,
+              "matchedPaperCorpusId": "121179769"
+            },
+            {
+              "start": 72,
+              "end": 76,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 76,
+              "end": 80,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 127
+            },
+            {
+              "start": 128,
+              "end": 314
+            },
+            {
+              "start": 315,
+              "end": 487
+            },
+            {
+              "start": 488,
+              "end": 607
+            },
+            {
+              "start": 608,
+              "end": 690
+            },
+            {
+              "start": 691,
+              "end": 882
+            },
+            {
+              "start": 883,
+              "end": 989
+            },
+            {
+              "start": 990,
+              "end": 1072
+            },
+            {
+              "start": 1073,
+              "end": 1297
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

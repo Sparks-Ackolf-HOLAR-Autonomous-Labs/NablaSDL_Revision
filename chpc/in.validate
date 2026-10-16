@@ -1,0 +1,26 @@
+# Tersoff validation gate (Phase B): lattice constant + cohesive energy
+# via box-relax minimization on a 3x3x3 diamond cell (216 atoms).
+# Run per composition:  lmp -in in.validate -var x <x_ge> -var pot <path>
+
+variable x    index 0.0
+variable seed index 20260925
+variable pot  index SiCGe.tersoff
+
+units metal
+boundary p p p
+variable a0 equal 5.431+(5.658-5.431)*v_x
+lattice diamond ${a0}
+region box block 0 3 0 3 0 3
+create_box 2 box
+create_atoms 1 box
+if "${x} > 0" then "set type 1 type/fraction 2 ${x} ${seed}"
+mass 1 28.0855
+mass 2 72.63
+pair_style tersoff
+pair_coeff * * ${pot} Si(D) Ge
+
+fix relax all box/relax aniso 0.0
+min_style cg
+minimize 1e-12 1e-12 5000 50000
+variable aeff equal lx/3
+print "VAL x ${x} a $(v_aeff:%.4f) Ecoh $(pe/atoms:%.4f)"

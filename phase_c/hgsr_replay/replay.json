@@ -1,0 +1,189 @@
+{
+ "note": "replay of committed evidence states; final stage asserted equal to final_law.json",
+ "stages": [
+  {
+   "stage": "R1",
+   "label": "Phase B core array",
+   "ledger_seq": "-",
+   "n_runs": 19,
+   "n_bulk_series": 4,
+   "x_range": [
+    0.0,
+    1.0
+   ],
+   "n_regimes": 4,
+   "excluded_nonpositive_intercept": 1,
+   "terms": [
+    "1",
+    "x",
+    "x(1-x)",
+    "1/T"
+   ],
+   "coefs": [
+    0.5399405066744544,
+    -0.384997067032753,
+    1.4107824016022907,
+    -45.224929466882756
+   ],
+   "law": "1/\u03ba = 0.54 - 0.385\u00b7x + 1.41\u00b7x(1-x) - 45.2\u00b71/T",
+   "term_labels": {
+    "1": "multi-supported",
+    "x": "multi-supported",
+    "x(1-x)": "multi-supported",
+    "1/T": "multi-supported"
+   },
+   "blast_radius": {},
+   "kappa_x0.5_300K": 1.8202078462982667
+  },
+  {
+   "stage": "R2",
+   "label": "+ seed and size follow-ups",
+   "ledger_seq": "-",
+   "n_runs": 24,
+   "n_bulk_series": 6,
+   "x_range": [
+    0.0,
+    1.0
+   ],
+   "n_regimes": 4,
+   "excluded_nonpositive_intercept": 1,
+   "terms": [
+    "1",
+    "x",
+    "T",
+    "x^2"
+   ],
+   "coefs": [
+    0.3603965378904063,
+    0.857876906711315,
+    0.00016898434393383267,
+    -1.264775073029933
+   ],
+   "law": "1/\u03ba = 0.36 + 0.858\u00b7x + 0.000169\u00b7T - 1.26\u00b7x^2",
+   "term_labels": {
+    "1": "multi-supported",
+    "x": "multi-supported",
+    "T": "multi-supported",
+    "x^2": "multi-supported"
+   },
+   "blast_radius": {},
+   "kappa_x0.5_300K": 1.9089925006067539
+  },
+  {
+   "stage": "R3",
+   "label": "scope-limit to alloys",
+   "ledger_seq": "0",
+   "n_runs": 18,
+   "n_bulk_series": 5,
+   "x_range": [
+    0.05,
+    0.95
+   ],
+   "n_regimes": 3,
+   "excluded_nonpositive_intercept": 0,
+   "terms": [
+    "1",
+    "T"
+   ],
+   "coefs": [
+    0.46453331857737273,
+    0.00017680971158059774
+   ],
+   "law": "1/\u03ba = 0.465 + 0.000177\u00b7T",
+   "term_labels": {
+    "1": "multi-supported",
+    "T": "multi-supported"
+   },
+   "blast_radius": {},
+   "kappa_x0.5_300K": 1.9320825379408018
+  },
+  {
+   "stage": "R4",
+   "label": "+ production batch; probes scope-limited or split; Ge corner quarantined",
+   "ledger_seq": "3-14",
+   "n_runs": 129,
+   "n_bulk_series": 42,
+   "x_range": [
+    0.05,
+    0.95
+   ],
+   "n_regimes": 20,
+   "excluded_nonpositive_intercept": 0,
+   "terms": [
+    "1",
+    "x",
+    "T",
+    "x^2"
+   ],
+   "coefs": [
+    0.2122306992147695,
+    1.8988733966306308,
+    8.354198503910316e-05,
+    -2.220150770733356
+   ],
+   "law": "1/\u03ba = 0.212 + 1.9\u00b7x + 8.35e-05\u00b7T - 2.22\u00b7x^2",
+   "term_labels": {
+    "1": "regime-sensitive",
+    "x": "multi-supported",
+    "T": "regime-sensitive",
+    "x^2": "multi-supported"
+   },
+   "blast_radius": {
+    "regime:x0T0": [
+     "1",
+     "T"
+    ],
+    "regime:x0T1": [
+     "1",
+     "T"
+    ],
+    "regime:x2T0": [
+     "T"
+    ]
+   },
+   "kappa_x0.5_300K": 1.583049214677009
+  },
+  {
+   "stage": "R5",
+   "label": "shard action on the Ge corner: release + scope-limit x<=0.90",
+   "ledger_seq": "19, 26-29",
+   "n_runs": 129,
+   "n_bulk_series": 42,
+   "x_range": [
+    0.05,
+    0.9
+   ],
+   "n_regimes": 20,
+   "excluded_nonpositive_intercept": 0,
+   "terms": [
+    "1",
+    "x",
+    "T",
+    "x^2"
+   ],
+   "coefs": [
+    0.2092492427756745,
+    1.919090036293484,
+    8.352240738023136e-05,
+    -2.244343760617229
+   ],
+   "law": "1/\u03ba = 0.209 + 1.92\u00b7x + 8.35e-05\u00b7T - 2.24\u00b7x^2",
+   "term_labels": {
+    "1": "regime-sensitive",
+    "x": "multi-supported",
+    "T": "regime-sensitive",
+    "x^2": "multi-supported"
+   },
+   "blast_radius": {
+    "regime:x0T1": [
+     "1",
+     "T"
+    ],
+    "regime:x2T0": [
+     "T"
+    ]
+   },
+   "kappa_x0.5_300K": 1.5803654311987085
+  }
+ ]
+}

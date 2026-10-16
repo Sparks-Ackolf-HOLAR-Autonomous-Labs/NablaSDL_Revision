@@ -1,0 +1,966 @@
+{
+  "data": [
+    {
+      "score": 0.8875721870515487,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "snippetKind": "title",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 94
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6401532196535957,
+      "paper": {
+        "corpusId": "59382476",
+        "title": "Thermal Desorption of Krypton Implanted into Silicon",
+        "authors": [
+          "M. Turek",
+          "A. Drozdziel",
+          "A. W\u00f3jtowicz",
+          "J. Filiks",
+          "K. Pyszniak",
+          "D. Ma\u0327czka",
+          "Y. Yuschkevich"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.12693/APHYSPOLA.131.249?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.12693/APHYSPOLA.131.249, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Thermal Desorption of Krypton Implanted into Silicon",
+        "snippetKind": "title",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 52
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6190237828799982,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The thermal properties of semiconductors following exposure to ion irradiation are of great interest for the cooling of electronic devices; however, gradients in composition and structure due to irradiation often make the measurement difficult. Furthermore, the nature of spatial variations in thermal resistances due to spatially varying ion irradiation damage is not well understood. In this work, we develop an advancement in the analysis of time-domain thermoreflectance to account for spatially varying thermal conductivity in a material resulting from a spatial distribution of defects. We then use this method to measure the near-surface ([Formula: see text]1\u2009[Formula: see text]m) thermal conductivity of silicon wafers irradiated with Kr+ ions, which has an approximate Gaussian distribution centered 260\u2009nm into the sample. Our numerical analysis presented here allows for the spatial gradient of thermal conductivity to be extracted via what is fundamentally a volumetric measurement technique. We validate our findings via transmission electron microscopy, which is able to confirm the spatial variation of the sub-surface silicon structure, and provide additional insight into the local structure resulting from the effects of ion bombardment. Thermal measurements found the ion stopping region to have a nearly 50[Formula: see text] reduction in thermal conductivity as compared to pristine silicon, while TEM showed the region was not fully amorphized. Our results suggest this drastic reduction in silicon thermal conductivity is primarily driven by structural defects in crystalline regions along with boundary scattering between amorphous and crystalline regions, with a negligible contribution being due to implanted krypton ions themselves.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1760
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.6180424409117854,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "This is true for 3\u03c9 or thermoreflectance-based techniques such as Time Domain (TDTR), Frequency Domain (FDTR), or Steady State Thermoreflectance (SSTR), [34][35][36][37] where the analysis is performed for thin films or stacks of thin films, with uniform properties within each layer. The measured volumes using these techniques can be on the order of typical ion implantation depths and defect gradient profiles, which pose a challenge for thermal measurements of the ion-irradiated region. \n\nOthers have accounted for depth-varying properties 38 or heat deposition 39,40 within the TDTR thermal analysis by discretizing the affected region in the through-plane direction. In the former case, this was used to explain frequency-dependent trends in silicon thermal conductivity, where interfacial scattering effects serve to reduce the near-interface thermal conductivity. In the latter, volumetric heating occurs due to a finite optical penetration depth of the pump, which was approximated in the model via surface-applied heat across a series of interfaces. \n\nIn this study, we present a modification to the thermal analysis of time-domain thermoreflectance data that account for continuous spatial gradation of thermal conductivity within the measurement volume. We use this to measure krypton-irradiated silicon and explore the spatial distribution of ion-induced defects and their impact on thermal conductivity. We irradiate silicon samples with krypton ions with doses up to and beyond that required to partially amorphize the silicon at the Kr + ions' end of range. The result is a highly varying continuous gradation of irradiation-induced damage, centered a few hundred nanometers below the silicon surface, and fully within the TDTR measurement volume. This invalidates the typical assumption of a spatially invariant thermal conductivity typical for TDTR. The highly varying defect profile also prevents the simple approximation of the irradiated region as a few individual layers. Instead, by discretizing the region and fitting for thermal conductivity as a function of depth (as opposed to the properties of individual layers), we are able to quantify the magnitude and location of the minimum resulting thermal conductivity, along with the net increase in thermal resistance.",
+        "snippetKind": "body",
+        "section": "I. INTRODUCTION",
+        "snippetOffset": {
+          "start": 6019,
+          "end": 8311
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 153,
+              "end": 157,
+              "matchedPaperCorpusId": "121870714"
+            },
+            {
+              "start": 157,
+              "end": 161,
+              "matchedPaperCorpusId": "121395390"
+            },
+            {
+              "start": 161,
+              "end": 165,
+              "matchedPaperCorpusId": "22612296"
+            },
+            {
+              "start": 165,
+              "end": 169,
+              "matchedPaperCorpusId": "73510568"
+            },
+            {
+              "start": 545,
+              "end": 547,
+              "matchedPaperCorpusId": "27750012"
+            },
+            {
+              "start": 567,
+              "end": 570,
+              "matchedPaperCorpusId": "124477615"
+            },
+            {
+              "start": 570,
+              "end": 572,
+              "matchedPaperCorpusId": "11870740"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 284
+            },
+            {
+              "start": 285,
+              "end": 491
+            },
+            {
+              "start": 494,
+              "end": 673
+            },
+            {
+              "start": 674,
+              "end": 872
+            },
+            {
+              "start": 873,
+              "end": 1060
+            },
+            {
+              "start": 1063,
+              "end": 1266
+            },
+            {
+              "start": 1267,
+              "end": 1418
+            },
+            {
+              "start": 1419,
+              "end": 1574
+            },
+            {
+              "start": 1575,
+              "end": 1764
+            },
+            {
+              "start": 1765,
+              "end": 1868
+            },
+            {
+              "start": 1869,
+              "end": 1994
+            },
+            {
+              "start": 1995,
+              "end": 2292
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5995476156741623,
+      "paper": {
+        "corpusId": "273135634",
+        "title": "Lattice Boundary Enhancement on Thermoelectric Behaviors of Heavily Boron\u2010Doped Silicon for Energy Harvesting: Electrical versus Thermal Conductivity",
+        "authors": [
+          "S. Tsai",
+          "Po-Hsien Tseng",
+          "Chun-Chi Chen",
+          "Cheng-Ming Huang",
+          "Hung-Wei Yen",
+          "Yi-sheng Chen",
+          "Kun-Lin Lin",
+          "Ran-Ming Niu",
+          "Yu-Sheng Lai",
+          "Fu-Hsiang Ko"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1002/admi.202400536?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/admi.202400536, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The larger temperature gradient of the heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 is attributed to the formation of boundaries created by boron interstitials in the original silicon lattice. \n\nThe Seebeck coefficients of the intrinsic p-type silicon and heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 are shown in Figure 8b. The Seebeck coefficients of both silicon types increase as the temperature increases, and the Seebeck coefficient of intrinsic p-type silicon is higher than that of the heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 . The lower Seebeck coefficient of the heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 was caused by the formation of a degenerate semiconductor. Although the Seebeck coefficient of the heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 is lower than that of intrinsic p-type silicon, it is still in the same order magnitude as intrinsic p-type silicon. \n\nFigure 8c presents the thermal conductivity of intrinsic p-type silicon and a heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 . The thermal conductivity of the boron-doped silicon layer is observed to be lower than that of intrinsic p-type silicon. This reduction in thermal conductivity is attributed to the formation of boron interstitial boundaries, as discussed in the previous section. Figure 8d demonstrates the power factor parameters of the intrinsic p-type silicon and heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 . These results indicate that the largest power factor of the heavily boron-doped silicon layer with a boron implantation dosage of 1 \u00d7 10 16 cm \u22122 is 3.05 mW/m\u2022K 2 at 372.76 K. Our study reports a higher power factor than that of intrinsic p-type silicon, which has a power factor of 4.04 \u00d7 10 \u22124 mW/m\u2022K 2 at 373.14 K.",
+        "snippetKind": "body",
+        "section": "Enhanced Thermoelectric Performance",
+        "snippetOffset": {
+          "start": 26036,
+          "end": 28048
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 233
+            },
+            {
+              "start": 236,
+              "end": 406
+            },
+            {
+              "start": 407,
+              "end": 663
+            },
+            {
+              "start": 664,
+              "end": 845
+            },
+            {
+              "start": 846,
+              "end": 1088
+            },
+            {
+              "start": 1091,
+              "end": 1256
+            },
+            {
+              "start": 1257,
+              "end": 1377
+            },
+            {
+              "start": 1378,
+              "end": 1519
+            },
+            {
+              "start": 1520,
+              "end": 1694
+            },
+            {
+              "start": 1695,
+              "end": 2012
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5683165058228118,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In this work, we present a development on the Time Domain Thermoreflectance technique, wherein we discretize a region and fit a depth-dependent function for the thermal conductivity rather than fitting for discrete thermal parameters. This allows TDTR measurements on materials containing a steep gradient in properties, as is the case in ion bombardment. We use this technique to measure crystalline silicon bombarded with krypton ions at varying doses, with an ion end of range centered roughly 250 nm below the surface. \n\nWe are able to measure the functional, depth-dependent, thermal conductivity distribution, noting a lowest silicon thermal conductivity of 2.46 W m \u00c01 K \u00c01 in our highest dose sample. We attribute this large reduction to two primary causes. TEM finds amorphous pockets surrounded by crystalline regions as well as the presence of structural disorder (point defects) within the crystalline regions. We, thus, attribute the great reduction in thermal conductivity to a combination of defect scattering (due to structural disorder alone) and surface-scattering effects between amorphous and crystalline regions (effective medium from amorphous nanoparticles). We further anneal the highest-dose sample so as to remove these effects while preserving the ions themselves, measuring a restoration to pristine thermal conductivity. This allows for rejection of mass and bonding differences from the ions themselves as significant contributors to the great reduction in thermal conductivity. \n\nFinally, we explore the limitations of the analysis, finding we may take advantage of the established hybrid TDTR-FDTR approach for reducing our uncertainty and also finding that our sensitivity to the location and value of lowest thermal conductivity is reduced as the dose decreases. Interestingly, our ability to measure net thermal resistance is preserved, however. We also note that accurate resolution of the location of the end of the range region in the highest dose case suggests that this technique could be applicable outside of thermal engineering, where one is interested in measuring the ion-induced damage profile.",
+        "snippetKind": "body",
+        "section": "IV. CONCLUSION",
+        "snippetOffset": {
+          "start": 38316,
+          "end": 40456
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 234
+            },
+            {
+              "start": 235,
+              "end": 355
+            },
+            {
+              "start": 356,
+              "end": 522
+            },
+            {
+              "start": 525,
+              "end": 708
+            },
+            {
+              "start": 709,
+              "end": 765
+            },
+            {
+              "start": 766,
+              "end": 922
+            },
+            {
+              "start": 923,
+              "end": 1181
+            },
+            {
+              "start": 1182,
+              "end": 1349
+            },
+            {
+              "start": 1350,
+              "end": 1508
+            },
+            {
+              "start": 1511,
+              "end": 1796
+            },
+            {
+              "start": 1797,
+              "end": 1880
+            },
+            {
+              "start": 1881,
+              "end": 2140
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5452999689449205,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Similarly, a 100% change in the amorphous silicon thermal conductivity in the model changes our result by only 30%. Insensitivity to TBC and low sensitivity to the amorphous silicon conductivity in the EMA model both suggest the heat flow in this regime is dominated by boundary scattering due to nanoparticles, as opposed to the heat flow between and through the host and particles, both mechanisms being captured by EMA. \n\nWe calculate that an upper limit of 10 W m \u00c01 K \u00c01 for the defected crystalline region is required in order to find 2:46 W m \u00c01 K \u00c01 effective thermal conductivity measured. This implies that our thermal conductivity reduction, from 120 to 2.46 W m \u00c01 K \u00c01 , is not solely due to the presence of nanoparticles and the boundary scattering they introduce; however, this is still a significant contribution. We must explore other scattering mechanisms by which the thermal conductivity might be reduced from 120 to 10 W m \u00c01 K \u00c01 or below. It should be noted that while low crystalline silicon thermal conductivity has been seen before in nanowires and other constrained geometries, 59,64 the EMA calculation already captures size effects within the resulting structure of a host material interspersed by defects. \n\nWe next explore the effects of mass and bond strength due to the introduction of krypton ions. It is well known that the introduction of differing masses into a parent crystal serves as point defects, increasing phonon scattering rates, according to \n\nwhere the scattering rates scale with the square of mass difference \u0394m and proportionally to the concentration c. 65 While the mass difference between silicon (28.0855 g mol \u00c01 ) and krypton (83.798 g mol \u00c01 ) is high, the concentration of Kr ions at the highest dose (10 14 ions cm \u00c02 ) is still only predicted to be around 0.04% (atomic percent). Lacking a comprehensive study on the thermal effects of alloying of silicon and krypton specifically, we instead turn to literature on the well-studied alloying of silicon and germanium (72.64 g mol \u00c01 ).",
+        "snippetKind": "body",
+        "section": "D. In-depth exploration of high-dose results",
+        "snippetOffset": {
+          "start": 29875,
+          "end": 31918
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 1105,
+              "end": 1108,
+              "matchedPaperCorpusId": "1782023"
+            },
+            {
+              "start": 1108,
+              "end": 1110,
+              "matchedPaperCorpusId": "4226815"
+            },
+            {
+              "start": 1604,
+              "end": 1606,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 115
+            },
+            {
+              "start": 116,
+              "end": 422
+            },
+            {
+              "start": 425,
+              "end": 598
+            },
+            {
+              "start": 599,
+              "end": 829
+            },
+            {
+              "start": 830,
+              "end": 961
+            },
+            {
+              "start": 962,
+              "end": 1235
+            },
+            {
+              "start": 1238,
+              "end": 1332
+            },
+            {
+              "start": 1333,
+              "end": 1487
+            },
+            {
+              "start": 1490,
+              "end": 1838
+            },
+            {
+              "start": 1839,
+              "end": 2043
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5450321485611224,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We measure crystalline silicon (001) that has been bombarded with krypton ions at an energy of 500 keV, at doses of 10 8 through 10 14 ions cm \u00c02 . Bombardment was done on a 3 MeV Pelletron implanter and performed at a few degrees angle off normal, in order to negate channeling effects. All samples were subsequently coated with an 80 nm layer of aluminum to serve as a transducer for thermoreflectance measurements. No surface preparation was performed prior to implantation; however, the surface was cleaned prior to aluminum deposition using our standard procedure (washed with methanol, acetone, IPA, and followed by 30 min O 2 plasma cleaning). For the analysis, we assume our aluminum to have a volumetric heat capacity of 2:42 MJ m \u00c03 K \u00c01 , 46 and we measure its thermal conductivity to be 120 W m \u00c01 K \u00c01 via four point probe sheet resistance measurements. Time Domain Thermoreflectance was performed at three modulation frequencies (8.4, 4.2, and 2.1 MHz), with pump and probe spot diameters of approximately 20 and 10 \u03bcm, respectively. Our laser is pulsed at 80 MHz with an 800 nm wavelength. We use SRIM 28 software package to estimate the stopping distances of ions, predicting a stopping range of 290 nm with a longitudinal straggle of 65 nm. This estimation is performed using the built-in material library using the Kinchen-Pease formalism. This, along with thermal penetration depth considerations above, suggests that the entire damage region and the ion stopping region fall well within our measured region (400 nm depth).",
+        "snippetKind": "body",
+        "section": "B. Samples",
+        "snippetOffset": {
+          "start": 17705,
+          "end": 19247
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 750,
+              "end": 752,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1117,
+              "end": 1119,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 147
+            },
+            {
+              "start": 148,
+              "end": 287
+            },
+            {
+              "start": 288,
+              "end": 417
+            },
+            {
+              "start": 418,
+              "end": 650
+            },
+            {
+              "start": 651,
+              "end": 866
+            },
+            {
+              "start": 867,
+              "end": 948
+            },
+            {
+              "start": 949,
+              "end": 1047
+            },
+            {
+              "start": 1048,
+              "end": 1104
+            },
+            {
+              "start": 1105,
+              "end": 1257
+            },
+            {
+              "start": 1258,
+              "end": 1357
+            },
+            {
+              "start": 1358,
+              "end": 1542
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5399964335481591,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Lacking a comprehensive study on the thermal effects of alloying of silicon and krypton specifically, we instead turn to literature on the well-studied alloying of silicon and germanium (72.64 g mol \u00c01 ). In Si-Ge systems studied both experimentally 66 and computationally, 67 tenths 66 or hundredths 68,69 of a percent concentrations of Ge still yield thermal conductivities above 100 W m \u00c01 K \u00c01 . Despite the slight increase in mass between krypton and germanium, our ion concentrations are still extremely low, and we reject the notion that mass effects could play a FIG. 6. Following the contour analysis, all sets of functions for conductivity vs depth that yield acceptable fits to data can be plotted. The functions yielding excellent fits (residuals of 1% or better) for the 10 14 ions cm \u00c02 dose sample are plotted in red, with merely acceptable fits (residuals of 2.5% or better) in gray. \n\nThe wider threshold is more conservative, however lower may be acceptable if one's measurement system yields exceptionally clean and relatively noise-free data.",
+        "snippetKind": "body",
+        "section": "D. In-depth exploration of high-dose results",
+        "snippetOffset": {
+          "start": 31714,
+          "end": 32776
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 250,
+              "end": 252,
+              "matchedPaperCorpusId": "9397977"
+            },
+            {
+              "start": 301,
+              "end": 304,
+              "matchedPaperCorpusId": "119781569"
+            },
+            {
+              "start": 304,
+              "end": 306,
+              "matchedPaperCorpusId": "121787359"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 204
+            },
+            {
+              "start": 205,
+              "end": 399
+            },
+            {
+              "start": 400,
+              "end": 578
+            },
+            {
+              "start": 579,
+              "end": 709
+            },
+            {
+              "start": 710,
+              "end": 899
+            },
+            {
+              "start": 902,
+              "end": 1062
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5147212724367753,
+      "paper": {
+        "corpusId": "251702176",
+        "title": "Measuring sub-surface spatially varying thermal conductivity of silicon implanted with krypton",
+        "authors": [
+          "T. Pfeifer",
+          "J. Tomko",
+          "Eric R. Hoglund",
+          "E. Scott",
+          "K. Hattar",
+          "K. Huynh",
+          "Michael E. Liao",
+          "M. Goorsky",
+          "P. Hopkins"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0094876?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0094876, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We also refer to past studies that have made similar observations; post-annealed ionbombarded samples have seen a near-complete restoration of high thermal conductivity. 17 Similarly, studies in which the ion and the target were the same material (e.g., silicon bombarded with silicon 14 or diamond bombarded with carbon 15 ) have seen large reductions in thermal conductivity, despite the negligible mass difference between the ion and the target material. \n\nWe, thus, attribute our gross reduction in silicon thermal conductivity to both structural defect scattering (from 120 W m \u00c01 K \u00c01 down to 10 or below for the crystalline regions) and interface scattering effects between our crystalline and amorphous regions (from 10 or less down to our measured 2.46 W m \u00c01 K \u00c01 ). EMA's insensitivity to TBC in this regime also suggests that interfacial scattering dominates rather than heat exchange between the host and nanoparticles. We also reject the notion that mass-scattering or differences due to the effect of Si-Kr bond strength play a significant role in measured thermal conductivity reduction based on the low concentration of krypton ions predicted. Finally, we note that this upper bound for highly defected but still crystalline silicon represents the lowest measured to our knowledge.",
+        "snippetKind": "body",
+        "section": "Journal of Applied Physics",
+        "snippetOffset": {
+          "start": 34707,
+          "end": 36005
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 170,
+              "end": 172,
+              "matchedPaperCorpusId": "241565667"
+            },
+            {
+              "start": 285,
+              "end": 287,
+              "matchedPaperCorpusId": "53446811"
+            },
+            {
+              "start": 321,
+              "end": 323,
+              "matchedPaperCorpusId": "204134601"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 172
+            },
+            {
+              "start": 173,
+              "end": 457
+            },
+            {
+              "start": 460,
+              "end": 776
+            },
+            {
+              "start": 777,
+              "end": 932
+            },
+            {
+              "start": 933,
+              "end": 1160
+            },
+            {
+              "start": 1161,
+              "end": 1298
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5113985337361451,
+      "paper": {
+        "corpusId": "33092575",
+        "title": "Thermal and optical simulation of a photonic crystal light modulator based on the thermo-optic shift of the cut-off frequency.",
+        "authors": [
+          "M. Tinker",
+          "Jeong-Bong Lee"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1364/OPEX.13.007174?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1364/OPEX.13.007174, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "ANSYS was used to model both the temperature profile and power dissipation generated during operation of the device by using a maximum allowable temperature of 500 \u00b0C. The temperature profile was modeled by balancing the heat flow being generated by the resistive heating elements against the heat flow being transported away from these elements. Because of the high thermal conductivity of silicon versus air, around 5,000 to 1 [38], most of the heat was transported away from the heating elements by the thermal conduction of heat through the SOI silicon. This heat was then transported down through the insulating oxide to the underlying silicon substrate. However, a significant fraction of heat was also transported through the underlying air down to the underlying silicon substrate. This was facilitated by the relatively large area available for thermal transport and because of the proximity of the highly conductive silicon substrate only 1 \u00b5m beneath the device. The fraction of heat transported away from the heating elements by the air above the device was relatively small because of the absence of a fast diffusing heat sink above the device and was ignored because of the large number of additional elements needed to simulate this effect. \n\nThe values of the various material properties used in this computation are shown in Table 1 [49][50][51][52][53][54]. The values used for silicon and for air are also given as a function of temperature since both are subjected to temperatures far above room temperature. The values used for the thermal conductivity and electrical resistivity of silicon are also given as a function of doping concentration since both vary strongly with doping. \n\nNote that the thermal conductivity of the silicon decreases markedly with both temperature and with the doping concentration thereby reducing the lateral spread of the heat distribution at elevated temperatures and within areas of highly doped silicon. The electrical resistivity of undoped silicon also decreases markedly at elevated temperatures as a consequence of the exponential increase in the intrinsic carrier density with temperature. Nonetheless, the resistivity is still around one hundred times higher than that of highly doped silicon between 400 to 500 \u00b0C and should not appreciably effect the operation of the device. The lower half of the device shown in Fig. 4 was simulated using ANSYS by employing the symmetry of the system to reduce the size of the simulation.",
+        "snippetKind": "body",
+        "section": "Steady-state thermal analysis",
+        "snippetOffset": {
+          "start": 18689,
+          "end": 21175
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 429,
+              "end": 433,
+              "matchedPaperCorpusId": "8119986"
+            },
+            {
+              "start": 1350,
+              "end": 1354,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1354,
+              "end": 1358,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1358,
+              "end": 1362,
+              "matchedPaperCorpusId": "11475751"
+            },
+            {
+              "start": 1362,
+              "end": 1366,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1366,
+              "end": 1370,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1370,
+              "end": 1374,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 167
+            },
+            {
+              "start": 168,
+              "end": 346
+            },
+            {
+              "start": 347,
+              "end": 557
+            },
+            {
+              "start": 558,
+              "end": 659
+            },
+            {
+              "start": 660,
+              "end": 789
+            },
+            {
+              "start": 790,
+              "end": 973
+            },
+            {
+              "start": 974,
+              "end": 1255
+            },
+            {
+              "start": 1258,
+              "end": 1375
+            },
+            {
+              "start": 1376,
+              "end": 1528
+            },
+            {
+              "start": 1529,
+              "end": 1702
+            },
+            {
+              "start": 1705,
+              "end": 1957
+            },
+            {
+              "start": 1958,
+              "end": 2148
+            },
+            {
+              "start": 2149,
+              "end": 2337
+            },
+            {
+              "start": 2338,
+              "end": 2486
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.5000234060481228,
+      "paper": {
+        "corpusId": "56284679",
+        "title": "Comprehensive modeling of Joule heated cantilever probes",
+        "authors": [
+          "Martin Spieser",
+          "C. Rawlings",
+          "E. L\u00f6rtscher",
+          "U. Duerig",
+          "A. Knoll"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1711.09582, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "These effects cannot be predicted a priori with sufficient accuracy. Therefore we are forced to introduce a set of fit parameters henceforth denoted by bold symbols in the materials equations. \n\nThe thermal conductivity in high quality single crystal Si, \u03ba Si , is taken from Table IV in Ref. [26] and it has been shown that \u03ba Si does not significantly depend on the doping concentration in the temperature, 300 K -1200 K, and doping regime, 10 17 -10 20 cm \u22123 , considered here [27]. In essence 1/\u03ba Si increases linearly with temperature with a distinct increase of the slope at 680 K. With reference to \u03ba Si we write \n\nwhere the tanh term provides an approximation for the step wise increase in the slope at 680 K. The scale parameter c \u03ba accounts for the reduction of the thermal conductivity due to increased phonon scattering in our structure. c \u03ba is expected to be less than 1 which provides a first sanity check for the model. \n\nThe electrical conductivity in the low doped section depends strongly on temperature and doping concentration n d . From experience we know that the effective resistance of the heater element is significantly lower than expected from the heater dimensions and the doping level. We attribute this observation to dopant diffusion during the high-temperature annealing step for activating the electrons in the high doped regions. Assuming a diffusivity of D \u2243 10 \u221212 cm 2 s \u22121 [28,29] for the phosphorous diffusion at 1150 \u2022 C and an annealing time of t a = 1800 s we estimate that the doping concentration markedly increases from the nominal value of 3.3 \u00d7 10 17 cm \u22123 at a distance of \u2243 1 \u00b5m from the heater ends. To account for this effect we introduce a continuous doping profile which is approximated by the known solution for the 1-dimensional step profile diffusion \n\nwhere n hd = 2.2 \u00d7 10 20 cm \u22123 is the doping concentration from ion implantation in the low resistivity cantilever structure and l h = 4\u00b5m denotes the geometrical heater length defined by the manufacturing process and the x-coordinate points along the heater axis.",
+        "snippetKind": "body",
+        "section": "(b), constitute in essence",
+        "snippetOffset": {
+          "start": 8145,
+          "end": 10217
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 293,
+              "end": 297,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 479,
+              "end": 483,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1410,
+              "end": 1414,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1414,
+              "end": 1417,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 68
+            },
+            {
+              "start": 69,
+              "end": 192
+            },
+            {
+              "start": 195,
+              "end": 484
+            },
+            {
+              "start": 485,
+              "end": 586
+            },
+            {
+              "start": 587,
+              "end": 618
+            },
+            {
+              "start": 621,
+              "end": 716
+            },
+            {
+              "start": 717,
+              "end": 848
+            },
+            {
+              "start": 849,
+              "end": 933
+            },
+            {
+              "start": 936,
+              "end": 1051
+            },
+            {
+              "start": 1052,
+              "end": 1213
+            },
+            {
+              "start": 1214,
+              "end": 1362
+            },
+            {
+              "start": 1363,
+              "end": 1648
+            },
+            {
+              "start": 1649,
+              "end": 1805
+            },
+            {
+              "start": 1808,
+              "end": 2072
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

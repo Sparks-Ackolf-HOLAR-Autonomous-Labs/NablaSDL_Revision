@@ -1,0 +1,3 @@
+2026-10-04T07:11:51Z job=16053444 restart=0 host=notch329
+  cuda_init_fail (gpumd, exit 1) host=notch329
+2026-10-04T07:15:28Z job=16053456 restart=0 host=notch426

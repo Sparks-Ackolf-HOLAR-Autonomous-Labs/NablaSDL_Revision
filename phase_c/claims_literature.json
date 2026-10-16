@@ -1,0 +1,289 @@
+{
+  "party": "literature",
+  "n_points": 17,
+  "validity_domain": {
+    "x": [
+      0,
+      1
+    ],
+    "T": [
+      300,
+      900
+    ]
+  },
+  "scope_limits_applied": [],
+  "pareto_front": [
+    {
+      "names": [
+        "1"
+      ],
+      "coefs": [
+        0.13294790250948404
+      ],
+      "complexity": 1,
+      "mse": 0.0741475261622596
+    },
+    {
+      "names": [
+        "1",
+        "T"
+      ],
+      "coefs": [
+        0.2582463525984865,
+        -0.00029179091116617
+      ],
+      "complexity": 2,
+      "mse": 0.07056508346397423
+    },
+    {
+      "names": [
+        "x",
+        "x^2"
+      ],
+      "coefs": [
+        3.8455597643097628,
+        -3.781670875420874
+      ],
+      "complexity": 3,
+      "mse": 0.023977885697927588
+    },
+    {
+      "names": [
+        "x",
+        "T",
+        "x^2"
+      ],
+      "coefs": [
+        3.7569312443528626,
+        4.9238066642452026e-05,
+        -3.707813775456791
+      ],
+      "complexity": 4,
+      "mse": 0.023493008256584947
+    },
+    {
+      "names": [
+        "1",
+        "x",
+        "T",
+        "x^2"
+      ],
+      "coefs": [
+        -0.0032193513425940244,
+        3.7663620500499264,
+        5.4729901285553274e-05,
+        -3.7156727802042
+      ],
+      "complexity": 5,
+      "mse": 0.023491724383969934
+    },
+    {
+      "names": [
+        "1",
+        "x",
+        "1/T",
+        "x^2"
+      ],
+      "coefs": [
+        0.056938728229725795,
+        3.7721505762655605,
+        -13.41115906670682,
+        -3.720496552050708
+      ],
+      "complexity": 6,
+      "mse": 0.023476457339115506
+    }
+  ],
+  "selected": {
+    "names": [
+      "x",
+      "x^2"
+    ],
+    "coefs": [
+      3.8455597643097628,
+      -3.781670875420874
+    ],
+    "complexity": 3,
+    "mse": 0.023977885697927588
+  },
+  "passport_term_frequency": {
+    "x": 0.9166666666666666,
+    "x^2": 0.75,
+    "1": 0.08333333333333333,
+    "T": 0.4166666666666667
+  },
+  "passport_probe_grid": [
+    {
+      "x": 0.1,
+      "T": 300,
+      "support_dist": 0.1,
+      "ensemble_disagreement": 2.526
+    },
+    {
+      "x": 0.1,
+      "T": 600,
+      "support_dist": 0.141,
+      "ensemble_disagreement": 1.015
+    },
+    {
+      "x": 0.1,
+      "T": 900,
+      "support_dist": 0.1,
+      "ensemble_disagreement": 0.577
+    },
+    {
+      "x": 0.1,
+      "T": 1200,
+      "support_dist": 0.316,
+      "ensemble_disagreement": 0.383
+    },
+    {
+      "x": 0.3,
+      "T": 300,
+      "support_dist": 0.1,
+      "ensemble_disagreement": 2.946
+    },
+    {
+      "x": 0.3,
+      "T": 600,
+      "support_dist": 0.316,
+      "ensemble_disagreement": 1.799
+    },
+    {
+      "x": 0.3,
+      "T": 900,
+      "support_dist": 0.3,
+      "ensemble_disagreement": 1.256
+    },
+    {
+      "x": 0.3,
+      "T": 1200,
+      "support_dist": 0.424,
+      "ensemble_disagreement": 0.941
+    },
+    {
+      "x": 0.5,
+      "T": 300,
+      "support_dist": 0.3,
+      "ensemble_disagreement": 3.016
+    },
+    {
+      "x": 0.5,
+      "T": 600,
+      "support_dist": 0.424,
+      "ensemble_disagreement": 1.999
+    },
+    {
+      "x": 0.5,
+      "T": 900,
+      "support_dist": 0.5,
+      "ensemble_disagreement": 1.465
+    },
+    {
+      "x": 0.5,
+      "T": 1200,
+      "support_dist": 0.583,
+      "ensemble_disagreement": 1.136
+    },
+    {
+      "x": 0.7,
+      "T": 300,
+      "support_dist": 0.3,
+      "ensemble_disagreement": 2.988
+    },
+    {
+      "x": 0.7,
+      "T": 600,
+      "support_dist": 0.424,
+      "ensemble_disagreement": 1.916
+    },
+    {
+      "x": 0.7,
+      "T": 900,
+      "support_dist": 0.671,
+      "ensemble_disagreement": 1.381
+    },
+    {
+      "x": 0.7,
+      "T": 1200,
+      "support_dist": 0.762,
+      "ensemble_disagreement": 1.063
+    },
+    {
+      "x": 0.9,
+      "T": 300,
+      "support_dist": 0.1,
+      "ensemble_disagreement": 2.713
+    },
+    {
+      "x": 0.9,
+      "T": 600,
+      "support_dist": 0.316,
+      "ensemble_disagreement": 1.318
+    },
+    {
+      "x": 0.9,
+      "T": 900,
+      "support_dist": 0.608,
+      "ensemble_disagreement": 0.85
+    },
+    {
+      "x": 0.9,
+      "T": 1200,
+      "support_dist": 0.906,
+      "ensemble_disagreement": 0.635
+    }
+  ],
+  "hgsr": {
+    "selected": {
+      "names": [
+        "x",
+        "x^2"
+      ],
+      "coefs": [
+        3.8455597643097583,
+        -3.78167087542087
+      ],
+      "complexity": 3,
+      "mse": 0.027129364038403336
+    },
+    "term_provenance": {
+      "x": [
+        {
+          "edge": "regime:x1T0",
+          "effect": "deselected"
+        }
+      ],
+      "x^2": [
+        {
+          "edge": "regime:x1T0",
+          "effect": "deselected"
+        },
+        {
+          "edge": "regime:x5T0",
+          "effect": "deselected"
+        }
+      ]
+    },
+    "term_labels": {
+      "x": "regime-sensitive",
+      "x^2": "regime-sensitive"
+    },
+    "blast_radius": {
+      "regime:x1T0": [
+        "x",
+        "x^2"
+      ],
+      "regime:x5T0": [
+        "x^2"
+      ]
+    },
+    "covered_regimes": [
+      "x0T0",
+      "x0T1",
+      "x0T2",
+      "x1T0",
+      "x5T0"
+    ]
+  }
+}

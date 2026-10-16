@@ -1,0 +1,445 @@
+{
+  "data": [
+    {
+      "score": 0.6760432881365446,
+      "paper": {
+        "corpusId": "202750187",
+        "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties",
+        "authors": [
+          "Zheyong Fan",
+          "Yan-Zhou Wang",
+          "Xiaokun Gu",
+          "P. Qian",
+          "Yan-Jing Su",
+          "T. Ala-Nissila"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1909.11474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Thermal transport in silicon based materials has been extensively studied by classical molecular dynamics (MD) simulations [1][2][3][4][5][6][7][8][9][10][11][12]. The results strongly depend on the empirical interatomic potential used. Quantitatively accurate empirical potentials for covalently bonded solids such as silicon are many-body in nature and cannot be expressed as sums of pairwise interactions. Among the various many-body empirical potentials, the Tersoff potential [13,14] is the most frequently used for silicon. In addition to the original parametrizations by Tersoff [13,14], this potential has also been modified and/or reparametrized by many other authors [15][16][17]. Although the Tersoff potential has a relatively simple form and low computational cost compared to many other manybody potentials, it can capture the essence of quantummechanical bonding [18], justifying its widespread use in modeling [19][20][21][22][23][24][25][26][27][28][29]. \n\nThere are however some features that cannot be consistently reproduced by Tersoff-like potentials, such as heat conductivity in the solid phase. In particular, in Fig. 1 we show the thermal conductivity of the standard dia-mond silicon structure at 700 K (where quantum effects can be neglected) and zero pressure predicted by using the previous Tersoff-like potentials as well as the one introduced in this work. None of the previous ones gives a reasonable match to the reference experimental value of 51 W/mK. The Tersoff potentials parametrized by Tersoff [14] and Erhart and Albe [15] (the one named as Si-II which was suggested to be better for simulation with elemental silicon) predict comparable values and overshoot the experimental value by about 80%, while the modified Tersoff potentials by Kumagai et al. [16] (the one called MOD in this reference) and by Pun and Mishin [17] underestimate the experimental value by a factor of 2 and 5, respectively.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6481187645738438,
+      "paper": {
+        "corpusId": "235556090",
+        "title": "Molecular Dynamics Simulations of the Thermal Conductivity of Silicon-Germanium and Silicon-Germanium-Tin Alloys",
+        "authors": [
+          "Zan Wang",
+          "X.-Y. Cai",
+          "W.-K. Zhao",
+          "H. Wang",
+          "Y. Ruan"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1155/2021/6675159?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1155/2021/6675159, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Molecular Dynamics Simulations of the Thermal Conductivity of Silicon-Germanium and Silicon-Germanium-Tin Alloys",
+        "snippetKind": "title"
+      }
+    },
+    {
+      "score": 0.6422478579320597,
+      "paper": {
+        "corpusId": "202750187",
+        "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties",
+        "authors": [
+          "Zheyong Fan",
+          "Yan-Zhou Wang",
+          "Xiaokun Gu",
+          "P. Qian",
+          "Yan-Jing Su",
+          "T. Ala-Nissila"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1909.11474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Silicon is an important material and many empirical interatomic potentials have been developed for atomistic simulations of it. Among them, the Tersoff potential and its variants are the most popular ones. However, all the existing Tersoff-like potentials fail to reproduce the experimentally measured thermal conductivity of diamond silicon. Here we propose a modified Tersoff potential and develop an efficient open source code called GPUGA (graphics processing units genetic algorithm) based on the genetic algorithm and use it to fit the potential parameters against energy, virial and force data from quantum density functional theory calculations. This potential, which is implemented in the efficient open source GPUMD (graphics processing units molecular dynamics) code, gives significantly improved descriptions of the thermal conductivity and phonon dispersion of diamond silicon as compared to previous Tersoff potentials and at the same time well reproduces the elastic constants. Furthermore, we find that quantum effects on the thermal conductivity of diamond silicon at room temperature are non-negligible but small: using classical statistics underestimates the thermal conductivity by about 10% as compared to using quantum statistics.",
+        "snippetKind": "abstract"
+      }
+    },
+    {
+      "score": 0.6356334839263693,
+      "paper": {
+        "corpusId": "202750187",
+        "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties",
+        "authors": [
+          "Zheyong Fan",
+          "Yan-Zhou Wang",
+          "Xiaokun Gu",
+          "P. Qian",
+          "Yan-Jing Su",
+          "T. Ala-Nissila"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1909.11474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The Tersoff potentials parametrized by Tersoff [14] and Erhart and Albe [15] (the one named as Si-II which was suggested to be better for simulation with elemental silicon) predict comparable values and overshoot the experimental value by about 80%, while the modified Tersoff potentials by Kumagai et al. [16] (the one called MOD in this reference) and by Pun and Mishin [17] underestimate the experimental value by a factor of 2 and 5, respectively. The fact that the Tersoff-like potentials can predict very different thermal conductivity values suggests that accurate prediction of the thermal conductivity could be achieved with an appropriate functional form and parametrization. \n\nTo achieve this goal, we propose here a minimal Tersoff potential for silicon. Here, by \"minimal\" we mean that every parameter in the potential is essential and there is no redundancy. In the original Tersoff potential [14], there are 11 parameters. The version used by Erhart and Albe [15] has the same number of parameters, although some functions have been written in a different but equivalent way. In the modified Tersoff potential by Kumagai et al. [16], 16 parameters were used, and the latest version by Pun and Mishin [17] [30] and some commonly used empirical potentials using the homogeneous nonequilibrium molecular dynamics method [31] as implemented in the GPUMD code [32,33]. Isotope scattering is taken into account here. See text for details. \n\ngoing with this trend of increasing the number of fitting parameters and the complexity of the potential, we do the opposite. With extensive fitting trials with the help of a genetic algorithm, we find that three parameters in the Tersoff potential can be eliminated without adversely affecting the quality of the fitting. A set of optimized parameters were found by fitting the minimal Tersoff potential against energy, virial, and force data from quantum density functional theory (DFT) [34,35] calculations for many configurations. Our optimized potential predicts a thermal conductivity which only overshoots the experimental value by about 20% at 700 K. \n\nThis paper is organized as follows. In Sec.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6269905493063459,
+      "paper": {
+        "corpusId": "15625373",
+        "title": "Reduction of Thermal Conductivity by Nanoscale 3D Phononic Crystal",
+        "authors": [
+          "Li-Na Yang",
+          "Nuo Yang",
+          "Bao-Wen Li"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCND",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1301.2408, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The Green-Kubo method, equilibrium molecular dynamics (MD), is employed to calculate the thermal conductivities of 3D phononic crystal at 1000 K. MD simulation is a popular method in calculating thermal conductivity at high temperature 18,26,27 . In this letter, we focus on the thermal conductivity of 3D phononic crystal at 1000 K, which is larger than the Debye temperature, T D , of Si (,658 K) 28 . \n\nIn simulations, the periodic boundary condition is applied in all three directions. To derive the force term, we use Stillinger-Weber (SW) potential for Si 24 , which includes both two-body and three-body potential terms. The SW potential has been used widely to study the thermal properties of Si bulk material 14,26,29 for its accurate fit for experimental results on the thermal expansion coefficients. The heat current is defined as 18",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6094429274755471,
+      "paper": {
+        "corpusId": "267693828",
+        "title": "Theoretical Characterization of Thermal Conductivities for Polymers\u2014A Review",
+        "authors": [
+          "Cornelia Breitkopf"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.3390/thermo4010004?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/thermo4010004, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Higher dimensional model systems have been also investigated with these elaborated methods. Henry et al. [15] found a decreasing thermal conductivity when increasing the dimensionality of the model material from 1D to 3D. \n\nThe Green-Kubo approach is applied both with using classical potentials, e.g., molecular mechanics, as well as using ab initio level, e.g., as ab initio molecular dynamics calculations. Ab initio Green-Kubo as first-principles formulation allowed the accurate assessment of the phonon thermal conductivity of solid semiconductors and insulators [51]. This approach is sophisticated and prevents limitations of the classical potentials in molecular dynamics as it accounts for anharmonicities to all orders. Accordingly, this approach is exact at temperatures at which nuclear quantum effects are negligible. This formalism was demonstrated and validated for the determination of the thermal conductivity of two solids with widely divergent thermal conductivities: firstly, Si in a certain solid crystal structure, which had an especially high thermal conductivity; and secondly, on tetragonal ZrO 2 , which had a very low thermal conductivity [51]. \n\nQuantitative comparisons of EMD and NEMD with respect to the same molecular structure are rare, especially for polymers. One study comparing both methods with respect to the determination of \u03ba depending on domain size effects was performed for silicon compounds [52]. For EMD, the thermal conductivity of silicon increased with the domain size and converged finally. For NEMD, a domain size effect was found without a general trend for the investigated systems. The authors state that domain size effects for both methods are related with wavelength and mean free path accumulations of the thermal conductivity. Since phonon wavelength spans over a narrower range compared to the mean free path, EMD shows a less significant size effect than NEMD [52]. A benchmarking study for nanowire silicone compared EMD and NEMD, which showed rather similar quantitative results for both methods when an appropriate effective length in EMD is chosen [53]. NEMD was also reported to under-predict bulk thermal conductivities of Si-based systems compared to experimental values because of the length scales, which may differ several orders of magnitude [54].",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.6045471316588342,
+      "paper": {
+        "corpusId": "188104337",
+        "title": "Molecular Dynamics Modeling of Thermal Conductivity of Silicon/Germanium Nanowires",
+        "authors": [
+          "Andriy Kishkar",
+          "Vasyl Kurylyuk"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.15330/PCSS.19.3.222-225?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.15330/PCSS.19.3.222-225, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Molecular Dynamics Modeling of Thermal Conductivity of Silicon/Germanium Nanowires",
+        "snippetKind": "title"
+      }
+    },
+    {
+      "score": 0.593066514954318,
+      "paper": {
+        "corpusId": "237326555",
+        "title": "General Molecular Dynamics Approach to Understand the Mechanical Anisotropy of Monocrystalline Silicon under the Nanoscale Effects of Point Defect",
+        "authors": [
+          "Wei Wan",
+          "Chang-Xin Tang",
+          "Jianjie Zhang",
+          "Lang Zhou"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8401468, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "There are over 30 versions of interatomic potential [29] describing the atomic interaction of silicon. However, for the accuracy of simulation, only the potential which best describes the mechanical properties of silicon could be selected to perform the simulation. The T2 version [30] of Tersoff potential (Tersoff.mod) was selected due to its outstanding results on the melting and elastic characteristics of silicon [31]. This potential was developed by J. Tersoff in 1989, which aimed to reveal the elastic properties of silicon precisely. Accurate results [32] have been achieved describing silicon structures such as cluster, crystal orientation, liquid silicon and cubic diamond silicon in the molecular dynamics application of the Tersoff T2 potential. It also shows great adaptability in revealing crystal defects and internal stress. A comparison of the elastic constants obtained using different methods is plotted as Table 3. Among all the methods, obviously the molecular dynamics results achieved by the Tersoff T2 potential obtain the lowest disparity to the experimental values. The table demonstrates that the selection of the potential is accurate and appropriate for this simulation.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5920865585659798,
+      "paper": {
+        "corpusId": "95195015",
+        "title": "First-Principles-Based Interatomic Potential for SI and Its Thermal Conductivity",
+        "authors": [
+          "K. Esfarjani",
+          "Gang Chen",
+          "A. Henry"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1115/AJTEC2011-44339?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1115/AJTEC2011-44339, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Classical molecular dynamics (MD) simulations use either semi-empirical potentials such as Stillinger-Weber (SW) [1], Abell-Tersoff-Brenner [2] or other type of force fields where the potential energy is an analytical function of the atomic po-sitions, or first-principles potentials calculated typically using density-functional methods. The former are fast to compute but suffer from inaccuracies, while the latter are accurate but timeconsuming to compute. Due to recent interest in thermal transport in semiconductor materials having attractive thermoelectric properties for energy conversion, and the topic of thermal management in general, there have been many calculations of the lattice thermal conductivity of materials using the Green-Kubo (GK) formula. This formula relates the thermal conductivity, through the use of the fluctuation-dissipation theorem, to the time-integral of the heat current autocorrelation function. The latter is calculated from a MD simulation, and the ensemble average is usually replaced by a time average. Semi empirical potentials such as SW are usually used to perform the MD simulation for a system such as Si. As the thermal conductivity of a perfect crystal is mainly due to anharmonic three-phonon processes, directly related to the third-derivatives of the potential energy with respect to atomic displacements, and the latter is generally not fitted or considered in the design of the semi-empirical potential, there is really no good reason to expect an accurate value for the thermal conductivity calculated from a GK-MD simulation. In the case of Si, when using the SW potential, however, for some magical reason [3], relatively good agreement is found between the experiment and the simulation results, even for a relatively small supercell [4][5][6][7]. In a similar work, using the EDIP potential, Pascual-Gutierrez et al. [8] also find thermal conductivity of bulk Si from MD in good agreement with experiments. In a subsequent work [9], the same group computed the thermal conductivity using the lattice dynamics (LD) theory based on the same EDIP potential, similar to the work of Broido et al [10].",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5885856176651694,
+      "paper": {
+        "corpusId": "128358934",
+        "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach",
+        "authors": [
+          "V. Kuryliuk",
+          "Oleksii Nepochatyi",
+          "P. Chantrenne",
+          "D. Lacroix",
+          "M. Isaiev"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1904.10204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In this section, the results of calculations of the thermal conductivity k of Si under hydrostatic strain \u03b5 h using SW, EDIP, 2NN MEAM and Tersoff III potentials at T = 300K will be discussed. The strain-dependencies of the thermal conductivity predicted with the use of these potentials are plotted in Fig. 2. Firstly, it should be noted that thermal conductivity evaluated with MD simulations overestimates the experimental results for natural 56 and highly isotopically enriched 57 Si (k=130-160 W/(m\u2022K) for 300 K). As discussed previously, MD is based on classical laws of motion and quantum phenomena are not taken into account. This behavior in well known, however in further analysis we will only focus on the dependence of the thermal conductivity versus applied strain as a main parameter for the chosen potentials reliability. Fig. 2 shows that calculated thermal conductivity of unstrained SW silicon is about 393 W/m\u2022K. Under compression strain, the thermal conductivity of SW silicon rapidly decreases, which contradicts previously published MD simulation results for bulk silicon 14 and bulk argon 13 . For a tensile strain, the SW potential leads to nonmonotonic dependence of thermal conductivity, which is not in agreement with other data already revealed by MD method 13,14 . Therefore, the use of such potential is clearly inappropriate for the simulation of the thermal conductivity of silicon under hydrostatic strain. \n\nNext, the value of k resulting from the EDIP calculations for unstrained silicon was found to be about 174 W/(m\u2022K). This potential gives also non-physical trends k(\u03b5 h ): the thermal conductivity increases con-tinuously from compression strain to tensile hydrostatic strain, which is in a sharp contrast to the expected dependence. \n\nDespite, 2NN MEAM potential (see Fig. 2) gives a correct strain dependence of k with the increase of tensile strain, it gives an insignificant increases with the increase of compression strain. Therefore, the 2NN MEAM potentials may not be suitable for studying the strain effect on the thermal conductivity of silicon. \n\nFinally, the calculated value of k for unstrained silicon with Tersoff III potential is about 229 W/(m\u2022K).",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5881748365972146,
+      "paper": {
+        "corpusId": "15038210",
+        "title": "Heat transport in silicon from first-principles calculations",
+        "authors": [
+          "K. Esfarjani",
+          "Gang Chen",
+          "H. Stokes"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "BRONZE",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1107.5288, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Classical molecular dynamics (MD) simulations use either semi-empirical potentials such as Stillinger-Weber (SW) [1], Abell-Tersoff-Brenner [2] or other type of force fields where the potential energy is an analytical function of the atomic positions, or first-principles potentials calculated typically using density-functional methods based on either the Born-Oppenheimer [3] or the Car-Parrinello [4] dynamics. The former are fast to compute but suffer from inaccuracies, while the latter are accurate but time-consuming to compute. Due to recent interest in thermal transport in semiconductor materials having good thermoelectric properties and the topic of microelectronics thermal management in general, there have been many calculations of the lattice thermal conductivity of materials using the Green-Kubo (GK) formula [5,6]. This formula relates the thermal conductivity, through the use of the fluctuation-dissipation theorem, to the time-integral of the heat current autocorrelation function. The latter is calculated from an MD simulation, and the ensemble average is usually replaced by a time average. Semi empirical potentials such as SW are usually used to perform the MD simulation for a system such as Si. As the thermal conductivity of a perfect crystal is mainly due to anharmonic three-phonon processes, directly related to the third-derivatives of the potential energy with respect to atomic displacements, and the latter is generally not fitted or considered in the design of the semi-empirical potentials, there is really no good reason to expect an accurate value for the thermal conductivity calculated from a GK-MD simulation. In the case of Si, when using the SW potential, however, for some reason [7], relatively good agreement is found between the experiment and the simulation results, even for a relatively small supercell [8][9][10][11]. The latter fact is also cause for concern, because, as we will show in the following, a small supercell limits the number of long-wavelength phonons which carry a large portion of the heat in a material.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5743358880142773,
+      "paper": {
+        "corpusId": "250279813",
+        "title": "Thermal transport in ultrathin Si nanowires: a first principles study",
+        "authors": [
+          "K. Hahn",
+          "C. Melis",
+          "F. Bernardini",
+          "L. Paulatto",
+          "L. Colombo"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": null,
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2207.02082, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "From a theoretical point of view, several studies have been performed based on molecular dynamics (MD) simulations. Using the Green-Kubo formalism and the Stillinger-Weber potential, MD calculations have shown a steady decrease of the thermal conductivity down to about 1 W/mK with decreasing wire size from 5 to 1.6 nm at 300 K [12]. Conflicting results, however, have been found: other authors using the same formalism but the Tersoff potential have reported a thermal conductivity larger than 45 W/mK and the opposite trend for a size reduction from 2 to 1.1 nm [13]. Similar size effects have been obtained using generalized tight-binding molecular dynamics simulations together with the Stillinger-Weber potential [14]. It is unclear, however, where the discrepancy between different studies using similar methods originates from. Volz et al. [12] and Donadio et al. [13] used the Green-Kubo formalism but different interatomic force potentials. Instead, Ponomareva et al. [14] applied the same force field (Stillinger-Weber) as Volz et al. [12], but they calculated the thermal conductivity based on tight-binding simulations. \n\nDifferent results have been obtained by Wang et al. [15] who used accurate phonon dispersions [16] to obtain the thermal conductivity. Their results show a steady decrease of thermal conductivity with decreasing size down to 1 nm and 0.33 W/mK similar to Volz et al. [12] and good agreement with experimental results [17] for larger nanowires. This rather confusing scenario is graphically captured in Fig. 1 and has been addressed recently by Zhou et al. [18]. Their study is again based on Green-Kubo MD simulations exploring different force fields. They find a similar trend of increasing thermal conductivity with decreasing size for very small nanowires in all of their calculations, but the absolute values vary remarkably (up to one order of magnitude) with the use of different force fields.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5735704572703655,
+      "paper": {
+        "corpusId": "128358934",
+        "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach",
+        "authors": [
+          "V. Kuryliuk",
+          "Oleksii Nepochatyi",
+          "P. Chantrenne",
+          "D. Lacroix",
+          "M. Isaiev"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1904.10204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "For these reasons a particular emphasis on the understanding of the role of strained on thermal transport properties at the nanoscale is an urgent need. As a first step in elucidating this issue, one needs more physical insight regarding phonon transport in strained materials and silicon is a good starting point to link theory and experimentation. Silicon is a material of choice in nowadays micro-and nanoelectronics. Particularly, strained silicon is one of the best candidate for implementation in metal oxide semiconductors devices 29 because of the possibility of band gap tuning with straining. Furthermore recent studies revealed mechanical-field control of electron spin qubits of donors impurities in silicon 30 , which open possibilities of strained silicon application in spin-based quantum technologies 31 . The change of vibration states of the silicon is also an appropriate way to tune its thermal properties. \n\nMolecular dynamic (MD) is an important tool for predicting the thermal properties of bulk semiconductors and nanostructures, including silicon. The accuracy of the results delivered by MD simulations depends critically on the reliability of interatomic potentials. Several semi-empirical potentials have been developed for Si. The most popular Si potentials were proposed by Stillinger and Weber (SW) 32 and Tersoff 33 . Other Si potential formats include the Environment-Dependent Interatomic Potential (EDIP) 34 , and the Modified Embedded Atom Method (MEAM) 35 potentials. These original potentials were modified by many authors by slightly changing the analytical functions and improving the parametrization [36][37][38][39] . Several studies have been conducted to compare different empirical interatomic potentials for heat transport modeling in silicon [40][41][42] ; however, no study has systematically compared potentials regarding strain effect on the thermal conductivity of bulk silicon. Therefore, the first goal of this work is to test the Tersoff III 36,37 , SW 32 , EDIP 34 , and Second Nearest Neighbour (2NN) MEAM 38,39 potentials for their ability to predict the the thermal conductivity of silicon under hydrostatic compressive and tensile strains. Interatomic parameters of each considered potentials are provided in the Appendix A. \n\nIn this study we used equilibrium molecular dynamics (EMD) approach for simulation of thermal conductivity of strained silicon.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5689356807866761,
+      "paper": {
+        "corpusId": "26727094",
+        "title": "Ab\u00a0Initio Green-Kubo Approach for the Thermal Conductivity of Solids.",
+        "authors": [
+          "Christian Carbogno",
+          "R. Ramprasad",
+          "M. Scheffler"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1608.06917, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We herein present a first-principles formulation of the Green-Kubo method that allows the accurate assessment of the phonon thermal conductivity of solid semiconductors and insulators in equilibrium ab\u00a0initio molecular dynamics calculations. Using the virial for the nuclei, we propose a unique ab\u00a0initio definition of the heat flux. Accurate size and time convergence are achieved within moderate computational effort by a robust, asymptotically exact extrapolation scheme. We demonstrate the capabilities of the technique by investigating the thermal conductivity of extreme high and low heat conducting materials, namely, Si (diamond structure) and tetragonal ZrO_{2}.",
+        "snippetKind": "abstract"
+      }
+    },
+    {
+      "score": 0.5645909836021668,
+      "paper": {
+        "corpusId": "15744193",
+        "title": "Perspectives on thermoelectrics: from fundamentals to device applications",
+        "authors": [
+          "M. Zebarjadi",
+          "K. Esfarjani",
+          "M. Dresselhaus",
+          "Zhi-Feng Ren",
+          "Gang Chen"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://core.ac.uk/download/pdf/78051844.pdf, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Koker 17 used equilibrium first-principles molecular dynamics combined with lattice dynamics to calculate the thermal conductivity of MgO periclase and achieved good agreement with experimental results. In another less accurate but more computationally efficient approach, first-principles calculations were used to determine the parameters of an analytical force field. The developed force field was then used for molecular dynamics calculations along with the Green-Kubo method to extract the lattice thermal conductivity (k). 18,19 e developed a simpler lattice dynamics model than the more precise approach of Broido et al. 13 Using harmonic and anharmonic force constants extracted from DFT calculations within a supercell, 20 a force field is built in powers of atomic displacements about the equilibrium positions. From this force field, we can compute the bulk thermal conductivity using two different approaches: \n\n(1) Equilibrium molecular dynamics methods use the Green-Kubo 21,22 formula, which relates the thermal conductivity to the time integral of the equilibrium heat current autocorrelation. Typically, a molecular dynamics simulation is performed in a large supercell. After reaching thermal equilibrium, data on the heat current are collected over a long time period on the order of nanoseconds. The autocorrelation of these data, when integrated over time and ensemble-averaged, will provide the thermal conductivity at that temperature. The major shortcoming of the classical molecular dynamics method has been the lack of a reliable inter-atomic potential. Empirical potentials lead to errors typically on the order of 50% or more, although they can be useful in predicting trends. Two noticeable improvements in this area are the use of the ab initio molecular dynamics simulations as described in the work of Koker,17 and the development of a Taylor expansion (polynomial) potential which is accurate but only valid for small displacements. 20 The equilibrium molecular dynamics approach has the advantage of being valid at high temperatures. It can also be used to investigate the effect of alloying and substitutional disorder without much extra work. 23 t suffers, however, from uncertainties due to the statistical treatment of the molecular dynamics (MD) data. Often, MD simulations provide only one number, namely k(T) at a given temperature, although interesting information, such as the phonon mean free path, can be extracted. 24,25",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.563458392602995,
+      "paper": {
+        "corpusId": "135705556",
+        "title": "Out-of-Plane Thermal Conductivity of Silicon Thin Film Doped with Germanium",
+        "authors": [
+          "Hui Chen",
+          "Wei-Yu Chen",
+          "Yunfei Chen",
+          "Kedong Bi"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4028/WWW.SCIENTIFIC.NET/AMR.1082.459?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/WWW.SCIENTIFIC.NET/AMR.1082.459, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The out-of-plane thermal conductivity of silicon thin film doped with germanium is calculated by non-equilibrium molecular dynamics simulation using the Stillinger-Weber potential model. The silicon thin film is doped with germanium atoms in a random doping pattern with a doping density of 5% and 50% respectively. The effect of silicon thin film thickness on its thermal conductivity is investigated. The simulated thicknesses of silicon thin film doped with germanium range from 2.2 to 10.9 nm at an average temperature 300K. The simulation results indicate that the out-of-plane thermal conductivity of the silicon thin film doped with germanium decreases linearly with the decreasing film thickness. As for the film thickness of 9.8nm and the average temperature ranging from 250 to 1000 K, the investigation shows that the temperature dependence of the film thermal conductivity is not sensitive.",
+        "snippetKind": "abstract"
+      }
+    },
+    {
+      "score": 0.5631128247760235,
+      "paper": {
+        "corpusId": "202750187",
+        "title": "A minimal Tersoff potential for diamond silicon with improved descriptions of elastic and phonon transport properties",
+        "authors": [
+          "Zheyong Fan",
+          "Yan-Zhou Wang",
+          "Xiaokun Gu",
+          "P. Qian",
+          "Yan-Jing Su",
+          "T. Ala-Nissila"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1909.11474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We next calculate the thermal conductivity \u03ba using the efficient homogeneous nonequilibrium molecular dynamics (HNEMD) method [56] for many-body potentials [31]. In this method, one generates a non-equilibrium heat current by adding a small external driving force and measure the heat current, which is directly proportional to the thermal conductivity. For details on the HNEMD method, see Ref. [31]. \n\nWe use a simulation cell with 8000 silicon atoms (with periodic boundaries in all three directions) and consider temperatures from 300 to 1000 K, all with zero pressure. To be consistent with experiments, isotope scattering is considered by randomly choosing the mass of a silicon atom according to the following abundance distribution: 92.2% 28 Si, 4.7% 29 Si, and 3.1% 30 Si. \n\nThe results obtained by the various Tersoff-like potentials are shown in Fig. 5 and are compared with experimental data [30]. Results for T = 700 K have also been shown in Fig. 1. It is clear that our minimal Tersoff potential gives results closest to the experimental data. At high temperatures where quantum effects are not important, our predictions are only about 20% larger than the experimental values. However, our predicted thermal conductivity at T = 300 K is slightly smaller than the experimental value. This indicates the presence of quantum effects at low temperatures, as we will discuss below. \n\nTo explore the influence of quantum effects, we calculate the thermal conductivity by iteratively solving the Peierls-Boltzmann transport equation (PBTE). In our calculations, we consider both three-phonon and fourphonon scatterings [57] and temperature-dependent interatomic force constants [58]. In this method, both classical and quantum statistics for the phonon population can be conveniently considered. As in the case of MD simulations, isotope scattering is also considered. For details, see Ref. [57]. \n\nFigure 6 shows the classical and quantum thermal conductivity from the PBTE calculations using the minimal Tersoff potential, compared to the MD and experimental data. The thermal conductivity from PBTE calculations with classical statistics is slightly larger than that from MD, but they have a similar T dependence.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5603636075826288,
+      "paper": {
+        "corpusId": "128358934",
+        "title": "Thermal conductivity of strained silicon: Molecular dynamics insight and kinetic theory approach",
+        "authors": [
+          "V. Kuryliuk",
+          "Oleksii Nepochatyi",
+          "P. Chantrenne",
+          "D. Lacroix",
+          "M. Isaiev"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1904.10204, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Finally, the calculated value of k for unstrained silicon with Tersoff III potential is about 229 W/(m\u2022K). This is in a good agreement with other MD results 58 . It can be noticed that the thermal conductivity of Tersoff silicon decreases continuously when the applied strain is changed from compressive to tensile. For a 4% tensile hydrostatic strain, there is a 37% reduction (from 229 W/(m\u2022K) to 144 W/(m\u2022K)) in thermal conductivity. On the other side, at a 4% compressive hydrostatic strain, the thermal conductivity increases 22% to 280 W/(m\u2022K). This trend is similar to the previously reported strain effects on the thermal conductivity of bulk silicon 10,14 and Si nanostructures 59,60 . Obtained results suggests that the Tersoff III potential would be a reliable choice for describing Si thermal transport properties under hydrostatic strain. \n\nFigure 3 shows the calculated thermal conductivity of bulk Si crystal with the use of Tersoff potential under hydrostatic compressive and tensile strains at the temperature range 300-1100 K comparing to the results of the unstrained case. The results indicate that, for hydrostatic compression, the strain field increases the thermal conductivity and enables to affect the conductivity in the whole range of temperature from 300 to about 900 K, while the tensile hydrostatic strain decreases the thermal conductivity of silicon. For the temperatures over 900 K, the strain effects on the thermal conductivity becomes weak enough to be negligible. Eventually, we present further analysis of the thermal conductivity variation with hydrostatic strain and temperature based on the Eq. 13. From this equation, we can consider the changes in phonon density of states, phonon group velocity, and phonon relaxation time to understand the effect of hydrostatic strain on the thermal conductivity of Si. Moreover Eq. 13 takes into account the energy distribution on the phonon mode as a function of the temperature level. First, Fig. 4 shows the strain effect on the phonon DOS for bulk and strained silicon at 3% compressive and tensile strains.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5583624243570953,
+      "paper": {
+        "corpusId": "100755280",
+        "title": "The Relationship between Nanocluster Precipitation and Thermal Conductivity in Si/Ge Amorphous Multilayer Films",
+        "authors": [
+          "A. M. Tamidi",
+          "Y. Sasajima"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1155/2016/8017814?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1155/2016/8017814, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "2.1. Simulation Details. In this study, we used the MD simulation technique which calculates individual movements of atoms and molecules. The trajectories of atoms and molecules are determined by numerically solving Newton's equations of motion for a system of interacting particles, where forces between the particles and potential energy are defined by molecular mechanics force fields. This technique is also well suited to describe materials at the atomic scale [9,11,12]. In the MD technique, the position of the th atom, R  , is calculated by the Newton equation: \n\nwhere f  is force acting on particle  and  is mass of the particle. An extended Tersoff potential was used to calculate the interaction between atoms in this simulation. This is one member of the family of potentials developed by Tersoff [13], and based on the concept of bond order, the strength of a bond between two atoms is not constant but depends on the local environment. Moreover, this potential has been proven to be reliable, and it is widely used recently [14][15][16]. \n\nIn the extended Tersoff potential, potential energy is calculated within the pair of atoms  and  which can be expressed in the following form: \n\nwhich means that the potential acting on the whole system is the summation of interatomic potential of the two-body force and the potential of the charge inside the particles. To calculate   and   , we used the following expression: \n\nIn this expression,   ,   ,   , and   are repulsive force, attractive force, coulomb force, and Van der Waals' force, respectively. More information about the extended Tersoff potential may be found in the literature [17]. \n\nIn this work we used the Green-Kubo equation to calculate the thermal conductivity. The Green-Kubo equation is one of several well-known approaches [18,19] used to predict thermal conductivity in an equilibrium MD simulation. In the equilibrium MD simulation, the molecules are allowed to interact in the absence of any perturbing field (e.g., a temperature gradient). This equation also can be applied to crystals, alloys, amorphous solids, and fluids. \n\nThe Green-Kubo equation relates the equilibrium fluctuation of the heat current vector, , to the thermal conductivity tensor via the fluctuation-dissipation theorem.",
+        "snippetKind": "body"
+      }
+    },
+    {
+      "score": 0.5574268875665311,
+      "paper": {
+        "corpusId": "138748969",
+        "title": "Thermal Conductivity Analysis of Amorphous Silicon Formed by Natural Cooling: A Molecular-dynamics Study",
+        "authors": [
+          "Byoung-Min Lee"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNC",
+          "status": "HYBRID",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.4191/KCERS.2016.53.3.295?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4191/KCERS.2016.53.3.295, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The most important element of MD simulations is the selection of the potential that describes the interactions among atoms. During calculations, the interatomic forces for Si were calculated using the Tersoff potential. The Tersoff potential consists of the many-body interactions included in the bond order term for Si. This potential has been used to study the lattice dynamics, 16) thermo-mechanical properties, 17) point defects, 18) and the liquid and amorphous phases of Si. 19,20) The Tersoff potential describes well the properties of both crystalline and liquid phases of Si. 21) Although the Tersoff potential gives rise to a high melting temperature about 2500 K, it describes the thermal and structural properties of solid and liquid Si well. 16) erein, the thermal conductivity of c-Si was obtained by means of a direct method. Fig. 2 shows the whole modeling procedure used to calculate the thermal conductivity of c-Si. The direct method is a non-equilibrium method that relies on imposing a temperature gradient across the MD cell. Therefore, it is similar to the standard experimental conditions, which involve measuring the stationary heat flux necessary to maintain a temperature gradient. This method is only valid when a stable, linear temperature profile is obtained in the system. In other words, it requires first the establishment of a steady state, and then that heat flow in the direction of the temperature gradient should be uniform. If a linear temperature profile is established, the thermal conductivity can be obtained using Fourier's law of heat flow J, (1)   where \u0394t is the time step used in the MD simulation, A is the cross section area of the system, and \u0394\u03b5 is a constant energy that is added to and removed from the heat source and heat sink layer. The thermal conductivity can be expressed as: \n\n(2) \n\nHere, is the temperature gradient. During the simulations, a steady-state heat flow was generated for a given sampling time by scaling the velocity of the atoms, which are located in the heat source and the heat sink layer, as shown in Fig. 2. The MD cells, which have a length of a few tens of nm in the direction of the heat flow, were used. The equations of motion were integrated using the velocity Verlet algorithm.",
+        "snippetKind": "body"
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

@@ -1,0 +1,884 @@
+{
+  "data": [
+    {
+      "score": 0.5073621509881348,
+      "paper": {
+        "corpusId": "248918428",
+        "title": "Phonon hydrodynamics in crystalline materials",
+        "authors": [
+          "Kanka Ghosh",
+          "A. Kusiak",
+          "J. Battaglia"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2205.11345, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Real samples normally exhibit defects, isotopes and impurities during the crystallization process which affect the coherent phonon flow significantly. Isotope and vacancies in a sample directly reduce the probability of occurring hydrodynamic phonon flow and shrink the phonon hydrodynamic window in a sample as they hinder the N scattering events resistively. Using lattice dynamical model and second-order perturbation theory, Tamura [185] derived the scattering rate of phonons by randomly distributed isotopes (\u03c4 \u22121 I ) in a material as \n\nHere, g k is the mass variance parameter, defined as \n\nwhere f i is the mole fraction, m ik denotes the relative atomic mass of ith isotope, m k is the average mass = i f i m ik , and W is a polarization vector. The similar idea of mass variance due to point defect was employed by Ratsifaritana and Klemens [186] using a perturbation technique to derive phonon scattering rates by vacancy defects by estimating missing mass and missing linkage between the masses. The phonon-vacancy scattering rate is realized as [186] 1 \n\nwhere, x is the vacancy concentration, G defines the number of atoms in the crystal, and g(\u03c9) denotes the phonon density of states. Realizing vacancies as isotope impurity, Ratsifaritana and Klemens [186] estimated mass change \u0394M = 3 M, where M is the mass of the removed atom. This comes from the fact that a vacancy is equivalent to omitting one atom from the material and all the linkages between the removed atom and its neighbor. As every linkage is connected to two atoms, removing one atom with two linkages costs the removal of another two atoms, associating a mass change of \u0394M = 3 M. Both isotope and vacancy scattering rates are found to increase with phonon frequency. While considering the average scattering rates for isotopes, the weighted average of modal heat capacity makes it prominent at low temperatures and thus increases the resistive scattering rates. Moreover, the phonon scattering rates by vacancies (equation ( 50)) are found to vary linearly with the vacancy density, indicating its larger contribution due to increased vacancies in the material.",
+        "snippetKind": "body",
+        "section": "Effect of isotopes and vacancies",
+        "snippetOffset": {
+          "start": 104882,
+          "end": 107025
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 436,
+              "end": 441,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 851,
+              "end": 856,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1058,
+              "end": 1063,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 1267,
+              "end": 1272,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 150
+            },
+            {
+              "start": 151,
+              "end": 360
+            },
+            {
+              "start": 361,
+              "end": 540
+            },
+            {
+              "start": 543,
+              "end": 595
+            },
+            {
+              "start": 598,
+              "end": 754
+            },
+            {
+              "start": 755,
+              "end": 1007
+            },
+            {
+              "start": 1008,
+              "end": 1065
+            },
+            {
+              "start": 1068,
+              "end": 1199
+            },
+            {
+              "start": 1200,
+              "end": 1345
+            },
+            {
+              "start": 1346,
+              "end": 1502
+            },
+            {
+              "start": 1503,
+              "end": 1661
+            },
+            {
+              "start": 1662,
+              "end": 1748
+            },
+            {
+              "start": 1749,
+              "end": 1943
+            },
+            {
+              "start": 1944,
+              "end": 2143
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.49131936858218267,
+      "paper": {
+        "corpusId": "203951876",
+        "title": "Analytical Models of Phonon\u2013Point-Defect Scattering",
+        "authors": [
+          "R. Gurunathan",
+          "R. Hanus",
+          "M. Dylla",
+          "Ankita Katre",
+          "G. J. Snyder"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/1910.03654, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The Klemens/Callaway model is best defined for randomly dispersed substitutional defects. However, initial work on other off-stoichiometric defects, including vacancies and interstitials, have shown large phonon scattering effects and warrant further investigation. \n\nVacancy scattering has been demonstrated to induce a large reduction in thermal conductivity in several thermoelectric compounds [40][41][42][43][57][58][59][60] . In seve al of these cases, the reduction in \u03ba L is attributed to mass difference scattering alone. However, it was identified that the volume in Equation 12was incorrectly defined as the volume of the unit cell rather than the volume per atom, leading to an over-prediction of the thermal conductivity change 6,[40][41][42][43] . \n\nHowever, the large perturbation induced by vacancies is still well-described using Klemens theory 61,62 . In this case, the lattice energy perturbation comes from missing kinetic energy (T ) related to the mass of the removed atom and missing potential energy related to the removed bond between two atoms, or double the potential energy per atom (2U ). Within the harmonic approximation (E = T +U 2nd ), the kinetic and potential energy perturbations of a single atom should be equal (T = U ) according to the virial theorem, allowing one to relate the potential energy perturbation to the average atomic mass in the lattice ( M ). In the calculation of \u0393, the perturbation at a vacancy site can be represented by the mass difference M i,n \u2212 M n = \u2212M vac \u2212 2 M in Equation 4 and Equation 5, where M vac is the mass of the vacant atom 61,62 . \n\nThis simple treatment of vacancy scattering performs well in many defective solids, some of which are reproduced in Figure 4a. The experimental data shown would not be described by standard mass difference alone and requires the perturbation induced by a missing bond. The Supplementary Section 7.5 compares results for the mass difference only curve versus the full inclusion of the broken bonds term, and depicts how an incorrect definition of volume can lead to a cancellation of errors.",
+        "snippetKind": "body",
+        "section": "Scattering due to Vacancies and Interstitials",
+        "snippetOffset": {
+          "start": 23848,
+          "end": 25947
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 397,
+              "end": 401,
+              "matchedPaperCorpusId": "13592725"
+            },
+            {
+              "start": 401,
+              "end": 405,
+              "matchedPaperCorpusId": "120990120"
+            },
+            {
+              "start": 405,
+              "end": 409,
+              "matchedPaperCorpusId": "138506045"
+            },
+            {
+              "start": 409,
+              "end": 413,
+              "matchedPaperCorpusId": "3758520"
+            },
+            {
+              "start": 413,
+              "end": 417,
+              "matchedPaperCorpusId": "98015714"
+            },
+            {
+              "start": 417,
+              "end": 421,
+              "matchedPaperCorpusId": "139691076"
+            },
+            {
+              "start": 421,
+              "end": 425,
+              "matchedPaperCorpusId": "99756726"
+            },
+            {
+              "start": 425,
+              "end": 429,
+              "matchedPaperCorpusId": "206088410"
+            },
+            {
+              "start": 741,
+              "end": 743,
+              "matchedPaperCorpusId": "123349124"
+            },
+            {
+              "start": 743,
+              "end": 747,
+              "matchedPaperCorpusId": "13592725"
+            },
+            {
+              "start": 747,
+              "end": 751,
+              "matchedPaperCorpusId": "120990120"
+            },
+            {
+              "start": 751,
+              "end": 755,
+              "matchedPaperCorpusId": "138506045"
+            },
+            {
+              "start": 755,
+              "end": 759,
+              "matchedPaperCorpusId": "3758520"
+            },
+            {
+              "start": 862,
+              "end": 865,
+              "matchedPaperCorpusId": "121616436"
+            },
+            {
+              "start": 865,
+              "end": 867,
+              "matchedPaperCorpusId": "121449530"
+            },
+            {
+              "start": 1599,
+              "end": 1602,
+              "matchedPaperCorpusId": "121616436"
+            },
+            {
+              "start": 1602,
+              "end": 1604,
+              "matchedPaperCorpusId": "121449530"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 89
+            },
+            {
+              "start": 90,
+              "end": 265
+            },
+            {
+              "start": 268,
+              "end": 439
+            },
+            {
+              "start": 440,
+              "end": 530
+            },
+            {
+              "start": 531,
+              "end": 761
+            },
+            {
+              "start": 764,
+              "end": 869
+            },
+            {
+              "start": 870,
+              "end": 1117
+            },
+            {
+              "start": 1118,
+              "end": 1396
+            },
+            {
+              "start": 1397,
+              "end": 1606
+            },
+            {
+              "start": 1609,
+              "end": 1735
+            },
+            {
+              "start": 1736,
+              "end": 1877
+            },
+            {
+              "start": 1878,
+              "end": 2099
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.49030755479046645,
+      "paper": {
+        "corpusId": "221949211",
+        "title": "Phonon hydrodynamics in crystalline GeTe at low temperature",
+        "authors": [
+          "Kanka Ghosh",
+          "A. Kusiak",
+          "J. Battaglia"
+        ],
+        "openAccessInfo": {
+          "license": null,
+          "status": "GREEN",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://arxiv.org/abs/2009.11962, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In the previous sections, we calculated the phonon lifetime and consequently the lattice thermal conductivity using phonon-phonon, phonon-isotope, and phononboundary scattering processes. However, the role of vacancies in the thermal transport is an important consideration. For GeTe, phonon-vacancy scattering has been found to be crucial to accurately describe the experimental data through the theoretical calculations at room temperature [34] as well as at high temperatures [37]. In our earlier work [37], the hole concentration of GeTe was found to be 6.24 \u00d7 10 19 cm \u22123 , indicating a vacancy concentration (x) of \u2248 0.08 %. To understand the effect of phonon-vacancy scattering for GeTe, compared to the other phonon scattering events, scattering rates have been calculated and shown in Fig 15 for grain size (L) of 400 nm as a function of frequency for different temper-atures. The phonon scattering rates by vacancy defects are calculated following the work by Ratsifaritana et al. [62] as \n\nwhere, x is the density of vacancies or vacancy concentration, G denotes the number of atoms in the crystal, and g(\u03c9) is the phonon density of states (PDOS). Using vacancies as isotope impurity, Ratsifaritana et al. \n\n[62] evaluated mass change \u2206M = 3 M, where M is the mass of the removed atom. It is noted from Eq.38 that the phonon-vacancy relaxation time is temperature independent. Figure 15 shows that the effect of phononvacancy scattering is quite significant at the high frequency regime. As we gradually lower the temperature from 300 K to 4 K, phonon-phonon scattering gradually decreases and at very low temperature phonon-boundary scattering overpowers the phonon-phonon scattering (Fig 15 .(f)). Therefore, the hydrodynamic regime can be significantly modified depending on the order of vacancy concentration, which adds up to the phonon resistive scattering.",
+        "snippetKind": "body",
+        "section": "VIII. PHONON-VACANCY SCATTERING: EFFECT OF VACANCY ON HYDRODYNAMIC REGIME",
+        "snippetOffset": {
+          "start": 41459,
+          "end": 43333
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 442,
+              "end": 446,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 479,
+              "end": 483,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 505,
+              "end": 509,
+              "matchedPaperCorpusId": null
+            },
+            {
+              "start": 991,
+              "end": 995,
+              "matchedPaperCorpusId": null
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 187
+            },
+            {
+              "start": 188,
+              "end": 274
+            },
+            {
+              "start": 275,
+              "end": 484
+            },
+            {
+              "start": 485,
+              "end": 630
+            },
+            {
+              "start": 631,
+              "end": 885
+            },
+            {
+              "start": 886,
+              "end": 998
+            },
+            {
+              "start": 1001,
+              "end": 1158
+            },
+            {
+              "start": 1159,
+              "end": 1216
+            },
+            {
+              "start": 1219,
+              "end": 1296
+            },
+            {
+              "start": 1297,
+              "end": 1387
+            },
+            {
+              "start": 1388,
+              "end": 1498
+            },
+            {
+              "start": 1499,
+              "end": 1710
+            },
+            {
+              "start": 1711,
+              "end": 1874
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.4726988409493159,
+      "paper": {
+        "corpusId": "246705055",
+        "title": "Thermal conductivity of boron carbide under fast neutron irradiation",
+        "authors": [
+          "Z. Qu",
+          "Chuan-Jin Yu",
+          "Yi-Tong Wei",
+          "Xiping Su",
+          "Ai-Bing Du"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1007/s40145-022-0572-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s40145-022-0572-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "where \u03bc is the shear modulus, \u2126 is the average atomic volume, v t is the transverse wave speed, \u03c9 D is the Debye frequency, \u03b3 is the Gr\u00fcneisen anharmonicity parameter, k B is the Boltzmann constant, N is the number of atoms per molecule, T is the absolute temperature, and \u03c9 is the frequency of phonon. The intrinsic thermal conductivity k i can be then derived from Eqs. ( 2) and ( 4) as [16,17]: \n\nIt is the classical 1/T variation of thermal conductivity for the materials free of defects. However, most of ceramics, such as the unirradiated B 4 C, show a less pronounced temperature dependence of thermal conductivity. Roufosse and Klemens [18] restricted the minimum of phonon mean free path, and the intrinsic thermal conductivity k i can be represented as \n\nwhere A is the same as in Eq. ( 5), and T 1 is the critical temperature at which the phonon at maximum frequency reaches the minimum phonon mean free path l min . \n\nFor the irradiated samples, the irradiation defects will scatter phonons in addition to Umklapp scattering, and further reduce the thermal conductivity. The phonon mean free path due to defect scattering l d can be given by [19][20][21]: \n\nwhere \u0393 is the imperfection scattering parameter which represents the strength of defect scattering. Klemens [19] proposed a model for the materials with lattice defects by defining a frequency \u03c9 0 at which l i (\u03c9 0 ) = l d (\u03c9 0 ), and the thermal conductivity can be derived as \n\nand \n\nwhere \u03c9 m is the maximum phonon frequency. The generalized expression of the imperfection scattering parameter \u0393 proposed by Klemens [22] can be given as \n\nwww.springer.com/journal/40145 \n\nwhere c i is the fractional concentration of a certain defect i, and S i represents the scattering strength of the defect i involving the mass and bonding force differences as well as the elastic field around the defect. The average mass, stiffness constant, and radius of impurity and host atoms are labeled as",
+        "snippetKind": "body",
+        "section": "Theoretical models",
+        "snippetOffset": {
+          "start": 7991,
+          "end": 9948
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 389,
+              "end": 393,
+              "matchedPaperCorpusId": "137301360"
+            },
+            {
+              "start": 393,
+              "end": 396,
+              "matchedPaperCorpusId": "121449530"
+            },
+            {
+              "start": 644,
+              "end": 648,
+              "matchedPaperCorpusId": "129582988"
+            },
+            {
+              "start": 1154,
+              "end": 1158,
+              "matchedPaperCorpusId": "119898586"
+            },
+            {
+              "start": 1158,
+              "end": 1162,
+              "matchedPaperCorpusId": "121815847"
+            },
+            {
+              "start": 1162,
+              "end": 1166,
+              "matchedPaperCorpusId": "122408202"
+            },
+            {
+              "start": 1279,
+              "end": 1283,
+              "matchedPaperCorpusId": "119898586"
+            },
+            {
+              "start": 1590,
+              "end": 1594,
+              "matchedPaperCorpusId": "136702946"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 302
+            },
+            {
+              "start": 303,
+              "end": 397
+            },
+            {
+              "start": 400,
+              "end": 492
+            },
+            {
+              "start": 493,
+              "end": 622
+            },
+            {
+              "start": 623,
+              "end": 762
+            },
+            {
+              "start": 765,
+              "end": 927
+            },
+            {
+              "start": 930,
+              "end": 1082
+            },
+            {
+              "start": 1083,
+              "end": 1167
+            },
+            {
+              "start": 1170,
+              "end": 1270
+            },
+            {
+              "start": 1271,
+              "end": 1448
+            },
+            {
+              "start": 1451,
+              "end": 1454
+            },
+            {
+              "start": 1457,
+              "end": 1499
+            },
+            {
+              "start": 1500,
+              "end": 1610
+            },
+            {
+              "start": 1613,
+              "end": 1643
+            },
+            {
+              "start": 1646,
+              "end": 1866
+            },
+            {
+              "start": 1867,
+              "end": 1957
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.4688809299794653,
+      "paper": {
+        "corpusId": "17825668",
+        "title": "A Bond-order Theory on the Phonon Scattering by Vacancies in Two-dimensional Materials",
+        "authors": [
+          "Guo-Feng Xie",
+          "Yulu Shen",
+          "Xiao-Lin Wei",
+          "Liwen Yang",
+          "Hua-Ping Xiao",
+          "J. Zhong",
+          "Gang Zhang"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4035577, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "We theoretically investigate the phonon scattering by vacancies, including the impacts of missing mass and linkages () and the variation of the force constant of bonds associated with vacancies () by the bond-order-length-strength correlation mechanism. We find that in bulk crystals, the phonon scattering rate due to change of force constant is about three orders of magnitude lower than that due to missing mass and linkages . In contrast to the negligible in bulk materials, in two-dimensional materials can be 3\u201310 folds larger than . Incorporating this phonon scattering mechanism to the Boltzmann transport equation derives that the thermal conductivity of vacancy defective graphene is severely reduced even for very low vacancy density. High-frequency phonon contribution to thermal conductivity reduces substantially. Our findings are helpful not only to understand the severe suppression of thermal conductivity by vacancies, but also to manipulate thermal conductivity in two-dimensional materials by phononic engineering.",
+        "snippetKind": "abstract",
+        "section": null,
+        "snippetOffset": {
+          "start": 0,
+          "end": 1034
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": null
+        }
+      }
+    },
+    {
+      "score": 0.46682449989860264,
+      "paper": {
+        "corpusId": "103997189",
+        "title": "Localized double phonon scattering and DOS induced thermoelectric enhancement of degenerate nonstoichiometric Li1\u2212xNbO2 compounds",
+        "authors": [
+          "Jamil Ur Rahman",
+          "Du Van Nguyen",
+          "G. Rahman",
+          "V. Garc\u00eda-Su\u00e1rez",
+          "W. Seo",
+          "M. Kim",
+          "Soonil Lee"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://api.unpaywall.org/v2/10.1039/C7RA10557F?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/C7RA10557F, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "Fig. 7(a) inset shows the lattice thermal conductivity, which is calculated using eqn (9), where k ele , k lat , T, s and L are the electronic thermal conductivity, lattice thermal conductivity, absolute  temperature, electrical conductivity, and Lorenz number (2.45 \u00c2 10 \u00c08 W U K \u00c02 ), respectively. k ele can also be obtained by using Wiedemann-Franz relationship, k ele \u00bc LsT. 47 \n\nAs shown in the Fig. 7(a) inset, that the major contribution to the total thermal conductivity comes from lattice vibrations. A slight increase in the electronic thermal conductivity, k ele , is also observed with an increase in the Li-vacancies, as shown in ESI Fig. S3, \u2020 which is consistent with the evolution of the electrical conductivity (see Fig. 3) and the DFT calculations discussed above. In addition to this, a signi\ue103cant reduction in the thermal conductivity is observed with increasing Livacancies up to x \u00bc 0.1, which suggests that Li-vacancies behave as an effective scattering center of phonons, leading to a reduction of the lattice thermal conductivity. As aforementioned, the Nb-O distortion by Li-vacancies can also be a scattering center. Furthermore, as shown in Fig. 4(d) and 6, as the xvalue increases, the phonon type changes from optical phonon by mainly Li-vacancies to acoustic phonon by Nb $$ Li contribution. Therefore, as shown in Fig. 7, both x \u00bc 0.05 and 0.1 cases presumably have localized double phonon (optical and acoustic phonons), which may play a role as a phonon scattering center with the Li-site defects (V 0 Li and Nb $$ Li ), showing substantial decrease of lattice thermal conductivity. The overall phonon scattering scenario is schematically illustrated in Fig. 7",
+        "snippetKind": "body",
+        "section": "Results and discussion",
+        "snippetOffset": {
+          "start": 24390,
+          "end": 26085
+        },
+        "annotations": {
+          "refMentions": null,
+          "sentences": [
+            {
+              "start": 0,
+              "end": 300
+            },
+            {
+              "start": 301,
+              "end": 382
+            },
+            {
+              "start": 385,
+              "end": 510
+            },
+            {
+              "start": 511,
+              "end": 783
+            },
+            {
+              "start": 784,
+              "end": 1056
+            },
+            {
+              "start": 1057,
+              "end": 1144
+            },
+            {
+              "start": 1145,
+              "end": 1323
+            },
+            {
+              "start": 1324,
+              "end": 1617
+            },
+            {
+              "start": 1618,
+              "end": 1695
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.4645774920502554,
+      "paper": {
+        "corpusId": "17825668",
+        "title": "A Bond-order Theory on the Phonon Scattering by Vacancies in Two-dimensional Materials",
+        "authors": [
+          "Guo-Feng Xie",
+          "Yulu Shen",
+          "Xiao-Lin Wei",
+          "Liwen Yang",
+          "Hua-Ping Xiao",
+          "J. Zhong",
+          "Gang Zhang"
+        ],
+        "openAccessInfo": {
+          "license": "CCBYNCSA",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC4035577, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "In the pristine graphene sheet, the Umklapp phonon-phonon scattering is dominant at room temperature, but in the defective graphene, the situation is quite different. Fig. 3 presents the frequency-dependent scattering rate of LA phonons for all kinds of  mechanisms in the single vacancy defective graphene. The vacancy density is 1%. For the ultra-low frequency phonons, the boundary scattering is dominant. However, for v . 2.5 Trad/s, the scattering by the under-coordinated carbon atoms dominates over other mechanisms. The situation is similar for other branches. However, this most important scattering mechanism is neglected in previous theoretical model on phonon scattering by vacancies. \n\nVacancy effects on thermal conductivity in graphene flakes. Many researches presented that the thermal conductivity of graphene could be remarkably reduced by point defects 22,29,45 , such as isotope and vacancy. The vacancy effect on the thermal conductivity is more remarkable than that of isotope. By molecular dynamics simulation, Haskins et al. found that even for a very low vacancy concentration 0.1%, a 81% reduction of thermal conductivity of graphene was achieved 29 . Although Klemens's model agrees well with thermal conductivity reductions by vacancies in bulk materials 31,46 , the severe suppression of thermal conductivity of graphene by vacancies is much over the prediction of Klemens's theory 22 . Incorporating phonon scattering by the under-coordinated atoms near the vacancies to the linearized phonon Boltzmann transport equation within relaxation time approximation (see in the section of Methods), we calculate the relative thermal conductivity (k/k 0 ) of defective graphene (single vacancies and double vacancies) as a function of defect density at room temperature, which is shown in Fig. 4. k 0 (the thermal conductivity of pristine graphene) calculated by this work, 3750 W/mK, is coherent with various experimental measurements 47,48 and theoretical calculations 49,50 . The dash line is the calculation results by Klemens's model from Ref. 26, in which the phonon scattering by the under-coordinated carbon atoms near the vacancies is not considered. The solid lines are the results of the present model.",
+        "snippetKind": "body",
+        "section": "2, the ratio t {1",
+        "snippetOffset": {
+          "start": 7650,
+          "end": 9885
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 872,
+              "end": 875,
+              "matchedPaperCorpusId": "59432592"
+            },
+            {
+              "start": 875,
+              "end": 878,
+              "matchedPaperCorpusId": "14776626"
+            },
+            {
+              "start": 878,
+              "end": 880,
+              "matchedPaperCorpusId": "14173974"
+            },
+            {
+              "start": 1173,
+              "end": 1175,
+              "matchedPaperCorpusId": "14776626"
+            },
+            {
+              "start": 1283,
+              "end": 1286,
+              "matchedPaperCorpusId": "121449530"
+            },
+            {
+              "start": 1286,
+              "end": 1288,
+              "matchedPaperCorpusId": "13592725"
+            },
+            {
+              "start": 1411,
+              "end": 1413,
+              "matchedPaperCorpusId": "59432592"
+            },
+            {
+              "start": 1958,
+              "end": 1961,
+              "matchedPaperCorpusId": "9310741"
+            },
+            {
+              "start": 1961,
+              "end": 1963,
+              "matchedPaperCorpusId": "112739332"
+            },
+            {
+              "start": 1993,
+              "end": 1996,
+              "matchedPaperCorpusId": "18194141"
+            },
+            {
+              "start": 1996,
+              "end": 1998,
+              "matchedPaperCorpusId": "121962481"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 166
+            },
+            {
+              "start": 167,
+              "end": 307
+            },
+            {
+              "start": 308,
+              "end": 334
+            },
+            {
+              "start": 335,
+              "end": 408
+            },
+            {
+              "start": 409,
+              "end": 425
+            },
+            {
+              "start": 426,
+              "end": 523
+            },
+            {
+              "start": 524,
+              "end": 568
+            },
+            {
+              "start": 569,
+              "end": 696
+            },
+            {
+              "start": 699,
+              "end": 758
+            },
+            {
+              "start": 759,
+              "end": 911
+            },
+            {
+              "start": 912,
+              "end": 999
+            },
+            {
+              "start": 1000,
+              "end": 1177
+            },
+            {
+              "start": 1178,
+              "end": 1415
+            },
+            {
+              "start": 1416,
+              "end": 2000
+            },
+            {
+              "start": 2001,
+              "end": 2181
+            },
+            {
+              "start": 2182,
+              "end": 2235
+            }
+          ]
+        }
+      }
+    },
+    {
+      "score": 0.46126753098569884,
+      "paper": {
+        "corpusId": "270377945",
+        "title": "Cost-effective method for computational prediction of thermal conductivity in optical materials based on cubic oxides",
+        "authors": [
+          "A. Santonocito",
+          "B. Patrizi",
+          "A. Pirri",
+          "M. Vannini",
+          "G. Toci"
+        ],
+        "openAccessInfo": {
+          "license": "CCBY",
+          "status": "GOLD",
+          "disclaimer": "Notice: This snippet is extracted from the open access paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11165009, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        }
+      },
+      "snippet": {
+        "text": "The presence of dopant ions in optical materials, such as crystals and ceramics, leads to the creation of lattice defects, which can in turn affect the thermal conductivity of the material.For this reason, we developed a method to predict thermal conductivity in this kind of doped materials.The method is based on a revised version of Klemens formula.\n\nAs it is well known, the original version of Klemens equation [45][46][47] predicts the thermal conductivity of lattice having some point defects considering only the mass variation on phonon transport (see Eq. 19).The Klemens equation can be expressed as: where V 0 is the volume per atom, \u0174 is the scattering parameter (see Eqs. 21-23) and\n\nx is the concentration of dopant atoms, k 0 and k 100 are thermal conductivities of solids with the compositions x = 0 and x = 1 respectively.At each composition, the parameters k m , v a , and V 0 undergo gradual adjustments through linear interpolation, using the properties of pure host A and B. Klemens firstly proposed the estimation of the scattering parameter \u0393 through the following Eq. 48:\n\nwhere the scattering parameter \u0174 is essentially the average mass variance in the system, (M i \u2212 M) 2 , relative to the square of the average mass M 2 .Another term which can consider the point defect system perturbation is the average change in atomic radius (\u0394R) and the variation of the harmonic force constant (\u0394K) mainly due to a change of the bond strengths with respect to the non-perturbed sites.Indeed, the introduction of dopant ions creates lattice point defects, which perturb the Hamiltonian of the system, inducing a rearrangement of the phonon probability density because of changes in the site mass (\u0394M), harmonic force constants (\u0394K), ionic radii (\u0394R), and crystal symmetry, as depicted in Fig. 2 (left).These perturbations affect the potential energy of the material, enhancing phonon scattering due to a shortened mean free path, and ultimately decreasing the thermal conductivity.",
+        "snippetKind": "body",
+        "section": "Doped solids",
+        "snippetOffset": {
+          "start": 12606,
+          "end": 14602
+        },
+        "annotations": {
+          "refMentions": [
+            {
+              "start": 416,
+              "end": 420,
+              "matchedPaperCorpusId": "118768509"
+            },
+            {
+              "start": 420,
+              "end": 424,
+              "matchedPaperCorpusId": "96895784"
+            },
+            {
+              "start": 424,
+              "end": 428,
+              "matchedPaperCorpusId": "203951876"
+            },
+            {
+              "start": 1092,
+              "end": 1094,
+              "matchedPaperCorpusId": "119898586"
+            }
+          ],
+          "sentences": [
+            {
+              "start": 0,
+              "end": 189
+            },
+            {
+              "start": 189,
+              "end": 292
+            },
+            {
+              "start": 292,
+              "end": 352
+            },
+            {
+              "start": 354,
+              "end": 569
+            },
+            {
+              "start": 569,
+              "end": 695
+            },
+            {
+              "start": 697,
+              "end": 839
+            },
+            {
+              "start": 839,
+              "end": 1094
+            },
+            {
+              "start": 1094,
+              "end": 1095
+            },
+            {
+              "start": 1097,
+              "end": 1248
+            },
+            {
+              "start": 1248,
+              "end": 1500
+            },
+            {
+              "start": 1500,
+              "end": 1817
+            },
+            {
+              "start": 1817,
+              "end": 1996
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrievalVersion": "pa1-v1"
+}

@@ -1,0 +1,15 @@
+{
+ "amorphous probes removed": {
+  "hit": 49,
+  "wrong-op": 1
+ },
+ "x>0.9 and T>=0.85 T_sol removed": {
+  "hit": 42,
+  "harmful": 8
+ },
+ "nothing removed (D2)": {
+  "hit": 27,
+  "harmful": 22,
+  "wrong-op": 1
+ }
+}

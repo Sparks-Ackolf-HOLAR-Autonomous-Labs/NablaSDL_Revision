@@ -1,0 +1,32 @@
+{
+ "campaign": "phase-c-detector-v2-2026-10-01",
+ "paper": "P1 (entry checks of the decision pipeline, stage E1)",
+ "question": "Does a structure layer (lattice constant and bond-angle spread measured on each run) let the detector catch the faults the frozen detector missed (amorphous rows, premelting rows, label errors) without new false fires on the real campaign, and does it leave the valid-anomaly limit unchanged?",
+ "files": ["phase_c/detector_v2/detector_v2.py", "phase_c/detector_v2/fault_study_v2.py", "phase_c/detector_v2/build_rows_v2.py", "phase_c/detector_v2/md/in.rebuild", "phase_c/detector_v2/md/run_rebuild.sh"],
+ "changes_vs_v1": {
+  "S1": "split rows with bond-angle s.d. >= 10 deg (session-56 descriptor; crystal 2.9-6.5, amorphous 16.6-17.3)",
+  "S2": "label checks: a(x,T) and angle_sd^2(x,T) fitted on the campaign's own crystalline points (trimmed least squares); batch-coherent T offsets (z >= 4.5, sign coherence >= 0.75) and point-level x or T contradictions (z >= 5.5) -> correct; sigma floors 0.01 in x and 30 K",
+  "S3": "scope-limit label x > 0.90 (ledger seq 29)",
+  "S4": "physics guard at T >= 0.85 T_solidus (was 1.0)",
+  "S5": "duplicate key on design coordinates (D2, ledger 14)",
+  "unchanged": "all v1 statistical thresholds (Z_BATCH 4.5, Z_POINT 5.5, Z_SIZE 6, Z_REGIME 4.5, party ratio 1.5); no re-tuning on any catalog entry"
+ },
+ "not_done": "threshold re-calibration on the real campaign's own null trials (FAULT_STUDY item) is not part of v2; thresholds stay at v1 values",
+ "descriptor_measurement": "one structure rebuild per production point (44 points): 4x4x24-cell box (3072 atoms), production seed and deck, same preparation, then 10 ps NPT with volume averaged and 6 frames; DGX CPU (LAMMPS serial + 2 OpenMP threads; atom placement differs from the CHPC MPI runs at the same seed, composition statistics the same). Descriptors attach to all three box sizes of a point. Committed to the ledger (Merkle root) before detector v2 reads them.",
+ "attachment_rule": "structure follows the physical run, not its labels: see fault_study_v2.py docstring (M02 rows take the measured amorphous rebuild; P08 rows take the measured MACE/Tersoff lattice ratio; M01 added rows take the real-row structure fit plus a bootstrapped residual; all other faults leave structure unchanged)",
+ "trials": "blind catalog of ledger seq 4, 50 pre-registered trial seeds per entry plus 50 NULL, scoring of production/fault_study.py (rule A and catalog rule B, raw and baseline-adjusted)",
+ "blindness_note": "the catalog has been read since session 34, so the trial results are a known-catalog evaluation, not a blind test; the out-of-catalog test is the real campaign (amorphous probes N2, N3 must be split from real descriptors)",
+ "predictions": {
+  "Pr1": "real campaign: N2 and N3 split by S1; N0 and N1 scope-limited; C37 and C38 scope-limited by S3; no forget, quarantine or correct on any other real row",
+  "Pr2": "M02 amorphous contamination: detected_adj >= 0.90 and rule-A hit_adj >= 0.80",
+  "Pr3": "M01 premelting: detected_adj >= 0.90",
+  "Pr4": "label faults detected_adj: P04 >= 0.70, P05 >= 0.70, P03 >= 0.50",
+  "Pr5": "NULL: rule-A hit 1.00 and trials_with_collateral_adj <= 0.10",
+  "Pr6": "limit kept: V01 rule-A harmful_adj >= 0.30 (structure cannot separate a localized valid anomaly from an isolated error; acquisition still needed)",
+  "Pr7": "no regression: P01, P02, P06 detected_adj each within 0.10 of the D2 adjusted values (0.80, 1.00, 0.90) or higher"
+ },
+ "decision_rule": {
+  "adopt": "Pr1-Pr5 and Pr7 hold -> ledger commitment: detector v2 becomes the E1 entry check for MD parties; Pr6 recorded as the stated limit whatever its outcome",
+  "reject": "any of Pr1-Pr5 or Pr7 fails -> ledger gate_failure naming the failed predictions; v1 with D2 stays the entry check; no edit of v2 thresholds within this registration"
+ }
+}

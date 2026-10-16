@@ -1,0 +1,1649 @@
+{
+ "what": "planted-case calibration of CHD (ComputationalHypergraphDiscovery 2.1.0) on synthetic tables copying the real stage-0 designs",
+ "real_design": {
+  "n": {
+   "fit17": 17,
+   "xonly_noT": 25,
+   "x42": 42,
+   "md29": 29
+  },
+  "noise_sd_ln_kappa": 0.9367753174416277,
+  "noise_sd_dof": 11,
+  "class_effect_ln": -2.3025850929940455,
+  "n_reduced_dim_in_fit17": 2,
+  "n_nonbulk_in_x42": 9,
+  "md_noise_sd_ln": 0.05
+ },
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "noise_scales": [
+  1.0,
+  0.5
+ ],
+ "selection_rule": {
+  "feasible": "FP rate <= 0.125 on every FP test (C17 junk, N17 any, B42 junk, N42 any, MD29 seed) at realistic noise",
+  "score": "mean hit rate over x in A17/B17bal/C17/B42, cls in B17bal/B42, x and L in MD29 at realistic noise",
+  "tie_break": "grid order (defaults first)"
+ },
+ "ranking": [
+  {
+   "setting": "lin+quad+gauss|maxinc",
+   "score": 0.640625,
+   "max_fp_rate": 0.25,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad+gauss|thr0.4",
+   "score": 0.96875,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad+gauss|thr0.6",
+   "score": 0.84375,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad+gauss|thr0.8",
+   "score": 0.796875,
+   "max_fp_rate": 0.25,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad|maxinc",
+   "score": 0.65625,
+   "max_fp_rate": 0.25,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad|thr0.4",
+   "score": 0.96875,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad|thr0.6",
+   "score": 0.84375,
+   "max_fp_rate": 0.875,
+   "feasible": false
+  },
+  {
+   "setting": "lin+quad|thr0.8",
+   "score": 0.796875,
+   "max_fp_rate": 0.25,
+   "feasible": false
+  },
+  {
+   "setting": "lin|maxinc",
+   "score": 0.296875,
+   "max_fp_rate": 0.0,
+   "feasible": true
+  },
+  {
+   "setting": "lin|thr0.4",
+   "score": 0.578125,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  },
+  {
+   "setting": "lin|thr0.6",
+   "score": 0.578125,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  },
+  {
+   "setting": "lin|thr0.8",
+   "score": 0.5625,
+   "max_fp_rate": 1.0,
+   "feasible": false
+  }
+ ],
+ "chosen_setting": {
+  "setting": "lin|maxinc",
+  "score": 0.296875,
+  "max_fp_rate": 0.0,
+  "feasible": true
+ },
+ "calibration_passed": true,
+ "chosen_rates": {
+  "A17": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0
+   },
+   "fp_rate": null
+  },
+  "B17real": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0,
+    "cls": 1.0
+   },
+   "fp_rate": null
+  },
+  "B17bal": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0,
+    "cls": 0.375
+   },
+   "fp_rate": null
+  },
+  "C17": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0
+   },
+   "fp_rate": 0.0
+  },
+  "N17": {
+   "hit_rate": {},
+   "fp_rate": 0.0
+  },
+  "B42": {
+   "hit_rate": {
+    "x": 0.0,
+    "cls": 1.0
+   },
+   "fp_rate": 0.0
+  },
+  "N42": {
+   "hit_rate": {},
+   "fp_rate": 0.0
+  },
+  "MD29": {
+   "hit_rate": {
+    "x": 0.0,
+    "L": 1.0
+   },
+   "fp_rate": 0.0
+  }
+ },
+ "chosen_rates_half_noise": {
+  "A17": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0
+   },
+   "fp_rate": null
+  },
+  "B17real": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0,
+    "cls": 1.0
+   },
+   "fp_rate": null
+  },
+  "B17bal": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0,
+    "cls": 0.625
+   },
+   "fp_rate": null
+  },
+  "C17": {
+   "hit_rate": {
+    "x": 0.0,
+    "T": 0.0
+   },
+   "fp_rate": 0.0
+  },
+  "N17": {
+   "hit_rate": {},
+   "fp_rate": 0.0
+  },
+  "B42": {
+   "hit_rate": {
+    "x": 0.0,
+    "cls": 1.0
+   },
+   "fp_rate": 0.0
+  },
+  "N42": {
+   "hit_rate": {},
+   "fp_rate": 0.0
+  },
+  "MD29": {
+   "hit_rate": {
+    "x": 0.0,
+    "L": 1.0
+   },
+   "fp_rate": 0.0
+  }
+ },
+ "default_setting_rates": {
+  "A17": {
+   "hit_rate": {
+    "x": 1.0,
+    "T": 0.0
+   },
+   "fp_rate": null
+  },
+  "B17real": {
+   "hit_rate": {
+    "x": 0.125,
+    "T": 0.0,
+    "cls": 0.875
+   },
+   "fp_rate": null
+  },
+  "B17bal": {
+   "hit_rate": {
+    "x": 0.75,
+    "T": 0.25,
+    "cls": 0.5
+   },
+   "fp_rate": null
+  },
+  "C17": {
+   "hit_rate": {
+    "x": 0.875,
+    "T": 0.375
+   },
+   "fp_rate": 0.25
+  },
+  "N17": {
+   "hit_rate": {},
+   "fp_rate": 0.25
+  },
+  "B42": {
+   "hit_rate": {
+    "x": 0.625,
+    "cls": 0.375
+   },
+   "fp_rate": 0.0
+  },
+  "N42": {
+   "hit_rate": {},
+   "fp_rate": 0.125
+  },
+  "MD29": {
+   "hit_rate": {
+    "x": 1.0,
+    "L": 0.0
+   },
+   "fp_rate": 0.0
+  }
+ },
+ "ablation_noise_criterion": {
+  "lin+quad+gauss": {
+   "threshold_delta": 0.42240240310527943,
+   "junk_delta_quantiles": [
+    0.07097396230124298,
+    0.16611662944234304,
+    0.42240240310527943
+   ],
+   "n_junk_deltas": 72,
+   "class": {
+    "B17real": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.02866554296235041
+    },
+    "B17bal": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.09205641635931483
+    },
+    "B42": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.0806699089636615
+    }
+   }
+  },
+  "lin+quad": {
+   "threshold_delta": 0.2792575126247612,
+   "junk_delta_quantiles": [
+    0.01983009340767561,
+    0.10460310540842827,
+    0.2792575126247612
+   ],
+   "n_junk_deltas": 72,
+   "class": {
+    "B17real": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.03335336616006901
+    },
+    "B17bal": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.08342679302918643
+    },
+    "B42": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.10402273770721188
+    }
+   }
+  },
+  "lin": {
+   "threshold_delta": 0.16755334165608748,
+   "junk_delta_quantiles": [
+    0.004730993276767181,
+    0.030148654526677244,
+    0.16755334165608748
+   ],
+   "n_junk_deltas": 72,
+   "class": {
+    "B17real": {
+     "cls_hit_rate": 1.0,
+     "cls_delta_median": 0.33598862669460194
+    },
+    "B17bal": {
+     "cls_hit_rate": 0.25,
+     "cls_delta_median": 0.0694932963361089
+    },
+    "B42": {
+     "cls_hit_rate": 0.0,
+     "cls_delta_median": 0.1411987074909274
+    }
+   }
+  }
+ },
+ "full_table": {
+  "1.0|lin+quad+gauss|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.75,
+     "T": 0.25,
+     "cls": 0.5
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.375
+    },
+    "fp_rate": 0.25
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 0.625,
+     "cls": 0.375
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad+gauss|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.875,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": 1.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 1.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad+gauss|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.875,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 1.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad+gauss|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.5
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.125,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.75,
+     "T": 0.625,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.25
+    },
+    "fp_rate": 0.25
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.75,
+     "T": 0.375,
+     "cls": 0.5
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.375
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 0.625,
+     "cls": 0.375
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 1.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.875,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": 1.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.625
+   }
+  },
+  "1.0|lin+quad|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 1.0,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.875,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin+quad|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.625
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.125,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.75,
+     "T": 0.75,
+     "cls": 0.625
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.625
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0,
+     "cls": 0.375
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 0.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 0.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "1.0|lin|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.375,
+     "cls": 0.375
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  },
+  "1.0|lin|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.375,
+     "cls": 0.375
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  },
+  "1.0|lin|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.25,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.125,
+     "T": 0.125,
+     "cls": 0.375
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  },
+  "0.5|lin+quad+gauss|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.375,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.125
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 0.625
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad+gauss|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 1.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad+gauss|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.375,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.875,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.875
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.625
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad+gauss|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.375,
+     "cls": 0.5
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 0.625
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.125
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.625,
+     "cls": 0.875
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.125
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 0.625
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.875
+    },
+    "fp_rate": 0.75
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.625
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.375
+   }
+  },
+  "0.5|lin+quad|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.375,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.75
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.625
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin+quad|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.25,
+     "T": 0.0,
+     "cls": 0.75
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.625,
+     "cls": 0.5
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.25
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 0.75
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 0.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin|maxinc": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0,
+     "cls": 0.625
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 0.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.0
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 0.0,
+     "L": 1.0
+    },
+    "fp_rate": 0.0
+   }
+  },
+  "0.5|lin|thr0.4": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 1.0,
+     "T": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.625,
+     "T": 0.25,
+     "cls": 0.625
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  },
+  "0.5|lin|thr0.6": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.875,
+     "T": 0.625,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.625,
+     "T": 0.25,
+     "cls": 0.625
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 1.0,
+     "cls": 1.0
+    },
+    "fp_rate": 0.875
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  },
+  "0.5|lin|thr0.8": {
+   "A17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": null
+   },
+   "B17real": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0,
+     "cls": 1.0
+    },
+    "fp_rate": null
+   },
+   "B17bal": {
+    "hit_rate": {
+     "x": 0.375,
+     "T": 0.125,
+     "cls": 0.625
+    },
+    "fp_rate": null
+   },
+   "C17": {
+    "hit_rate": {
+     "x": 0.0,
+     "T": 0.0
+    },
+    "fp_rate": 0.0
+   },
+   "N17": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "B42": {
+    "hit_rate": {
+     "x": 0.875,
+     "cls": 1.0
+    },
+    "fp_rate": 0.125
+   },
+   "N42": {
+    "hit_rate": {},
+    "fp_rate": 0.0
+   },
+   "MD29": {
+    "hit_rate": {
+     "x": 1.0,
+     "L": 1.0
+    },
+    "fp_rate": 1.0
+   }
+  }
+ },
+ "runtime_s": 468.5
+}
